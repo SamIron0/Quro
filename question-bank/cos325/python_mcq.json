@@ -46,10 +46,10 @@
             "id": 4,
             "question": "Which of the following is the correct extension of the Python file?",
             "options": {
-                "A": ".python",
-                "B": ".pl",
-                "C": ".py",
-                "D": ".p"
+                "A": "`.python`",
+                "B": "`.pl`",
+                "C": "`.py`",
+                "D": "`.p`"
             },
             "answerKey": [
                 "C"
@@ -86,7 +86,7 @@
         },
         {
             "id": 7,
-            "question": "What will be the value of the following Python expression?\n\nprint(4 + 3 % 5)",
+            "question": "What will be the value of the following Python expression?\n\n```python\nprint(4 + 3 % 5)\n```",
             "options": {
                 "A": "7",
                 "B": "2",
@@ -117,7 +117,7 @@
             "question": "Which keyword is used for function in Python language?",
             "options": {
                 "A": "Function",
-                "B": "def",
+                "B": "`def`",
                 "C": "Fun",
                 "D": "Define"
             },
@@ -130,10 +130,10 @@
             "id": 10,
             "question": "Which of the following character is used to give single-line comments in Python?",
             "options": {
-                "A": "//",
-                "B": "#",
-                "C": "!",
-                "D": "/*"
+                "A": "`//`",
+                "B": "`#`",
+                "C": "`!`",
+                "D": "`/*`"
             },
             "answerKey": [
                 "B"
@@ -142,7 +142,7 @@
         },
         {
             "id": 11,
-            "question": "What will be the output of the following Python code?\n\ni = 1\nwhile True:\n    if i%3 == 0:\n        break\n    print(i)\n    i + = 1",
+            "question": "What will be the output of the following Python code?\n\n```python\ni = 1\nwhile True:\n    if i%3 == 0:\n        break\n    print(i)\n    i + = 1\n```",
             "options": {
                 "A": "1 2 3",
                 "B": "SyntaxError",
@@ -158,10 +158,10 @@
             "id": 12,
             "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
             "options": {
-                "A": "sys.version(1)",
-                "B": "sys.version(0)",
-                "C": "sys.version()",
-                "D": "sys.version"
+                "A": "`sys.version(1)`",
+                "B": "`sys.version(0)`",
+                "C": "`sys.version()`",
+                "D": "`sys.version`"
             },
             "answerKey": [
                 "D"
@@ -174,7 +174,7 @@
             "options": {
                 "A": "pi",
                 "B": "anonymous",
-                "C": "lambda",
+                "C": "`lambda`",
                 "D": "none of the mentioned"
             },
             "answerKey": [
@@ -198,7 +198,7 @@
         },
         {
             "id": 15,
-            "question": "What will be the output of the following Python code snippet if x=1?\n\nx<<2",
+            "question": "What will be the output of the following Python code snippet if x=1?\n\n```python\nx<<2\n```",
             "options": {
                 "A": "4",
                 "B": "2",
@@ -240,7 +240,7 @@
         },
         {
             "id": 18,
-            "question": "What are the values of the following Python expressions?\n\nprint(2**(3**2))\nprint((2**3)**2)\nprint(2**3**2)",
+            "question": "What are the values of the following Python expressions?\n\n```python\nprint(2**(3**2))\nprint((2**3)**2)\nprint(2**3**2)\n```",
             "options": {
                 "A": "512, 64, 512",
                 "B": "512, 512, 512",
@@ -256,10 +256,10 @@
             "id": 19,
             "question": "Which of the following is the truncation division operator in Python?",
             "options": {
-                "A": "|",
-                "B": "//",
-                "C": "/",
-                "D": "%"
+                "A": "`|`",
+                "B": "`//`",
+                "C": "`/`",
+                "D": "`%`"
             },
             "answerKey": [
                 "B"
@@ -268,12 +268,12 @@
         },
         {
             "id": 20,
-            "question": "What will be the output of the following Python code?\n\nl=[1, 0, 2, 0, 'hello', '', []]\nprint(list(filter(bool, l)))",
+            "question": "What will be the output of the following Python code?\n\n```python\nl=[1, 0, 2, 0, 'hello', '', []]\nprint(list(filter(bool, l)))\n```",
             "options": {
-                "A": "[1, 0, 2, 'hello', '', []]",
+                "A": "`[1, 0, 2, 'hello', '', []]`",
                 "B": "Error",
-                "C": "[1, 2, 'hello']",
-                "D": "[1, 0, 2, 0, 'hello', '', []]"
+                "C": "`[1, 2, 'hello']`",
+                "D": "`[1, 0, 2, 0, 'hello', '', []]`"
             },
             "answerKey": [
                 "C"
@@ -284,10 +284,10 @@
             "id": 21,
             "question": "Which of the following functions is a built-in function in python?",
             "options": {
-                "A": "factorial()",
-                "B": "print()",
-                "C": "seed()",
-                "D": "sqrt()"
+                "A": "`factorial()`",
+                "B": "`print()`",
+                "C": "`seed()`",
+                "D": "`sqrt()`"
             },
             "answerKey": [
                 "B"
@@ -296,7 +296,7 @@
         },
         {
             "id": 22,
-            "question": "Which of the following is the use of id() function in python?",
+            "question": "Which of the following is the use of `id()` function in python?",
             "options": {
                 "A": "Every object doesn't have a unique id",
                 "B": "Id returns the identity of the object",
@@ -310,7 +310,7 @@
         },
         {
             "id": 23,
-            "question": "The following python program can work with ____ parameters.\n\ndef f(x):\n    def f1(*args, **kwargs):\n        print(\"Sanfoundry\")\n        return x(*args, **kwargs)\n    return f1",
+            "question": "The following python program can work with ____ parameters.\n\n```python\ndef f(x):\n    def f1(*args, **kwargs):\n        print(\"Sanfoundry\")\n        return x(*args, **kwargs)\n    return f1\n```",
             "options": {
                 "A": "any number of",
                 "B": "0",
@@ -324,7 +324,7 @@
         },
         {
             "id": 24,
-            "question": "What will be the output of the following Python function?\n\nprint(min(max(False,-3,-4), 2,7))",
+            "question": "What will be the output of the following Python function?\n\n```python\nprint(min(max(False,-3,-4), 2,7))\n```",
             "options": {
                 "A": "-4",
                 "B": "-3",
@@ -352,7 +352,7 @@
         },
         {
             "id": 26,
-            "question": "What will be the output of the following Python expression if x=56.236?\n\nprint(\"%.2f\"%x)",
+            "question": "What will be the output of the following Python expression if x=56.236?\n\n```python\nprint(\"%.2f\"%x)\n```",
             "options": {
                 "A": "56.236",
                 "B": "56.23",
@@ -380,7 +380,7 @@
         },
         {
             "id": 28,
-            "question": "What will be the output of the following Python function?\n\nprint(len([\"hello\",2, 4, 6]))",
+            "question": "What will be the output of the following Python function?\n\n```python\nprint(len([\"hello\",2, 4, 6]))\n```",
             "options": {
                 "A": "Error",
                 "B": "6",
@@ -394,7 +394,7 @@
         },
         {
             "id": 29,
-            "question": "What will be the output of the following Python code?\n\nx = 'abcd'\nfor i in x:\n    print(i.upper())",
+            "question": "What will be the output of the following Python code?\n\n```python\nx = 'abcd'\nfor i in x:\n    print(i.upper())\n```",
             "options": {
                 "A": "a\nB\nC\nD",
                 "B": "a b c d",
@@ -422,7 +422,7 @@
         },
         {
             "id": 31,
-            "question": "What will be the output of the following Python code snippet?\n\nfor i in [1, 2, 3, 4][::-1]:\n    print(i, end=' ')",
+            "question": "What will be the output of the following Python code snippet?\n\n```python\nfor i in [1, 2, 3, 4][::-1]:\n    print(i, end=' ')\n```",
             "options": {
                 "A": "4 3 2 1",
                 "B": "error",
@@ -436,7 +436,7 @@
         },
         {
             "id": 32,
-            "question": "What will be the output of the following Python statement?\n\nprint(\"a\"+\"bc\")",
+            "question": "What will be the output of the following Python statement?\n\n```python\nprint(\"a\"+\"bc\")\n```",
             "options": {
                 "A": "bc",
                 "B": "abc",
@@ -450,12 +450,12 @@
         },
         {
             "id": 33,
-            "question": "Which function is called when the following Python program is executed?\n\nf = foo()\nformat(f)",
+            "question": "Which function is called when the following Python program is executed?\n\n```python\nf = foo()\nformat(f)\n```",
             "options": {
-                "A": "str()",
-                "B": "format()",
-                "C": "__str__()",
-                "D": "__format__()"
+                "A": "`str()`",
+                "B": "`format()`",
+                "C": "`__str__()`",
+                "D": "`__format__()`"
             },
             "answerKey": [
                 "D"
@@ -478,7 +478,7 @@
         },
         {
             "id": 35,
-            "question": "What will be the output of the following Python code?\n\nclass tester:\n    def __init__(self, id):\n        self.id = str(id)\n        id=\"224\"\n\ntemp = tester(12)\nprint(temp.id)",
+            "question": "What will be the output of the following Python code?\n\n```python\nclass tester:\n    def __init__(self, id):\n        self.id = str(id)\n        id=\"224\"\n\ntemp = tester(12)\nprint(temp.id)\n```",
             "options": {
                 "A": "12",
                 "B": "224",
@@ -492,7 +492,7 @@
         },
         {
             "id": 36,
-            "question": "What will be the output of the following Python program?\n\ndef foo(x):\n    x[0] = ['def']\n    x[1] = ['abc']\n    return id(x)\nq = ['abc', 'def']\nprint(id(q) == foo(q))",
+            "question": "What will be the output of the following Python program?\n\n```python\ndef foo(x):\n    x[0] = ['def']\n    x[1] = ['abc']\n    return id(x)\nq = ['abc', 'def']\nprint(id(q) == foo(q))\n```",
             "options": {
                 "A": "Error",
                 "B": "None",
@@ -520,12 +520,12 @@
         },
         {
             "id": 38,
-            "question": "What will be the output of the following Python program?\n\nz=set('abc')\nz.add('san')\nz.update(set(['p', 'q']))\nprint(z)",
+            "question": "What will be the output of the following Python program?\n\n```python\nz=set('abc')\nz.add('san')\nz.update(set(['p', 'q']))\nprint(z)\n```",
             "options": {
-                "A": "{'a', 'c', 'c', 'p', 'q', 's', 'a', 'n'}",
-                "B": "{'abc', 'p', 'q', 'san'}",
-                "C": "{'a', 'b', 'c', 'p', 'q', 'san'}",
-                "D": "{'a', 'b', 'c', ['p', 'q'], 'san}"
+                "A": "`{'a', 'c', 'c', 'p', 'q', 's', 'a', 'n'}`",
+                "B": "`{'abc', 'p', 'q', 'san'}`",
+                "C": "`{'a', 'b', 'c', 'p', 'q', 'san'}`",
+                "D": "`{'a', 'b', 'c', ['p', 'q'], 'san}`"
             },
             "answerKey": [
                 "C"
@@ -536,9 +536,9 @@
             "id": 39,
             "question": "What arithmetic operators cannot be used with strings in Python?",
             "options": {
-                "A": "*",
-                "B": "-",
-                "C": "+",
+                "A": "`*`",
+                "B": "`-`",
+                "C": "`+`",
                 "D": "All of the mentioned"
             },
             "answerKey": [
@@ -548,7 +548,7 @@
         },
         {
             "id": 40,
-            "question": "What will be the output of the following Python code?\n\nprint(\"abc. DEF\".capitalize())",
+            "question": "What will be the output of the following Python code?\n\n```python\nprint(\"abc. DEF\".capitalize())\n```",
             "options": {
                 "A": "Abc. def",
                 "B": "abc. def",
@@ -564,10 +564,10 @@
             "id": 41,
             "question": "Which of the following statements is used to create an empty set in Python?",
             "options": {
-                "A": "( )",
-                "B": "[ ]",
-                "C": "{ }",
-                "D": "set()"
+                "A": "`( )`",
+                "B": "`[ ]`",
+                "C": "`{ }`",
+                "D": "`set()`"
             },
             "answerKey": [
                 "D"
@@ -576,11 +576,11 @@
         },
         {
             "id": 42,
-            "question": "What will be the value of 'result' in following Python program?\n\nlist1 = [1,2,3,4]\nlist2 = [2,4,5,6]\nlist3 = [2,6,7,8]\nresult = list()\nresult.extend(i for i in list1 if i not in (list2+list3) and i not in result)\nresult.extend(i for i in list2 if i not in (list1+list3) and i not in result)\nresult.extend(i for i in list3 if i not in (list1+list2) and i not in result)\nprint(result)",
+            "question": "What will be the value of 'result' in following Python program?\n\n```python\nlist1 = [1,2,3,4]\nlist2 = [2,4,5,6]\nlist3 = [2,6,7,8]\nresult = list()\nresult.extend(i for i in list1 if i not in (list2+list3) and i not in result)\nresult.extend(i for i in list2 if i not in (list1+list3) and i not in result)\nresult.extend(i for i in list3 if i not in (list1+list2) and i not in result)\nprint(result)\n```",
             "options": {
-                "A": "[1, 3, 5, 7, 8]",
-                "B": "[1, 7, 8]",
-                "C": "[1, 2, 4, 7, 8]",
+                "A": "`[1, 3, 5, 7, 8]`",
+                "B": "`[1, 7, 8]`",
+                "C": "`[1, 2, 4, 7, 8]`",
                 "D": "error"
             },
             "answerKey": [
@@ -592,10 +592,10 @@
             "id": 43,
             "question": "To add a new element to a list we use which Python command?",
             "options": {
-                "A": "list1.addEnd(5)",
-                "B": "list1.addLast(5)",
-                "C": "list1.append(5)",
-                "D": "list1.add(5)"
+                "A": "`list1.addEnd(5)`",
+                "B": "`list1.addLast(5)`",
+                "C": "`list1.append(5)`",
+                "D": "`list1.add(5)`"
             },
             "answerKey": [
                 "C"
@@ -604,7 +604,7 @@
         },
         {
             "id": 44,
-            "question": "What will be the output of the following Python code?\n\nprint('*', \"abcde\".center(6), '*', sep='')",
+            "question": "What will be the output of the following Python code?\n\n```python\nprint('*', \"abcde\".center(6), '*', sep='')\n```",
             "options": {
                 "A": "* abcde *",
                 "B": "*abcde *",
@@ -618,12 +618,12 @@
         },
         {
             "id": 45,
-            "question": "What will be the output of the following Python code?\n\nlist1 = [1, 3]\nlist2 = list1\nlist1[0] = 4\nprint(list2)",
+            "question": "What will be the output of the following Python code?\n\n```python\nlist1 = [1, 3]\nlist2 = list1\nlist1[0] = 4\nprint(list2)\n```",
             "options": {
-                "A": "[1, 4]",
-                "B": "[1, 3, 4]",
-                "C": "[4, 3]",
-                "D": "[1, 3]"
+                "A": "`[1, 4]`",
+                "B": "`[1, 3, 4]`",
+                "C": "`[4, 3]`",
+                "D": "`[1, 3]`"
             },
             "answerKey": [
                 "C"
@@ -646,12 +646,12 @@
         },
         {
             "id": 47,
-            "question": "Which of the following Python statements will result in the output: 6?\n\nA = [[1, 2, 3],\n     [4, 5, 6],\n     [7, 8, 9]]",
+            "question": "Which of the following Python statements will result in the output: 6?\n\n```python\nA = [[1, 2, 3],\n     [4, 5, 6],\n     [7, 8, 9]]\n```",
             "options": {
-                "A": "A[2][1]",
-                "B": "A[1][2]",
-                "C": "A[3][2]",
-                "D": "A[2][3]"
+                "A": "`A[2][1]`",
+                "B": "`A[1][2]`",
+                "C": "`A[3][2]`",
+                "D": "`A[2][3]`"
             },
             "answerKey": [
                 "B"
@@ -674,7 +674,7 @@
         },
         {
             "id": 49,
-            "question": "What will be the output of the following Python program?\n\ni = 0\nwhile i < 5:\n    print(i)\n    i += 1\n    if i == 3:\n        break\nelse:\n    print(0)",
+            "question": "What will be the output of the following Python program?\n\n```python\ni = 0\nwhile i < 5:\n    print(i)\n    i += 1\n    if i == 3:\n        break\nelse:\n    print(0)\n```",
             "options": {
                 "A": "error",
                 "B": "0\n1\n2\n3\n0",
@@ -688,7 +688,7 @@
         },
         {
             "id": 50,
-            "question": "What will be the output of the following Python code?\n\nx = 'abcd'\nfor i in range(len(x)):\n    print(i)",
+            "question": "What will be the output of the following Python code?\n\n```python\nx = 'abcd'\nfor i in range(len(x)):\n    print(i)\n```",
             "options": {
                 "A": "error",
                 "B": "1 2 3 4",
@@ -716,7 +716,7 @@
         },
         {
             "id": 52,
-            "question": "What will be the output of the following Python program?\n\ndef addItem(listParam):\n    listParam += [1]\nmylist = [1, 2, 3, 4]\naddItem(mylist)\nprint(len(mylist))",
+            "question": "What will be the output of the following Python program?\n\n```python\ndef addItem(listParam):\n    listParam += [1]\nmylist = [1, 2, 3, 4]\naddItem(mylist)\nprint(len(mylist))\n```",
             "options": {
                 "A": "5",
                 "B": "8",
@@ -732,10 +732,10 @@
             "id": 53,
             "question": "Which of the following is a Python tuple?",
             "options": {
-                "A": "{1, 2, 3}",
-                "B": "{}",
-                "C": "[1, 2, 3]",
-                "D": "(1, 2, 3)"
+                "A": "`{1, 2, 3}`",
+                "B": "`{}`",
+                "C": "`[1, 2, 3]`",
+                "D": "`(1, 2, 3)`"
             },
             "answerKey": [
                 "D"
@@ -744,7 +744,7 @@
         },
         {
             "id": 54,
-            "question": "What will be the output of the following Python code snippet?\n\nz=set('abc$de')\nprint('a' in z)",
+            "question": "What will be the output of the following Python code snippet?\n\n```python\nz=set('abc$de')\nprint('a' in z)\n```",
             "options": {
                 "A": "Error",
                 "B": "True",
@@ -758,7 +758,7 @@
         },
         {
             "id": 55,
-            "question": "What will be the output of the following Python expression?\n\nprint(round(4.576))",
+            "question": "What will be the output of the following Python expression?\n\n```python\nprint(round(4.576))\n```",
             "options": {
                 "A": "4",
                 "B": "4.6",
@@ -775,7 +775,7 @@
             "question": "Which of the following is a feature of Python DocString?",
             "options": {
                 "A": "In Python all functions should have a docstring",
-                "B": "Docstrings can be accessed by the __doc__ attribute on objects",
+                "B": "Docstrings can be accessed by the `__doc__` attribute on objects",
                 "C": "It provides a convenient way of associating documentation with Python modules, functions, classes, and methods",
                 "D": "All of the mentioned"
             },
@@ -786,9 +786,9 @@
         },
         {
             "id": 57,
-            "question": "What will be the output of the following Python code?\n\nprint(\"Hello {0[0]} and {0[1]}\".format(('foo', 'bin')))",
+            "question": "What will be the output of the following Python code?\n\n```python\nprint(\"Hello {0[0]} and {0[1]}\".format(('foo', 'bin')))\n```",
             "options": {
-                "A": "Hello ('foo', 'bin') and ('foo', 'bin')",
+                "A": "`Hello ('foo', 'bin') and ('foo', 'bin')`",
                 "B": "Error",
                 "C": "Hello foo and bin",
                 "D": "None of the mentioned"
@@ -800,7 +800,7 @@
         },
         {
             "id": 58,
-            "question": "What is output of print(math.pow(3, 2))?",
+            "question": "What is output of `print(math.pow(3, 2))`?",
             "options": {
                 "A": "9.0",
                 "B": "None",
@@ -814,7 +814,7 @@
         },
         {
             "id": 59,
-            "question": "Which of the following is the use of id() function in python?",
+            "question": "Which of the following is the use of `id()` function in python?",
             "options": {
                 "A": "Every object in Python doesn't have a unique id",
                 "B": "In Python Id function returns the identity of the object",
@@ -828,12 +828,12 @@
         },
         {
             "id": 60,
-            "question": "What will be the output of the following Python code?\n\nx = [[0], [1]]\nprint((' '.join(list(map(str, x))),))",
+            "question": "What will be the output of the following Python code?\n\n```python\nx = [[0], [1]]\nprint((' '.join(list(map(str, x))),))\n```",
             "options": {
                 "A": "01",
-                "B": "[0] [1]",
-                "C": "('01')",
-                "D": "('[0] [1]',)"
+                "B": "`[0] [1]`",
+                "C": "`('01')`",
+                "D": "`('[0] [1]',)`"
             },
             "answerKey": [
                 "D"
@@ -856,7 +856,7 @@
         },
         {
             "id": 62,
-            "question": "What will be the output of the following Python code?\n\ndef foo():\n    try:\n        return 1\n    finally:\n        return 2\nk = foo()\nprint(k)",
+            "question": "What will be the output of the following Python code?\n\n```python\ndef foo():\n    try:\n        return 1\n    finally:\n        return 2\nk = foo()\nprint(k)\n```",
             "options": {
                 "A": "error, there is more than one return statement in a single try-finally block",
                 "B": "3",

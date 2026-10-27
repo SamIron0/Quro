@@ -186,9 +186,9 @@ export function PracticeModeClient({
           <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-zinc-500">
             Question {question.id}
           </p>
-          <h2 className="text-base font-medium leading-relaxed sm:text-lg">
+          <div className="text-base font-medium leading-relaxed sm:text-lg">
             <MathText text={question.question} />
-          </h2>
+          </div>
         </div>
 
         {/* ── Options ── */}
