@@ -1,0 +1,654 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "The view that takes the position that Jesus is only human and not divine is called",
+            "options": {
+                "A": "Arianism",
+                "B": "Docetism",
+                "C": "Ebionism",
+                "D": "Gnosticism"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "The view that teaches that Jesus was not human at all and was completely divine is called",
+            "options": {
+                "A": "Arianism",
+                "B": "Ebionism",
+                "C": "Docetism",
+                "D": "Adoptionism"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "The word Docetism comes from the Greek word dokein, which means",
+            "options": {
+                "A": "To live",
+                "B": "To worship",
+                "C": "To act",
+                "D": "To seem"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "The Docetists were influenced by",
+            "options": {
+                "A": "Hebrew traditions",
+                "B": "Greek philosophical ideas",
+                "C": "Roman mythology",
+                "D": "Jewish customs"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "The view that Jesus is not fully divine since He is related to God as His Son is",
+            "options": {
+                "A": "Docetism",
+                "B": "Arianism",
+                "C": "Ebionism",
+                "D": "Monophysitism"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "The Bible portrays Jesus as",
+            "options": {
+                "A": "A prophet only",
+                "B": "A teacher only",
+                "C": "Both God and man",
+                "D": "A spirit only"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Jesus became human through the process of",
+            "options": {
+                "A": "Salvation",
+                "B": "Resurrection",
+                "C": "Incarnation",
+                "D": "Transfiguration"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "\"A virgin shall conceive and bear a son and shall call His name __________. \"",
+            "options": {
+                "A": "Jesus",
+                "B": "Immanuel",
+                "C": "Messiah",
+                "D": "Christ"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Who is called the Second Adam?",
+            "options": {
+                "A": "Moses",
+                "B": "Jesus",
+                "C": "John",
+                "D": "Elijah"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Matthew and Luke traced the genealogy of Christ to",
+            "options": {
+                "A": "Abraham and Adam respectively",
+                "B": "Adam and David respectively",
+                "C": "Moses and Abraham respectively",
+                "D": "Abraham and Noah respectively"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 11,
+            "question": "Who pointed out that Jesus grew in wisdom and stature, and in favor with God and man?",
+            "options": {
+                "A": "Matthew",
+                "B": "Mark",
+                "C": "Luke",
+                "D": "John"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 12,
+            "question": "\"I thirst\" appears in which Bible verse?",
+            "options": {
+                "A": "John 19:20",
+                "B": "John 19:28",
+                "C": "John 18:30",
+                "D": "Luke 23:46"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 13,
+            "question": "The idea that Jesus increased in wisdom suggests that He had",
+            "options": {
+                "A": "A divine body only",
+                "B": "A spirit only",
+                "C": "A human mind",
+                "D": "A temporary body"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 14,
+            "question": "Jesus learned obedience through",
+            "options": {
+                "A": "His miracles",
+                "B": "His teachings",
+                "C": "The things He suffered",
+                "D": "The disciples"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 15,
+            "question": "Who knows the time of the second coming of Christ?",
+            "options": {
+                "A": "Jesus",
+                "B": "Angels",
+                "C": "Holy Spirit",
+                "D": "The Father alone"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 16,
+            "question": "A good example of when Jesus displayed emotions was at",
+            "options": {
+                "A": "The wedding at Cana",
+                "B": "The Sermon on the Mount",
+                "C": "The death of Lazarus",
+                "D": "His baptism"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 17,
+            "question": "Who prophesied the incarnation of Jesus?",
+            "options": {
+                "A": "Isaiah",
+                "B": "Jeremiah",
+                "C": "Micah",
+                "D": "Zechariah"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 18,
+            "question": "The Greek word Logos refers to",
+            "options": {
+                "A": "Life",
+                "B": "Light",
+                "C": "The Word",
+                "D": "Truth"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 19,
+            "question": "According to John 1:3,",
+            "options": {
+                "A": "Jesus was created by God",
+                "B": "Without Him nothing was made that was made",
+                "C": "He was born of the Spirit",
+                "D": "The Word became law"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 20,
+            "question": "The word Kyrios means",
+            "options": {
+                "A": "Savior",
+                "B": "Master",
+                "C": "Teacher",
+                "D": "Lord"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 21,
+            "question": "The response of Christ in a disputation with the Pharisees about His identity as Lord was",
+            "options": {
+                "A": "My Father and I are one",
+                "B": "Before Abraham was, I am",
+                "C": "The Lord said to my Lord, sit at my right hand till I put your enemies under your feet",
+                "D": "I am the Son of Man"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 22,
+            "question": "Who recognized Christ as the Lord of heaven and earth?",
+            "options": {
+                "A": "Peter",
+                "B": "Paul",
+                "C": "John",
+                "D": "The writer of Hebrews"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 23,
+            "question": "Other divine attributes of Christ include",
+            "options": {
+                "A": "Love and patience",
+                "B": "Holiness and justice",
+                "C": "Omnipotence, omniscience, omnipresence, and immutability",
+                "D": "Compassion and mercy"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 24,
+            "question": "Jesus accepted worship, which is a",
+            "options": {
+                "A": "Human practice",
+                "B": "Cultural act",
+                "C": "Divine prerogative",
+                "D": "Symbolic gesture"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Incarnation means",
+            "options": {
+                "A": "To live forever",
+                "B": "To rise again",
+                "C": "To be made flesh",
+                "D": "To be glorified"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 26,
+            "question": "The hypostatic union means",
+            "options": {
+                "A": "The union of the Church and Christ",
+                "B": "The union of angels and humans",
+                "C": "The union of Jesus' divine and human nature",
+                "D": "The union of faith and reason"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 27,
+            "question": "God's law is",
+            "options": {
+                "A": "Temporal",
+                "B": "Flexible",
+                "C": "Immutable",
+                "D": "Situational"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 28,
+            "question": "Who is interceding for us?",
+            "options": {
+                "A": "Angels",
+                "B": "The Holy Spirit",
+                "C": "The Apostles",
+                "D": "Jesus"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 29,
+            "question": "It is important to note that salvation encompasses",
+            "options": {
+                "A": "Forgiveness only",
+                "B": "Deliverance from sin only",
+                "C": "Healing and transformation",
+                "D": "Obedience alone"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 30,
+            "question": "The book of Job unveils Satan as",
+            "options": {
+                "A": "A deceiver",
+                "B": "A fallen angel",
+                "C": "A tempter",
+                "D": "An accuser of the brethren"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 31,
+            "question": "The name Immanuel means",
+            "options": {
+                "A": "The Redeemer",
+                "B": "God with us",
+                "C": "The Almighty",
+                "D": "The Savior"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 32,
+            "question": "The purpose of the incarnation was to",
+            "options": {
+                "A": "Perform miracles",
+                "B": "Show divine power",
+                "C": "Redeem humanity",
+                "D": "Reveal prophecy"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 33,
+            "question": "The human birth of Jesus was by",
+            "options": {
+                "A": "Natural means",
+                "B": "A virgin conception",
+                "C": "The will of Joseph",
+                "D": "Angelic power"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 34,
+            "question": "The phrase \"Second Adam\" signifies Jesus'",
+            "options": {
+                "A": "Human weakness",
+                "B": "Role in restoring humanity",
+                "C": "Kingship",
+                "D": "Eternal reign"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 35,
+            "question": "According to Luke, Jesus' growth in wisdom and stature shows",
+            "options": {
+                "A": "His divine side",
+                "B": "His angelic form",
+                "C": "His genuine humanity",
+                "D": "His prophetic office"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 36,
+            "question": "The divine title Kyrios in the New Testament emphasizes",
+            "options": {
+                "A": "Teacher",
+                "B": "Prophet",
+                "C": "Lordship",
+                "D": "Servanthood"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 37,
+            "question": "The Greek term Logos in John 1 reveals Jesus as",
+            "options": {
+                "A": "The eternal Word of God",
+                "B": "A created being",
+                "C": "A prophet",
+                "D": "A messenger"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 38,
+            "question": "The doctrine that denies Jesus' true humanity is",
+            "options": {
+                "A": "Arianism",
+                "B": "Docetism",
+                "C": "Adoptionism",
+                "D": "Ebionism"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 39,
+            "question": "The doctrine that denies Jesus' true divinity is",
+            "options": {
+                "A": "Ebionism",
+                "B": "Docetism",
+                "C": "Monophysitism",
+                "D": "Modalism"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 40,
+            "question": "The belief that Jesus was a created being but not eternal is",
+            "options": {
+                "A": "Docetism",
+                "B": "Arianism",
+                "C": "Gnosticism",
+                "D": "Adoptionism"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 41,
+            "question": "The term Incarnation comes from the Latin meaning",
+            "options": {
+                "A": "To make flesh",
+                "B": "To glorify",
+                "C": "To sanctify",
+                "D": "To anoint"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 42,
+            "question": "The hypostatic union affirms that Jesus is",
+            "options": {
+                "A": "50% God and 50% man",
+                "B": "Fully God and fully man",
+                "C": "Mostly divine",
+                "D": "Spirit only"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 43,
+            "question": "Jesus' acceptance of worship proves His",
+            "options": {
+                "A": "Humanity",
+                "B": "Deity",
+                "C": "Prophethood",
+                "D": "Mission"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 44,
+            "question": "The word Logos emphasizes Jesus' role in",
+            "options": {
+                "A": "The resurrection",
+                "B": "Creation and revelation",
+                "C": "Redemption alone",
+                "D": "The crucifixion"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 45,
+            "question": "The phrase \"I thirst\" highlights Jesus'",
+            "options": {
+                "A": "Human nature",
+                "B": "Divine power",
+                "C": "Eternal spirit",
+                "D": "Omniscience"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 46,
+            "question": "The omnipotence of Christ means He is",
+            "options": {
+                "A": "Everywhere",
+                "B": "All-knowing",
+                "C": "All-powerful",
+                "D": "Unchangeable"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 47,
+            "question": "The omniscience of Christ means He is",
+            "options": {
+                "A": "All-knowing",
+                "B": "All-powerful",
+                "C": "Present everywhere",
+                "D": "Merciful"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 48,
+            "question": "The omnipresence of Christ means He is",
+            "options": {
+                "A": "All-knowing",
+                "B": "Present everywhere",
+                "C": "All-loving",
+                "D": "All-powerful"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 49,
+            "question": "The immutability of Christ means He",
+            "options": {
+                "A": "Does not change",
+                "B": "Changes often",
+                "C": "Becomes human repeatedly",
+                "D": "Evolves over time"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 50,
+            "question": "Jesus' intercession today shows His role as",
+            "options": {
+                "A": "King",
+                "B": "Judge",
+                "C": "High Priest",
+                "D": "Prophet"
+            },
+            "answerKey": [
+                "C"
+            ]
+        }
+    ]
+}

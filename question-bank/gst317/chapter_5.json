@@ -1,0 +1,654 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "God decided to destroy the earth through what?",
+            "options": {
+                "A": "Fire",
+                "B": "Earthquake",
+                "C": "Flood",
+                "D": "Famine"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "\"Deluge\" means what?",
+            "options": {
+                "A": "Drought",
+                "B": "A great flood",
+                "C": "Heavy rain",
+                "D": "Thunderstorm"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Which story provokes debates in both theological studies and science?",
+            "options": {
+                "A": "Creation",
+                "B": "The Flood",
+                "C": "Tower of Babel",
+                "D": "Exodus"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "The Bible account of the flood was recorded where?",
+            "options": {
+                "A": "Exodus 3",
+                "B": "Genesis 6",
+                "C": "Genesis 2",
+                "D": "Deuteronomy 5"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "One major point of controversy in the Genesis flood narrative is?",
+            "options": {
+                "A": "The time of the flood",
+                "B": "The universality and age of the earth",
+                "C": "The name of Noah's wife",
+                "D": "The number of animals"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "The method scientists use to check the age of plants and animals is called?",
+            "options": {
+                "A": "Thermo-testing",
+                "B": "Carbon dating",
+                "C": "Geo-measuring",
+                "D": "Time analysis"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Rooker concluded that there are how many legends of a massive flood?",
+            "options": {
+                "A": "28",
+                "B": "48",
+                "C": "68",
+                "D": "88"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "The Chinese legend of the flood says it was caused by?",
+            "options": {
+                "A": "A fight between gods",
+                "B": "An argument between a crab and a bird",
+                "C": "Heavy rainfall",
+                "D": "A volcano eruption"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "In the Chinese legend, who escaped the flood?",
+            "options": {
+                "A": "Noah",
+                "B": "Fuhi and his family",
+                "C": "Gilgamesh",
+                "D": "Utnapishtim"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "In the Hawaiian story, who built a canoe to escape the flood?",
+            "options": {
+                "A": "Nu-u",
+                "B": "Maui",
+                "C": "Fuhi",
+                "D": "Gilgamesh"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 11,
+            "question": "In Nigeria, the Ooni of Ife said Noah's ark is located where?",
+            "options": {
+                "A": "Lagos",
+                "B": "Ile Ife, Osun State",
+                "C": "Abuja",
+                "D": "Ibadan"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 12,
+            "question": "Which flood story is most well-known globally?",
+            "options": {
+                "A": "Babylonian Flood",
+                "B": "Gilgamesh Epic and Atrahasis Epic",
+                "C": "Egyptian Flood",
+                "D": "Greek Flood"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 13,
+            "question": "The Gilgamesh Epic is a Middle Eastern work written around?",
+            "options": {
+                "A": "3000 BC",
+                "B": "2500 BC",
+                "C": "2000 BC",
+                "D": "1500 BC"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 14,
+            "question": "The Gilgamesh Epic was written on how many clay tablets?",
+            "options": {
+                "A": "10",
+                "B": "12",
+                "C": "15",
+                "D": "8"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 15,
+            "question": "The Gilgamesh Epic was about a tyrannical Babylonian who ruled where?",
+            "options": {
+                "A": "Ur",
+                "B": "Uruk",
+                "C": "Nineveh",
+                "D": "Babylon"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 16,
+            "question": "According to Gilgamesh, who survived the flood and became immortal?",
+            "options": {
+                "A": "Gilgamesh",
+                "B": "Noah",
+                "C": "Utnapishtim",
+                "D": "Fuhi"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 17,
+            "question": "Which animals did Noah send to check for dry land?",
+            "options": {
+                "A": "Dove and pigeon",
+                "B": "Dove and raven",
+                "C": "Sparrow and hawk",
+                "D": "Dove and parrot"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 18,
+            "question": "Another name for the flood is?",
+            "options": {
+                "A": "Deluge",
+                "B": "Mabdul",
+                "C": "Cataclysm",
+                "D": "Waterfall"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 19,
+            "question": "The word \"earth\" occurred how many times in the flood narrative?",
+            "options": {
+                "A": "23",
+                "B": "46",
+                "C": "50",
+                "D": "60"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 20,
+            "question": "According to Ehioghae, who were the \"sons of God\"?",
+            "options": {
+                "A": "Men",
+                "B": "Angels",
+                "C": "Kings",
+                "D": "Prophets"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 21,
+            "question": "The Hebrew word \"bene elohim\" refers to?",
+            "options": {
+                "A": "Men",
+                "B": "Angels",
+                "C": "Judges",
+                "D": "Sons of Adam"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 22,
+            "question": "In Genesis 6:2, \"sons of God\" refers to?",
+            "options": {
+                "A": "Angels",
+                "B": "Men",
+                "C": "Priests",
+                "D": "Prophets"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 23,
+            "question": "Who was found righteous before the flood?",
+            "options": {
+                "A": "Enoch",
+                "B": "Abraham",
+                "C": "Noah",
+                "D": "Lot"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 24,
+            "question": "The ark of Noah was like a?",
+            "options": {
+                "A": "Small boat",
+                "B": "Gargantuan ship-like structure",
+                "C": "Wooden canoe",
+                "D": "Floating temple"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 25,
+            "question": "The length, width, and height of Noah's ark were?",
+            "options": {
+                "A": "400, 50, 30",
+                "B": "450, 75, and 45",
+                "C": "350, 70, and 40",
+                "D": "500, 80, and 50"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 26,
+            "question": "The unit of measurement during Noah's time was?",
+            "options": {
+                "A": "Meter",
+                "B": "Cubit",
+                "C": "Span",
+                "D": "Mile"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 27,
+            "question": "The cubit was measured from where to where?",
+            "options": {
+                "A": "Shoulder to wrist",
+                "B": "Elbow to fingertip",
+                "C": "Wrist to fingertip",
+                "D": "Shoulder to fingertip"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 28,
+            "question": "One cubit is approximately how many feet?",
+            "options": {
+                "A": "One foot",
+                "B": "One and a half feet",
+                "C": "Two feet",
+                "D": "Three feet"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 29,
+            "question": "How many floors did Noah's ark have?",
+            "options": {
+                "A": "One",
+                "B": "Two",
+                "C": "Three",
+                "D": "Four"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 30,
+            "question": "The ark had how many windows and doors?",
+            "options": {
+                "A": "Two windows and one door",
+                "B": "One window and one door",
+                "C": "Two doors and one window",
+                "D": "Three windows"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 31,
+            "question": "The ark symbolized what for Noah and God respectively?",
+            "options": {
+                "A": "Faith and grace",
+                "B": "Fear and power",
+                "C": "Judgment and mercy",
+                "D": "Sin and forgiveness"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 32,
+            "question": "God told Noah to bring how many pairs of clean and unclean animals?",
+            "options": {
+                "A": "2 and 2",
+                "B": "7 and 2",
+                "C": "4 and 4",
+                "D": "6 and 2"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 33,
+            "question": "How many years did Noah build the ark?",
+            "options": {
+                "A": "100",
+                "B": "120",
+                "C": "150",
+                "D": "80"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 34,
+            "question": "The agent of the flood was?",
+            "options": {
+                "A": "Fire",
+                "B": "Wind",
+                "C": "Water",
+                "D": "Earth"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 35,
+            "question": "People who lived before the flood are called?",
+            "options": {
+                "A": "Patriarchs",
+                "B": "Antediluvians",
+                "C": "Israelites",
+                "D": "Babylonians"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 36,
+            "question": "The descendants of Noah later built what in defiance of God?",
+            "options": {
+                "A": "The Ark",
+                "B": "The Tower of Babel",
+                "C": "The Temple",
+                "D": "The Walls of Jericho"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 37,
+            "question": "How many people were saved in the ark?",
+            "options": {
+                "A": "4",
+                "B": "6",
+                "C": "8",
+                "D": "10"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 38,
+            "question": "How long did the rain fall during the flood?",
+            "options": {
+                "A": "30 days",
+                "B": "40 days and 40 nights",
+                "C": "50 days",
+                "D": "60 days"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 39,
+            "question": "After the flood, what sign did God give as a covenant?",
+            "options": {
+                "A": "A star",
+                "B": "A rainbow",
+                "C": "A dove",
+                "D": "A mountain"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 40,
+            "question": "On which mountain did the ark rest after the flood?",
+            "options": {
+                "A": "Mount Sinai",
+                "B": "Mount Ararat",
+                "C": "Mount Zion",
+                "D": "Mount Carmel"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 41,
+            "question": "What was the first thing Noah did after leaving the ark?",
+            "options": {
+                "A": "Built a city",
+                "B": "Offered a sacrifice",
+                "C": "Planted a vineyard",
+                "D": "Counted animals"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 42,
+            "question": "The flood story demonstrates God's ______ and __________.",
+            "options": {
+                "A": "Justice and mercy",
+                "B": "Love and patience",
+                "C": "Anger and power",
+                "D": "Wisdom and grace"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 43,
+            "question": "The rainbow after the flood was a symbol of?",
+            "options": {
+                "A": "God's wrath",
+                "B": "God's covenant",
+                "C": "Human wisdom",
+                "D": "Earth's renewal"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 44,
+            "question": "The flood lasted for how many days before the waters began to recede?",
+            "options": {
+                "A": "100",
+                "B": "150",
+                "C": "200",
+                "D": "250"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 45,
+            "question": "The flood story teaches the importance of?",
+            "options": {
+                "A": "Wealth",
+                "B": "Obedience",
+                "C": "Power",
+                "D": "Popularity"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 46,
+            "question": "Noah's ark rested after how many months on water?",
+            "options": {
+                "A": "5",
+                "B": "7",
+                "C": "9",
+                "D": "12"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 47,
+            "question": "Noah's sons were?",
+            "options": {
+                "A": "Shem, Ham, and Japheth",
+                "B": "Cain, Abel, and Seth",
+                "C": "Jacob, Esau, and Levi",
+                "D": "Peter, James, and John"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 48,
+            "question": "Noah's wife represented what in the flood story?",
+            "options": {
+                "A": "Disobedience",
+                "B": "Faithful companionship",
+                "C": "Sacrifice",
+                "D": "Pride"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 49,
+            "question": "What was Noah's occupation after the flood?",
+            "options": {
+                "A": "Fisherman",
+                "B": "Farmer",
+                "C": "Shepherd",
+                "D": "Carpenter"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 50,
+            "question": "The flood reveals God's judgment on sin but also His?",
+            "options": {
+                "A": "Forgiveness and mercy",
+                "B": "Anger",
+                "C": "Jealousy",
+                "D": "Power"
+            },
+            "answerKey": [
+                "A"
+            ]
+        }
+    ]
+}

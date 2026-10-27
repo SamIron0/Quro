@@ -1,0 +1,654 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "The former is viewed as an impediment to salvation while the latter is regarded as its root. The former and latter refer to",
+            "options": {
+                "A": "Grace and Faith",
+                "B": "Law and Grace",
+                "C": "Works and Faith",
+                "D": "Commandments and Love"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "The word law is referred to as what in Hebrew and what in Greek?",
+            "options": {
+                "A": "Dabar and Logos",
+                "B": "Torah and Nomos",
+                "C": "Hesed and Charis",
+                "D": "Agape and Hen"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "The law can also be referred to as",
+            "options": {
+                "A": "Instruction, testimonies, precepts, statutes, word, decrees, judgments, customs, commandments, revelation of God's will, Pentateuch, Decalogue, and prohibitions",
+                "B": "Only the Ten Commandments",
+                "C": "Civil code of Israel",
+                "D": "Mosaic writings only"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "The Torah also includes",
+            "options": {
+                "A": "Only the Ten Commandments",
+                "B": "Moral and social laws",
+                "C": "Moral, ceremonial, and civil laws of the Israelites",
+                "D": "Only ceremonial laws"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "The law can be grouped into two, which are",
+            "options": {
+                "A": "Spiritual and Physical laws",
+                "B": "Civil and Moral laws",
+                "C": "Universal and Non-universal laws",
+                "D": "Divine and Human laws"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "The non-universal laws include",
+            "options": {
+                "A": "Ceremonial and Civil laws",
+                "B": "Moral and Spiritual laws",
+                "C": "Social and Ethical laws",
+                "D": "Divine and Human laws"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "The universal law includes",
+            "options": {
+                "A": "Civil laws",
+                "B": "Ceremonial laws",
+                "C": "Moral laws",
+                "D": "Dietary laws"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "The type of laws given to the citizens of Israel and foreigners who agreed to align with them is",
+            "options": {
+                "A": "Universal law",
+                "B": "Moral law",
+                "C": "Non-universal law",
+                "D": "Divine law"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "The law that uses sanctuary or temple symbolism and practices and has existed since after the fall of man is",
+            "options": {
+                "A": "Ceremonial law",
+                "B": "Moral law",
+                "C": "Civil law",
+                "D": "Levitical law"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "The law given to Moses by God for regulating the community life of Israel, dealing with relationships among humans, is",
+            "options": {
+                "A": "Moral law",
+                "B": "Ceremonial law",
+                "C": "Civil law",
+                "D": "Universal law"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 11,
+            "question": "The law given by God that transcends a particular generation, dispensation, or situation is",
+            "options": {
+                "A": "Civil law",
+                "B": "Universal law",
+                "C": "Ceremonial law",
+                "D": "Levitical law"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 12,
+            "question": "The law recorded in the Levitical code to synergize worship and physical-mental health is",
+            "options": {
+                "A": "Health, sexual, and dietary laws",
+                "B": "Ceremonial laws",
+                "C": "Moral laws",
+                "D": "Ritual laws"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 13,
+            "question": "The law encapsulated in the Ten Commandments is",
+            "options": {
+                "A": "Civil law",
+                "B": "Ceremonial law",
+                "C": "Moral law",
+                "D": "Dietary law"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 14,
+            "question": "Who came to fulfill the law?",
+            "options": {
+                "A": "Moses",
+                "B": "Paul",
+                "C": "Jesus Christ",
+                "D": "Peter"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 15,
+            "question": "Another word for grace in Greek is",
+            "options": {
+                "A": "Agape",
+                "B": "Hen",
+                "C": "Hesed",
+                "D": "Charis"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 16,
+            "question": "The unconditional love and undeserved favor of God extended to man for salvation is called",
+            "options": {
+                "A": "Faith",
+                "B": "Grace",
+                "C": "Mercy",
+                "D": "Covenant"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 17,
+            "question": "Nearly two-thirds of the New Testament occurrences of charis (grace) are found in",
+            "options": {
+                "A": "The Gospels",
+                "B": "Pauline letters",
+                "C": "Acts",
+                "D": "Revelation"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 18,
+            "question": "How many books of the New Testament did Paul write?",
+            "options": {
+                "A": "10",
+                "B": "12",
+                "C": "13",
+                "D": "14"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 19,
+            "question": "The term charis is found how many times in Romans?",
+            "options": {
+                "A": "21",
+                "B": "22",
+                "C": "23",
+                "D": "25"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 20,
+            "question": "In Paul's writings, the word charis signifies",
+            "options": {
+                "A": "Mercy",
+                "B": "Favour",
+                "C": "Faith",
+                "D": "Blessing"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 21,
+            "question": "The Hebrew word hesed means",
+            "options": {
+                "A": "Grace",
+                "B": "Loving-kindness",
+                "C": "Mercy",
+                "D": "Truth"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 22,
+            "question": "Which terms represent grace in the Old Testament?",
+            "options": {
+                "A": "Torah and Nomos",
+                "B": "Agape and Logos",
+                "C": "Hesed and Hen",
+                "D": "Dabar and Shekinah"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 23,
+            "question": "The term Hen is used how many times in the Old Testament?",
+            "options": {
+                "A": "215",
+                "B": "225",
+                "C": "230",
+                "D": "240"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 24,
+            "question": "The term Hesed is used how many times in the Old Testament?",
+            "options": {
+                "A": "200",
+                "B": "About 250 times",
+                "C": "180",
+                "D": "270"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Grace in the Old Testament is evident in which verses?",
+            "options": {
+                "A": "Genesis 3:15; Genesis 6:8; Genesis 12:1-3",
+                "B": "Exodus 20:1-5",
+                "C": "Psalm 23:1-6",
+                "D": "Isaiah 53"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 26,
+            "question": "Grace could be translated as",
+            "options": {
+                "A": "Thanks, favor, blessings, mercy, or favor without religious content",
+                "B": "Salvation",
+                "C": "Love only",
+                "D": "Covenant"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 27,
+            "question": "The word charis appeared how many times in Luke?",
+            "options": {
+                "A": "10",
+                "B": "11",
+                "C": "12",
+                "D": "14"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 28,
+            "question": "The term euangelion means",
+            "options": {
+                "A": "Salvation",
+                "B": "Faith",
+                "C": "Gospel",
+                "D": "Law"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 29,
+            "question": "The moral law is also known as",
+            "options": {
+                "A": "Ritual law",
+                "B": "Universal law",
+                "C": "Civil law",
+                "D": "Dietary law"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 30,
+            "question": "The civil law was mainly concerned with",
+            "options": {
+                "A": "Relationships between human beings",
+                "B": "The worship of God only",
+                "C": "Health regulations",
+                "D": "Animal sacrifices"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 31,
+            "question": "The ceremonial law was centered around",
+            "options": {
+                "A": "Sanctuary symbolism and worship practices",
+                "B": "The Ten Commandments",
+                "C": "Dietary customs only",
+                "D": "Social ethics"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 32,
+            "question": "The universal law is also called",
+            "options": {
+                "A": "Moral law",
+                "B": "Civil law",
+                "C": "National law",
+                "D": "Ceremonial law"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 33,
+            "question": "Which law was given for Israel's community governance?",
+            "options": {
+                "A": "Civil law",
+                "B": "Moral law",
+                "C": "Ceremonial law",
+                "D": "Universal law"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 34,
+            "question": "The term Torah literally means",
+            "options": {
+                "A": "Covenant",
+                "B": "Promise",
+                "C": "Instruction",
+                "D": "Law of Moses only"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 35,
+            "question": "The Ten Commandments are also referred to as",
+            "options": {
+                "A": "Decalogue",
+                "B": "Torah",
+                "C": "Covenant Code",
+                "D": "Scroll of Moses"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 36,
+            "question": "The Pentateuch refers to",
+            "options": {
+                "A": "The first three books of the Bible",
+                "B": "The Law of Moses only",
+                "C": "The first five books of the Bible",
+                "D": "The books of prophecy"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 37,
+            "question": "The ceremonial laws pointed forward to",
+            "options": {
+                "A": "The temple system",
+                "B": "The coming of Christ",
+                "C": "The covenant of Abraham",
+                "D": "The Mosaic covenant"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 38,
+            "question": "The civil laws of Israel were meant to",
+            "options": {
+                "A": "Replace moral laws",
+                "B": "Regulate the behavior of the nation",
+                "C": "Govern spiritual life",
+                "D": "Enforce temple rituals"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 39,
+            "question": "Moral laws are binding on",
+            "options": {
+                "A": "Only Jews",
+                "B": "Only Christians",
+                "C": "All humanity",
+                "D": "Only prophets"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 40,
+            "question": "Grace is best described as",
+            "options": {
+                "A": "Human effort",
+                "B": "God's unmerited favor",
+                "C": "Law observance",
+                "D": "Sacrificial worship"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 41,
+            "question": "The Hebrew word Hen is often translated as",
+            "options": {
+                "A": "Favor",
+                "B": "Law",
+                "C": "Love",
+                "D": "Peace"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 42,
+            "question": "The Hesed of God represents His",
+            "options": {
+                "A": "Power",
+                "B": "Covenant loyalty and loving-kindness",
+                "C": "Judgments",
+                "D": "Wrath"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 43,
+            "question": "The difference between Law and Grace is that",
+            "options": {
+                "A": "Both are the same",
+                "B": "Law reveals sin, Grace redeems from sin",
+                "C": "Law saves, Grace judges",
+                "D": "Law and Grace contradict each other"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 44,
+            "question": "The Greek term Nomos literally means",
+            "options": {
+                "A": "Grace",
+                "B": "Word",
+                "C": "Law",
+                "D": "Commandment"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 45,
+            "question": "The Hebrew term Torah refers to",
+            "options": {
+                "A": "Instruction or teaching",
+                "B": "Judgment",
+                "C": "Justice",
+                "D": "Promise"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 46,
+            "question": "Which of the following laws ceased with the death of Christ?",
+            "options": {
+                "A": "Ceremonial law",
+                "B": "Moral law",
+                "C": "Civil law",
+                "D": "Universal law"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 47,
+            "question": "Which of the following laws remains binding today?",
+            "options": {
+                "A": "Ceremonial law",
+                "B": "Civil law",
+                "C": "Moral law",
+                "D": "Levitical law"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 48,
+            "question": "The purpose of the law was to",
+            "options": {
+                "A": "Reveal sin and point to Christ",
+                "B": "Save humanity",
+                "C": "Condemn mankind permanently",
+                "D": "Replace faith"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 49,
+            "question": "The ultimate fulfillment of grace is seen in",
+            "options": {
+                "A": "Moses' leadership",
+                "B": "Jesus Christ",
+                "C": "Paul's letters",
+                "D": "The Mosaic covenant"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 50,
+            "question": "The relationship between law and grace shows that",
+            "options": {
+                "A": "Grace cancels the law",
+                "B": "Grace completes the purpose of the law",
+                "C": "Law and Grace are opposites",
+                "D": "Law is superior to Grace"
+            },
+            "answerKey": [
+                "B"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,654 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "God will reveal Himself to one who has __________.",
+            "options": {
+                "A": "Great wisdom",
+                "B": "Strong belief",
+                "C": "Childlike faith",
+                "D": "Religious background"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "No one can really understand or describe God because He __________.",
+            "options": {
+                "A": "Is far away",
+                "B": "Does beyond what we expect",
+                "C": "Lives in heaven",
+                "D": "Does not change"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "The idea of the existence of a Supreme Being observed in many cultures and civilizations is known as the __________ argument.",
+            "options": {
+                "A": "Ontological",
+                "B": "Philosophical",
+                "C": "Cosmological",
+                "D": "Anthropological"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "The argument that has to do with cause and effect - that there's a brain behind everything that is made - is called the __________ argument.",
+            "options": {
+                "A": "Ontological",
+                "B": "Anthropological",
+                "C": "Cosmological",
+                "D": "Logical"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "The argument that says many people have their peculiar idea of the most perfect being is the __________ argument.",
+            "options": {
+                "A": "Ontological",
+                "B": "Philosophical",
+                "C": "Moral",
+                "D": "Spiritual"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "The responsibility of God to plant conscience in man shows what type of argument?",
+            "options": {
+                "A": "Anthropological",
+                "B": "Ontological",
+                "C": "Cosmological",
+                "D": "Spiritual"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "There's no scriptural argument for the existence of God; rather, the Bible just __________.",
+            "options": {
+                "A": "Proves God through miracles",
+                "B": "Assumes that there is God",
+                "C": "Debates about God",
+                "D": "Explains His attributes"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Elohim means __________.",
+            "options": {
+                "A": "God the creator",
+                "B": "God the strong and mighty one",
+                "C": "God who sees",
+                "D": "God of mercy"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Elyon means __________.",
+            "options": {
+                "A": "The Lord my peace",
+                "B": "God the high and exalted one",
+                "C": "God the provider",
+                "D": "The self-existing one"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "El Roi means __________.",
+            "options": {
+                "A": "God as the strong one who sees",
+                "B": "The most high",
+                "C": "The Lord is my peace",
+                "D": "The righteous one"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 11,
+            "question": "El Shaddai means __________.",
+            "options": {
+                "A": "The everlasting God",
+                "B": "God as one who possesses power in heaven and on earth",
+                "C": "The provider",
+                "D": "The mighty warrior"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 12,
+            "question": "El Olam means __________.",
+            "options": {
+                "A": "God the everlasting one",
+                "B": "God the mighty",
+                "C": "The Lord my healer",
+                "D": "God the ruler"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 13,
+            "question": "Adonai means __________.",
+            "options": {
+                "A": "The provider",
+                "B": "He is God the almighty ruler",
+                "C": "The one who sees",
+                "D": "The peacemaker"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 14,
+            "question": "Jehovah / Yahweh means __________.",
+            "options": {
+                "A": "The Lord our righteousness",
+                "B": "I am that I am - the self-existing one",
+                "C": "The Lord who is present",
+                "D": "The high and exalted"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 15,
+            "question": "Jehovah Jireh means __________.",
+            "options": {
+                "A": "The Lord is peace",
+                "B": "The Lord will provide",
+                "C": "The Lord my banner",
+                "D": "The Lord our healer"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 16,
+            "question": "Jehovah Nissi means __________.",
+            "options": {
+                "A": "The Lord my banner",
+                "B": "The Lord my peace",
+                "C": "The Lord my provider",
+                "D": "The Lord is present"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 17,
+            "question": "Jehovah Shalom means __________.",
+            "options": {
+                "A": "The Lord my banner",
+                "B": "The Lord is my peace",
+                "C": "The Lord is righteous",
+                "D": "The Lord is mighty"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 18,
+            "question": "Jehovah Tsidkenu means __________.",
+            "options": {
+                "A": "The Lord our Righteousness",
+                "B": "The Lord who heals",
+                "C": "The Lord who sees",
+                "D": "The Lord is mighty"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 19,
+            "question": "Jehovah Shammah means __________.",
+            "options": {
+                "A": "The Lord who is present",
+                "B": "The Lord who heals",
+                "C": "The Lord will provide",
+                "D": "The Lord is mighty"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 20,
+            "question": "Jehovah Rapha means __________.",
+            "options": {
+                "A": "The Lord our Righteousness",
+                "B": "The Lord our Healer",
+                "C": "The Lord is present",
+                "D": "The Lord our Provider"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 21,
+            "question": "\"Thou shalt not take the name of the Lord thy God in vain\" is found in __________.",
+            "options": {
+                "A": "Exodus 20:7",
+                "B": "Genesis 1:1",
+                "C": "Exodus 12:12",
+                "D": "Deuteronomy 5:10"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 22,
+            "question": "The classifications of God's attributes include __________.",
+            "options": {
+                "A": "Natural and moral, absolute and relative, communicable and incommunicable attributes",
+                "B": "Physical and spiritual",
+                "C": "Visible and invisible",
+                "D": "Real and symbolic"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 23,
+            "question": "Which attribute stresses the absoluteness of God?",
+            "options": {
+                "A": "The incommunicable attribute",
+                "B": "The communicable attribute",
+                "C": "The moral attribute",
+                "D": "The natural attribute"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 24,
+            "question": "The incommunicable attributes of God include __________.",
+            "options": {
+                "A": "Self-existence, immutability, infinity, and unity",
+                "B": "Love, mercy, and grace",
+                "C": "Power, glory, and might",
+                "D": "Wisdom, faith, and patience"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Which attribute shows that God is \"I Am That I Am\"?",
+            "options": {
+                "A": "Self-existence",
+                "B": "Omnipresence",
+                "C": "Holiness",
+                "D": "Grace"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 26,
+            "question": "Which attribute shows the perfection of God as devoid of change in His being, purpose, and promise?",
+            "options": {
+                "A": "Immutability of God",
+                "B": "Infinity of God",
+                "C": "Unity of God",
+                "D": "Holiness of God"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 27,
+            "question": "Which attribute shows that God is free from all limitations and He is omnipotent?",
+            "options": {
+                "A": "Infinity of God",
+                "B": "Immutability",
+                "C": "Love",
+                "D": "Mercy"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 28,
+            "question": "Which attribute shows that God is not divided into parts?",
+            "options": {
+                "A": "The Unity of God",
+                "B": "The Omnipresence of God",
+                "C": "The Love of God",
+                "D": "The Grace of God"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 29,
+            "question": "According to John 4:24, __________.",
+            "options": {
+                "A": "\"God is Spirit\"",
+                "B": "\"God is Love\"",
+                "C": "\"God is Peace\"",
+                "D": "\"God is Faithful\""
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 30,
+            "question": "What shows that God cannot be discerned or perceived by bodily senses or physical means?",
+            "options": {
+                "A": "The Spirituality of God",
+                "B": "The Unity of God",
+                "C": "The Grace of God",
+                "D": "The Light of God"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 31,
+            "question": "According to 1 John 1:5, __________.",
+            "options": {
+                "A": "\"God is Light\"",
+                "B": "\"God is Spirit\"",
+                "C": "\"God is Truth\"",
+                "D": "\"God is Just\""
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 32,
+            "question": "God's intellectual life consists of __________.",
+            "options": {
+                "A": "Knowledge, wisdom, and truthfulness/faithfulness of God",
+                "B": "Mercy, love, and patience",
+                "C": "Power, might, and glory",
+                "D": "Spirit, light, and unity"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 33,
+            "question": "God knows everything; this shows that God is __________.",
+            "options": {
+                "A": "Omniscient",
+                "B": "Omnipresent",
+                "C": "Omnipotent",
+                "D": "Immutable"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 34,
+            "question": "The moral attributes of God include __________.",
+            "options": {
+                "A": "Goodness, holiness, and righteousness",
+                "B": "Power, might, and wisdom",
+                "C": "Knowledge, truth, and light",
+                "D": "Grace, mercy, and faith"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 35,
+            "question": "God having affection and caring for His creatures shows His __________.",
+            "options": {
+                "A": "Goodness",
+                "B": "Mercy",
+                "C": "Grace",
+                "D": "Love"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 36,
+            "question": "God giving Himself to others shows His __________.",
+            "options": {
+                "A": "Love",
+                "B": "Grace",
+                "C": "Mercy",
+                "D": "Righteousness"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 37,
+            "question": "God's free bestowal of kindness on undeserving people shows His __________.",
+            "options": {
+                "A": "Grace",
+                "B": "Mercy",
+                "C": "Patience",
+                "D": "Love"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 38,
+            "question": "God's compassion and goodness to those in misery and distress show His __________.",
+            "options": {
+                "A": "Mercy",
+                "B": "Grace",
+                "C": "Justice",
+                "D": "Patience"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 39,
+            "question": "God's patience, mercy, and willingness to wait for repentance rather than immediate judgment show His __________.",
+            "options": {
+                "A": "Long-suffering",
+                "B": "Grace",
+                "C": "Love",
+                "D": "Power"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 40,
+            "question": "The holiness of God may be referred to as __________.",
+            "options": {
+                "A": "The absolute supremacy, unapproachability, and awful majesty of God",
+                "B": "His power and glory",
+                "C": "His peace and mercy",
+                "D": "His unity and wisdom"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 41,
+            "question": "The attribute that describes the distribution of reward to the righteous is called __________.",
+            "options": {
+                "A": "Remunerative justice",
+                "B": "Retributive justice",
+                "C": "Communicable justice",
+                "D": "Divine patience"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 42,
+            "question": "The attribute that indicates the imposition of penalty on the unrighteous is called __________.",
+            "options": {
+                "A": "Retributive justice",
+                "B": "Remunerative justice",
+                "C": "Divine mercy",
+                "D": "Grace"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 43,
+            "question": "The transcendence of God means __________.",
+            "options": {
+                "A": "God is far above and independent from all creation.",
+                "B": "God lives among men.",
+                "C": "God can be fully understood.",
+                "D": "God is limited by creation."
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 44,
+            "question": "Which attribute of God means that He is present everywhere at the same time?",
+            "options": {
+                "A": "Omniscient",
+                "B": "Omnipresent",
+                "C": "Omnipotent",
+                "D": "Immutable"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 45,
+            "question": "The attribute that shows that God has unlimited power to do all things is called __________.",
+            "options": {
+                "A": "Omnipresent",
+                "B": "Omniscient",
+                "C": "Omnipotent",
+                "D": "Infinite"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 46,
+            "question": "The term that describes God as being involved and active within His creation is __________.",
+            "options": {
+                "A": "Transcendence",
+                "B": "Immanence",
+                "C": "Infinity",
+                "D": "Eternity"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 47,
+            "question": "The fact that God is both transcendent and immanent means that He is __________.",
+            "options": {
+                "A": "Far from creation and uninvolved",
+                "B": "Above creation yet present in it",
+                "C": "Dependent on creation",
+                "D": "Controlled by nature"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
+            "id": 48,
+            "question": "The statement \"God cannot lie\" emphasizes which of His attributes?",
+            "options": {
+                "A": "Love",
+                "B": "Omnipotence",
+                "C": "Truthfulness",
+                "D": "Holiness"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 49,
+            "question": "The manifestation of God's power and nature through creation is known as __________ revelation.",
+            "options": {
+                "A": "General",
+                "B": "Special",
+                "C": "Spiritual",
+                "D": "Moral"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 50,
+            "question": "The revelation of God through His Word and His Son Jesus Christ is called __________ revelation.",
+            "options": {
+                "A": "Natural",
+                "B": "Special",
+                "C": "Eternal",
+                "D": "Physical"
+            },
+            "answerKey": [
+                "B"
+            ]
+        }
+    ]
+}
