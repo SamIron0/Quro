@@ -27,7 +27,7 @@ export const COURSES: Course[] = [
         name: "Python MCQ",
         file: "./question-bank/cos325/python_mcq.json",
         vendor: "quro",
-        questionCount: 62,
+        questionCount: 1182,
       },
     ],
   },
