@@ -17,6 +17,21 @@ export type Course = {
 
 export const COURSES: Course[] = [
   {
+    id: "cos325",
+    name: "Machine Learning",
+    code: "COS 325",
+    department: "Computer Science",
+    banks: [
+      {
+        id: "python_mcq",
+        name: "Python MCQ",
+        file: "./question-bank/cos325/python_mcq.json",
+        vendor: "quro",
+        questionCount: 62,
+      },
+    ],
+  },
+  {
     id: "gst220",
     name: "Origins and Science",
     code: "GST 220",

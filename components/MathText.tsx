@@ -2,6 +2,7 @@
 
 import { Fragment } from "react";
 import { InlineMath } from "react-katex";
+import { cn } from "@/lib/utils";
 
 type MathTextProps = {
   text: string;
@@ -41,14 +42,16 @@ function splitByInlineMath(text: string): Array<{ kind: "text" | "math"; value: 
 }
 
 export function MathText({ text, className }: MathTextProps) {
+  const classes = cn("whitespace-pre-wrap", className);
+
   if (!hasInlineMath(text)) {
-    return <span className={className}>{text}</span>;
+    return <span className={classes}>{text}</span>;
   }
 
   const parts = splitByInlineMath(text);
 
   return (
-    <span className={className}>
+    <span className={classes}>
       {parts.map((part, index) => {
         if (part.kind === "text") {
           return <Fragment key={`text-${index}`}>{part.value}</Fragment>;

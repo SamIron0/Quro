@@ -3,47 +3,22 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { createClient } from "@/utils/supabase/client";
 
-const DISMISS_KEY = "quro:new-math-bank-banner:dismissed";
+const DISMISS_KEY = "quro:new-ml-bank-banner:dismissed";
 
 export function TopBanner() {
   const pathname = usePathname();
   const [isVisible, setIsVisible] = useState(false);
   const [isReady, setIsReady] = useState(false);
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   useEffect(() => {
-    const supabase = createClient();
     const wasDismissed = window.localStorage.getItem(DISMISS_KEY) === "true";
-    let isMounted = true;
-
-    const initialize = async () => {
-      const { data } = await supabase.auth.getSession();
-      if (!isMounted) return;
-
-      setIsAuthenticated(Boolean(data.session?.user));
-      setIsVisible(!wasDismissed);
-      setIsReady(true);
-    };
-
-    initialize();
-
-    const {
-      data: { subscription },
-    } = supabase.auth.onAuthStateChange((_event, session) => {
-      if (!isMounted) return;
-      setIsAuthenticated(Boolean(session?.user));
-    });
-
-    return () => {
-      isMounted = false;
-      subscription.unsubscribe();
-    };
+    setIsVisible(!wasDismissed);
+    setIsReady(true);
   }, []);
 
   useEffect(() => {
-    if (!pathname?.includes("/mth202/25_26_midsemester")) return;
+    if (!pathname?.includes("/cos325/python_mcq")) return;
 
     window.localStorage.setItem(DISMISS_KEY, "true");
     setIsVisible(false);
@@ -54,16 +29,16 @@ export function TopBanner() {
     setIsVisible(false);
   };
 
-  if (!isReady || !isVisible || !isAuthenticated) return null;
+  if (!isReady || !isVisible) return null;
 
   return (
     <div className="border-b border-[#c9a84c]/40 bg-[#fff8e7] text-[#6b4e00] dark:border-[#c9a84c]/30 dark:bg-[#3a2f14] dark:text-[#f0dda0]">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-2 sm:px-6">
         <p className="text-sm">
-          New Math question bank is now live.
+          New Machine Learning question bank is now live.
           {" "}
           <Link
-            href="/courses/mth202/25_26_midsemester/setup"
+            href="/courses/cos325/python_mcq/setup"
             className="font-semibold underline decoration-2 underline-offset-2 hover:opacity-80"
           >
             Start practicing
