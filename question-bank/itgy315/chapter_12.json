@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "An incident note reads: a server's operating system component manages processes, memory, and device access. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Linux shell",
+        "B": "Linux kernel",
+        "C": "Root account",
+        "D": "File permissions"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of linux kernel: a server's operating system component manages processes, memory, and device access. A relevant security consideration is to keep supported kernel packages patched."
+    },
+    {
+      "id": 2,
+      "question": "Which guidance BEST addresses the key issue associated with Linux kernel?",
+      "options": {
+        "A": "Apply owner, group, and other access restrictions",
+        "B": "Use least privilege and accountable privilege elevation",
+        "C": "Limit administrative shells and audit privileged use",
+        "D": "Keep supported kernel packages patched"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for linux kernel is to keep supported kernel packages patched; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "A team documents the following condition: an administrator uses a command interpreter to interact with the operating system. Which CEH term is the closest match?",
+      "options": {
+        "A": "Root account",
+        "B": "File permissions",
+        "C": "File ownership",
+        "D": "Linux shell"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of linux shell: an administrator uses a command interpreter to interact with the operating system. A relevant security consideration is to limit administrative shells and audit privileged use."
+    },
+    {
+      "id": 4,
+      "question": "A security team is reviewing the topic of Linux shell. Which statement BEST applies?",
+      "options": {
+        "A": "Limit administrative shells and audit privileged use",
+        "B": "Assign ownership to the appropriate service identity",
+        "C": "Use least privilege and accountable privilege elevation",
+        "D": "Apply owner, group, and other access restrictions"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for linux shell is to limit administrative shells and audit privileged use; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "Which concept is BEST illustrated by this scenario: a sensitive file grants read rights to every local account?",
+      "options": {
+        "A": "Root account",
+        "B": "File permissions",
+        "C": "Linux shell",
+        "D": "File ownership"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of file permissions: a sensitive file grants read rights to every local account. A relevant security consideration is to apply owner, group, and other access restrictions."
+    },
+    {
+      "id": 6,
+      "question": "When studying File permissions, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Apply owner, group, and other access restrictions",
+        "B": "Limit administrative shells and audit privileged use",
+        "C": "Assign ownership to the appropriate service identity",
+        "D": "Use least privilege and accountable privilege elevation"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for file permissions is to apply owner, group, and other access restrictions; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "During an authorized security review, an assessor observes: an application stores important configuration files under the wrong account. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Root account",
+        "B": "Linux shell",
+        "C": "File ownership",
+        "D": "Linux kernel"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of file ownership: an application stores important configuration files under the wrong account. A relevant security consideration is to assign ownership to the appropriate service identity."
+    },
+    {
+      "id": 8,
+      "question": "An exam asks about the appropriate handling of File ownership. Which statement is BEST?",
+      "options": {
+        "A": "Apply owner, group, and other access restrictions",
+        "B": "Assign ownership to the appropriate service identity",
+        "C": "Limit administrative shells and audit privileged use",
+        "D": "Keep supported kernel packages patched"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for file ownership is to assign ownership to the appropriate service identity; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "Consider this security situation: an administrator uses the unrestricted superuser identity for routine browsing. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "File permissions",
+        "B": "Linux kernel",
+        "C": "Linux shell",
+        "D": "Root account"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of root account: an administrator uses the unrestricted superuser identity for routine browsing. A relevant security consideration is to use least privilege and accountable privilege elevation."
+    },
+    {
+      "id": 10,
+      "question": "For Root account, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Keep supported kernel packages patched",
+        "B": "Limit administrative shells and audit privileged use",
+        "C": "Use least privilege and accountable privilege elevation",
+        "D": "Assign ownership to the appropriate service identity"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for root account is to use least privilege and accountable privilege elevation; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "An incident note reads: a permitted administrator temporarily runs a specific command with elevated rights. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Setgid permission",
+        "B": "Umask",
+        "C": "Sticky bit",
+        "D": "Sudo"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of sudo: a permitted administrator temporarily runs a specific command with elevated rights. A relevant security consideration is to limit sudo permissions and log privileged activity."
+    },
+    {
+      "id": 12,
+      "question": "Which guidance BEST addresses the key issue associated with Sudo?",
+      "options": {
+        "A": "Limit sudo permissions and log privileged activity",
+        "B": "Use proper directory permissions including sticky-bit semantics",
+        "C": "Audit privileged binaries and remove unnecessary setuid bits",
+        "D": "Choose a restrictive default creation mask"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for sudo is to limit sudo permissions and log privileged activity; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "A team documents the following condition: a program may execute with the permissions of its file owner. Which CEH term is the closest match?",
+      "options": {
+        "A": "Setgid permission",
+        "B": "Setuid permission",
+        "C": "Sticky bit",
+        "D": "Sudo"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of setuid permission: a program may execute with the permissions of its file owner. A relevant security consideration is to audit privileged binaries and remove unnecessary setuid bits."
+    },
+    {
+      "id": 14,
+      "question": "A security team is reviewing the topic of Setuid permission. Which statement BEST applies?",
+      "options": {
+        "A": "Review special permission bits and group privileges",
+        "B": "Audit privileged binaries and remove unnecessary setuid bits",
+        "C": "Choose a restrictive default creation mask",
+        "D": "Use proper directory permissions including sticky-bit semantics"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for setuid permission is to audit privileged binaries and remove unnecessary setuid bits; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "Which concept is BEST illustrated by this scenario: a file or process may inherit an associated group identity in its permitted operations?",
+      "options": {
+        "A": "Sticky bit",
+        "B": "Sudo",
+        "C": "Umask",
+        "D": "Setgid permission"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of setgid permission: a file or process may inherit an associated group identity in its permitted operations. A relevant security consideration is to review special permission bits and group privileges."
+    },
+    {
+      "id": 16,
+      "question": "When studying Setgid permission, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Audit privileged binaries and remove unnecessary setuid bits",
+        "B": "Limit sudo permissions and log privileged activity",
+        "C": "Review special permission bits and group privileges",
+        "D": "Choose a restrictive default creation mask"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for setgid permission is to review special permission bits and group privileges; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "During an authorized security review, an assessor observes: a shared writable directory should restrict which users can delete others' files. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Sudo",
+        "B": "Setuid permission",
+        "C": "Sticky bit",
+        "D": "Setgid permission"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of sticky bit: a shared writable directory should restrict which users can delete others' files. A relevant security consideration is to use proper directory permissions including sticky-bit semantics."
+    },
+    {
+      "id": 18,
+      "question": "An exam asks about the appropriate handling of Sticky bit. Which statement is BEST?",
+      "options": {
+        "A": "Choose a restrictive default creation mask",
+        "B": "Use proper directory permissions including sticky-bit semantics",
+        "C": "Review special permission bits and group privileges",
+        "D": "Limit sudo permissions and log privileged activity"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for sticky bit is to use proper directory permissions including sticky-bit semantics; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "Consider this security situation: new files inherit default permissions influenced by a process mask. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Sticky bit",
+        "B": "Setgid permission",
+        "C": "Setuid permission",
+        "D": "Umask"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of umask: new files inherit default permissions influenced by a process mask. A relevant security consideration is to choose a restrictive default creation mask."
+    },
+    {
+      "id": 20,
+      "question": "For Umask, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Audit privileged binaries and remove unnecessary setuid bits",
+        "B": "Review special permission bits and group privileges",
+        "C": "Choose a restrictive default creation mask",
+        "D": "Use proper directory permissions including sticky-bit semantics"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for umask is to choose a restrictive default creation mask; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "An incident note reads: a developer builds compiled programs using the GNU compiler collection. Select the MOST appropriate classification.",
+      "options": {
+        "A": "GCC compiler",
+        "B": "Kernel module",
+        "C": "Loadable kernel module",
+        "D": "Package manager"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of gcc compiler: a developer builds compiled programs using the GNU compiler collection. A relevant security consideration is to compile with appropriate warnings and hardening options."
+    },
+    {
+      "id": 22,
+      "question": "Which guidance BEST addresses the key issue associated with GCC compiler?",
+      "options": {
+        "A": "Compile with appropriate warnings and hardening options",
+        "B": "Use trusted signed repositories and regular updates",
+        "C": "Keep library paths and shared components trustworthy",
+        "D": "Control module permissions and monitor unexpected changes"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for gcc compiler is to compile with appropriate warnings and hardening options; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "A team documents the following condition: a component extends functionality inside the running Linux kernel. Which CEH term is the closest match?",
+      "options": {
+        "A": "Package manager",
+        "B": "GCC compiler",
+        "C": "Loadable kernel module",
+        "D": "Kernel module"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of kernel module: a component extends functionality inside the running Linux kernel. A relevant security consideration is to restrict module loading and trust module sources."
+    },
+    {
+      "id": 24,
+      "question": "A security team is reviewing the topic of Kernel module. Which statement BEST applies?",
+      "options": {
+        "A": "Compile with appropriate warnings and hardening options",
+        "B": "Restrict module loading and trust module sources",
+        "C": "Control module permissions and monitor unexpected changes",
+        "D": "Use trusted signed repositories and regular updates"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for kernel module is to restrict module loading and trust module sources; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "Which concept is BEST illustrated by this scenario: a kernel component is added or removed without rebuilding the entire kernel?",
+      "options": {
+        "A": "Loadable kernel module",
+        "B": "Kernel module",
+        "C": "Package manager",
+        "D": "GCC compiler"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of loadable kernel module: a kernel component is added or removed without rebuilding the entire kernel. A relevant security consideration is to control module permissions and monitor unexpected changes."
+    },
+    {
+      "id": 26,
+      "question": "When studying Loadable kernel module, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Control module permissions and monitor unexpected changes",
+        "B": "Compile with appropriate warnings and hardening options",
+        "C": "Keep library paths and shared components trustworthy",
+        "D": "Restrict module loading and trust module sources"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for loadable kernel module is to control module permissions and monitor unexpected changes; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "During an authorized security review, an assessor observes: an administrator installs and updates software from configured repositories. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Package manager",
+        "B": "Dynamic library",
+        "C": "GCC compiler",
+        "D": "Loadable kernel module"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of package manager: an administrator installs and updates software from configured repositories. A relevant security consideration is to use trusted signed repositories and regular updates."
+    },
+    {
+      "id": 28,
+      "question": "An exam asks about the appropriate handling of Package manager. Which statement is BEST?",
+      "options": {
+        "A": "Control module permissions and monitor unexpected changes",
+        "B": "Use trusted signed repositories and regular updates",
+        "C": "Restrict module loading and trust module sources",
+        "D": "Compile with appropriate warnings and hardening options"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for package manager is to use trusted signed repositories and regular updates; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "Consider this security situation: a Linux program loads shared compiled code needed by multiple executables. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Loadable kernel module",
+        "B": "Dynamic library",
+        "C": "GCC compiler",
+        "D": "Package manager"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of dynamic library: a Linux program loads shared compiled code needed by multiple executables. A relevant security consideration is to keep library paths and shared components trustworthy."
+    },
+    {
+      "id": 30,
+      "question": "For Dynamic library, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use trusted signed repositories and regular updates",
+        "B": "Keep library paths and shared components trustworthy",
+        "C": "Compile with appropriate warnings and hardening options",
+        "D": "Restrict module loading and trust module sources"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for dynamic library is to keep library paths and shared components trustworthy; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "An incident note reads: an administrator examines records of security-relevant Linux events. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Cron scheduling",
+        "B": "System log",
+        "C": "Service manager",
+        "D": "Process listing"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of system log: an administrator examines records of security-relevant Linux events. A relevant security consideration is to forward and protect logs against alteration."
+    },
+    {
+      "id": 32,
+      "question": "Which guidance BEST addresses the key issue associated with System log?",
+      "options": {
+        "A": "Investigate unexpected process ownership or command lines",
+        "B": "Disable unused services and monitor their definitions",
+        "C": "Restrict unnecessary listeners and check process mappings",
+        "D": "Forward and protect logs against alteration"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for system log is to forward and protect logs against alteration; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "A team documents the following condition: an investigator enumerates currently running application processes. Which CEH term is the closest match?",
+      "options": {
+        "A": "Cron scheduling",
+        "B": "Process listing",
+        "C": "Network socket",
+        "D": "Service manager"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of process listing: an investigator enumerates currently running application processes. A relevant security consideration is to investigate unexpected process ownership or command lines."
+    },
+    {
+      "id": 34,
+      "question": "A security team is reviewing the topic of Process listing. Which statement BEST applies?",
+      "options": {
+        "A": "Forward and protect logs against alteration",
+        "B": "Audit scheduled tasks for unauthorized persistence",
+        "C": "Disable unused services and monitor their definitions",
+        "D": "Investigate unexpected process ownership or command lines"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for process listing is to investigate unexpected process ownership or command lines; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "Which concept is BEST illustrated by this scenario: a system has unexpected listening network endpoints?",
+      "options": {
+        "A": "Cron scheduling",
+        "B": "Process listing",
+        "C": "System log",
+        "D": "Network socket"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of network socket: a system has unexpected listening network endpoints. A relevant security consideration is to restrict unnecessary listeners and check process mappings."
+    },
+    {
+      "id": 36,
+      "question": "When studying Network socket, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Investigate unexpected process ownership or command lines",
+        "B": "Forward and protect logs against alteration",
+        "C": "Disable unused services and monitor their definitions",
+        "D": "Restrict unnecessary listeners and check process mappings"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for network socket is to restrict unnecessary listeners and check process mappings; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "During an authorized security review, an assessor observes: a job executes automatically on a configured timetable. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Service manager",
+        "B": "Cron scheduling",
+        "C": "Process listing",
+        "D": "System log"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of cron scheduling: a job executes automatically on a configured timetable. A relevant security consideration is to audit scheduled tasks for unauthorized persistence."
+    },
+    {
+      "id": 38,
+      "question": "An exam asks about the appropriate handling of Cron scheduling. Which statement is BEST?",
+      "options": {
+        "A": "Disable unused services and monitor their definitions",
+        "B": "Restrict unnecessary listeners and check process mappings",
+        "C": "Investigate unexpected process ownership or command lines",
+        "D": "Audit scheduled tasks for unauthorized persistence"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for cron scheduling is to audit scheduled tasks for unauthorized persistence; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "Consider this security situation: startup and long-running services are managed by the operating system. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Process listing",
+        "B": "System log",
+        "C": "Service manager",
+        "D": "Network socket"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of service manager: startup and long-running services are managed by the operating system. A relevant security consideration is to disable unused services and monitor their definitions."
+    },
+    {
+      "id": 40,
+      "question": "For Service manager, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Disable unused services and monitor their definitions",
+        "B": "Restrict unnecessary listeners and check process mappings",
+        "C": "Audit scheduled tasks for unauthorized persistence",
+        "D": "Forward and protect logs against alteration"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for service manager is to disable unused services and monitor their definitions; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "An incident note reads: an administrator connects remotely using an encrypted terminal protocol. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Linux file capabilities",
+        "B": "SSH access",
+        "C": "Mandatory access control",
+        "D": "Linux hardening"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of ssh access: an administrator connects remotely using an encrypted terminal protocol. A relevant security consideration is to use trusted host keys and strong authentication."
+    },
+    {
+      "id": 42,
+      "question": "Which guidance BEST addresses the key issue associated with SSH access?",
+      "options": {
+        "A": "Grant only necessary capabilities and audit changes",
+        "B": "Use trusted host keys and strong authentication",
+        "C": "Restrict access to credential verification material",
+        "D": "Configure SELinux or AppArmor policies where supported"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for ssh access is to use trusted host keys and strong authentication; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "A team documents the following condition: local password verification records are stored separately from general account listings. Which CEH term is the closest match?",
+      "options": {
+        "A": "Linux hardening",
+        "B": "SSH access",
+        "C": "Mandatory access control",
+        "D": "Password shadow file"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of password shadow file: local password verification records are stored separately from general account listings. A relevant security consideration is to restrict access to credential verification material."
+    },
+    {
+      "id": 44,
+      "question": "A security team is reviewing the topic of Password shadow file. Which statement BEST applies?",
+      "options": {
+        "A": "Configure SELinux or AppArmor policies where supported",
+        "B": "Restrict access to credential verification material",
+        "C": "Use trusted host keys and strong authentication",
+        "D": "Combine patching, least privilege, configuration review, and monitoring"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for password shadow file is to restrict access to credential verification material; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "Which concept is BEST illustrated by this scenario: a binary receives narrow privileged operations without full superuser identity?",
+      "options": {
+        "A": "SSH access",
+        "B": "Linux file capabilities",
+        "C": "Password shadow file",
+        "D": "Mandatory access control"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of linux file capabilities: a binary receives narrow privileged operations without full superuser identity. A relevant security consideration is to grant only necessary capabilities and audit changes."
+    },
+    {
+      "id": 46,
+      "question": "When studying Linux file capabilities, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Configure SELinux or AppArmor policies where supported",
+        "B": "Use trusted host keys and strong authentication",
+        "C": "Combine patching, least privilege, configuration review, and monitoring",
+        "D": "Grant only necessary capabilities and audit changes"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for linux file capabilities is to grant only necessary capabilities and audit changes; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "During an authorized security review, an assessor observes: a security policy constrains processes beyond ordinary user permissions. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Password shadow file",
+        "B": "Linux hardening",
+        "C": "Mandatory access control",
+        "D": "SSH access"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of mandatory access control: a security policy constrains processes beyond ordinary user permissions. A relevant security consideration is to configure SELinux or AppArmor policies where supported."
+    },
+    {
+      "id": 48,
+      "question": "An exam asks about the appropriate handling of Mandatory access control. Which statement is BEST?",
+      "options": {
+        "A": "Combine patching, least privilege, configuration review, and monitoring",
+        "B": "Configure SELinux or AppArmor policies where supported",
+        "C": "Grant only necessary capabilities and audit changes",
+        "D": "Use trusted host keys and strong authentication"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for mandatory access control is to configure SELinux or AppArmor policies where supported; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "Consider this security situation: an organization wants to lower the number of reachable attack paths on its Linux fleet. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Password shadow file",
+        "B": "Mandatory access control",
+        "C": "SSH access",
+        "D": "Linux hardening"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of linux hardening: an organization wants to lower the number of reachable attack paths on its Linux fleet. A relevant security consideration is to combine patching, least privilege, configuration review, and monitoring."
+    },
+    {
+      "id": 50,
+      "question": "For Linux hardening, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Combine patching, least privilege, configuration review, and monitoring",
+        "B": "Configure SELinux or AppArmor policies where supported",
+        "C": "Grant only necessary capabilities and audit changes",
+        "D": "Use trusted host keys and strong authentication"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for linux hardening is to combine patching, least privilege, configuration review, and monitoring; this directly addresses the issue described by the concept."
+    }
+  ]
+}

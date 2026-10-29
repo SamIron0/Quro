@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "During an authorized security review, an assessor observes: a seemingly helpful program executes malicious functionality without self-replicating. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Trojan horse",
+        "B": "Backdoor",
+        "C": "Remote-access Trojan",
+        "D": "Computer worm"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of trojan horse: a seemingly helpful program executes malicious functionality without self-replicating. A relevant security consideration is to allow software only from trusted and verified sources."
+    },
+    {
+      "id": 2,
+      "question": "An exam asks about the appropriate handling of Trojan horse. Which statement is BEST?",
+      "options": {
+        "A": "Patch reachable systems and segment networks",
+        "B": "Allow software only from trusted and verified sources",
+        "C": "Monitor unexpected remote control and limit endpoint privileges",
+        "D": "Scan untrusted files and reduce uncontrolled execution"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for trojan horse is to allow software only from trusted and verified sources; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "Consider this security situation: malicious code spreads by infecting a host file or other attached content. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Computer virus",
+        "B": "Computer worm",
+        "C": "Trojan horse",
+        "D": "Backdoor"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of computer virus: malicious code spreads by infecting a host file or other attached content. A relevant security consideration is to scan untrusted files and reduce uncontrolled execution."
+    },
+    {
+      "id": 4,
+      "question": "For Computer virus, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Allow software only from trusted and verified sources",
+        "B": "Scan untrusted files and reduce uncontrolled execution",
+        "C": "Patch reachable systems and segment networks",
+        "D": "Monitor unexpected remote control and limit endpoint privileges"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for computer virus is to scan untrusted files and reduce uncontrolled execution; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "An incident note reads: malware propagates from system to system without attaching to a host file. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Computer worm",
+        "B": "Remote-access Trojan",
+        "C": "Backdoor",
+        "D": "Computer virus"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of computer worm: malware propagates from system to system without attaching to a host file. A relevant security consideration is to patch reachable systems and segment networks."
+    },
+    {
+      "id": 6,
+      "question": "Which guidance BEST addresses the key issue associated with Computer worm?",
+      "options": {
+        "A": "Monitor unexpected remote control and limit endpoint privileges",
+        "B": "Patch reachable systems and segment networks",
+        "C": "Allow software only from trusted and verified sources",
+        "D": "Review remote-access mechanisms and remove unauthorized paths"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for computer worm is to patch reachable systems and segment networks; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "A team documents the following condition: an application has a concealed access route bypassing normal approval. Which CEH term is the closest match?",
+      "options": {
+        "A": "Trojan horse",
+        "B": "Computer virus",
+        "C": "Backdoor",
+        "D": "Computer worm"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of backdoor: an application has a concealed access route bypassing normal approval. A relevant security consideration is to review remote-access mechanisms and remove unauthorized paths."
+    },
+    {
+      "id": 8,
+      "question": "A security team is reviewing the topic of Backdoor. Which statement BEST applies?",
+      "options": {
+        "A": "Monitor unexpected remote control and limit endpoint privileges",
+        "B": "Allow software only from trusted and verified sources",
+        "C": "Review remote-access mechanisms and remove unauthorized paths",
+        "D": "Patch reachable systems and segment networks"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for backdoor is to review remote-access mechanisms and remove unauthorized paths; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "Which concept is BEST illustrated by this scenario: malware permits an unauthorized party to direct an infected endpoint?",
+      "options": {
+        "A": "Backdoor",
+        "B": "Computer worm",
+        "C": "Computer virus",
+        "D": "Remote-access Trojan"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of remote-access trojan: malware permits an unauthorized party to direct an infected endpoint. A relevant security consideration is to monitor unexpected remote control and limit endpoint privileges."
+    },
+    {
+      "id": 10,
+      "question": "When studying Remote-access Trojan, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Allow software only from trusted and verified sources",
+        "B": "Scan untrusted files and reduce uncontrolled execution",
+        "C": "Monitor unexpected remote control and limit endpoint privileges",
+        "D": "Patch reachable systems and segment networks"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for remote-access trojan is to monitor unexpected remote control and limit endpoint privileges; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "During an authorized security review, an assessor observes: an infected machine repeatedly initiates connections toward an external controller. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Command-and-control traffic",
+        "B": "Reverse-connecting Trojan",
+        "C": "Covert channel",
+        "D": "Trojan wrapper"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of reverse-connecting trojan: an infected machine repeatedly initiates connections toward an external controller. A relevant security consideration is to monitor unusual outbound sessions and apply egress restrictions."
+    },
+    {
+      "id": 12,
+      "question": "An exam asks about the appropriate handling of Reverse-connecting Trojan. Which statement is BEST?",
+      "options": {
+        "A": "Detect abnormal beaconing and contain affected hosts",
+        "B": "Apply normal authentication, logging, and encryption to allowed channels",
+        "C": "Monitor unusual outbound sessions and apply egress restrictions",
+        "D": "Validate software signatures and application allowlists"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for reverse-connecting trojan is to monitor unusual outbound sessions and apply egress restrictions; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "Consider this security situation: a useful-looking program package conceals an unwanted executable component. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Trojan wrapper",
+        "B": "Covert channel",
+        "C": "Overt channel",
+        "D": "Reverse-connecting Trojan"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of trojan wrapper: a useful-looking program package conceals an unwanted executable component. A relevant security consideration is to validate software signatures and application allowlists."
+    },
+    {
+      "id": 14,
+      "question": "For Trojan wrapper, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Apply normal authentication, logging, and encryption to allowed channels",
+        "B": "Validate software signatures and application allowlists",
+        "C": "Monitor unusual outbound sessions and apply egress restrictions",
+        "D": "Monitor unusual signaling patterns and enforce isolation boundaries"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for trojan wrapper is to validate software signatures and application allowlists; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "An incident note reads: a process communicates using an intended data path for its purpose. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Command-and-control traffic",
+        "B": "Covert channel",
+        "C": "Trojan wrapper",
+        "D": "Overt channel"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of overt channel: a process communicates using an intended data path for its purpose. A relevant security consideration is to apply normal authentication, logging, and encryption to allowed channels."
+    },
+    {
+      "id": 16,
+      "question": "Which guidance BEST addresses the key issue associated with Overt channel?",
+      "options": {
+        "A": "Monitor unusual outbound sessions and apply egress restrictions",
+        "B": "Apply normal authentication, logging, and encryption to allowed channels",
+        "C": "Monitor unusual signaling patterns and enforce isolation boundaries",
+        "D": "Detect abnormal beaconing and contain affected hosts"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for overt channel is to apply normal authentication, logging, and encryption to allowed channels; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "A team documents the following condition: information moves by exploiting a communication mechanism not intended for that purpose. Which CEH term is the closest match?",
+      "options": {
+        "A": "Overt channel",
+        "B": "Reverse-connecting Trojan",
+        "C": "Covert channel",
+        "D": "Command-and-control traffic"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of covert channel: information moves by exploiting a communication mechanism not intended for that purpose. A relevant security consideration is to monitor unusual signaling patterns and enforce isolation boundaries."
+    },
+    {
+      "id": 18,
+      "question": "A security team is reviewing the topic of Covert channel. Which statement BEST applies?",
+      "options": {
+        "A": "Apply normal authentication, logging, and encryption to allowed channels",
+        "B": "Monitor unusual signaling patterns and enforce isolation boundaries",
+        "C": "Detect abnormal beaconing and contain affected hosts",
+        "D": "Validate software signatures and application allowlists"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for covert channel is to monitor unusual signaling patterns and enforce isolation boundaries; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "Which concept is BEST illustrated by this scenario: infected endpoints communicate with an external system to receive instructions?",
+      "options": {
+        "A": "Command-and-control traffic",
+        "B": "Covert channel",
+        "C": "Trojan wrapper",
+        "D": "Overt channel"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of command-and-control traffic: infected endpoints communicate with an external system to receive instructions. A relevant security consideration is to detect abnormal beaconing and contain affected hosts."
+    },
+    {
+      "id": 20,
+      "question": "When studying Command-and-control traffic, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Detect abnormal beaconing and contain affected hosts",
+        "B": "Monitor unusual outbound sessions and apply egress restrictions",
+        "C": "Monitor unusual signaling patterns and enforce isolation boundaries",
+        "D": "Validate software signatures and application allowlists"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for command-and-control traffic is to detect abnormal beaconing and contain affected hosts; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "During an authorized security review, an assessor observes: malware alters executable host files to reproduce when they run. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Boot-sector malware",
+        "B": "File-infector virus",
+        "C": "Macro virus",
+        "D": "Metamorphic malware"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of file-infector virus: malware alters executable host files to reproduce when they run. A relevant security consideration is to verify executable integrity and use endpoint protection."
+    },
+    {
+      "id": 22,
+      "question": "An exam asks about the appropriate handling of File-infector virus. Which statement is BEST?",
+      "options": {
+        "A": "Disable untrusted macros and use protected document settings",
+        "B": "Protect boot integrity and restrict untrusted boot media",
+        "C": "Use behavior monitoring alongside signature detection",
+        "D": "Verify executable integrity and use endpoint protection"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for file-infector virus is to verify executable integrity and use endpoint protection; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "Consider this security situation: malicious code resides in areas involved in a machine's startup sequence. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Boot-sector malware",
+        "B": "Metamorphic malware",
+        "C": "Polymorphic malware",
+        "D": "Macro virus"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of boot-sector malware: malicious code resides in areas involved in a machine's startup sequence. A relevant security consideration is to protect boot integrity and restrict untrusted boot media."
+    },
+    {
+      "id": 24,
+      "question": "For Boot-sector malware, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Protect boot integrity and restrict untrusted boot media",
+        "B": "Disable untrusted macros and use protected document settings",
+        "C": "Verify executable integrity and use endpoint protection",
+        "D": "Combine behavioral analysis with trustworthy runtime monitoring"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for boot-sector malware is to protect boot integrity and restrict untrusted boot media; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "An incident note reads: malicious macro code travels with a document and executes when enabled. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Boot-sector malware",
+        "B": "Metamorphic malware",
+        "C": "File-infector virus",
+        "D": "Macro virus"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of macro virus: malicious macro code travels with a document and executes when enabled. A relevant security consideration is to disable untrusted macros and use protected document settings."
+    },
+    {
+      "id": 26,
+      "question": "Which guidance BEST addresses the key issue associated with Macro virus?",
+      "options": {
+        "A": "Disable untrusted macros and use protected document settings",
+        "B": "Protect boot integrity and restrict untrusted boot media",
+        "C": "Use behavior monitoring alongside signature detection",
+        "D": "Verify executable integrity and use endpoint protection"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for macro virus is to disable untrusted macros and use protected document settings; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "A team documents the following condition: malicious code changes its observable form across copies. Which CEH term is the closest match?",
+      "options": {
+        "A": "Polymorphic malware",
+        "B": "Boot-sector malware",
+        "C": "File-infector virus",
+        "D": "Macro virus"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of polymorphic malware: malicious code changes its observable form across copies. A relevant security consideration is to use behavior monitoring alongside signature detection."
+    },
+    {
+      "id": 28,
+      "question": "A security team is reviewing the topic of Polymorphic malware. Which statement BEST applies?",
+      "options": {
+        "A": "Verify executable integrity and use endpoint protection",
+        "B": "Protect boot integrity and restrict untrusted boot media",
+        "C": "Use behavior monitoring alongside signature detection",
+        "D": "Disable untrusted macros and use protected document settings"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for polymorphic malware is to use behavior monitoring alongside signature detection; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "Which concept is BEST illustrated by this scenario: a malicious program rewrites its own code structure while retaining behavior?",
+      "options": {
+        "A": "Polymorphic malware",
+        "B": "File-infector virus",
+        "C": "Metamorphic malware",
+        "D": "Macro virus"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of metamorphic malware: a malicious program rewrites its own code structure while retaining behavior. A relevant security consideration is to combine behavioral analysis with trustworthy runtime monitoring."
+    },
+    {
+      "id": 30,
+      "question": "When studying Metamorphic malware, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Verify executable integrity and use endpoint protection",
+        "B": "Combine behavioral analysis with trustworthy runtime monitoring",
+        "C": "Disable untrusted macros and use protected document settings",
+        "D": "Protect boot integrity and restrict untrusted boot media"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for metamorphic malware is to combine behavioral analysis with trustworthy runtime monitoring; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "During an authorized security review, an assessor observes: a security engine matches software against known malicious patterns. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Signature-based detection",
+        "B": "Behavior-based detection",
+        "C": "False negative",
+        "D": "False positive"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of signature-based detection: a security engine matches software against known malicious patterns. A relevant security consideration is to update detection signatures and complement them with behavior analysis."
+    },
+    {
+      "id": 32,
+      "question": "An exam asks about the appropriate handling of Signature-based detection. Which statement is BEST?",
+      "options": {
+        "A": "Correlate behavioral findings with endpoint context",
+        "B": "Use layered security because no detection method is complete",
+        "C": "Investigate alerts and account for potential false positives",
+        "D": "Update detection signatures and complement them with behavior analysis"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for signature-based detection is to update detection signatures and complement them with behavior analysis; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "Consider this security situation: a security product flags unusual code characteristics suggesting maliciousness. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "False positive",
+        "B": "Signature-based detection",
+        "C": "False negative",
+        "D": "Heuristic detection"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of heuristic detection: a security product flags unusual code characteristics suggesting maliciousness. A relevant security consideration is to investigate alerts and account for potential false positives."
+    },
+    {
+      "id": 34,
+      "question": "For Heuristic detection, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Investigate alerts and account for potential false positives",
+        "B": "Update detection signatures and complement them with behavior analysis",
+        "C": "Correlate behavioral findings with endpoint context",
+        "D": "Review evidence before taking disruptive remediation actions"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for heuristic detection is to investigate alerts and account for potential false positives; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "An incident note reads: an endpoint monitor alerts on suspicious execution patterns. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Heuristic detection",
+        "B": "Behavior-based detection",
+        "C": "Signature-based detection",
+        "D": "False positive"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of behavior-based detection: an endpoint monitor alerts on suspicious execution patterns. A relevant security consideration is to correlate behavioral findings with endpoint context."
+    },
+    {
+      "id": 36,
+      "question": "Which guidance BEST addresses the key issue associated with Behavior-based detection?",
+      "options": {
+        "A": "Investigate alerts and account for potential false positives",
+        "B": "Review evidence before taking disruptive remediation actions",
+        "C": "Update detection signatures and complement them with behavior analysis",
+        "D": "Correlate behavioral findings with endpoint context"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for behavior-based detection is to correlate behavioral findings with endpoint context; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "A team documents the following condition: a legitimate application is classified as malicious by a detector. Which CEH term is the closest match?",
+      "options": {
+        "A": "False positive",
+        "B": "Heuristic detection",
+        "C": "False negative",
+        "D": "Signature-based detection"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of false positive: a legitimate application is classified as malicious by a detector. A relevant security consideration is to review evidence before taking disruptive remediation actions."
+    },
+    {
+      "id": 38,
+      "question": "A security team is reviewing the topic of False positive. Which statement BEST applies?",
+      "options": {
+        "A": "Correlate behavioral findings with endpoint context",
+        "B": "Use layered security because no detection method is complete",
+        "C": "Review evidence before taking disruptive remediation actions",
+        "D": "Update detection signatures and complement them with behavior analysis"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for false positive is to review evidence before taking disruptive remediation actions; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "Which concept is BEST illustrated by this scenario: a malicious application is missed by a detector?",
+      "options": {
+        "A": "False negative",
+        "B": "Heuristic detection",
+        "C": "Signature-based detection",
+        "D": "False positive"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of false negative: a malicious application is missed by a detector. A relevant security consideration is to use layered security because no detection method is complete."
+    },
+    {
+      "id": 40,
+      "question": "When studying False negative, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Use layered security because no detection method is complete",
+        "B": "Investigate alerts and account for potential false positives",
+        "C": "Review evidence before taking disruptive remediation actions",
+        "D": "Update detection signatures and complement them with behavior analysis"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for false negative is to use layered security because no detection method is complete; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "During an authorized security review, an assessor observes: a scanner isolates a suspicious file so it cannot run normally. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Removable-media control",
+        "B": "Application allowlisting",
+        "C": "Endpoint isolation",
+        "D": "Malware quarantine"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of malware quarantine: a scanner isolates a suspicious file so it cannot run normally. A relevant security consideration is to retain samples safely for review under incident procedures."
+    },
+    {
+      "id": 42,
+      "question": "An exam asks about the appropriate handling of Malware quarantine. Which statement is BEST?",
+      "options": {
+        "A": "Restrict unapproved devices and disable unsafe automatic execution",
+        "B": "Contain spread while preserving investigative evidence",
+        "C": "Maintain and enforce trusted application inventories",
+        "D": "Retain samples safely for review under incident procedures"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for malware quarantine is to retain samples safely for review under incident procedures; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "Consider this security situation: an infected workstation is temporarily separated from ordinary network traffic. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Application allowlisting",
+        "B": "Malware quarantine",
+        "C": "Removable-media control",
+        "D": "Endpoint isolation"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of endpoint isolation: an infected workstation is temporarily separated from ordinary network traffic. A relevant security consideration is to contain spread while preserving investigative evidence."
+    },
+    {
+      "id": 44,
+      "question": "For Endpoint isolation, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Retain samples safely for review under incident procedures",
+        "B": "Contain spread while preserving investigative evidence",
+        "C": "Maintain and enforce trusted application inventories",
+        "D": "Rebuild from trusted media and restore validated backups"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for endpoint isolation is to contain spread while preserving investigative evidence; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "An incident note reads: only approved executables are permitted to run in a sensitive environment. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Endpoint isolation",
+        "B": "Removable-media control",
+        "C": "Application allowlisting",
+        "D": "Malware recovery"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of application allowlisting: only approved executables are permitted to run in a sensitive environment. A relevant security consideration is to maintain and enforce trusted application inventories."
+    },
+    {
+      "id": 46,
+      "question": "Which guidance BEST addresses the key issue associated with Application allowlisting?",
+      "options": {
+        "A": "Rebuild from trusted media and restore validated backups",
+        "B": "Restrict unapproved devices and disable unsafe automatic execution",
+        "C": "Maintain and enforce trusted application inventories",
+        "D": "Contain spread while preserving investigative evidence"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for application allowlisting is to maintain and enforce trusted application inventories; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "A team documents the following condition: a workstation automatically handles software on an unknown USB device. Which CEH term is the closest match?",
+      "options": {
+        "A": "Removable-media control",
+        "B": "Malware recovery",
+        "C": "Malware quarantine",
+        "D": "Endpoint isolation"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of removable-media control: a workstation automatically handles software on an unknown USB device. A relevant security consideration is to restrict unapproved devices and disable unsafe automatic execution."
+    },
+    {
+      "id": 48,
+      "question": "A security team is reviewing the topic of Removable-media control. Which statement BEST applies?",
+      "options": {
+        "A": "Contain spread while preserving investigative evidence",
+        "B": "Restrict unapproved devices and disable unsafe automatic execution",
+        "C": "Retain samples safely for review under incident procedures",
+        "D": "Rebuild from trusted media and restore validated backups"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for removable-media control is to restrict unapproved devices and disable unsafe automatic execution; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "Which concept is BEST illustrated by this scenario: an organization needs assurance that deeply altered hosts are trustworthy again?",
+      "options": {
+        "A": "Application allowlisting",
+        "B": "Malware recovery",
+        "C": "Endpoint isolation",
+        "D": "Malware quarantine"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of malware recovery: an organization needs assurance that deeply altered hosts are trustworthy again. A relevant security consideration is to rebuild from trusted media and restore validated backups."
+    },
+    {
+      "id": 50,
+      "question": "When studying Malware recovery, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Maintain and enforce trusted application inventories",
+        "B": "Rebuild from trusted media and restore validated backups",
+        "C": "Retain samples safely for review under incident procedures",
+        "D": "Restrict unapproved devices and disable unsafe automatic execution"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for malware recovery is to rebuild from trusted media and restore validated backups; this directly addresses the issue described by the concept."
+    }
+  ]
+}

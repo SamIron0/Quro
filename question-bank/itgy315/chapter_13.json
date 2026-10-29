@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A team documents the following condition: a security device observes suspicious activity and produces alerts without necessarily blocking it. Which CEH term is the closest match?",
+      "options": {
+        "A": "Intrusion detection system",
+        "B": "Network IDS",
+        "C": "Signature-based detection",
+        "D": "Intrusion prevention system"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of intrusion detection system: a security device observes suspicious activity and produces alerts without necessarily blocking it. A relevant security consideration is to integrate IDS alerts with investigation and response workflows."
+    },
+    {
+      "id": 2,
+      "question": "A security team is reviewing the topic of Intrusion detection system. Which statement BEST applies?",
+      "options": {
+        "A": "Place sensors where relevant traffic can be observed",
+        "B": "Protect endpoint agents and centralize their alerts",
+        "C": "Update signature knowledge and supplement with other detection approaches",
+        "D": "Integrate IDS alerts with investigation and response workflows"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for intrusion detection system is to integrate IDS alerts with investigation and response workflows; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "Which concept is BEST illustrated by this scenario: a security device is configured to detect and block selected malicious traffic?",
+      "options": {
+        "A": "Signature-based detection",
+        "B": "Intrusion prevention system",
+        "C": "Network IDS",
+        "D": "Host IDS"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of intrusion prevention system: a security device is configured to detect and block selected malicious traffic. A relevant security consideration is to tune prevention rules and watch for false positives."
+    },
+    {
+      "id": 4,
+      "question": "When studying Intrusion prevention system, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Place sensors where relevant traffic can be observed",
+        "B": "Tune prevention rules and watch for false positives",
+        "C": "Update signature knowledge and supplement with other detection approaches",
+        "D": "Protect endpoint agents and centralize their alerts"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for intrusion prevention system is to tune prevention rules and watch for false positives; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "During an authorized security review, an assessor observes: sensors inspect traffic visible at a network segment. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Signature-based detection",
+        "B": "Network IDS",
+        "C": "Host IDS",
+        "D": "Intrusion detection system"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of network ids: sensors inspect traffic visible at a network segment. A relevant security consideration is to place sensors where relevant traffic can be observed."
+    },
+    {
+      "id": 6,
+      "question": "An exam asks about the appropriate handling of Network IDS. Which statement is BEST?",
+      "options": {
+        "A": "Tune prevention rules and watch for false positives",
+        "B": "Integrate IDS alerts with investigation and response workflows",
+        "C": "Protect endpoint agents and centralize their alerts",
+        "D": "Place sensors where relevant traffic can be observed"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for network ids is to place sensors where relevant traffic can be observed; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "Consider this security situation: an endpoint monitor analyzes events and changes on an individual machine. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Network IDS",
+        "B": "Intrusion detection system",
+        "C": "Host IDS",
+        "D": "Signature-based detection"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of host ids: an endpoint monitor analyzes events and changes on an individual machine. A relevant security consideration is to protect endpoint agents and centralize their alerts."
+    },
+    {
+      "id": 8,
+      "question": "For Host IDS, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Place sensors where relevant traffic can be observed",
+        "B": "Protect endpoint agents and centralize their alerts",
+        "C": "Update signature knowledge and supplement with other detection approaches",
+        "D": "Integrate IDS alerts with investigation and response workflows"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for host ids is to protect endpoint agents and centralize their alerts; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "An incident note reads: a sensor matches events against predefined threat patterns. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Host IDS",
+        "B": "Signature-based detection",
+        "C": "Intrusion prevention system",
+        "D": "Intrusion detection system"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of signature-based detection: a sensor matches events against predefined threat patterns. A relevant security consideration is to update signature knowledge and supplement with other detection approaches."
+    },
+    {
+      "id": 10,
+      "question": "Which guidance BEST addresses the key issue associated with Signature-based detection?",
+      "options": {
+        "A": "Integrate IDS alerts with investigation and response workflows",
+        "B": "Tune prevention rules and watch for false positives",
+        "C": "Protect endpoint agents and centralize their alerts",
+        "D": "Update signature knowledge and supplement with other detection approaches"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for signature-based detection is to update signature knowledge and supplement with other detection approaches; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "A team documents the following condition: a detector flags departures from established normal network behavior. Which CEH term is the closest match?",
+      "options": {
+        "A": "Honeynet",
+        "B": "Missed detection",
+        "C": "Anomaly-based detection",
+        "D": "Honeypot"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of anomaly-based detection: a detector flags departures from established normal network behavior. A relevant security consideration is to maintain reliable baselines and validate anomalous alerts."
+    },
+    {
+      "id": 12,
+      "question": "A security team is reviewing the topic of Anomaly-based detection. Which statement BEST applies?",
+      "options": {
+        "A": "Isolate decoys so they cannot endanger production assets",
+        "B": "Maintain reliable baselines and validate anomalous alerts",
+        "C": "Layer security controls and test detection coverage",
+        "D": "Tune detection logic using evidence rather than disabling protections"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for anomaly-based detection is to maintain reliable baselines and validate anomalous alerts; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "Which concept is BEST illustrated by this scenario: a benign network event triggers an intrusion alert?",
+      "options": {
+        "A": "False alarm",
+        "B": "Honeynet",
+        "C": "Honeypot",
+        "D": "Anomaly-based detection"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of false alarm: a benign network event triggers an intrusion alert. A relevant security consideration is to tune detection logic using evidence rather than disabling protections."
+    },
+    {
+      "id": 14,
+      "question": "When studying False alarm, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Tune detection logic using evidence rather than disabling protections",
+        "B": "Isolate decoys so they cannot endanger production assets",
+        "C": "Contain and monitor all decoy connections",
+        "D": "Layer security controls and test detection coverage"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for false alarm is to tune detection logic using evidence rather than disabling protections; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "During an authorized security review, an assessor observes: an intrusion occurs without producing an expected detection signal. Which concept BEST describes this finding?",
+      "options": {
+        "A": "False alarm",
+        "B": "Anomaly-based detection",
+        "C": "Missed detection",
+        "D": "Honeypot"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of missed detection: an intrusion occurs without producing an expected detection signal. A relevant security consideration is to layer security controls and test detection coverage."
+    },
+    {
+      "id": 16,
+      "question": "An exam asks about the appropriate handling of Missed detection. Which statement is BEST?",
+      "options": {
+        "A": "Tune detection logic using evidence rather than disabling protections",
+        "B": "Contain and monitor all decoy connections",
+        "C": "Maintain reliable baselines and validate anomalous alerts",
+        "D": "Layer security controls and test detection coverage"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for missed detection is to layer security controls and test detection coverage; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "Consider this security situation: a decoy system is intentionally exposed to observe suspicious interactions. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Honeynet",
+        "B": "False alarm",
+        "C": "Honeypot",
+        "D": "Anomaly-based detection"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of honeypot: a decoy system is intentionally exposed to observe suspicious interactions. A relevant security consideration is to isolate decoys so they cannot endanger production assets."
+    },
+    {
+      "id": 18,
+      "question": "For Honeypot, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Maintain reliable baselines and validate anomalous alerts",
+        "B": "Contain and monitor all decoy connections",
+        "C": "Tune detection logic using evidence rather than disabling protections",
+        "D": "Isolate decoys so they cannot endanger production assets"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for honeypot is to isolate decoys so they cannot endanger production assets; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "An incident note reads: a controlled group of decoy networked systems is used to study hostile behavior. Select the MOST appropriate classification.",
+      "options": {
+        "A": "False alarm",
+        "B": "Missed detection",
+        "C": "Honeynet",
+        "D": "Honeypot"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of honeynet: a controlled group of decoy networked systems is used to study hostile behavior. A relevant security consideration is to contain and monitor all decoy connections."
+    },
+    {
+      "id": 20,
+      "question": "Which guidance BEST addresses the key issue associated with Honeynet?",
+      "options": {
+        "A": "Layer security controls and test detection coverage",
+        "B": "Isolate decoys so they cannot endanger production assets",
+        "C": "Tune detection logic using evidence rather than disabling protections",
+        "D": "Contain and monitor all decoy connections"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for honeynet is to contain and monitor all decoy connections; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "A team documents the following condition: a network filter makes decisions using tracked connection state. Which CEH term is the closest match?",
+      "options": {
+        "A": "Stateful firewall",
+        "B": "Firewall rule review",
+        "C": "Application proxy",
+        "D": "Stateless firewall"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of stateful firewall: a network filter makes decisions using tracked connection state. A relevant security consideration is to review rules and connection-state handling."
+    },
+    {
+      "id": 22,
+      "question": "A security team is reviewing the topic of Stateful firewall. Which statement BEST applies?",
+      "options": {
+        "A": "Inspect proxy behavior and enforce permitted application use",
+        "B": "Create controlled network zones with least-access paths",
+        "C": "Use explicit rules appropriate to the protocol and context",
+        "D": "Review rules and connection-state handling"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for stateful firewall is to review rules and connection-state handling; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "Which concept is BEST illustrated by this scenario: a packet filter evaluates individual packets without relying on connection history?",
+      "options": {
+        "A": "Stateful firewall",
+        "B": "Stateless firewall",
+        "C": "Network segmentation",
+        "D": "Application proxy"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of stateless firewall: a packet filter evaluates individual packets without relying on connection history. A relevant security consideration is to use explicit rules appropriate to the protocol and context."
+    },
+    {
+      "id": 24,
+      "question": "When studying Stateless firewall, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Review rules and connection-state handling",
+        "B": "Use explicit rules appropriate to the protocol and context",
+        "C": "Create controlled network zones with least-access paths",
+        "D": "Remove obsolete permissions and document intended access"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for stateless firewall is to use explicit rules appropriate to the protocol and context; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "During an authorized security review, an assessor observes: a gateway mediates client requests at an application layer. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Application proxy",
+        "B": "Stateful firewall",
+        "C": "Stateless firewall",
+        "D": "Network segmentation"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of application proxy: a gateway mediates client requests at an application layer. A relevant security consideration is to inspect proxy behavior and enforce permitted application use."
+    },
+    {
+      "id": 26,
+      "question": "An exam asks about the appropriate handling of Application proxy. Which statement is BEST?",
+      "options": {
+        "A": "Review rules and connection-state handling",
+        "B": "Use explicit rules appropriate to the protocol and context",
+        "C": "Create controlled network zones with least-access paths",
+        "D": "Inspect proxy behavior and enforce permitted application use"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for application proxy is to inspect proxy behavior and enforce permitted application use; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "Consider this security situation: unrelated sensitive services share a flat unfiltered network. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Firewall rule review",
+        "B": "Stateful firewall",
+        "C": "Network segmentation",
+        "D": "Stateless firewall"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of network segmentation: unrelated sensitive services share a flat unfiltered network. A relevant security consideration is to create controlled network zones with least-access paths."
+    },
+    {
+      "id": 28,
+      "question": "For Network segmentation, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use explicit rules appropriate to the protocol and context",
+        "B": "Remove obsolete permissions and document intended access",
+        "C": "Create controlled network zones with least-access paths",
+        "D": "Review rules and connection-state handling"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for network segmentation is to create controlled network zones with least-access paths; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "An incident note reads: a permissive allow-any rule remains after a temporary project. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Stateful firewall",
+        "B": "Firewall rule review",
+        "C": "Stateless firewall",
+        "D": "Application proxy"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of firewall rule review: a permissive allow-any rule remains after a temporary project. A relevant security consideration is to remove obsolete permissions and document intended access."
+    },
+    {
+      "id": 30,
+      "question": "Which guidance BEST addresses the key issue associated with Firewall rule review?",
+      "options": {
+        "A": "Remove obsolete permissions and document intended access",
+        "B": "Create controlled network zones with least-access paths",
+        "C": "Inspect proxy behavior and enforce permitted application use",
+        "D": "Use explicit rules appropriate to the protocol and context"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for firewall rule review is to remove obsolete permissions and document intended access; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "A team documents the following condition: certain malicious traffic can differ between sensor interpretation and destination interpretation. Which CEH term is the closest match?",
+      "options": {
+        "A": "Egress filtering",
+        "B": "Packet fragmentation",
+        "C": "IDS evasion concept",
+        "D": "Protocol normalization"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of ids evasion concept: certain malicious traffic can differ between sensor interpretation and destination interpretation. A relevant security consideration is to test consistency of normalized traffic inspection without using evasive tactics."
+    },
+    {
+      "id": 32,
+      "question": "A security team is reviewing the topic of IDS evasion concept. Which statement BEST applies?",
+      "options": {
+        "A": "Test consistency of normalized traffic inspection without using evasive tactics",
+        "B": "Restrict outbound destinations according to business needs",
+        "C": "Keep normalizers consistent with protected systems",
+        "D": "Use endpoint telemetry and authorized visibility controls"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for ids evasion concept is to test consistency of normalized traffic inspection without using evasive tactics; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "Which concept is BEST illustrated by this scenario: a network datagram is divided into fragments for transmission and reassembly?",
+      "options": {
+        "A": "Encrypted traffic visibility",
+        "B": "Protocol normalization",
+        "C": "Egress filtering",
+        "D": "Packet fragmentation"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of packet fragmentation: a network datagram is divided into fragments for transmission and reassembly. A relevant security consideration is to ensure security monitoring properly handles reassembled traffic."
+    },
+    {
+      "id": 34,
+      "question": "When studying Packet fragmentation, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Use endpoint telemetry and authorized visibility controls",
+        "B": "Keep normalizers consistent with protected systems",
+        "C": "Restrict outbound destinations according to business needs",
+        "D": "Ensure security monitoring properly handles reassembled traffic"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for packet fragmentation is to ensure security monitoring properly handles reassembled traffic; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "During an authorized security review, an assessor observes: network defenses reconcile ambiguous protocol representations before inspection. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Protocol normalization",
+        "B": "Packet fragmentation",
+        "C": "Encrypted traffic visibility",
+        "D": "IDS evasion concept"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of protocol normalization: network defenses reconcile ambiguous protocol representations before inspection. A relevant security consideration is to keep normalizers consistent with protected systems."
+    },
+    {
+      "id": 36,
+      "question": "An exam asks about the appropriate handling of Protocol normalization. Which statement is BEST?",
+      "options": {
+        "A": "Keep normalizers consistent with protected systems",
+        "B": "Restrict outbound destinations according to business needs",
+        "C": "Ensure security monitoring properly handles reassembled traffic",
+        "D": "Use endpoint telemetry and authorized visibility controls"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for protocol normalization is to keep normalizers consistent with protected systems; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "Consider this security situation: a network IDS cannot see plaintext inside properly encrypted application content. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Protocol normalization",
+        "B": "Encrypted traffic visibility",
+        "C": "IDS evasion concept",
+        "D": "Egress filtering"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of encrypted traffic visibility: a network IDS cannot see plaintext inside properly encrypted application content. A relevant security consideration is to use endpoint telemetry and authorized visibility controls."
+    },
+    {
+      "id": 38,
+      "question": "For Encrypted traffic visibility, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use endpoint telemetry and authorized visibility controls",
+        "B": "Ensure security monitoring properly handles reassembled traffic",
+        "C": "Keep normalizers consistent with protected systems",
+        "D": "Test consistency of normalized traffic inspection without using evasive tactics"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for encrypted traffic visibility is to use endpoint telemetry and authorized visibility controls; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "An incident note reads: compromised hosts can initiate unrestricted outbound connections. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Protocol normalization",
+        "B": "Egress filtering",
+        "C": "Encrypted traffic visibility",
+        "D": "IDS evasion concept"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of egress filtering: compromised hosts can initiate unrestricted outbound connections. A relevant security consideration is to restrict outbound destinations according to business needs."
+    },
+    {
+      "id": 40,
+      "question": "Which guidance BEST addresses the key issue associated with Egress filtering?",
+      "options": {
+        "A": "Restrict outbound destinations according to business needs",
+        "B": "Use endpoint telemetry and authorized visibility controls",
+        "C": "Keep normalizers consistent with protected systems",
+        "D": "Ensure security monitoring properly handles reassembled traffic"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for egress filtering is to restrict outbound destinations according to business needs; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "A team documents the following condition: traffic arrives with spoofed source addressing that should not enter a network. Which CEH term is the closest match?",
+      "options": {
+        "A": "Ingress filtering",
+        "B": "Firewall change control",
+        "C": "Default-deny policy",
+        "D": "Defense in depth"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of ingress filtering: traffic arrives with spoofed source addressing that should not enter a network. A relevant security consideration is to validate inbound addressing and drop impossible source routes."
+    },
+    {
+      "id": 42,
+      "question": "A security team is reviewing the topic of Ingress filtering. Which statement BEST applies?",
+      "options": {
+        "A": "Synchronize timestamps and correlate multiple telemetry sources",
+        "B": "Maintain documented allow rules tied to legitimate needs",
+        "C": "Use approval, testing, and periodic rule recertification",
+        "D": "Validate inbound addressing and drop impossible source routes"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for ingress filtering is to validate inbound addressing and drop impossible source routes; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "Which concept is BEST illustrated by this scenario: firewall, host, and IDS events must be combined to understand an incident?",
+      "options": {
+        "A": "Ingress filtering",
+        "B": "Firewall change control",
+        "C": "Defense in depth",
+        "D": "Logging correlation"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of logging correlation: firewall, host, and IDS events must be combined to understand an incident. A relevant security consideration is to synchronize timestamps and correlate multiple telemetry sources."
+    },
+    {
+      "id": 44,
+      "question": "When studying Logging correlation, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Maintain documented allow rules tied to legitimate needs",
+        "B": "Synchronize timestamps and correlate multiple telemetry sources",
+        "C": "Validate inbound addressing and drop impossible source routes",
+        "D": "Use approval, testing, and periodic rule recertification"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for logging correlation is to synchronize timestamps and correlate multiple telemetry sources; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "During an authorized security review, an assessor observes: new network flows should be blocked unless explicitly permitted. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Logging correlation",
+        "B": "Ingress filtering",
+        "C": "Default-deny policy",
+        "D": "Firewall change control"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of default-deny policy: new network flows should be blocked unless explicitly permitted. A relevant security consideration is to maintain documented allow rules tied to legitimate needs."
+    },
+    {
+      "id": 46,
+      "question": "An exam asks about the appropriate handling of Default-deny policy. Which statement is BEST?",
+      "options": {
+        "A": "Maintain documented allow rules tied to legitimate needs",
+        "B": "Validate inbound addressing and drop impossible source routes",
+        "C": "Synchronize timestamps and correlate multiple telemetry sources",
+        "D": "Combine preventive, detective, and responsive layers"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for default-deny policy is to maintain documented allow rules tied to legitimate needs; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "Consider this security situation: an urgent access rule is introduced without review or expiration. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Firewall change control",
+        "B": "Defense in depth",
+        "C": "Default-deny policy",
+        "D": "Ingress filtering"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of firewall change control: an urgent access rule is introduced without review or expiration. A relevant security consideration is to use approval, testing, and periodic rule recertification."
+    },
+    {
+      "id": 48,
+      "question": "For Firewall change control, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Synchronize timestamps and correlate multiple telemetry sources",
+        "B": "Validate inbound addressing and drop impossible source routes",
+        "C": "Use approval, testing, and periodic rule recertification",
+        "D": "Combine preventive, detective, and responsive layers"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for firewall change control is to use approval, testing, and periodic rule recertification; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "An incident note reads: an organization relies solely on a perimeter firewall against every class of threat. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Defense in depth",
+        "B": "Logging correlation",
+        "C": "Firewall change control",
+        "D": "Default-deny policy"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of defense in depth: an organization relies solely on a perimeter firewall against every class of threat. A relevant security consideration is to combine preventive, detective, and responsive layers."
+    },
+    {
+      "id": 50,
+      "question": "Which guidance BEST addresses the key issue associated with Defense in depth?",
+      "options": {
+        "A": "Maintain documented allow rules tied to legitimate needs",
+        "B": "Use approval, testing, and periodic rule recertification",
+        "C": "Combine preventive, detective, and responsive layers",
+        "D": "Validate inbound addressing and drop impossible source routes"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for defense in depth is to combine preventive, detective, and responsive layers; this directly addresses the issue described by the concept."
+    }
+  ]
+}

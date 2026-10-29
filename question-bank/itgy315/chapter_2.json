@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "An incident note reads: an analyst assembles a profile of a company from discoverable technical and public data. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Competitive intelligence",
+        "B": "Search-engine reconnaissance",
+        "C": "Footprinting",
+        "D": "Open-source intelligence"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of footprinting: an analyst assembles a profile of a company from discoverable technical and public data. A relevant security consideration is to minimize unnecessary public exposure of organizational details."
+    },
+    {
+      "id": 2,
+      "question": "Which guidance BEST addresses the key issue associated with Footprinting?",
+      "options": {
+        "A": "Distinguish lawful business research from intrusive collection",
+        "B": "Strip unneeded document metadata before public release",
+        "C": "Minimize unnecessary public exposure of organizational details",
+        "D": "Evaluate the reliability and context of publicly obtained information"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for footprinting is to minimize unnecessary public exposure of organizational details; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "A team documents the following condition: a researcher correlates public filings, press releases, and online profiles. Which CEH term is the closest match?",
+      "options": {
+        "A": "Search-engine reconnaissance",
+        "B": "Open-source intelligence",
+        "C": "Footprinting",
+        "D": "Competitive intelligence"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of open-source intelligence: a researcher correlates public filings, press releases, and online profiles. A relevant security consideration is to evaluate the reliability and context of publicly obtained information."
+    },
+    {
+      "id": 4,
+      "question": "A security team is reviewing the topic of Open-source intelligence. Which statement BEST applies?",
+      "options": {
+        "A": "Distinguish lawful business research from intrusive collection",
+        "B": "Minimize unnecessary public exposure of organizational details",
+        "C": "Evaluate the reliability and context of publicly obtained information",
+        "D": "Strip unneeded document metadata before public release"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for open-source intelligence is to evaluate the reliability and context of publicly obtained information; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "Which concept is BEST illustrated by this scenario: a firm reviews its competitor's legitimately published product descriptions?",
+      "options": {
+        "A": "Search-engine reconnaissance",
+        "B": "Competitive intelligence",
+        "C": "Metadata exposure",
+        "D": "Open-source intelligence"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of competitive intelligence: a firm reviews its competitor's legitimately published product descriptions. A relevant security consideration is to distinguish lawful business research from intrusive collection."
+    },
+    {
+      "id": 6,
+      "question": "When studying Competitive intelligence, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Strip unneeded document metadata before public release",
+        "B": "Evaluate the reliability and context of publicly obtained information",
+        "C": "Minimize unnecessary public exposure of organizational details",
+        "D": "Distinguish lawful business research from intrusive collection"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for competitive intelligence is to distinguish lawful business research from intrusive collection; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "During an authorized security review, an assessor observes: public search results unexpectedly reveal old internal-looking documents. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Open-source intelligence",
+        "B": "Footprinting",
+        "C": "Search-engine reconnaissance",
+        "D": "Competitive intelligence"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of search-engine reconnaissance: public search results unexpectedly reveal old internal-looking documents. A relevant security consideration is to remove exposed content and fix the underlying access controls."
+    },
+    {
+      "id": 8,
+      "question": "An exam asks about the appropriate handling of Search-engine reconnaissance. Which statement is BEST?",
+      "options": {
+        "A": "Strip unneeded document metadata before public release",
+        "B": "Remove exposed content and fix the underlying access controls",
+        "C": "Evaluate the reliability and context of publicly obtained information",
+        "D": "Distinguish lawful business research from intrusive collection"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for search-engine reconnaissance is to remove exposed content and fix the underlying access controls; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "Consider this security situation: a published office document discloses creator names and software details. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Open-source intelligence",
+        "B": "Search-engine reconnaissance",
+        "C": "Metadata exposure",
+        "D": "Footprinting"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of metadata exposure: a published office document discloses creator names and software details. A relevant security consideration is to strip unneeded document metadata before public release."
+    },
+    {
+      "id": 10,
+      "question": "For Metadata exposure, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Evaluate the reliability and context of publicly obtained information",
+        "B": "Strip unneeded document metadata before public release",
+        "C": "Minimize unnecessary public exposure of organizational details",
+        "D": "Distinguish lawful business research from intrusive collection"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for metadata exposure is to strip unneeded document metadata before public release; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "An incident note reads: an analyst investigates registrar and domain-registration information. Select the MOST appropriate classification.",
+      "options": {
+        "A": "DNS MX record",
+        "B": "WHOIS registration data",
+        "C": "DNS NS record",
+        "D": "DNS A record"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of whois registration data: an analyst investigates registrar and domain-registration information. A relevant security consideration is to use registration data as a clue rather than proof of network ownership."
+    },
+    {
+      "id": 12,
+      "question": "Which guidance BEST addresses the key issue associated with WHOIS registration data?",
+      "options": {
+        "A": "Use registration data as a clue rather than proof of network ownership",
+        "B": "Review both IPv4 and IPv6 exposure when assessing published assets",
+        "C": "Treat a host mapping as name-resolution data, not a service inventory",
+        "D": "Separate name-server delegation from mail delivery information"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for whois registration data is to use registration data as a clue rather than proof of network ownership; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "A team documents the following condition: a domain name resolves to an IPv4 host address. Which CEH term is the closest match?",
+      "options": {
+        "A": "DNS AAAA record",
+        "B": "WHOIS registration data",
+        "C": "DNS A record",
+        "D": "DNS NS record"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of dns a record: a domain name resolves to an IPv4 host address. A relevant security consideration is to treat a host mapping as name-resolution data, not a service inventory."
+    },
+    {
+      "id": 14,
+      "question": "A security team is reviewing the topic of DNS A record. Which statement BEST applies?",
+      "options": {
+        "A": "Check mail-host exposure without confusing it with website hosting",
+        "B": "Treat a host mapping as name-resolution data, not a service inventory",
+        "C": "Separate name-server delegation from mail delivery information",
+        "D": "Use registration data as a clue rather than proof of network ownership"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for dns a record is to treat a host mapping as name-resolution data, not a service inventory; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "Which concept is BEST illustrated by this scenario: a domain name resolves to an IPv6 address?",
+      "options": {
+        "A": "DNS A record",
+        "B": "DNS MX record",
+        "C": "DNS AAAA record",
+        "D": "DNS NS record"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of dns aaaa record: a domain name resolves to an IPv6 address. A relevant security consideration is to review both IPv4 and IPv6 exposure when assessing published assets."
+    },
+    {
+      "id": 16,
+      "question": "When studying DNS AAAA record, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Treat a host mapping as name-resolution data, not a service inventory",
+        "B": "Check mail-host exposure without confusing it with website hosting",
+        "C": "Review both IPv4 and IPv6 exposure when assessing published assets",
+        "D": "Use registration data as a clue rather than proof of network ownership"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for dns aaaa record is to review both IPv4 and IPv6 exposure when assessing published assets; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "During an authorized security review, an assessor observes: an assessor identifies hosts designated to accept mail for a domain. Which concept BEST describes this finding?",
+      "options": {
+        "A": "DNS MX record",
+        "B": "DNS AAAA record",
+        "C": "DNS NS record",
+        "D": "WHOIS registration data"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of dns mx record: an assessor identifies hosts designated to accept mail for a domain. A relevant security consideration is to check mail-host exposure without confusing it with website hosting."
+    },
+    {
+      "id": 18,
+      "question": "An exam asks about the appropriate handling of DNS MX record. Which statement is BEST?",
+      "options": {
+        "A": "Use registration data as a clue rather than proof of network ownership",
+        "B": "Treat a host mapping as name-resolution data, not a service inventory",
+        "C": "Check mail-host exposure without confusing it with website hosting",
+        "D": "Separate name-server delegation from mail delivery information"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for dns mx record is to check mail-host exposure without confusing it with website hosting; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "Consider this security situation: a zone publishes which servers are authoritative for its names. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "DNS A record",
+        "B": "DNS NS record",
+        "C": "DNS MX record",
+        "D": "WHOIS registration data"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of dns ns record: a zone publishes which servers are authoritative for its names. A relevant security consideration is to separate name-server delegation from mail delivery information."
+    },
+    {
+      "id": 20,
+      "question": "For DNS NS record, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Check mail-host exposure without confusing it with website hosting",
+        "B": "Review both IPv4 and IPv6 exposure when assessing published assets",
+        "C": "Use registration data as a clue rather than proof of network ownership",
+        "D": "Separate name-server delegation from mail delivery information"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for dns ns record is to separate name-server delegation from mail delivery information; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "An incident note reads: an IP address is mapped back to a host name through reverse DNS. Select the MOST appropriate classification.",
+      "options": {
+        "A": "DNS PTR record",
+        "B": "DNS CNAME record",
+        "C": "DNS zone transfer",
+        "D": "Web spider"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of dns ptr record: an IP address is mapped back to a host name through reverse DNS. A relevant security consideration is to treat reverse names as hints that may be stale or misleading."
+    },
+    {
+      "id": 22,
+      "question": "Which guidance BEST addresses the key issue associated with DNS PTR record?",
+      "options": {
+        "A": "Interpret hop results cautiously because devices may filter probes",
+        "B": "Treat reverse names as hints that may be stale or misleading",
+        "C": "Trace aliases when validating an organization's published endpoints",
+        "D": "Apply access controls and indexing exclusions according to sensitivity"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for dns ptr record is to treat reverse names as hints that may be stale or misleading; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "A team documents the following condition: a hostname is configured as an alias of another name. Which CEH term is the closest match?",
+      "options": {
+        "A": "Web spider",
+        "B": "Traceroute",
+        "C": "DNS CNAME record",
+        "D": "DNS zone transfer"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of dns cname record: a hostname is configured as an alias of another name. A relevant security consideration is to trace aliases when validating an organization's published endpoints."
+    },
+    {
+      "id": 24,
+      "question": "A security team is reviewing the topic of DNS CNAME record. Which statement BEST applies?",
+      "options": {
+        "A": "Trace aliases when validating an organization's published endpoints",
+        "B": "Treat reverse names as hints that may be stale or misleading",
+        "C": "Apply access controls and indexing exclusions according to sensitivity",
+        "D": "Restrict zone transfers to authorized secondary servers"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for dns cname record is to trace aliases when validating an organization's published endpoints; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "Which concept is BEST illustrated by this scenario: a poorly configured name server might disclose an extensive collection of zone records?",
+      "options": {
+        "A": "DNS PTR record",
+        "B": "Web spider",
+        "C": "Traceroute",
+        "D": "DNS zone transfer"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of dns zone transfer: a poorly configured name server might disclose an extensive collection of zone records. A relevant security consideration is to restrict zone transfers to authorized secondary servers."
+    },
+    {
+      "id": 26,
+      "question": "When studying DNS zone transfer, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Apply access controls and indexing exclusions according to sensitivity",
+        "B": "Restrict zone transfers to authorized secondary servers",
+        "C": "Trace aliases when validating an organization's published endpoints",
+        "D": "Treat reverse names as hints that may be stale or misleading"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for dns zone transfer is to restrict zone transfers to authorized secondary servers; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "During an authorized security review, an assessor observes: an authorized diagnostic reveals intermediate network hops toward a destination. Which concept BEST describes this finding?",
+      "options": {
+        "A": "DNS zone transfer",
+        "B": "Traceroute",
+        "C": "DNS CNAME record",
+        "D": "DNS PTR record"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of traceroute: an authorized diagnostic reveals intermediate network hops toward a destination. A relevant security consideration is to interpret hop results cautiously because devices may filter probes."
+    },
+    {
+      "id": 28,
+      "question": "An exam asks about the appropriate handling of Traceroute. Which statement is BEST?",
+      "options": {
+        "A": "Treat reverse names as hints that may be stale or misleading",
+        "B": "Restrict zone transfers to authorized secondary servers",
+        "C": "Interpret hop results cautiously because devices may filter probes",
+        "D": "Apply access controls and indexing exclusions according to sensitivity"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for traceroute is to interpret hop results cautiously because devices may filter probes; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "Consider this security situation: automated indexing follows links into mistakenly exposed web resources. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "DNS zone transfer",
+        "B": "DNS PTR record",
+        "C": "DNS CNAME record",
+        "D": "Web spider"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of web spider: automated indexing follows links into mistakenly exposed web resources. A relevant security consideration is to apply access controls and indexing exclusions according to sensitivity."
+    },
+    {
+      "id": 30,
+      "question": "For Web spider, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Restrict zone transfers to authorized secondary servers",
+        "B": "Apply access controls and indexing exclusions according to sensitivity",
+        "C": "Trace aliases when validating an organization's published endpoints",
+        "D": "Interpret hop results cautiously because devices may filter probes"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for web spider is to apply access controls and indexing exclusions according to sensitivity; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "An incident note reads: a deceptive message pressures an employee to disclose work credentials. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Phishing",
+        "B": "Smishing",
+        "C": "Pretexting",
+        "D": "Vishing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of phishing: a deceptive message pressures an employee to disclose work credentials. A relevant security consideration is to train staff to verify requests using trusted channels."
+    },
+    {
+      "id": 32,
+      "question": "Which guidance BEST addresses the key issue associated with Phishing?",
+      "options": {
+        "A": "Use official applications instead of unsolicited message links",
+        "B": "Verify caller identity through an established callback process",
+        "C": "Check identity and purpose before sharing information",
+        "D": "Train staff to verify requests using trusted channels"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for phishing is to train staff to verify requests using trusted channels; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "A team documents the following condition: a carefully personalized message impersonates a colleague to a selected employee. Which CEH term is the closest match?",
+      "options": {
+        "A": "Phishing",
+        "B": "Spear phishing",
+        "C": "Smishing",
+        "D": "Vishing"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of spear phishing: a carefully personalized message impersonates a colleague to a selected employee. A relevant security consideration is to use independent verification for targeted requests."
+    },
+    {
+      "id": 34,
+      "question": "A security team is reviewing the topic of Spear phishing. Which statement BEST applies?",
+      "options": {
+        "A": "Check identity and purpose before sharing information",
+        "B": "Train staff to verify requests using trusted channels",
+        "C": "Use independent verification for targeted requests",
+        "D": "Verify caller identity through an established callback process"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for spear phishing is to use independent verification for targeted requests; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "Which concept is BEST illustrated by this scenario: a caller impersonates a support officer and asks for verification codes?",
+      "options": {
+        "A": "Phishing",
+        "B": "Vishing",
+        "C": "Smishing",
+        "D": "Spear phishing"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of vishing: a caller impersonates a support officer and asks for verification codes. A relevant security consideration is to verify caller identity through an established callback process."
+    },
+    {
+      "id": 36,
+      "question": "When studying Vishing, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Use official applications instead of unsolicited message links",
+        "B": "Check identity and purpose before sharing information",
+        "C": "Verify caller identity through an established callback process",
+        "D": "Train staff to verify requests using trusted channels"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for vishing is to verify caller identity through an established callback process; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "During an authorized security review, an assessor observes: a text message imitates an organizational alert and links to a login page. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Spear phishing",
+        "B": "Pretexting",
+        "C": "Smishing",
+        "D": "Phishing"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of smishing: a text message imitates an organizational alert and links to a login page. A relevant security consideration is to use official applications instead of unsolicited message links."
+    },
+    {
+      "id": 38,
+      "question": "An exam asks about the appropriate handling of Smishing. Which statement is BEST?",
+      "options": {
+        "A": "Use official applications instead of unsolicited message links",
+        "B": "Use independent verification for targeted requests",
+        "C": "Check identity and purpose before sharing information",
+        "D": "Train staff to verify requests using trusted channels"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for smishing is to use official applications instead of unsolicited message links; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "Consider this security situation: a stranger invents a convincing business role to request restricted details. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Phishing",
+        "B": "Spear phishing",
+        "C": "Pretexting",
+        "D": "Vishing"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of pretexting: a stranger invents a convincing business role to request restricted details. A relevant security consideration is to check identity and purpose before sharing information."
+    },
+    {
+      "id": 40,
+      "question": "For Pretexting, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use official applications instead of unsolicited message links",
+        "B": "Use independent verification for targeted requests",
+        "C": "Check identity and purpose before sharing information",
+        "D": "Train staff to verify requests using trusted channels"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for pretexting is to check identity and purpose before sharing information; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "An incident note reads: someone leaves an enticing storage device where employees may connect it. Select the MOST appropriate classification.",
+      "options": {
+        "A": "URL obfuscation",
+        "B": "Shoulder surfing",
+        "C": "Baiting",
+        "D": "Reverse social engineering"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of baiting: someone leaves an enticing storage device where employees may connect it. A relevant security consideration is to use removable-media controls and report suspicious devices."
+    },
+    {
+      "id": 42,
+      "question": "Which guidance BEST addresses the key issue associated with Baiting?",
+      "options": {
+        "A": "Verify support identities through internal service channels",
+        "B": "Shred or securely destroy sensitive paper and media",
+        "C": "Use privacy screens and avoid exposing secrets in public spaces",
+        "D": "Use removable-media controls and report suspicious devices"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for baiting is to use removable-media controls and report suspicious devices; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "A team documents the following condition: discarded office materials reveal infrastructure diagrams. Which CEH term is the closest match?",
+      "options": {
+        "A": "Dumpster diving",
+        "B": "Reverse social engineering",
+        "C": "Baiting",
+        "D": "Shoulder surfing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of dumpster diving: discarded office materials reveal infrastructure diagrams. A relevant security consideration is to shred or securely destroy sensitive paper and media."
+    },
+    {
+      "id": 44,
+      "question": "A security team is reviewing the topic of Dumpster diving. Which statement BEST applies?",
+      "options": {
+        "A": "Use privacy screens and avoid exposing secrets in public spaces",
+        "B": "Verify support identities through internal service channels",
+        "C": "Shred or securely destroy sensitive paper and media",
+        "D": "Use removable-media controls and report suspicious devices"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for dumpster diving is to shred or securely destroy sensitive paper and media; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "Which concept is BEST illustrated by this scenario: a nearby observer watches an employee enter sensitive information?",
+      "options": {
+        "A": "Reverse social engineering",
+        "B": "Baiting",
+        "C": "Dumpster diving",
+        "D": "Shoulder surfing"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of shoulder surfing: a nearby observer watches an employee enter sensitive information. A relevant security consideration is to use privacy screens and avoid exposing secrets in public spaces."
+    },
+    {
+      "id": 46,
+      "question": "When studying Shoulder surfing, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Use removable-media controls and report suspicious devices",
+        "B": "Inspect destinations and use trusted navigation paths",
+        "C": "Verify support identities through internal service channels",
+        "D": "Use privacy screens and avoid exposing secrets in public spaces"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for shoulder surfing is to use privacy screens and avoid exposing secrets in public spaces; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "During an authorized security review, an assessor observes: a fraudulent helper arranges for the employee to request assistance. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Shoulder surfing",
+        "B": "Reverse social engineering",
+        "C": "Baiting",
+        "D": "URL obfuscation"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of reverse social engineering: a fraudulent helper arranges for the employee to request assistance. A relevant security consideration is to verify support identities through internal service channels."
+    },
+    {
+      "id": 48,
+      "question": "An exam asks about the appropriate handling of Reverse social engineering. Which statement is BEST?",
+      "options": {
+        "A": "Inspect destinations and use trusted navigation paths",
+        "B": "Verify support identities through internal service channels",
+        "C": "Use removable-media controls and report suspicious devices",
+        "D": "Use privacy screens and avoid exposing secrets in public spaces"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for reverse social engineering is to verify support identities through internal service channels; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "Consider this security situation: a deceptive web link masks its real destination behind confusing presentation. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "URL obfuscation",
+        "B": "Reverse social engineering",
+        "C": "Dumpster diving",
+        "D": "Shoulder surfing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of url obfuscation: a deceptive web link masks its real destination behind confusing presentation. A relevant security consideration is to inspect destinations and use trusted navigation paths."
+    },
+    {
+      "id": 50,
+      "question": "For URL obfuscation, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Shred or securely destroy sensitive paper and media",
+        "B": "Use removable-media controls and report suspicious devices",
+        "C": "Inspect destinations and use trusted navigation paths",
+        "D": "Use privacy screens and avoid exposing secrets in public spaces"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for url obfuscation is to inspect destinations and use trusted navigation paths; this directly addresses the issue described by the concept."
+    }
+  ]
+}

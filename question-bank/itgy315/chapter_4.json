@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which concept is BEST illustrated by this scenario: repeated login attempts are observed against an authentication server?",
+      "options": {
+        "A": "Dictionary attack",
+        "B": "Hybrid password guessing",
+        "C": "Online password guessing",
+        "D": "Offline password analysis"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of online password guessing: repeated login attempts are observed against an authentication server. A relevant security consideration is to use throttling, multifactor authentication, and alerting."
+    },
+    {
+      "id": 2,
+      "question": "When studying Online password guessing, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Increase credential entropy and apply authentication rate limits",
+        "B": "Protect hash databases and use slow salted password hashing",
+        "C": "Use throttling, multifactor authentication, and alerting",
+        "D": "Block common and exposed passwords rather than rely only on composition rules"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for online password guessing is to use throttling, multifactor authentication, and alerting; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "During an authorized security review, an assessor observes: an approved audit tests previously obtained password verification data. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Dictionary attack",
+        "B": "Hybrid password guessing",
+        "C": "Offline password analysis",
+        "D": "Online password guessing"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of offline password analysis: an approved audit tests previously obtained password verification data. A relevant security consideration is to protect hash databases and use slow salted password hashing."
+    },
+    {
+      "id": 4,
+      "question": "An exam asks about the appropriate handling of Offline password analysis. Which statement is BEST?",
+      "options": {
+        "A": "Protect hash databases and use slow salted password hashing",
+        "B": "Block common and exposed passwords rather than rely only on composition rules",
+        "C": "Avoid predictable password patterns and enforce unique credentials",
+        "D": "Use throttling, multifactor authentication, and alerting"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for offline password analysis is to protect hash databases and use slow salted password hashing; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "Consider this security situation: an audit compares chosen passwords against likely candidate words. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Offline password analysis",
+        "B": "Brute-force attack",
+        "C": "Dictionary attack",
+        "D": "Hybrid password guessing"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of dictionary attack: an audit compares chosen passwords against likely candidate words. A relevant security consideration is to block common and exposed passwords rather than rely only on composition rules."
+    },
+    {
+      "id": 6,
+      "question": "For Dictionary attack, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Avoid predictable password patterns and enforce unique credentials",
+        "B": "Use throttling, multifactor authentication, and alerting",
+        "C": "Block common and exposed passwords rather than rely only on composition rules",
+        "D": "Increase credential entropy and apply authentication rate limits"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for dictionary attack is to block common and exposed passwords rather than rely only on composition rules; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "An incident note reads: an exhaustive search systematically considers combinations of candidate passwords. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Offline password analysis",
+        "B": "Hybrid password guessing",
+        "C": "Brute-force attack",
+        "D": "Dictionary attack"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of brute-force attack: an exhaustive search systematically considers combinations of candidate passwords. A relevant security consideration is to increase credential entropy and apply authentication rate limits."
+    },
+    {
+      "id": 8,
+      "question": "Which guidance BEST addresses the key issue associated with Brute-force attack?",
+      "options": {
+        "A": "Protect hash databases and use slow salted password hashing",
+        "B": "Avoid predictable password patterns and enforce unique credentials",
+        "C": "Increase credential entropy and apply authentication rate limits",
+        "D": "Use throttling, multifactor authentication, and alerting"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for brute-force attack is to increase credential entropy and apply authentication rate limits; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "A team documents the following condition: a guessing strategy modifies likely base words with predictable variations. Which CEH term is the closest match?",
+      "options": {
+        "A": "Dictionary attack",
+        "B": "Hybrid password guessing",
+        "C": "Online password guessing",
+        "D": "Offline password analysis"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of hybrid password guessing: a guessing strategy modifies likely base words with predictable variations. A relevant security consideration is to avoid predictable password patterns and enforce unique credentials."
+    },
+    {
+      "id": 10,
+      "question": "A security team is reviewing the topic of Hybrid password guessing. Which statement BEST applies?",
+      "options": {
+        "A": "Block common and exposed passwords rather than rely only on composition rules",
+        "B": "Increase credential entropy and apply authentication rate limits",
+        "C": "Avoid predictable password patterns and enforce unique credentials",
+        "D": "Use throttling, multifactor authentication, and alerting"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for hybrid password guessing is to avoid predictable password patterns and enforce unique credentials; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "Which concept is BEST illustrated by this scenario: two equal passwords produce different stored values because random salts differ?",
+      "options": {
+        "A": "Password salting",
+        "B": "Rainbow table",
+        "C": "LM hash",
+        "D": "Passphrase"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of password salting: two equal passwords produce different stored values because random salts differ. A relevant security consideration is to store a unique salt with each securely hashed password."
+    },
+    {
+      "id": 12,
+      "question": "When studying Password salting, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Retire legacy authentication and weak credential-storage formats",
+        "B": "Prioritize length, uniqueness, and resistance to common phrases",
+        "C": "Store a unique salt with each securely hashed password",
+        "D": "Use unique salts to reduce precomputed table usefulness"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for password salting is to store a unique salt with each securely hashed password; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "During an authorized security review, an assessor observes: a precomputed lookup structure is used to relate hashes to candidate passwords. Which concept BEST describes this finding?",
+      "options": {
+        "A": "NT hash",
+        "B": "Passphrase",
+        "C": "Password salting",
+        "D": "Rainbow table"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of rainbow table: a precomputed lookup structure is used to relate hashes to candidate passwords. A relevant security consideration is to use unique salts to reduce precomputed table usefulness."
+    },
+    {
+      "id": 14,
+      "question": "An exam asks about the appropriate handling of Rainbow table. Which statement is BEST?",
+      "options": {
+        "A": "Prioritize length, uniqueness, and resistance to common phrases",
+        "B": "Retire legacy authentication and weak credential-storage formats",
+        "C": "Use unique salts to reduce precomputed table usefulness",
+        "D": "Reduce exposure and favor modern authentication protections"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for rainbow table is to use unique salts to reduce precomputed table usefulness; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "Consider this security situation: a legacy Windows password representation weakens effective password protection. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Passphrase",
+        "B": "LM hash",
+        "C": "Password salting",
+        "D": "Rainbow table"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of lm hash: a legacy Windows password representation weakens effective password protection. A relevant security consideration is to retire legacy authentication and weak credential-storage formats."
+    },
+    {
+      "id": 16,
+      "question": "For LM hash, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Reduce exposure and favor modern authentication protections",
+        "B": "Use unique salts to reduce precomputed table usefulness",
+        "C": "Store a unique salt with each securely hashed password",
+        "D": "Retire legacy authentication and weak credential-storage formats"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for lm hash is to retire legacy authentication and weak credential-storage formats; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "An incident note reads: an older Windows credential format stores a fast unsalted password-derived hash. Select the MOST appropriate classification.",
+      "options": {
+        "A": "LM hash",
+        "B": "Rainbow table",
+        "C": "Passphrase",
+        "D": "NT hash"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of nt hash: an older Windows credential format stores a fast unsalted password-derived hash. A relevant security consideration is to reduce exposure and favor modern authentication protections."
+    },
+    {
+      "id": 18,
+      "question": "Which guidance BEST addresses the key issue associated with NT hash?",
+      "options": {
+        "A": "Reduce exposure and favor modern authentication protections",
+        "B": "Store a unique salt with each securely hashed password",
+        "C": "Prioritize length, uniqueness, and resistance to common phrases",
+        "D": "Retire legacy authentication and weak credential-storage formats"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for nt hash is to reduce exposure and favor modern authentication protections; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "A team documents the following condition: a user chooses several independent words to create a long login secret. Which CEH term is the closest match?",
+      "options": {
+        "A": "NT hash",
+        "B": "Password salting",
+        "C": "Passphrase",
+        "D": "LM hash"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of passphrase: a user chooses several independent words to create a long login secret. A relevant security consideration is to prioritize length, uniqueness, and resistance to common phrases."
+    },
+    {
+      "id": 20,
+      "question": "A security team is reviewing the topic of Passphrase. Which statement BEST applies?",
+      "options": {
+        "A": "Store a unique salt with each securely hashed password",
+        "B": "Prioritize length, uniqueness, and resistance to common phrases",
+        "C": "Use unique salts to reduce precomputed table usefulness",
+        "D": "Reduce exposure and favor modern authentication protections"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for passphrase is to prioritize length, uniqueness, and resistance to common phrases; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "Which concept is BEST illustrated by this scenario: a low-privilege account acquires capabilities beyond its assigned role?",
+      "options": {
+        "A": "Horizontal privilege escalation",
+        "B": "Service-account abuse",
+        "C": "Least privilege",
+        "D": "Privilege escalation"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of privilege escalation: a low-privilege account acquires capabilities beyond its assigned role. A relevant security consideration is to patch privilege flaws and enforce least privilege."
+    },
+    {
+      "id": 22,
+      "question": "When studying Privilege escalation, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Enforce privileged access boundaries and monitor elevation",
+        "B": "Review service identities and remove unnecessary privileges",
+        "C": "Check object-level authorization for every resource request",
+        "D": "Patch privilege flaws and enforce least privilege"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for privilege escalation is to patch privilege flaws and enforce least privilege; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "During an authorized security review, an assessor observes: a service account has administrative rights despite needing only read access. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Privilege escalation",
+        "B": "Horizontal privilege escalation",
+        "C": "Least privilege",
+        "D": "Service-account abuse"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of least privilege: a service account has administrative rights despite needing only read access. A relevant security consideration is to grant only the minimum permissions required for its tasks."
+    },
+    {
+      "id": 24,
+      "question": "An exam asks about the appropriate handling of Least privilege. Which statement is BEST?",
+      "options": {
+        "A": "Grant only the minimum permissions required for its tasks",
+        "B": "Check object-level authorization for every resource request",
+        "C": "Enforce privileged access boundaries and monitor elevation",
+        "D": "Review service identities and remove unnecessary privileges"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for least privilege is to grant only the minimum permissions required for its tasks; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "Consider this security situation: a normal account assumes an administrative role without approval. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Horizontal privilege escalation",
+        "B": "Vertical privilege escalation",
+        "C": "Service-account abuse",
+        "D": "Privilege escalation"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of vertical privilege escalation: a normal account assumes an administrative role without approval. A relevant security consideration is to enforce privileged access boundaries and monitor elevation."
+    },
+    {
+      "id": 26,
+      "question": "For Vertical privilege escalation, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Grant only the minimum permissions required for its tasks",
+        "B": "Patch privilege flaws and enforce least privilege",
+        "C": "Enforce privileged access boundaries and monitor elevation",
+        "D": "Review service identities and remove unnecessary privileges"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for vertical privilege escalation is to enforce privileged access boundaries and monitor elevation; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "An incident note reads: one ordinary user accesses another ordinary user's private records. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Horizontal privilege escalation",
+        "B": "Privilege escalation",
+        "C": "Least privilege",
+        "D": "Service-account abuse"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of horizontal privilege escalation: one ordinary user accesses another ordinary user's private records. A relevant security consideration is to check object-level authorization for every resource request."
+    },
+    {
+      "id": 28,
+      "question": "Which guidance BEST addresses the key issue associated with Horizontal privilege escalation?",
+      "options": {
+        "A": "Grant only the minimum permissions required for its tasks",
+        "B": "Check object-level authorization for every resource request",
+        "C": "Enforce privileged access boundaries and monitor elevation",
+        "D": "Patch privilege flaws and enforce least privilege"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for horizontal privilege escalation is to check object-level authorization for every resource request; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "A team documents the following condition: a background process has excessive file and system permissions. Which CEH term is the closest match?",
+      "options": {
+        "A": "Least privilege",
+        "B": "Privilege escalation",
+        "C": "Service-account abuse",
+        "D": "Horizontal privilege escalation"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of service-account abuse: a background process has excessive file and system permissions. A relevant security consideration is to review service identities and remove unnecessary privileges."
+    },
+    {
+      "id": 30,
+      "question": "A security team is reviewing the topic of Service-account abuse. Which statement BEST applies?",
+      "options": {
+        "A": "Grant only the minimum permissions required for its tasks",
+        "B": "Patch privilege flaws and enforce least privilege",
+        "C": "Check object-level authorization for every resource request",
+        "D": "Review service identities and remove unnecessary privileges"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for service-account abuse is to review service identities and remove unnecessary privileges; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "Which concept is BEST illustrated by this scenario: unknown software secretly records keyboard input?",
+      "options": {
+        "A": "Keylogger",
+        "B": "Rootkit",
+        "C": "Backdoor persistence",
+        "D": "Spyware"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of keylogger: unknown software secretly records keyboard input. A relevant security consideration is to use endpoint protection and restrict unapproved software."
+    },
+    {
+      "id": 32,
+      "question": "When studying Keylogger, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Use endpoint protection and restrict unapproved software",
+        "B": "Audit startup mechanisms and remote access paths",
+        "C": "Require trusted software provenance and controlled installation",
+        "D": "Monitor unwanted collection and tightly control installed software"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for keylogger is to use endpoint protection and restrict unapproved software; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "During an authorized security review, an assessor observes: an application collects user activities without informed permission. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Backdoor persistence",
+        "B": "Trojanized installer",
+        "C": "Rootkit",
+        "D": "Spyware"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of spyware: an application collects user activities without informed permission. A relevant security consideration is to monitor unwanted collection and tightly control installed software."
+    },
+    {
+      "id": 34,
+      "question": "An exam asks about the appropriate handling of Spyware. Which statement is BEST?",
+      "options": {
+        "A": "Use trusted offline investigation and system-integrity checks",
+        "B": "Audit startup mechanisms and remote access paths",
+        "C": "Require trusted software provenance and controlled installation",
+        "D": "Monitor unwanted collection and tightly control installed software"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for spyware is to monitor unwanted collection and tightly control installed software; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "Consider this security situation: a suspicious component conceals processes or system modifications. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Backdoor persistence",
+        "B": "Trojanized installer",
+        "C": "Keylogger",
+        "D": "Rootkit"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of rootkit: a suspicious component conceals processes or system modifications. A relevant security consideration is to use trusted offline investigation and system-integrity checks."
+    },
+    {
+      "id": 36,
+      "question": "For Rootkit, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Audit startup mechanisms and remote access paths",
+        "B": "Use endpoint protection and restrict unapproved software",
+        "C": "Require trusted software provenance and controlled installation",
+        "D": "Use trusted offline investigation and system-integrity checks"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for rootkit is to use trusted offline investigation and system-integrity checks; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "An incident note reads: an unfamiliar mechanism enables continued access outside normal authentication. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Trojanized installer",
+        "B": "Rootkit",
+        "C": "Keylogger",
+        "D": "Backdoor persistence"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of backdoor persistence: an unfamiliar mechanism enables continued access outside normal authentication. A relevant security consideration is to audit startup mechanisms and remote access paths."
+    },
+    {
+      "id": 38,
+      "question": "Which guidance BEST addresses the key issue associated with Backdoor persistence?",
+      "options": {
+        "A": "Audit startup mechanisms and remote access paths",
+        "B": "Monitor unwanted collection and tightly control installed software",
+        "C": "Use endpoint protection and restrict unapproved software",
+        "D": "Require trusted software provenance and controlled installation"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for backdoor persistence is to audit startup mechanisms and remote access paths; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "A team documents the following condition: a purported utility secretly installs an additional harmful program. Which CEH term is the closest match?",
+      "options": {
+        "A": "Trojanized installer",
+        "B": "Spyware",
+        "C": "Keylogger",
+        "D": "Rootkit"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of trojanized installer: a purported utility secretly installs an additional harmful program. A relevant security consideration is to require trusted software provenance and controlled installation."
+    },
+    {
+      "id": 40,
+      "question": "A security team is reviewing the topic of Trojanized installer. Which statement BEST applies?",
+      "options": {
+        "A": "Use endpoint protection and restrict unapproved software",
+        "B": "Require trusted software provenance and controlled installation",
+        "C": "Monitor unwanted collection and tightly control installed software",
+        "D": "Use trusted offline investigation and system-integrity checks"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for trojanized installer is to require trusted software provenance and controlled installation; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "Which concept is BEST illustrated by this scenario: a file has secondary content not shown by ordinary filename listings?",
+      "options": {
+        "A": "Audit-log tampering",
+        "B": "Steganography",
+        "C": "NTFS alternate data stream",
+        "D": "File hiding"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of ntfs alternate data stream: a file has secondary content not shown by ordinary filename listings. A relevant security consideration is to use forensic tools that enumerate alternate data streams."
+    },
+    {
+      "id": 42,
+      "question": "When studying NTFS alternate data stream, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Document chain of custody and preserve forensic images",
+        "B": "Inspect anomalous content without treating every image as malicious",
+        "C": "Use forensic tools that enumerate alternate data streams",
+        "D": "Centralize protected logs and verify their integrity"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for ntfs alternate data stream is to use forensic tools that enumerate alternate data streams; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "During an authorized security review, an assessor observes: information is concealed inside an otherwise ordinary media object. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Evidence preservation",
+        "B": "NTFS alternate data stream",
+        "C": "File hiding",
+        "D": "Steganography"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of steganography: information is concealed inside an otherwise ordinary media object. A relevant security consideration is to inspect anomalous content without treating every image as malicious."
+    },
+    {
+      "id": 44,
+      "question": "An exam asks about the appropriate handling of Steganography. Which statement is BEST?",
+      "options": {
+        "A": "Monitor changes and compare with a trusted system baseline",
+        "B": "Use forensic tools that enumerate alternate data streams",
+        "C": "Inspect anomalous content without treating every image as malicious",
+        "D": "Centralize protected logs and verify their integrity"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for steganography is to inspect anomalous content without treating every image as malicious; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "Consider this security situation: a malicious component attempts to blend into innocuous or hidden system locations. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "File hiding",
+        "B": "NTFS alternate data stream",
+        "C": "Evidence preservation",
+        "D": "Steganography"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of file hiding: a malicious component attempts to blend into innocuous or hidden system locations. A relevant security consideration is to monitor changes and compare with a trusted system baseline."
+    },
+    {
+      "id": 46,
+      "question": "For File hiding, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Document chain of custody and preserve forensic images",
+        "B": "Centralize protected logs and verify their integrity",
+        "C": "Inspect anomalous content without treating every image as malicious",
+        "D": "Monitor changes and compare with a trusted system baseline"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for file hiding is to monitor changes and compare with a trusted system baseline; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "An incident note reads: local security records seem to have been deleted after an intrusion. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Evidence preservation",
+        "B": "Audit-log tampering",
+        "C": "NTFS alternate data stream",
+        "D": "Steganography"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of audit-log tampering: local security records seem to have been deleted after an intrusion. A relevant security consideration is to centralize protected logs and verify their integrity."
+    },
+    {
+      "id": 48,
+      "question": "Which guidance BEST addresses the key issue associated with Audit-log tampering?",
+      "options": {
+        "A": "Centralize protected logs and verify their integrity",
+        "B": "Inspect anomalous content without treating every image as malicious",
+        "C": "Use forensic tools that enumerate alternate data streams",
+        "D": "Monitor changes and compare with a trusted system baseline"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for audit-log tampering is to centralize protected logs and verify their integrity; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "A team documents the following condition: an investigator needs reliable proof of what happened on a compromised machine. Which CEH term is the closest match?",
+      "options": {
+        "A": "NTFS alternate data stream",
+        "B": "File hiding",
+        "C": "Audit-log tampering",
+        "D": "Evidence preservation"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of evidence preservation: an investigator needs reliable proof of what happened on a compromised machine. A relevant security consideration is to document chain of custody and preserve forensic images."
+    },
+    {
+      "id": 50,
+      "question": "A security team is reviewing the topic of Evidence preservation. Which statement BEST applies?",
+      "options": {
+        "A": "Use forensic tools that enumerate alternate data streams",
+        "B": "Document chain of custody and preserve forensic images",
+        "C": "Inspect anomalous content without treating every image as malicious",
+        "D": "Monitor changes and compare with a trusted system baseline"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for evidence preservation is to document chain of custody and preserve forensic images; this directly addresses the issue described by the concept."
+    }
+  ]
+}

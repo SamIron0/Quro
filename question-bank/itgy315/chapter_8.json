@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A team documents the following condition: a web service exposes forgotten administrative and test endpoints. Which CEH term is the closest match?",
+      "options": {
+        "A": "Attack surface inventory",
+        "B": "Misconfigured web server",
+        "C": "Server banner disclosure",
+        "D": "Directory indexing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of attack surface inventory: a web service exposes forgotten administrative and test endpoints. A relevant security consideration is to maintain an approved inventory and remove unused exposure."
+    },
+    {
+      "id": 2,
+      "question": "A security team is reviewing the topic of Attack surface inventory. Which statement BEST applies?",
+      "options": {
+        "A": "Use hardened configurations and security review before release",
+        "B": "Maintain an approved inventory and remove unused exposure",
+        "C": "Reduce unnecessary version disclosure without treating it as a primary defense",
+        "D": "Update supported versions using a tested change process"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for attack surface inventory is to maintain an approved inventory and remove unused exposure; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "Which concept is BEST illustrated by this scenario: a web server lists files when a directory has no default index page?",
+      "options": {
+        "A": "Directory indexing",
+        "B": "Attack surface inventory",
+        "C": "Patch management",
+        "D": "Misconfigured web server"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of directory indexing: a web server lists files when a directory has no default index page. A relevant security consideration is to disable unnecessary directory listing and restrict file permissions."
+    },
+    {
+      "id": 4,
+      "question": "When studying Directory indexing, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Use hardened configurations and security review before release",
+        "B": "Disable unnecessary directory listing and restrict file permissions",
+        "C": "Maintain an approved inventory and remove unused exposure",
+        "D": "Update supported versions using a tested change process"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for directory indexing is to disable unnecessary directory listing and restrict file permissions; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "During an authorized security review, an assessor observes: hTTP responses reveal server product and version details. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Attack surface inventory",
+        "B": "Directory indexing",
+        "C": "Server banner disclosure",
+        "D": "Patch management"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of server banner disclosure: hTTP responses reveal server product and version details. A relevant security consideration is to reduce unnecessary version disclosure without treating it as a primary defense."
+    },
+    {
+      "id": 6,
+      "question": "An exam asks about the appropriate handling of Server banner disclosure. Which statement is BEST?",
+      "options": {
+        "A": "Reduce unnecessary version disclosure without treating it as a primary defense",
+        "B": "Update supported versions using a tested change process",
+        "C": "Disable unnecessary directory listing and restrict file permissions",
+        "D": "Maintain an approved inventory and remove unused exposure"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for server banner disclosure is to reduce unnecessary version disclosure without treating it as a primary defense; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "Consider this security situation: a newly deployed site unintentionally exposes internal files. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Patch management",
+        "B": "Server banner disclosure",
+        "C": "Misconfigured web server",
+        "D": "Directory indexing"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of misconfigured web server: a newly deployed site unintentionally exposes internal files. A relevant security consideration is to use hardened configurations and security review before release."
+    },
+    {
+      "id": 8,
+      "question": "For Misconfigured web server, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Update supported versions using a tested change process",
+        "B": "Disable unnecessary directory listing and restrict file permissions",
+        "C": "Use hardened configurations and security review before release",
+        "D": "Reduce unnecessary version disclosure without treating it as a primary defense"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for misconfigured web server is to use hardened configurations and security review before release; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "An incident note reads: a public web framework is many security releases behind. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Misconfigured web server",
+        "B": "Attack surface inventory",
+        "C": "Directory indexing",
+        "D": "Patch management"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of patch management: a public web framework is many security releases behind. A relevant security consideration is to update supported versions using a tested change process."
+    },
+    {
+      "id": 10,
+      "question": "Which guidance BEST addresses the key issue associated with Patch management?",
+      "options": {
+        "A": "Reduce unnecessary version disclosure without treating it as a primary defense",
+        "B": "Disable unnecessary directory listing and restrict file permissions",
+        "C": "Maintain an approved inventory and remove unused exposure",
+        "D": "Update supported versions using a tested change process"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for patch management is to update supported versions using a tested change process; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "A team documents the following condition: a browser requests a resource using a method intended for retrieval. Which CEH term is the closest match?",
+      "options": {
+        "A": "HTTP POST",
+        "B": "HTTP GET",
+        "C": "HTTP response code 200",
+        "D": "HTTP response code 404"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of http get: a browser requests a resource using a method intended for retrieval. A relevant security consideration is to avoid using retrieval requests for actions that change account state."
+    },
+    {
+      "id": 12,
+      "question": "A security team is reviewing the topic of HTTP GET. Which statement BEST applies?",
+      "options": {
+        "A": "Avoid disclosing unnecessary internal details in error responses",
+        "B": "Do not mistake transport success for application authorization",
+        "C": "Review authorization rules rather than assuming a missing resource",
+        "D": "Avoid using retrieval requests for actions that change account state"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for http get is to avoid using retrieval requests for actions that change account state; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "Which concept is BEST illustrated by this scenario: a web form submits data to be processed as part of a transaction?",
+      "options": {
+        "A": "HTTP response code 403",
+        "B": "HTTP POST",
+        "C": "HTTP GET",
+        "D": "HTTP response code 200"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of http post: a web form submits data to be processed as part of a transaction. A relevant security consideration is to validate submitted data and require authorization for state changes."
+    },
+    {
+      "id": 14,
+      "question": "When studying HTTP POST, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Avoid disclosing unnecessary internal details in error responses",
+        "B": "Review authorization rules rather than assuming a missing resource",
+        "C": "Do not mistake transport success for application authorization",
+        "D": "Validate submitted data and require authorization for state changes"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for http post is to validate submitted data and require authorization for state changes; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "During an authorized security review, an assessor observes: an endpoint returns the status commonly associated with a successful request. Which concept BEST describes this finding?",
+      "options": {
+        "A": "HTTP POST",
+        "B": "HTTP GET",
+        "C": "HTTP response code 404",
+        "D": "HTTP response code 200"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of http response code 200: an endpoint returns the status commonly associated with a successful request. A relevant security consideration is to do not mistake transport success for application authorization."
+    },
+    {
+      "id": 16,
+      "question": "An exam asks about the appropriate handling of HTTP response code 200. Which statement is BEST?",
+      "options": {
+        "A": "Review authorization rules rather than assuming a missing resource",
+        "B": "Validate submitted data and require authorization for state changes",
+        "C": "Avoid using retrieval requests for actions that change account state",
+        "D": "Do not mistake transport success for application authorization"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for http response code 200 is to do not mistake transport success for application authorization; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "Consider this security situation: a server refuses an otherwise understood request because access is not allowed. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "HTTP POST",
+        "B": "HTTP response code 404",
+        "C": "HTTP response code 403",
+        "D": "HTTP GET"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of http response code 403: a server refuses an otherwise understood request because access is not allowed. A relevant security consideration is to review authorization rules rather than assuming a missing resource."
+    },
+    {
+      "id": 18,
+      "question": "For HTTP response code 403, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Avoid disclosing unnecessary internal details in error responses",
+        "B": "Review authorization rules rather than assuming a missing resource",
+        "C": "Do not mistake transport success for application authorization",
+        "D": "Avoid using retrieval requests for actions that change account state"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for http response code 403 is to review authorization rules rather than assuming a missing resource; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "An incident note reads: a requested web resource cannot be found at the address used. Select the MOST appropriate classification.",
+      "options": {
+        "A": "HTTP response code 404",
+        "B": "HTTP response code 403",
+        "C": "HTTP POST",
+        "D": "HTTP response code 200"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of http response code 404: a requested web resource cannot be found at the address used. A relevant security consideration is to avoid disclosing unnecessary internal details in error responses."
+    },
+    {
+      "id": 20,
+      "question": "Which guidance BEST addresses the key issue associated with HTTP response code 404?",
+      "options": {
+        "A": "Do not mistake transport success for application authorization",
+        "B": "Review authorization rules rather than assuming a missing resource",
+        "C": "Avoid disclosing unnecessary internal details in error responses",
+        "D": "Validate submitted data and require authorization for state changes"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for http response code 404 is to avoid disclosing unnecessary internal details in error responses; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "A team documents the following condition: untrusted content is rendered as executable script in another user's browser. Which CEH term is the closest match?",
+      "options": {
+        "A": "Cross-site request forgery",
+        "B": "Stored XSS",
+        "C": "Clickjacking",
+        "D": "Cross-site scripting"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of cross-site scripting: untrusted content is rendered as executable script in another user's browser. A relevant security consideration is to encode output for its context and apply defensive content policies."
+    },
+    {
+      "id": 22,
+      "question": "A security team is reviewing the topic of Cross-site scripting. Which statement BEST applies?",
+      "options": {
+        "A": "Encode output for its context and apply defensive content policies",
+        "B": "Treat every reflection context with appropriate output encoding",
+        "C": "Apply anti-CSRF protections and appropriate cookie controls",
+        "D": "Validate inputs and contextually encode data when rendering"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for cross-site scripting is to encode output for its context and apply defensive content policies; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "Which concept is BEST illustrated by this scenario: a malicious script is saved in application content and later shown to users?",
+      "options": {
+        "A": "Clickjacking",
+        "B": "Cross-site request forgery",
+        "C": "Cross-site scripting",
+        "D": "Stored XSS"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of stored xss: a malicious script is saved in application content and later shown to users. A relevant security consideration is to validate inputs and contextually encode data when rendering."
+    },
+    {
+      "id": 24,
+      "question": "When studying Stored XSS, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Encode output for its context and apply defensive content policies",
+        "B": "Validate inputs and contextually encode data when rendering",
+        "C": "Use frame restrictions and suitable browser security policies",
+        "D": "Treat every reflection context with appropriate output encoding"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for stored xss is to validate inputs and contextually encode data when rendering; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "During an authorized security review, an assessor observes: untrusted request data is immediately reflected into a generated response. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Clickjacking",
+        "B": "Cross-site scripting",
+        "C": "Reflected XSS",
+        "D": "Cross-site request forgery"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of reflected xss: untrusted request data is immediately reflected into a generated response. A relevant security consideration is to treat every reflection context with appropriate output encoding."
+    },
+    {
+      "id": 26,
+      "question": "An exam asks about the appropriate handling of Reflected XSS. Which statement is BEST?",
+      "options": {
+        "A": "Validate inputs and contextually encode data when rendering",
+        "B": "Apply anti-CSRF protections and appropriate cookie controls",
+        "C": "Treat every reflection context with appropriate output encoding",
+        "D": "Encode output for its context and apply defensive content policies"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for reflected xss is to treat every reflection context with appropriate output encoding; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "Consider this security situation: an authenticated browser is tricked into submitting an unwanted state-changing request. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Cross-site request forgery",
+        "B": "Reflected XSS",
+        "C": "Stored XSS",
+        "D": "Cross-site scripting"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of cross-site request forgery: an authenticated browser is tricked into submitting an unwanted state-changing request. A relevant security consideration is to apply anti-CSRF protections and appropriate cookie controls."
+    },
+    {
+      "id": 28,
+      "question": "For Cross-site request forgery, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use frame restrictions and suitable browser security policies",
+        "B": "Validate inputs and contextually encode data when rendering",
+        "C": "Apply anti-CSRF protections and appropriate cookie controls",
+        "D": "Treat every reflection context with appropriate output encoding"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for cross-site request forgery is to apply anti-CSRF protections and appropriate cookie controls; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "An incident note reads: an attacker places a legitimate interface inside deceptive visual framing. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Cross-site scripting",
+        "B": "Cross-site request forgery",
+        "C": "Reflected XSS",
+        "D": "Clickjacking"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of clickjacking: an attacker places a legitimate interface inside deceptive visual framing. A relevant security consideration is to use frame restrictions and suitable browser security policies."
+    },
+    {
+      "id": 30,
+      "question": "Which guidance BEST addresses the key issue associated with Clickjacking?",
+      "options": {
+        "A": "Treat every reflection context with appropriate output encoding",
+        "B": "Apply anti-CSRF protections and appropriate cookie controls",
+        "C": "Encode output for its context and apply defensive content policies",
+        "D": "Use frame restrictions and suitable browser security policies"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for clickjacking is to use frame restrictions and suitable browser security policies; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "A team documents the following condition: an authenticated user can view another customer's records by changing a record reference. Which CEH term is the closest match?",
+      "options": {
+        "A": "Unsafe file upload",
+        "B": "Path traversal",
+        "C": "Broken access control",
+        "D": "Security misconfiguration"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of broken access control: an authenticated user can view another customer's records by changing a record reference. A relevant security consideration is to enforce server-side per-object authorization."
+    },
+    {
+      "id": 32,
+      "question": "A security team is reviewing the topic of Broken access control. Which statement BEST applies?",
+      "options": {
+        "A": "Use allowlists or fixed approved redirect destinations",
+        "B": "Validate file type and store uploads outside executable locations",
+        "C": "Enforce server-side per-object authorization",
+        "D": "Normalize paths and confine access to approved directories"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for broken access control is to enforce server-side per-object authorization; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "Which concept is BEST illustrated by this scenario: a file-handling endpoint accepts crafted path components to reach unintended files?",
+      "options": {
+        "A": "Path traversal",
+        "B": "Broken access control",
+        "C": "Unrestricted redirect",
+        "D": "Unsafe file upload"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of path traversal: a file-handling endpoint accepts crafted path components to reach unintended files. A relevant security consideration is to normalize paths and confine access to approved directories."
+    },
+    {
+      "id": 34,
+      "question": "When studying Path traversal, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Harden deployment configurations and remove insecure defaults",
+        "B": "Normalize paths and confine access to approved directories",
+        "C": "Use allowlists or fixed approved redirect destinations",
+        "D": "Enforce server-side per-object authorization"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for path traversal is to normalize paths and confine access to approved directories; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "During an authorized security review, an assessor observes: a public uploader accepts executable content without suitable restrictions. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Broken access control",
+        "B": "Security misconfiguration",
+        "C": "Path traversal",
+        "D": "Unsafe file upload"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of unsafe file upload: a public uploader accepts executable content without suitable restrictions. A relevant security consideration is to validate file type and store uploads outside executable locations."
+    },
+    {
+      "id": 36,
+      "question": "An exam asks about the appropriate handling of Unsafe file upload. Which statement is BEST?",
+      "options": {
+        "A": "Use allowlists or fixed approved redirect destinations",
+        "B": "Harden deployment configurations and remove insecure defaults",
+        "C": "Normalize paths and confine access to approved directories",
+        "D": "Validate file type and store uploads outside executable locations"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for unsafe file upload is to validate file type and store uploads outside executable locations; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "Consider this security situation: a trusted site redirects visitors to arbitrary destinations supplied in a request. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Unrestricted redirect",
+        "B": "Broken access control",
+        "C": "Path traversal",
+        "D": "Security misconfiguration"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of unrestricted redirect: a trusted site redirects visitors to arbitrary destinations supplied in a request. A relevant security consideration is to use allowlists or fixed approved redirect destinations."
+    },
+    {
+      "id": 38,
+      "question": "For Unrestricted redirect, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Harden deployment configurations and remove insecure defaults",
+        "B": "Enforce server-side per-object authorization",
+        "C": "Use allowlists or fixed approved redirect destinations",
+        "D": "Validate file type and store uploads outside executable locations"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for unrestricted redirect is to use allowlists or fixed approved redirect destinations; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "An incident note reads: a production site retains development error output and default accounts. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Security misconfiguration",
+        "B": "Unsafe file upload",
+        "C": "Broken access control",
+        "D": "Path traversal"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of security misconfiguration: a production site retains development error output and default accounts. A relevant security consideration is to harden deployment configurations and remove insecure defaults."
+    },
+    {
+      "id": 40,
+      "question": "Which guidance BEST addresses the key issue associated with Security misconfiguration?",
+      "options": {
+        "A": "Normalize paths and confine access to approved directories",
+        "B": "Use allowlists or fixed approved redirect destinations",
+        "C": "Enforce server-side per-object authorization",
+        "D": "Harden deployment configurations and remove insecure defaults"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for security misconfiguration is to harden deployment configurations and remove insecure defaults; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "A team documents the following condition: a portal permits common passwords with no protection against repeated guessing. Which CEH term is the closest match?",
+      "options": {
+        "A": "Web application scanner",
+        "B": "Insufficient session management",
+        "C": "Weak authentication",
+        "D": "Web hardening"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of weak authentication: a portal permits common passwords with no protection against repeated guessing. A relevant security consideration is to require strong credentials, MFA, and throttling."
+    },
+    {
+      "id": 42,
+      "question": "A security team is reviewing the topic of Weak authentication. Which statement BEST applies?",
+      "options": {
+        "A": "Use time-limited single-use recovery tokens and identity verification",
+        "B": "Apply layered configuration, patching, and application defenses",
+        "C": "Require strong credentials, MFA, and throttling",
+        "D": "Invalidate expired and logged-out sessions on the server"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for weak authentication is to require strong credentials, MFA, and throttling; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "Which concept is BEST illustrated by this scenario: an account recovery workflow allows another user to take over the account?",
+      "options": {
+        "A": "Insufficient session management",
+        "B": "Web application scanner",
+        "C": "Password reset flaw",
+        "D": "Weak authentication"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of password reset flaw: an account recovery workflow allows another user to take over the account. A relevant security consideration is to use time-limited single-use recovery tokens and identity verification."
+    },
+    {
+      "id": 44,
+      "question": "When studying Password reset flaw, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Validate tool findings and false-positive possibilities",
+        "B": "Invalidate expired and logged-out sessions on the server",
+        "C": "Require strong credentials, MFA, and throttling",
+        "D": "Use time-limited single-use recovery tokens and identity verification"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for password reset flaw is to use time-limited single-use recovery tokens and identity verification; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "During an authorized security review, an assessor observes: a privileged web session remains valid after account logout. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Insufficient session management",
+        "B": "Web hardening",
+        "C": "Password reset flaw",
+        "D": "Weak authentication"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of insufficient session management: a privileged web session remains valid after account logout. A relevant security consideration is to invalidate expired and logged-out sessions on the server."
+    },
+    {
+      "id": 46,
+      "question": "An exam asks about the appropriate handling of Insufficient session management. Which statement is BEST?",
+      "options": {
+        "A": "Require strong credentials, MFA, and throttling",
+        "B": "Apply layered configuration, patching, and application defenses",
+        "C": "Use time-limited single-use recovery tokens and identity verification",
+        "D": "Invalidate expired and logged-out sessions on the server"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for insufficient session management is to invalidate expired and logged-out sessions on the server; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "Consider this security situation: an automated review reports a likely web vulnerability from response patterns. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Web hardening",
+        "B": "Web application scanner",
+        "C": "Weak authentication",
+        "D": "Insufficient session management"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of web application scanner: an automated review reports a likely web vulnerability from response patterns. A relevant security consideration is to validate tool findings and false-positive possibilities."
+    },
+    {
+      "id": 48,
+      "question": "For Web application scanner, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Validate tool findings and false-positive possibilities",
+        "B": "Require strong credentials, MFA, and throttling",
+        "C": "Invalidate expired and logged-out sessions on the server",
+        "D": "Use time-limited single-use recovery tokens and identity verification"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for web application scanner is to validate tool findings and false-positive possibilities; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "An incident note reads: a team reviews server configuration, application dependencies, and security headers. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Password reset flaw",
+        "B": "Insufficient session management",
+        "C": "Web hardening",
+        "D": "Weak authentication"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of web hardening: a team reviews server configuration, application dependencies, and security headers. A relevant security consideration is to apply layered configuration, patching, and application defenses."
+    },
+    {
+      "id": 50,
+      "question": "Which guidance BEST addresses the key issue associated with Web hardening?",
+      "options": {
+        "A": "Use time-limited single-use recovery tokens and identity verification",
+        "B": "Require strong credentials, MFA, and throttling",
+        "C": "Validate tool findings and false-positive possibilities",
+        "D": "Apply layered configuration, patching, and application defenses"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for web hardening is to apply layered configuration, patching, and application defenses; this directly addresses the issue described by the concept."
+    }
+  ]
+}

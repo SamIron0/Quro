@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which concept is BEST illustrated by this scenario: an application's database query changes meaning when untrusted input is concatenated into SQL?",
+      "options": {
+        "A": "Output encoding",
+        "B": "SQL injection",
+        "C": "Prepared statement",
+        "D": "Parameterized query"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of sql injection: an application's database query changes meaning when untrusted input is concatenated into SQL. A relevant security consideration is to use parameterized queries rather than building SQL strings."
+    },
+    {
+      "id": 2,
+      "question": "When studying SQL injection, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Use correct parameter binding for each supported database driver",
+        "B": "Bind inputs as data instead of executable query syntax",
+        "C": "Validate according to a narrow accepted schema",
+        "D": "Use parameterized queries rather than building SQL strings"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for sql injection is to use parameterized queries rather than building SQL strings; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "During an authorized security review, an assessor observes: a database application submits query structure separately from user-supplied values. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Parameterized query",
+        "B": "Input validation",
+        "C": "Prepared statement",
+        "D": "Output encoding"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of parameterized query: a database application submits query structure separately from user-supplied values. A relevant security consideration is to bind inputs as data instead of executable query syntax."
+    },
+    {
+      "id": 4,
+      "question": "An exam asks about the appropriate handling of Parameterized query. Which statement is BEST?",
+      "options": {
+        "A": "Use parameterized queries rather than building SQL strings",
+        "B": "Validate according to a narrow accepted schema",
+        "C": "Bind inputs as data instead of executable query syntax",
+        "D": "Use correct parameter binding for each supported database driver"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for parameterized query is to bind inputs as data instead of executable query syntax; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "Consider this security situation: an application prepares a database operation before supplying its parameter values. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Parameterized query",
+        "B": "Output encoding",
+        "C": "SQL injection",
+        "D": "Prepared statement"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of prepared statement: an application prepares a database operation before supplying its parameter values. A relevant security consideration is to use correct parameter binding for each supported database driver."
+    },
+    {
+      "id": 6,
+      "question": "For Prepared statement, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use parameterized queries rather than building SQL strings",
+        "B": "Validate according to a narrow accepted schema",
+        "C": "Use correct parameter binding for each supported database driver",
+        "D": "Encode for the specific destination context"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for prepared statement is to use correct parameter binding for each supported database driver; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "An incident note reads: a form rejects values that violate a defined business data format. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Parameterized query",
+        "B": "SQL injection",
+        "C": "Input validation",
+        "D": "Output encoding"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of input validation: a form rejects values that violate a defined business data format. A relevant security consideration is to validate according to a narrow accepted schema."
+    },
+    {
+      "id": 8,
+      "question": "Which guidance BEST addresses the key issue associated with Input validation?",
+      "options": {
+        "A": "Validate according to a narrow accepted schema",
+        "B": "Use parameterized queries rather than building SQL strings",
+        "C": "Use correct parameter binding for each supported database driver",
+        "D": "Encode for the specific destination context"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for input validation is to validate according to a narrow accepted schema; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "A team documents the following condition: user-controlled text is safely rendered into an HTML response. Which CEH term is the closest match?",
+      "options": {
+        "A": "SQL injection",
+        "B": "Output encoding",
+        "C": "Input validation",
+        "D": "Prepared statement"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of output encoding: user-controlled text is safely rendered into an HTML response. A relevant security consideration is to encode for the specific destination context."
+    },
+    {
+      "id": 10,
+      "question": "A security team is reviewing the topic of Output encoding. Which statement BEST applies?",
+      "options": {
+        "A": "Encode for the specific destination context",
+        "B": "Bind inputs as data instead of executable query syntax",
+        "C": "Use correct parameter binding for each supported database driver",
+        "D": "Validate according to a narrow accepted schema"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for output encoding is to encode for the specific destination context; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "Which concept is BEST illustrated by this scenario: a web app account can drop unrelated production databases unnecessarily?",
+      "options": {
+        "A": "Least-privilege database user",
+        "B": "Union-based SQL injection",
+        "C": "Second-order SQL injection",
+        "D": "Blind SQL injection"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of least-privilege database user: a web app account can drop unrelated production databases unnecessarily. A relevant security consideration is to grant only the database rights required by the application."
+    },
+    {
+      "id": 12,
+      "question": "When studying Least-privilege database user, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Keep values parameterized at every subsequent use",
+        "B": "Parameterize inputs and review query structure",
+        "C": "Log internal errors privately and return generic external messages",
+        "D": "Grant only the database rights required by the application"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for least-privilege database user is to grant only the database rights required by the application; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "During an authorized security review, an assessor observes: a public page exposes raw SQL errors including schema details. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Least-privilege database user",
+        "B": "Second-order SQL injection",
+        "C": "Database error disclosure",
+        "D": "Blind SQL injection"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of database error disclosure: a public page exposes raw SQL errors including schema details. A relevant security consideration is to log internal errors privately and return generic external messages."
+    },
+    {
+      "id": 14,
+      "question": "An exam asks about the appropriate handling of Database error disclosure. Which statement is BEST?",
+      "options": {
+        "A": "Keep values parameterized at every subsequent use",
+        "B": "Log internal errors privately and return generic external messages",
+        "C": "Grant only the database rights required by the application",
+        "D": "Fix query construction rather than relying on hidden error messages"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for database error disclosure is to log internal errors privately and return generic external messages; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "Consider this security situation: database behavior may be inferred indirectly even when detailed errors are suppressed. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Second-order SQL injection",
+        "B": "Least-privilege database user",
+        "C": "Blind SQL injection",
+        "D": "Database error disclosure"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of blind sql injection: database behavior may be inferred indirectly even when detailed errors are suppressed. A relevant security consideration is to fix query construction rather than relying on hidden error messages."
+    },
+    {
+      "id": 16,
+      "question": "For Blind SQL injection, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Fix query construction rather than relying on hidden error messages",
+        "B": "Log internal errors privately and return generic external messages",
+        "C": "Keep values parameterized at every subsequent use",
+        "D": "Grant only the database rights required by the application"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for blind sql injection is to fix query construction rather than relying on hidden error messages; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "An incident note reads: improper query construction permits unintended joining of results from other queries. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Second-order SQL injection",
+        "B": "Union-based SQL injection",
+        "C": "Least-privilege database user",
+        "D": "Database error disclosure"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of union-based sql injection: improper query construction permits unintended joining of results from other queries. A relevant security consideration is to parameterize inputs and review query structure."
+    },
+    {
+      "id": 18,
+      "question": "Which guidance BEST addresses the key issue associated with Union-based SQL injection?",
+      "options": {
+        "A": "Grant only the database rights required by the application",
+        "B": "Parameterize inputs and review query structure",
+        "C": "Keep values parameterized at every subsequent use",
+        "D": "Log internal errors privately and return generic external messages"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for union-based sql injection is to parameterize inputs and review query structure; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "A team documents the following condition: malicious input is stored as data and becomes dangerous when later incorporated into a query. Which CEH term is the closest match?",
+      "options": {
+        "A": "Second-order SQL injection",
+        "B": "Union-based SQL injection",
+        "C": "Blind SQL injection",
+        "D": "Least-privilege database user"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of second-order sql injection: malicious input is stored as data and becomes dangerous when later incorporated into a query. A relevant security consideration is to keep values parameterized at every subsequent use."
+    },
+    {
+      "id": 20,
+      "question": "A security team is reviewing the topic of Second-order SQL injection. Which statement BEST applies?",
+      "options": {
+        "A": "Keep values parameterized at every subsequent use",
+        "B": "Grant only the database rights required by the application",
+        "C": "Parameterize inputs and review query structure",
+        "D": "Log internal errors privately and return generic external messages"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for second-order sql injection is to keep values parameterized at every subsequent use; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "Which concept is BEST illustrated by this scenario: a program copies more data into a stack buffer than its allotted storage?",
+      "options": {
+        "A": "Buffer boundary check",
+        "B": "Memory corruption",
+        "C": "Stack-based buffer overflow",
+        "D": "Heap-based buffer overflow"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of stack-based buffer overflow: a program copies more data into a stack buffer than its allotted storage. A relevant security consideration is to enforce bounds checks and use memory-safe facilities."
+    },
+    {
+      "id": 22,
+      "question": "When studying Stack-based buffer overflow, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Enforce bounds checks and use memory-safe facilities",
+        "B": "Check lengths before copying or concatenating data",
+        "C": "Apply allocation-aware bounds validation and memory protections",
+        "D": "Enable compiler protections while still fixing root causes"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for stack-based buffer overflow is to enforce bounds checks and use memory-safe facilities; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "During an authorized security review, an assessor observes: a program writes beyond the bounds of dynamically allocated memory. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Heap-based buffer overflow",
+        "B": "Buffer boundary check",
+        "C": "Stack canary",
+        "D": "Stack-based buffer overflow"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of heap-based buffer overflow: a program writes beyond the bounds of dynamically allocated memory. A relevant security consideration is to apply allocation-aware bounds validation and memory protections."
+    },
+    {
+      "id": 24,
+      "question": "An exam asks about the appropriate handling of Heap-based buffer overflow. Which statement is BEST?",
+      "options": {
+        "A": "Apply allocation-aware bounds validation and memory protections",
+        "B": "Enable compiler protections while still fixing root causes",
+        "C": "Use safe libraries and runtime memory-hardening controls",
+        "D": "Check lengths before copying or concatenating data"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for heap-based buffer overflow is to apply allocation-aware bounds validation and memory protections; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "Consider this security situation: an application writes into a fixed-size buffer without verifying the available length. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Buffer boundary check",
+        "B": "Stack-based buffer overflow",
+        "C": "Stack canary",
+        "D": "Heap-based buffer overflow"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of buffer boundary check: an application writes into a fixed-size buffer without verifying the available length. A relevant security consideration is to check lengths before copying or concatenating data."
+    },
+    {
+      "id": 26,
+      "question": "For Buffer boundary check, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Check lengths before copying or concatenating data",
+        "B": "Enable compiler protections while still fixing root causes",
+        "C": "Enforce bounds checks and use memory-safe facilities",
+        "D": "Apply allocation-aware bounds validation and memory protections"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for buffer boundary check is to check lengths before copying or concatenating data; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "An incident note reads: an invalid write changes program memory outside the intended object. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Stack-based buffer overflow",
+        "B": "Stack canary",
+        "C": "Memory corruption",
+        "D": "Heap-based buffer overflow"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of memory corruption: an invalid write changes program memory outside the intended object. A relevant security consideration is to use safe libraries and runtime memory-hardening controls."
+    },
+    {
+      "id": 28,
+      "question": "Which guidance BEST addresses the key issue associated with Memory corruption?",
+      "options": {
+        "A": "Apply allocation-aware bounds validation and memory protections",
+        "B": "Enforce bounds checks and use memory-safe facilities",
+        "C": "Enable compiler protections while still fixing root causes",
+        "D": "Use safe libraries and runtime memory-hardening controls"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for memory corruption is to use safe libraries and runtime memory-hardening controls; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "A team documents the following condition: a compiler adds a defensive value used to detect some stack overwrite conditions. Which CEH term is the closest match?",
+      "options": {
+        "A": "Memory corruption",
+        "B": "Stack canary",
+        "C": "Heap-based buffer overflow",
+        "D": "Buffer boundary check"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of stack canary: a compiler adds a defensive value used to detect some stack overwrite conditions. A relevant security consideration is to enable compiler protections while still fixing root causes."
+    },
+    {
+      "id": 30,
+      "question": "A security team is reviewing the topic of Stack canary. Which statement BEST applies?",
+      "options": {
+        "A": "Use safe libraries and runtime memory-hardening controls",
+        "B": "Check lengths before copying or concatenating data",
+        "C": "Enable compiler protections while still fixing root causes",
+        "D": "Apply allocation-aware bounds validation and memory protections"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for stack canary is to enable compiler protections while still fixing root causes; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "Which concept is BEST illustrated by this scenario: a system randomizes the placement of major memory regions?",
+      "options": {
+        "A": "Data execution prevention",
+        "B": "Integer overflow",
+        "C": "Use-after-free",
+        "D": "Address space layout randomization"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of address space layout randomization: a system randomizes the placement of major memory regions. A relevant security consideration is to keep ASLR enabled as defense-in-depth."
+    },
+    {
+      "id": 32,
+      "question": "When studying Address space layout randomization, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Validate arithmetic bounds before memory allocation",
+        "B": "Use fixed format strings and treat user input as data",
+        "C": "Enable non-executable memory protections where available",
+        "D": "Keep ASLR enabled as defense-in-depth"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for address space layout randomization is to keep ASLR enabled as defense-in-depth; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "During an authorized security review, an assessor observes: a platform prevents execution from selected writable memory regions. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Format-string vulnerability",
+        "B": "Integer overflow",
+        "C": "Data execution prevention",
+        "D": "Address space layout randomization"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of data execution prevention: a platform prevents execution from selected writable memory regions. A relevant security consideration is to enable non-executable memory protections where available."
+    },
+    {
+      "id": 34,
+      "question": "An exam asks about the appropriate handling of Data execution prevention. Which statement is BEST?",
+      "options": {
+        "A": "Enable non-executable memory protections where available",
+        "B": "Correct object lifetimes and use memory-safe patterns",
+        "C": "Use fixed format strings and treat user input as data",
+        "D": "Keep ASLR enabled as defense-in-depth"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for data execution prevention is to enable non-executable memory protections where available; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "Consider this security situation: a size calculation wraps outside its representable numeric range. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Format-string vulnerability",
+        "B": "Use-after-free",
+        "C": "Address space layout randomization",
+        "D": "Integer overflow"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of integer overflow: a size calculation wraps outside its representable numeric range. A relevant security consideration is to validate arithmetic bounds before memory allocation."
+    },
+    {
+      "id": 36,
+      "question": "For Integer overflow, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use fixed format strings and treat user input as data",
+        "B": "Enable non-executable memory protections where available",
+        "C": "Validate arithmetic bounds before memory allocation",
+        "D": "Correct object lifetimes and use memory-safe patterns"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for integer overflow is to validate arithmetic bounds before memory allocation; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "An incident note reads: a program passes untrusted content as a formatting template. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Format-string vulnerability",
+        "B": "Data execution prevention",
+        "C": "Integer overflow",
+        "D": "Use-after-free"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of format-string vulnerability: a program passes untrusted content as a formatting template. A relevant security consideration is to use fixed format strings and treat user input as data."
+    },
+    {
+      "id": 38,
+      "question": "Which guidance BEST addresses the key issue associated with Format-string vulnerability?",
+      "options": {
+        "A": "Validate arithmetic bounds before memory allocation",
+        "B": "Use fixed format strings and treat user input as data",
+        "C": "Enable non-executable memory protections where available",
+        "D": "Correct object lifetimes and use memory-safe patterns"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for format-string vulnerability is to use fixed format strings and treat user input as data; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "A team documents the following condition: software continues to reference memory after releasing its allocation. Which CEH term is the closest match?",
+      "options": {
+        "A": "Integer overflow",
+        "B": "Use-after-free",
+        "C": "Address space layout randomization",
+        "D": "Format-string vulnerability"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of use-after-free: software continues to reference memory after releasing its allocation. A relevant security consideration is to correct object lifetimes and use memory-safe patterns."
+    },
+    {
+      "id": 40,
+      "question": "A security team is reviewing the topic of Use-after-free. Which statement BEST applies?",
+      "options": {
+        "A": "Keep ASLR enabled as defense-in-depth",
+        "B": "Correct object lifetimes and use memory-safe patterns",
+        "C": "Use fixed format strings and treat user input as data",
+        "D": "Enable non-executable memory protections where available"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for use-after-free is to correct object lifetimes and use memory-safe patterns; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "Which concept is BEST illustrated by this scenario: a developer inspects dataflow between untrusted input and sensitive operations?",
+      "options": {
+        "A": "Vulnerability remediation",
+        "B": "Dynamic application testing",
+        "C": "Static application testing",
+        "D": "Secure coding review"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of secure coding review: a developer inspects dataflow between untrusted input and sensitive operations. A relevant security consideration is to combine code review with tests focused on trust boundaries."
+    },
+    {
+      "id": 42,
+      "question": "When studying Secure coding review, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Run fuzzers in controlled environments and investigate crashes",
+        "B": "Use dynamic results alongside source review and secure design",
+        "C": "Repair unsafe data handling rather than hiding symptoms",
+        "D": "Combine code review with tests focused on trust boundaries"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for secure coding review is to combine code review with tests focused on trust boundaries; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "During an authorized security review, an assessor observes: source or compiled artifacts are examined for insecure patterns without running the application. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Vulnerability remediation",
+        "B": "Secure coding review",
+        "C": "Static application testing",
+        "D": "Fuzz testing"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of static application testing: source or compiled artifacts are examined for insecure patterns without running the application. A relevant security consideration is to triages static findings and confirm real exploitability."
+    },
+    {
+      "id": 44,
+      "question": "An exam asks about the appropriate handling of Static application testing. Which statement is BEST?",
+      "options": {
+        "A": "Use dynamic results alongside source review and secure design",
+        "B": "Triages static findings and confirm real exploitability",
+        "C": "Run fuzzers in controlled environments and investigate crashes",
+        "D": "Combine code review with tests focused on trust boundaries"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for static application testing is to triages static findings and confirm real exploitability; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "Consider this security situation: security tests inspect a running application's external behavior. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Dynamic application testing",
+        "B": "Secure coding review",
+        "C": "Vulnerability remediation",
+        "D": "Fuzz testing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of dynamic application testing: security tests inspect a running application's external behavior. A relevant security consideration is to use dynamic results alongside source review and secure design."
+    },
+    {
+      "id": 46,
+      "question": "For Dynamic application testing, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Triages static findings and confirm real exploitability",
+        "B": "Run fuzzers in controlled environments and investigate crashes",
+        "C": "Repair unsafe data handling rather than hiding symptoms",
+        "D": "Use dynamic results alongside source review and secure design"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for dynamic application testing is to use dynamic results alongside source review and secure design; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "An incident note reads: a test system feeds varied invalid or unexpected data to an application. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Vulnerability remediation",
+        "B": "Fuzz testing",
+        "C": "Dynamic application testing",
+        "D": "Secure coding review"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of fuzz testing: a test system feeds varied invalid or unexpected data to an application. A relevant security consideration is to run fuzzers in controlled environments and investigate crashes."
+    },
+    {
+      "id": 48,
+      "question": "Which guidance BEST addresses the key issue associated with Fuzz testing?",
+      "options": {
+        "A": "Use dynamic results alongside source review and secure design",
+        "B": "Run fuzzers in controlled environments and investigate crashes",
+        "C": "Repair unsafe data handling rather than hiding symptoms",
+        "D": "Triages static findings and confirm real exploitability"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for fuzz testing is to run fuzzers in controlled environments and investigate crashes; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "A team documents the following condition: an issue is temporarily masked by an error page without changing the unsafe query. Which CEH term is the closest match?",
+      "options": {
+        "A": "Secure coding review",
+        "B": "Static application testing",
+        "C": "Vulnerability remediation",
+        "D": "Fuzz testing"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of vulnerability remediation: an issue is temporarily masked by an error page without changing the unsafe query. A relevant security consideration is to repair unsafe data handling rather than hiding symptoms."
+    },
+    {
+      "id": 50,
+      "question": "A security team is reviewing the topic of Vulnerability remediation. Which statement BEST applies?",
+      "options": {
+        "A": "Triages static findings and confirm real exploitability",
+        "B": "Use dynamic results alongside source review and secure design",
+        "C": "Repair unsafe data handling rather than hiding symptoms",
+        "D": "Combine code review with tests focused on trust boundaries"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for vulnerability remediation is to repair unsafe data handling rather than hiding symptoms; this directly addresses the issue described by the concept."
+    }
+  ]
+}

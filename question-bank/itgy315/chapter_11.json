@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Consider this security situation: an office relies on a boundary barrier to separate public and controlled areas. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Mantrap",
+        "B": "Access badge",
+        "C": "Tailgating",
+        "D": "Physical perimeter"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of physical perimeter: an office relies on a boundary barrier to separate public and controlled areas. A relevant security consideration is to use proportionate perimeter controls and regular inspection."
+    },
+    {
+      "id": 2,
+      "question": "For Physical perimeter, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Revoke lost or departing-user badges promptly",
+        "B": "Design emergency egress to comply with life safety requirements",
+        "C": "Use proportionate perimeter controls and regular inspection",
+        "D": "Use awareness and entry controls that enforce individual access"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for physical perimeter is to use proportionate perimeter controls and regular inspection; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "An incident note reads: employees use issued credentials to enter secured rooms. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Biometric access",
+        "B": "Physical perimeter",
+        "C": "Access badge",
+        "D": "Tailgating"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of access badge: employees use issued credentials to enter secured rooms. A relevant security consideration is to revoke lost or departing-user badges promptly."
+    },
+    {
+      "id": 4,
+      "question": "Which guidance BEST addresses the key issue associated with Access badge?",
+      "options": {
+        "A": "Revoke lost or departing-user badges promptly",
+        "B": "Design emergency egress to comply with life safety requirements",
+        "C": "Use awareness and entry controls that enforce individual access",
+        "D": "Pair biometrics with sound enrollment and fallback processes"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for access badge is to revoke lost or departing-user badges promptly; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "A team documents the following condition: a facility verifies an individual's physical characteristic before admission. Which CEH term is the closest match?",
+      "options": {
+        "A": "Tailgating",
+        "B": "Mantrap",
+        "C": "Biometric access",
+        "D": "Access badge"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of biometric access: a facility verifies an individual's physical characteristic before admission. A relevant security consideration is to pair biometrics with sound enrollment and fallback processes."
+    },
+    {
+      "id": 6,
+      "question": "A security team is reviewing the topic of Biometric access. Which statement BEST applies?",
+      "options": {
+        "A": "Use proportionate perimeter controls and regular inspection",
+        "B": "Use awareness and entry controls that enforce individual access",
+        "C": "Pair biometrics with sound enrollment and fallback processes",
+        "D": "Revoke lost or departing-user badges promptly"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for biometric access is to pair biometrics with sound enrollment and fallback processes; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "Which concept is BEST illustrated by this scenario: an unauthorized visitor follows an employee through a controlled doorway?",
+      "options": {
+        "A": "Mantrap",
+        "B": "Access badge",
+        "C": "Tailgating",
+        "D": "Physical perimeter"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of tailgating: an unauthorized visitor follows an employee through a controlled doorway. A relevant security consideration is to use awareness and entry controls that enforce individual access."
+    },
+    {
+      "id": 8,
+      "question": "When studying Tailgating, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Revoke lost or departing-user badges promptly",
+        "B": "Pair biometrics with sound enrollment and fallback processes",
+        "C": "Design emergency egress to comply with life safety requirements",
+        "D": "Use awareness and entry controls that enforce individual access"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for tailgating is to use awareness and entry controls that enforce individual access; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "During an authorized security review, an assessor observes: a secure entryway uses interlocked doors to limit uncontrolled passage. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Physical perimeter",
+        "B": "Biometric access",
+        "C": "Mantrap",
+        "D": "Tailgating"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of mantrap: a secure entryway uses interlocked doors to limit uncontrolled passage. A relevant security consideration is to design emergency egress to comply with life safety requirements."
+    },
+    {
+      "id": 10,
+      "question": "An exam asks about the appropriate handling of Mantrap. Which statement is BEST?",
+      "options": {
+        "A": "Revoke lost or departing-user badges promptly",
+        "B": "Pair biometrics with sound enrollment and fallback processes",
+        "C": "Use awareness and entry controls that enforce individual access",
+        "D": "Design emergency egress to comply with life safety requirements"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for mantrap is to design emergency egress to comply with life safety requirements; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "Consider this security situation: a trained person monitors premises and challenges suspicious access. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Fencing",
+        "B": "CCTV monitoring",
+        "C": "Security lighting",
+        "D": "Security guard"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of security guard: a trained person monitors premises and challenges suspicious access. A relevant security consideration is to give guards clear escalation and visitor verification procedures."
+    },
+    {
+      "id": 12,
+      "question": "For Security guard, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Require escorts and track entry and departure",
+        "B": "Inspect barriers and complement fencing with detection",
+        "C": "Give guards clear escalation and visitor verification procedures",
+        "D": "Provide lighting that supports safe monitoring and identification"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for security guard is to give guards clear escalation and visitor verification procedures; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "An incident note reads: video equipment records activities near a sensitive access corridor. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Fencing",
+        "B": "CCTV monitoring",
+        "C": "Visitor log",
+        "D": "Security guard"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of cctv monitoring: video equipment records activities near a sensitive access corridor. A relevant security consideration is to protect recordings and comply with privacy and retention policies."
+    },
+    {
+      "id": 14,
+      "question": "Which guidance BEST addresses the key issue associated with CCTV monitoring?",
+      "options": {
+        "A": "Give guards clear escalation and visitor verification procedures",
+        "B": "Provide lighting that supports safe monitoring and identification",
+        "C": "Inspect barriers and complement fencing with detection",
+        "D": "Protect recordings and comply with privacy and retention policies"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for cctv monitoring is to protect recordings and comply with privacy and retention policies; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "A team documents the following condition: a reception desk keeps an accountable record of nonemployee entries. Which CEH term is the closest match?",
+      "options": {
+        "A": "Security guard",
+        "B": "Fencing",
+        "C": "Visitor log",
+        "D": "Security lighting"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of visitor log: a reception desk keeps an accountable record of nonemployee entries. A relevant security consideration is to require escorts and track entry and departure."
+    },
+    {
+      "id": 16,
+      "question": "A security team is reviewing the topic of Visitor log. Which statement BEST applies?",
+      "options": {
+        "A": "Require escorts and track entry and departure",
+        "B": "Protect recordings and comply with privacy and retention policies",
+        "C": "Inspect barriers and complement fencing with detection",
+        "D": "Provide lighting that supports safe monitoring and identification"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for visitor log is to require escorts and track entry and departure; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "Which concept is BEST illustrated by this scenario: an exterior entrance is poorly illuminated during evening hours?",
+      "options": {
+        "A": "Fencing",
+        "B": "Visitor log",
+        "C": "Security lighting",
+        "D": "CCTV monitoring"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of security lighting: an exterior entrance is poorly illuminated during evening hours. A relevant security consideration is to provide lighting that supports safe monitoring and identification."
+    },
+    {
+      "id": 18,
+      "question": "When studying Security lighting, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Give guards clear escalation and visitor verification procedures",
+        "B": "Require escorts and track entry and departure",
+        "C": "Inspect barriers and complement fencing with detection",
+        "D": "Provide lighting that supports safe monitoring and identification"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for security lighting is to provide lighting that supports safe monitoring and identification; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "During an authorized security review, an assessor observes: a facility separates an equipment compound from surrounding public land. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Fencing",
+        "B": "Visitor log",
+        "C": "Security guard",
+        "D": "Security lighting"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of fencing: a facility separates an equipment compound from surrounding public land. A relevant security consideration is to inspect barriers and complement fencing with detection."
+    },
+    {
+      "id": 20,
+      "question": "An exam asks about the appropriate handling of Fencing. Which statement is BEST?",
+      "options": {
+        "A": "Inspect barriers and complement fencing with detection",
+        "B": "Provide lighting that supports safe monitoring and identification",
+        "C": "Give guards clear escalation and visitor verification procedures",
+        "D": "Require escorts and track entry and departure"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for fencing is to inspect barriers and complement fencing with detection; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "Consider this security situation: general office staff can enter an equipment room without business need. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Media disposal",
+        "B": "Rack enclosure",
+        "C": "Server-room lock",
+        "D": "Cable security"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of server-room lock: general office staff can enter an equipment room without business need. A relevant security consideration is to limit room access to authorized operational personnel."
+    },
+    {
+      "id": 22,
+      "question": "For Server-room lock, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Protect conduits and inspect for interference",
+        "B": "Sanitize or destroy storage media according to sensitivity",
+        "C": "Limit room access to authorized operational personnel",
+        "D": "Use device encryption and rapid loss reporting"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for server-room lock is to limit room access to authorized operational personnel; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "An incident note reads: network equipment in a shared facility can be touched by visitors. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Media disposal",
+        "B": "Server-room lock",
+        "C": "Rack enclosure",
+        "D": "Cable security"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of rack enclosure: network equipment in a shared facility can be touched by visitors. A relevant security consideration is to secure cabinets and manage physical keys."
+    },
+    {
+      "id": 24,
+      "question": "Which guidance BEST addresses the key issue associated with Rack enclosure?",
+      "options": {
+        "A": "Secure cabinets and manage physical keys",
+        "B": "Protect conduits and inspect for interference",
+        "C": "Use device encryption and rapid loss reporting",
+        "D": "Sanitize or destroy storage media according to sensitivity"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for rack enclosure is to secure cabinets and manage physical keys; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "A team documents the following condition: exposed network lines run through spaces accessible to the public. Which CEH term is the closest match?",
+      "options": {
+        "A": "Portable-device theft",
+        "B": "Rack enclosure",
+        "C": "Server-room lock",
+        "D": "Cable security"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of cable security: exposed network lines run through spaces accessible to the public. A relevant security consideration is to protect conduits and inspect for interference."
+    },
+    {
+      "id": 26,
+      "question": "A security team is reviewing the topic of Cable security. Which statement BEST applies?",
+      "options": {
+        "A": "Sanitize or destroy storage media according to sensitivity",
+        "B": "Protect conduits and inspect for interference",
+        "C": "Limit room access to authorized operational personnel",
+        "D": "Use device encryption and rapid loss reporting"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for cable security is to protect conduits and inspect for interference; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "Which concept is BEST illustrated by this scenario: a company laptop disappears from a shared meeting room?",
+      "options": {
+        "A": "Cable security",
+        "B": "Server-room lock",
+        "C": "Portable-device theft",
+        "D": "Rack enclosure"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of portable-device theft: a company laptop disappears from a shared meeting room. A relevant security consideration is to use device encryption and rapid loss reporting."
+    },
+    {
+      "id": 28,
+      "question": "When studying Portable-device theft, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Limit room access to authorized operational personnel",
+        "B": "Protect conduits and inspect for interference",
+        "C": "Use device encryption and rapid loss reporting",
+        "D": "Sanitize or destroy storage media according to sensitivity"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for portable-device theft is to use device encryption and rapid loss reporting; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "During an authorized security review, an assessor observes: old storage drives are placed in ordinary trash. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Media disposal",
+        "B": "Server-room lock",
+        "C": "Rack enclosure",
+        "D": "Portable-device theft"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of media disposal: old storage drives are placed in ordinary trash. A relevant security consideration is to sanitize or destroy storage media according to sensitivity."
+    },
+    {
+      "id": 30,
+      "question": "An exam asks about the appropriate handling of Media disposal. Which statement is BEST?",
+      "options": {
+        "A": "Limit room access to authorized operational personnel",
+        "B": "Secure cabinets and manage physical keys",
+        "C": "Sanitize or destroy storage media according to sensitivity",
+        "D": "Use device encryption and rapid loss reporting"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for media disposal is to sanitize or destroy storage media according to sensitivity; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "Consider this security situation: a data room needs early warning of smoke or high heat. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Fire detection",
+        "B": "Uninterruptible power supply",
+        "C": "Environmental monitoring",
+        "D": "Fire suppression"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of fire detection: a data room needs early warning of smoke or high heat. A relevant security consideration is to use appropriate sensors with tested alarm escalation."
+    },
+    {
+      "id": 32,
+      "question": "For Fire detection, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Select safe suppression methods and test emergency procedures",
+        "B": "Use appropriate sensors with tested alarm escalation",
+        "C": "Monitor temperature, humidity, and alerts",
+        "D": "Test generators and manage fuel and maintenance"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for fire detection is to use appropriate sensors with tested alarm escalation; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "An incident note reads: critical equipment is at risk from an uncontrolled fire. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Environmental monitoring",
+        "B": "Fire suppression",
+        "C": "Uninterruptible power supply",
+        "D": "Fire detection"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of fire suppression: critical equipment is at risk from an uncontrolled fire. A relevant security consideration is to select safe suppression methods and test emergency procedures."
+    },
+    {
+      "id": 34,
+      "question": "Which guidance BEST addresses the key issue associated with Fire suppression?",
+      "options": {
+        "A": "Select safe suppression methods and test emergency procedures",
+        "B": "Monitor temperature, humidity, and alerts",
+        "C": "Test generators and manage fuel and maintenance",
+        "D": "Use correctly sized UPS systems and test shutdown behavior"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for fire suppression is to select safe suppression methods and test emergency procedures; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "A team documents the following condition: a server room overheats after cooling equipment malfunctions. Which CEH term is the closest match?",
+      "options": {
+        "A": "Uninterruptible power supply",
+        "B": "Fire detection",
+        "C": "Environmental monitoring",
+        "D": "Backup generator"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of environmental monitoring: a server room overheats after cooling equipment malfunctions. A relevant security consideration is to monitor temperature, humidity, and alerts."
+    },
+    {
+      "id": 36,
+      "question": "A security team is reviewing the topic of Environmental monitoring. Which statement BEST applies?",
+      "options": {
+        "A": "Monitor temperature, humidity, and alerts",
+        "B": "Test generators and manage fuel and maintenance",
+        "C": "Use correctly sized UPS systems and test shutdown behavior",
+        "D": "Use appropriate sensors with tested alarm escalation"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for environmental monitoring is to monitor temperature, humidity, and alerts; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "Which concept is BEST illustrated by this scenario: a short power interruption would abruptly stop core servers?",
+      "options": {
+        "A": "Environmental monitoring",
+        "B": "Uninterruptible power supply",
+        "C": "Backup generator",
+        "D": "Fire detection"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of uninterruptible power supply: a short power interruption would abruptly stop core servers. A relevant security consideration is to use correctly sized UPS systems and test shutdown behavior."
+    },
+    {
+      "id": 38,
+      "question": "When studying Uninterruptible power supply, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Monitor temperature, humidity, and alerts",
+        "B": "Test generators and manage fuel and maintenance",
+        "C": "Use correctly sized UPS systems and test shutdown behavior",
+        "D": "Select safe suppression methods and test emergency procedures"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for uninterruptible power supply is to use correctly sized UPS systems and test shutdown behavior; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "During an authorized security review, an assessor observes: a facility needs resilience during a prolonged electricity outage. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Fire detection",
+        "B": "Backup generator",
+        "C": "Uninterruptible power supply",
+        "D": "Environmental monitoring"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of backup generator: a facility needs resilience during a prolonged electricity outage. A relevant security consideration is to test generators and manage fuel and maintenance."
+    },
+    {
+      "id": 40,
+      "question": "An exam asks about the appropriate handling of Backup generator. Which statement is BEST?",
+      "options": {
+        "A": "Use appropriate sensors with tested alarm escalation",
+        "B": "Monitor temperature, humidity, and alerts",
+        "C": "Use correctly sized UPS systems and test shutdown behavior",
+        "D": "Test generators and manage fuel and maintenance"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for backup generator is to test generators and manage fuel and maintenance; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "Consider this security situation: sensitive printed records remain visible on unattended workstations. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Clean-desk policy",
+        "B": "Screen locking",
+        "C": "Physical incident response",
+        "D": "Security awareness"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of clean-desk policy: sensitive printed records remain visible on unattended workstations. A relevant security consideration is to store confidential material securely when away."
+    },
+    {
+      "id": 42,
+      "question": "For Clean-desk policy, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Store confidential material securely when away",
+        "B": "Preserve access logs and footage while following incident procedures",
+        "C": "Maintain accountable equipment records and ownership",
+        "D": "Enable short automatic lock timeouts and user training"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for clean-desk policy is to store confidential material securely when away; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "An incident note reads: a staff member leaves a logged-in desktop unattended near visitors. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Screen locking",
+        "B": "Security awareness",
+        "C": "Physical incident response",
+        "D": "Asset inventory"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of screen locking: a staff member leaves a logged-in desktop unattended near visitors. A relevant security consideration is to enable short automatic lock timeouts and user training."
+    },
+    {
+      "id": 44,
+      "question": "Which guidance BEST addresses the key issue associated with Screen locking?",
+      "options": {
+        "A": "Store confidential material securely when away",
+        "B": "Train and reinforce challenge-and-report behavior",
+        "C": "Enable short automatic lock timeouts and user training",
+        "D": "Maintain accountable equipment records and ownership"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for screen locking is to enable short automatic lock timeouts and user training; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "A team documents the following condition: a company cannot identify who holds its issued mobile devices. Which CEH term is the closest match?",
+      "options": {
+        "A": "Security awareness",
+        "B": "Clean-desk policy",
+        "C": "Asset inventory",
+        "D": "Physical incident response"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of asset inventory: a company cannot identify who holds its issued mobile devices. A relevant security consideration is to maintain accountable equipment records and ownership."
+    },
+    {
+      "id": 46,
+      "question": "A security team is reviewing the topic of Asset inventory. Which statement BEST applies?",
+      "options": {
+        "A": "Store confidential material securely when away",
+        "B": "Maintain accountable equipment records and ownership",
+        "C": "Train and reinforce challenge-and-report behavior",
+        "D": "Preserve access logs and footage while following incident procedures"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for asset inventory is to maintain accountable equipment records and ownership; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "Which concept is BEST illustrated by this scenario: employees repeatedly admit unverified strangers through restricted doors?",
+      "options": {
+        "A": "Asset inventory",
+        "B": "Clean-desk policy",
+        "C": "Security awareness",
+        "D": "Physical incident response"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of security awareness: employees repeatedly admit unverified strangers through restricted doors. A relevant security consideration is to train and reinforce challenge-and-report behavior."
+    },
+    {
+      "id": 48,
+      "question": "When studying Security awareness, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Store confidential material securely when away",
+        "B": "Train and reinforce challenge-and-report behavior",
+        "C": "Preserve access logs and footage while following incident procedures",
+        "D": "Maintain accountable equipment records and ownership"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for security awareness is to train and reinforce challenge-and-report behavior; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "During an authorized security review, an assessor observes: a restricted room shows evidence of unauthorized entry. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Security awareness",
+        "B": "Physical incident response",
+        "C": "Screen locking",
+        "D": "Asset inventory"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of physical incident response: a restricted room shows evidence of unauthorized entry. A relevant security consideration is to preserve access logs and footage while following incident procedures."
+    },
+    {
+      "id": 50,
+      "question": "An exam asks about the appropriate handling of Physical incident response. Which statement is BEST?",
+      "options": {
+        "A": "Train and reinforce challenge-and-report behavior",
+        "B": "Store confidential material securely when away",
+        "C": "Preserve access logs and footage while following incident procedures",
+        "D": "Maintain accountable equipment records and ownership"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for physical incident response is to preserve access logs and footage while following incident procedures; this directly addresses the issue described by the concept."
+    }
+  ]
+}

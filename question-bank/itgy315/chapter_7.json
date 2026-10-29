@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "An incident note reads: a service fails to process legitimate requests during deliberate overload. Select the MOST appropriate classification.",
+      "options": {
+        "A": "SYN flood",
+        "B": "Denial of service",
+        "C": "ICMP flood",
+        "D": "Distributed denial of service"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of denial of service: a service fails to process legitimate requests during deliberate overload. A relevant security consideration is to apply capacity controls and coordinated incident response."
+    },
+    {
+      "id": 2,
+      "question": "Which guidance BEST addresses the key issue associated with Denial of service?",
+      "options": {
+        "A": "Apply capacity controls and coordinated incident response",
+        "B": "Filter unwanted UDP traffic and provision appropriate resilience",
+        "C": "Rate-limit unnecessary ICMP without eliminating diagnostics blindly",
+        "D": "Use SYN cookies and connection-rate safeguards"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for denial of service is to apply capacity controls and coordinated incident response; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "A team documents the following condition: many unrelated systems simultaneously generate disruptive traffic toward one service. Which CEH term is the closest match?",
+      "options": {
+        "A": "Denial of service",
+        "B": "ICMP flood",
+        "C": "SYN flood",
+        "D": "Distributed denial of service"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of distributed denial of service: many unrelated systems simultaneously generate disruptive traffic toward one service. A relevant security consideration is to use upstream filtering and distributed mitigation capacity."
+    },
+    {
+      "id": 4,
+      "question": "A security team is reviewing the topic of Distributed denial of service. Which statement BEST applies?",
+      "options": {
+        "A": "Filter unwanted UDP traffic and provision appropriate resilience",
+        "B": "Rate-limit unnecessary ICMP without eliminating diagnostics blindly",
+        "C": "Use SYN cookies and connection-rate safeguards",
+        "D": "Use upstream filtering and distributed mitigation capacity"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for distributed denial of service is to use upstream filtering and distributed mitigation capacity; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "Which concept is BEST illustrated by this scenario: a server accumulates excessive half-open TCP connection attempts?",
+      "options": {
+        "A": "ICMP flood",
+        "B": "UDP flood",
+        "C": "SYN flood",
+        "D": "Denial of service"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of syn flood: a server accumulates excessive half-open TCP connection attempts. A relevant security consideration is to use SYN cookies and connection-rate safeguards."
+    },
+    {
+      "id": 6,
+      "question": "When studying SYN flood, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Use SYN cookies and connection-rate safeguards",
+        "B": "Filter unwanted UDP traffic and provision appropriate resilience",
+        "C": "Apply capacity controls and coordinated incident response",
+        "D": "Use upstream filtering and distributed mitigation capacity"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for syn flood is to use SYN cookies and connection-rate safeguards; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "During an authorized security review, an assessor observes: large volumes of echo-related traffic exhaust network or device resources. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Distributed denial of service",
+        "B": "UDP flood",
+        "C": "Denial of service",
+        "D": "ICMP flood"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of icmp flood: large volumes of echo-related traffic exhaust network or device resources. A relevant security consideration is to rate-limit unnecessary ICMP without eliminating diagnostics blindly."
+    },
+    {
+      "id": 8,
+      "question": "An exam asks about the appropriate handling of ICMP flood. Which statement is BEST?",
+      "options": {
+        "A": "Filter unwanted UDP traffic and provision appropriate resilience",
+        "B": "Use upstream filtering and distributed mitigation capacity",
+        "C": "Rate-limit unnecessary ICMP without eliminating diagnostics blindly",
+        "D": "Apply capacity controls and coordinated incident response"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for icmp flood is to rate-limit unnecessary ICMP without eliminating diagnostics blindly; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "Consider this security situation: high-volume datagrams overload transport or application handling capacity. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Distributed denial of service",
+        "B": "SYN flood",
+        "C": "UDP flood",
+        "D": "ICMP flood"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of udp flood: high-volume datagrams overload transport or application handling capacity. A relevant security consideration is to filter unwanted UDP traffic and provision appropriate resilience."
+    },
+    {
+      "id": 10,
+      "question": "For UDP flood, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Rate-limit unnecessary ICMP without eliminating diagnostics blindly",
+        "B": "Use SYN cookies and connection-rate safeguards",
+        "C": "Filter unwanted UDP traffic and provision appropriate resilience",
+        "D": "Use upstream filtering and distributed mitigation capacity"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for udp flood is to filter unwanted UDP traffic and provision appropriate resilience; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "An incident note reads: spoofed ICMP traffic is amplified through broadcast behavior toward a victim. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Amplification attack",
+        "B": "Rate limiting",
+        "C": "Reflection attack",
+        "D": "Smurf attack"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of smurf attack: spoofed ICMP traffic is amplified through broadcast behavior toward a victim. A relevant security consideration is to block directed broadcasts and apply source-address validation."
+    },
+    {
+      "id": 12,
+      "question": "Which guidance BEST addresses the key issue associated with Smurf attack?",
+      "options": {
+        "A": "Eliminate open reflectors and deploy source filtering",
+        "B": "Block directed broadcasts and apply source-address validation",
+        "C": "Tune thresholds using expected legitimate workload",
+        "D": "Prevent source spoofing and restrict exposed responder services"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for smurf attack is to block directed broadcasts and apply source-address validation; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "A team documents the following condition: a small request to a third-party service leads to a much larger response sent to a victim. Which CEH term is the closest match?",
+      "options": {
+        "A": "Smurf attack",
+        "B": "Application-layer DoS",
+        "C": "Amplification attack",
+        "D": "Reflection attack"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of amplification attack: a small request to a third-party service leads to a much larger response sent to a victim. A relevant security consideration is to eliminate open reflectors and deploy source filtering."
+    },
+    {
+      "id": 14,
+      "question": "A security team is reviewing the topic of Amplification attack. Which statement BEST applies?",
+      "options": {
+        "A": "Apply request controls and protect expensive application operations",
+        "B": "Block directed broadcasts and apply source-address validation",
+        "C": "Eliminate open reflectors and deploy source filtering",
+        "D": "Prevent source spoofing and restrict exposed responder services"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for amplification attack is to eliminate open reflectors and deploy source filtering; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "Which concept is BEST illustrated by this scenario: third-party systems unwittingly send traffic toward a spoofed victim address?",
+      "options": {
+        "A": "Amplification attack",
+        "B": "Reflection attack",
+        "C": "Smurf attack",
+        "D": "Application-layer DoS"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of reflection attack: third-party systems unwittingly send traffic toward a spoofed victim address. A relevant security consideration is to prevent source spoofing and restrict exposed responder services."
+    },
+    {
+      "id": 16,
+      "question": "When studying Reflection attack, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Prevent source spoofing and restrict exposed responder services",
+        "B": "Apply request controls and protect expensive application operations",
+        "C": "Eliminate open reflectors and deploy source filtering",
+        "D": "Block directed broadcasts and apply source-address validation"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for reflection attack is to prevent source spoofing and restrict exposed responder services; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "During an authorized security review, an assessor observes: a website is overwhelmed by costly requests that resemble legitimate use. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Amplification attack",
+        "B": "Smurf attack",
+        "C": "Application-layer DoS",
+        "D": "Rate limiting"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of application-layer dos: a website is overwhelmed by costly requests that resemble legitimate use. A relevant security consideration is to apply request controls and protect expensive application operations."
+    },
+    {
+      "id": 18,
+      "question": "An exam asks about the appropriate handling of Application-layer DoS. Which statement is BEST?",
+      "options": {
+        "A": "Apply request controls and protect expensive application operations",
+        "B": "Tune thresholds using expected legitimate workload",
+        "C": "Eliminate open reflectors and deploy source filtering",
+        "D": "Prevent source spoofing and restrict exposed responder services"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for application-layer dos is to apply request controls and protect expensive application operations; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "Consider this security situation: a public endpoint enforces a maximum accepted request frequency. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Application-layer DoS",
+        "B": "Reflection attack",
+        "C": "Amplification attack",
+        "D": "Rate limiting"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of rate limiting: a public endpoint enforces a maximum accepted request frequency. A relevant security consideration is to tune thresholds using expected legitimate workload."
+    },
+    {
+      "id": 20,
+      "question": "For Rate limiting, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Prevent source spoofing and restrict exposed responder services",
+        "B": "Eliminate open reflectors and deploy source filtering",
+        "C": "Block directed broadcasts and apply source-address validation",
+        "D": "Tune thresholds using expected legitimate workload"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for rate limiting is to tune thresholds using expected legitimate workload; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "An incident note reads: a security team compares current request volumes with normal historical patterns. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Content delivery network",
+        "B": "Traffic baseline",
+        "C": "High availability",
+        "D": "Incident escalation"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of traffic baseline: a security team compares current request volumes with normal historical patterns. A relevant security consideration is to maintain baselines to identify unusual service-load changes."
+    },
+    {
+      "id": 22,
+      "question": "Which guidance BEST addresses the key issue associated with Traffic baseline?",
+      "options": {
+        "A": "Maintain baselines to identify unusual service-load changes",
+        "B": "Test failover and remove single points of failure",
+        "C": "Prioritize critical applications during congestion",
+        "D": "Contact mitigation providers and follow the incident plan"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for traffic baseline is to maintain baselines to identify unusual service-load changes; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "A team documents the following condition: network policy manages traffic classes to preserve service quality. Which CEH term is the closest match?",
+      "options": {
+        "A": "Incident escalation",
+        "B": "Traffic shaping",
+        "C": "Traffic baseline",
+        "D": "Content delivery network"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of traffic shaping: network policy manages traffic classes to preserve service quality. A relevant security consideration is to prioritize critical applications during congestion."
+    },
+    {
+      "id": 24,
+      "question": "A security team is reviewing the topic of Traffic shaping. Which statement BEST applies?",
+      "options": {
+        "A": "Contact mitigation providers and follow the incident plan",
+        "B": "Prioritize critical applications during congestion",
+        "C": "Maintain baselines to identify unusual service-load changes",
+        "D": "Reduce origin load while maintaining independent security controls"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for traffic shaping is to prioritize critical applications during congestion; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "Which concept is BEST illustrated by this scenario: an organization distributes static web content across geographically dispersed nodes?",
+      "options": {
+        "A": "Incident escalation",
+        "B": "Traffic baseline",
+        "C": "Traffic shaping",
+        "D": "Content delivery network"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of content delivery network: an organization distributes static web content across geographically dispersed nodes. A relevant security consideration is to reduce origin load while maintaining independent security controls."
+    },
+    {
+      "id": 26,
+      "question": "When studying Content delivery network, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Test failover and remove single points of failure",
+        "B": "Maintain baselines to identify unusual service-load changes",
+        "C": "Reduce origin load while maintaining independent security controls",
+        "D": "Prioritize critical applications during congestion"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for content delivery network is to reduce origin load while maintaining independent security controls; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "During an authorized security review, an assessor observes: critical service nodes are deployed with failover mechanisms. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Content delivery network",
+        "B": "High availability",
+        "C": "Traffic shaping",
+        "D": "Traffic baseline"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of high availability: critical service nodes are deployed with failover mechanisms. A relevant security consideration is to test failover and remove single points of failure."
+    },
+    {
+      "id": 28,
+      "question": "An exam asks about the appropriate handling of High availability. Which statement is BEST?",
+      "options": {
+        "A": "Test failover and remove single points of failure",
+        "B": "Maintain baselines to identify unusual service-load changes",
+        "C": "Prioritize critical applications during congestion",
+        "D": "Contact mitigation providers and follow the incident plan"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for high availability is to test failover and remove single points of failure; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "Consider this security situation: a network operator observes a sustained, externally sourced availability incident. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Incident escalation",
+        "B": "Traffic baseline",
+        "C": "Traffic shaping",
+        "D": "Content delivery network"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of incident escalation: a network operator observes a sustained, externally sourced availability incident. A relevant security consideration is to contact mitigation providers and follow the incident plan."
+    },
+    {
+      "id": 30,
+      "question": "For Incident escalation, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Contact mitigation providers and follow the incident plan",
+        "B": "Reduce origin load while maintaining independent security controls",
+        "C": "Test failover and remove single points of failure",
+        "D": "Maintain baselines to identify unusual service-load changes"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for incident escalation is to contact mitigation providers and follow the incident plan; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "An incident note reads: a web application tracks an authenticated user using a session token. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Session replay",
+        "B": "Session identifier",
+        "C": "Session prediction",
+        "D": "Session hijacking"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of session identifier: a web application tracks an authenticated user using a session token. A relevant security consideration is to generate unpredictable tokens and protect their lifetime."
+    },
+    {
+      "id": 32,
+      "question": "Which guidance BEST addresses the key issue associated with Session identifier?",
+      "options": {
+        "A": "Regenerate the session identifier after login",
+        "B": "Generate unpredictable tokens and protect their lifetime",
+        "C": "Protect session tokens with secure transport and lifecycle controls",
+        "D": "Use short token lifetimes and replay-resistant protocols"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for session identifier is to generate unpredictable tokens and protect their lifetime; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "A team documents the following condition: an unauthorized person gains use of another user's authenticated session. Which CEH term is the closest match?",
+      "options": {
+        "A": "Session identifier",
+        "B": "Session hijacking",
+        "C": "Session replay",
+        "D": "Session prediction"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of session hijacking: an unauthorized person gains use of another user's authenticated session. A relevant security consideration is to protect session tokens with secure transport and lifecycle controls."
+    },
+    {
+      "id": 34,
+      "question": "A security team is reviewing the topic of Session hijacking. Which statement BEST applies?",
+      "options": {
+        "A": "Protect session tokens with secure transport and lifecycle controls",
+        "B": "Regenerate the session identifier after login",
+        "C": "Generate unpredictable tokens and protect their lifetime",
+        "D": "Use cryptographically strong random session generation"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for session hijacking is to protect session tokens with secure transport and lifecycle controls; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "Which concept is BEST illustrated by this scenario: an attacker causes a user to authenticate with a preselected session identifier?",
+      "options": {
+        "A": "Session identifier",
+        "B": "Session fixation",
+        "C": "Session prediction",
+        "D": "Session replay"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of session fixation: an attacker causes a user to authenticate with a preselected session identifier. A relevant security consideration is to regenerate the session identifier after login."
+    },
+    {
+      "id": 36,
+      "question": "When studying Session fixation, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Generate unpredictable tokens and protect their lifetime",
+        "B": "Use cryptographically strong random session generation",
+        "C": "Protect session tokens with secure transport and lifecycle controls",
+        "D": "Regenerate the session identifier after login"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for session fixation is to regenerate the session identifier after login; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "During an authorized security review, an assessor observes: a session system creates identifiers that are too easy to anticipate. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Session prediction",
+        "B": "Session hijacking",
+        "C": "Session replay",
+        "D": "Session fixation"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of session prediction: a session system creates identifiers that are too easy to anticipate. A relevant security consideration is to use cryptographically strong random session generation."
+    },
+    {
+      "id": 38,
+      "question": "An exam asks about the appropriate handling of Session prediction. Which statement is BEST?",
+      "options": {
+        "A": "Use cryptographically strong random session generation",
+        "B": "Protect session tokens with secure transport and lifecycle controls",
+        "C": "Use short token lifetimes and replay-resistant protocols",
+        "D": "Regenerate the session identifier after login"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for session prediction is to use cryptographically strong random session generation; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "Consider this security situation: a captured authentication artifact is reused to impersonate its holder. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Session replay",
+        "B": "Session identifier",
+        "C": "Session prediction",
+        "D": "Session fixation"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of session replay: a captured authentication artifact is reused to impersonate its holder. A relevant security consideration is to use short token lifetimes and replay-resistant protocols."
+    },
+    {
+      "id": 40,
+      "question": "For Session replay, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Generate unpredictable tokens and protect their lifetime",
+        "B": "Regenerate the session identifier after login",
+        "C": "Protect session tokens with secure transport and lifecycle controls",
+        "D": "Use short token lifetimes and replay-resistant protocols"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for session replay is to use short token lifetimes and replay-resistant protocols; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "An incident note reads: a session cookie should only travel across encrypted HTTPS connections. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Cookie HttpOnly attribute",
+        "B": "Session timeout",
+        "C": "Cookie Secure attribute",
+        "D": "Cookie SameSite attribute"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of cookie secure attribute: a session cookie should only travel across encrypted HTTPS connections. A relevant security consideration is to enable Secure for cookies containing authentication state."
+    },
+    {
+      "id": 42,
+      "question": "Which guidance BEST addresses the key issue associated with Cookie Secure attribute?",
+      "options": {
+        "A": "Choose appropriate SameSite behavior alongside CSRF controls",
+        "B": "Enable Secure for cookies containing authentication state",
+        "C": "Invalidate the server-side session when ending a login",
+        "D": "Set HttpOnly to reduce script access to session identifiers"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for cookie secure attribute is to enable Secure for cookies containing authentication state; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "A team documents the following condition: browser scripts should not normally access a particular session cookie. Which CEH term is the closest match?",
+      "options": {
+        "A": "Session termination",
+        "B": "Cookie HttpOnly attribute",
+        "C": "Cookie Secure attribute",
+        "D": "Session timeout"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of cookie httponly attribute: browser scripts should not normally access a particular session cookie. A relevant security consideration is to set HttpOnly to reduce script access to session identifiers."
+    },
+    {
+      "id": 44,
+      "question": "A security team is reviewing the topic of Cookie HttpOnly attribute. Which statement BEST applies?",
+      "options": {
+        "A": "Invalidate the server-side session when ending a login",
+        "B": "Enable Secure for cookies containing authentication state",
+        "C": "Choose appropriate SameSite behavior alongside CSRF controls",
+        "D": "Set HttpOnly to reduce script access to session identifiers"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for cookie httponly attribute is to set HttpOnly to reduce script access to session identifiers; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "Which concept is BEST illustrated by this scenario: a site needs to reduce cross-site sending of session cookies?",
+      "options": {
+        "A": "Cookie SameSite attribute",
+        "B": "Session timeout",
+        "C": "Session termination",
+        "D": "Cookie HttpOnly attribute"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of cookie samesite attribute: a site needs to reduce cross-site sending of session cookies. A relevant security consideration is to choose appropriate SameSite behavior alongside CSRF controls."
+    },
+    {
+      "id": 46,
+      "question": "When studying Cookie SameSite attribute, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Set HttpOnly to reduce script access to session identifiers",
+        "B": "Enable Secure for cookies containing authentication state",
+        "C": "Invalidate the server-side session when ending a login",
+        "D": "Choose appropriate SameSite behavior alongside CSRF controls"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for cookie samesite attribute is to choose appropriate SameSite behavior alongside CSRF controls; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "During an authorized security review, an assessor observes: an authenticated browser remains active far beyond reasonable use. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Session timeout",
+        "B": "Cookie SameSite attribute",
+        "C": "Session termination",
+        "D": "Cookie HttpOnly attribute"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of session timeout: an authenticated browser remains active far beyond reasonable use. A relevant security consideration is to enforce inactivity and absolute lifetime limits."
+    },
+    {
+      "id": 48,
+      "question": "An exam asks about the appropriate handling of Session timeout. Which statement is BEST?",
+      "options": {
+        "A": "Enable Secure for cookies containing authentication state",
+        "B": "Enforce inactivity and absolute lifetime limits",
+        "C": "Choose appropriate SameSite behavior alongside CSRF controls",
+        "D": "Invalidate the server-side session when ending a login"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for session timeout is to enforce inactivity and absolute lifetime limits; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "Consider this security situation: a user selects logout but the server token remains usable. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Session termination",
+        "B": "Cookie Secure attribute",
+        "C": "Cookie SameSite attribute",
+        "D": "Session timeout"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of session termination: a user selects logout but the server token remains usable. A relevant security consideration is to invalidate the server-side session when ending a login."
+    },
+    {
+      "id": 50,
+      "question": "For Session termination, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Invalidate the server-side session when ending a login",
+        "B": "Enforce inactivity and absolute lifetime limits",
+        "C": "Enable Secure for cookies containing authentication state",
+        "D": "Choose appropriate SameSite behavior alongside CSRF controls"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for session termination is to invalidate the server-side session when ending a login; this directly addresses the issue described by the concept."
+    }
+  ]
+}

@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Consider this security situation: a consultant checks weaknesses only under an agreed engagement. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Ethical hacking",
+        "B": "White-hat hacker",
+        "C": "Black-hat hacker",
+        "D": "Gray-hat researcher"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of white-hat hacker: a consultant checks weaknesses only under an agreed engagement. A relevant security consideration is to secure written permission before touching systems."
+    },
+    {
+      "id": 2,
+      "question": "For White-hat hacker, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Secure written permission before touching systems",
+        "B": "Report carefully without assuming good intentions confer permission",
+        "C": "Assess the conduct by authorization and effects, not claimed motives",
+        "D": "Document objectives, boundaries, and responsible reporting"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for white-hat hacker is to secure written permission before touching systems; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "An incident note reads: an intruder deliberately enters computers without permission for personal gain. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Gray-hat researcher",
+        "B": "Hacktivism",
+        "C": "White-hat hacker",
+        "D": "Black-hat hacker"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of black-hat hacker: an intruder deliberately enters computers without permission for personal gain. A relevant security consideration is to treat unauthorized access as a security incident."
+    },
+    {
+      "id": 4,
+      "question": "Which guidance BEST addresses the key issue associated with Black-hat hacker?",
+      "options": {
+        "A": "Assess the conduct by authorization and effects, not claimed motives",
+        "B": "Secure written permission before touching systems",
+        "C": "Treat unauthorized access as a security incident",
+        "D": "Document objectives, boundaries, and responsible reporting"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for black-hat hacker is to treat unauthorized access as a security incident; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "A team documents the following condition: a researcher finds a weakness outside any approved testing scope. Which CEH term is the closest match?",
+      "options": {
+        "A": "Gray-hat researcher",
+        "B": "Black-hat hacker",
+        "C": "Ethical hacking",
+        "D": "White-hat hacker"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of gray-hat researcher: a researcher finds a weakness outside any approved testing scope. A relevant security consideration is to report carefully without assuming good intentions confer permission."
+    },
+    {
+      "id": 6,
+      "question": "A security team is reviewing the topic of Gray-hat researcher. Which statement BEST applies?",
+      "options": {
+        "A": "Report carefully without assuming good intentions confer permission",
+        "B": "Assess the conduct by authorization and effects, not claimed motives",
+        "C": "Treat unauthorized access as a security incident",
+        "D": "Secure written permission before touching systems"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for gray-hat researcher is to report carefully without assuming good intentions confer permission; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "Which concept is BEST illustrated by this scenario: an online attack is motivated by a political cause rather than financial benefit?",
+      "options": {
+        "A": "Black-hat hacker",
+        "B": "Gray-hat researcher",
+        "C": "Ethical hacking",
+        "D": "Hacktivism"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of hacktivism: an online attack is motivated by a political cause rather than financial benefit. A relevant security consideration is to assess the conduct by authorization and effects, not claimed motives."
+    },
+    {
+      "id": 8,
+      "question": "When studying Hacktivism, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Assess the conduct by authorization and effects, not claimed motives",
+        "B": "Document objectives, boundaries, and responsible reporting",
+        "C": "Secure written permission before touching systems",
+        "D": "Report carefully without assuming good intentions confer permission"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for hacktivism is to assess the conduct by authorization and effects, not claimed motives; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "During an authorized security review, an assessor observes: a specialist simulates attacker behavior under a client's approved scope. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Hacktivism",
+        "B": "White-hat hacker",
+        "C": "Black-hat hacker",
+        "D": "Ethical hacking"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of ethical hacking: a specialist simulates attacker behavior under a client's approved scope. A relevant security consideration is to document objectives, boundaries, and responsible reporting."
+    },
+    {
+      "id": 10,
+      "question": "An exam asks about the appropriate handling of Ethical hacking. Which statement is BEST?",
+      "options": {
+        "A": "Assess the conduct by authorization and effects, not claimed motives",
+        "B": "Document objectives, boundaries, and responsible reporting",
+        "C": "Treat unauthorized access as a security incident",
+        "D": "Secure written permission before touching systems"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for ethical hacking is to document objectives, boundaries, and responsible reporting; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "Consider this security situation: a tester studies public company materials without direct target contact. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Passive reconnaissance",
+        "B": "Scanning phase",
+        "C": "Maintaining-access phase",
+        "D": "Active reconnaissance"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of passive reconnaissance: a tester studies public company materials without direct target contact. A relevant security consideration is to distinguish public information collection from active probing."
+    },
+    {
+      "id": 12,
+      "question": "For Passive reconnaissance, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use the minimum proof needed within the agreed rules",
+        "B": "Verify apparent findings without assuming a port implies a vulnerability",
+        "C": "Limit direct interactions to the approved target range",
+        "D": "Distinguish public information collection from active probing"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for passive reconnaissance is to distinguish public information collection from active probing; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "An incident note reads: an assessor sends permitted probes to learn about live target systems. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Scanning phase",
+        "B": "Passive reconnaissance",
+        "C": "Active reconnaissance",
+        "D": "Maintaining-access phase"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of active reconnaissance: an assessor sends permitted probes to learn about live target systems. A relevant security consideration is to limit direct interactions to the approved target range."
+    },
+    {
+      "id": 14,
+      "question": "Which guidance BEST addresses the key issue associated with Active reconnaissance?",
+      "options": {
+        "A": "Limit direct interactions to the approved target range",
+        "B": "Verify apparent findings without assuming a port implies a vulnerability",
+        "C": "Use the minimum proof needed within the agreed rules",
+        "D": "Document persistence risk rather than establishing covert access"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for active reconnaissance is to limit direct interactions to the approved target range; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "A team documents the following condition: the tester identifies responding hosts and exposed network services. Which CEH term is the closest match?",
+      "options": {
+        "A": "Gaining-access phase",
+        "B": "Maintaining-access phase",
+        "C": "Scanning phase",
+        "D": "Passive reconnaissance"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of scanning phase: the tester identifies responding hosts and exposed network services. A relevant security consideration is to verify apparent findings without assuming a port implies a vulnerability."
+    },
+    {
+      "id": 16,
+      "question": "A security team is reviewing the topic of Scanning phase. Which statement BEST applies?",
+      "options": {
+        "A": "Distinguish public information collection from active probing",
+        "B": "Limit direct interactions to the approved target range",
+        "C": "Document persistence risk rather than establishing covert access",
+        "D": "Verify apparent findings without assuming a port implies a vulnerability"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for scanning phase is to verify apparent findings without assuming a port implies a vulnerability; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "Which concept is BEST illustrated by this scenario: a controlled test demonstrates that a weakness permits an unauthorized capability?",
+      "options": {
+        "A": "Maintaining-access phase",
+        "B": "Passive reconnaissance",
+        "C": "Gaining-access phase",
+        "D": "Scanning phase"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of gaining-access phase: a controlled test demonstrates that a weakness permits an unauthorized capability. A relevant security consideration is to use the minimum proof needed within the agreed rules."
+    },
+    {
+      "id": 18,
+      "question": "When studying Gaining-access phase, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Limit direct interactions to the approved target range",
+        "B": "Distinguish public information collection from active probing",
+        "C": "Document persistence risk rather than establishing covert access",
+        "D": "Use the minimum proof needed within the agreed rules"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for gaining-access phase is to use the minimum proof needed within the agreed rules; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "During an authorized security review, an assessor observes: the security model describes how an intruder preserves access after entry. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Scanning phase",
+        "B": "Maintaining-access phase",
+        "C": "Gaining-access phase",
+        "D": "Active reconnaissance"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of maintaining-access phase: the security model describes how an intruder preserves access after entry. A relevant security consideration is to document persistence risk rather than establishing covert access."
+    },
+    {
+      "id": 20,
+      "question": "An exam asks about the appropriate handling of Maintaining-access phase. Which statement is BEST?",
+      "options": {
+        "A": "Limit direct interactions to the approved target range",
+        "B": "Document persistence risk rather than establishing covert access",
+        "C": "Distinguish public information collection from active probing",
+        "D": "Use the minimum proof needed within the agreed rules"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for maintaining-access phase is to document persistence risk rather than establishing covert access; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "Consider this security situation: customer records are exposed to readers who are not authorized. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Authorization",
+        "B": "Confidentiality",
+        "C": "Integrity",
+        "D": "Authentication"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of confidentiality: customer records are exposed to readers who are not authorized. A relevant security consideration is to enforce authorization and protect sensitive data in transit and at rest."
+    },
+    {
+      "id": 22,
+      "question": "For Confidentiality, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Build redundancy, capacity safeguards, and incident response",
+        "B": "Enforce authorization and protect sensitive data in transit and at rest",
+        "C": "Apply strong identity verification rather than trusting a username",
+        "D": "Enforce privileges separately from successful login"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for confidentiality is to enforce authorization and protect sensitive data in transit and at rest; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "An incident note reads: a payment amount is modified without approval. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Integrity",
+        "B": "Availability",
+        "C": "Authentication",
+        "D": "Authorization"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of integrity: a payment amount is modified without approval. A relevant security consideration is to use validation, access control, and tamper-evident records."
+    },
+    {
+      "id": 24,
+      "question": "Which guidance BEST addresses the key issue associated with Integrity?",
+      "options": {
+        "A": "Enforce authorization and protect sensitive data in transit and at rest",
+        "B": "Apply strong identity verification rather than trusting a username",
+        "C": "Build redundancy, capacity safeguards, and incident response",
+        "D": "Use validation, access control, and tamper-evident records"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for integrity is to use validation, access control, and tamper-evident records; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "A team documents the following condition: a service becomes unreachable when users need it. Which CEH term is the closest match?",
+      "options": {
+        "A": "Authentication",
+        "B": "Availability",
+        "C": "Confidentiality",
+        "D": "Authorization"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of availability: a service becomes unreachable when users need it. A relevant security consideration is to build redundancy, capacity safeguards, and incident response."
+    },
+    {
+      "id": 26,
+      "question": "A security team is reviewing the topic of Availability. Which statement BEST applies?",
+      "options": {
+        "A": "Enforce authorization and protect sensitive data in transit and at rest",
+        "B": "Use validation, access control, and tamper-evident records",
+        "C": "Enforce privileges separately from successful login",
+        "D": "Build redundancy, capacity safeguards, and incident response"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for availability is to build redundancy, capacity safeguards, and incident response; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "Which concept is BEST illustrated by this scenario: a service must establish whether a claimed identity is genuine?",
+      "options": {
+        "A": "Authentication",
+        "B": "Confidentiality",
+        "C": "Authorization",
+        "D": "Availability"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of authentication: a service must establish whether a claimed identity is genuine. A relevant security consideration is to apply strong identity verification rather than trusting a username."
+    },
+    {
+      "id": 28,
+      "question": "When studying Authentication, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Apply strong identity verification rather than trusting a username",
+        "B": "Use validation, access control, and tamper-evident records",
+        "C": "Enforce privileges separately from successful login",
+        "D": "Enforce authorization and protect sensitive data in transit and at rest"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for authentication is to apply strong identity verification rather than trusting a username; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "During an authorized security review, an assessor observes: a logged-in staff member attempts to view records outside their role. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Confidentiality",
+        "B": "Authentication",
+        "C": "Authorization",
+        "D": "Availability"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of authorization: a logged-in staff member attempts to view records outside their role. A relevant security consideration is to enforce privileges separately from successful login."
+    },
+    {
+      "id": 30,
+      "question": "An exam asks about the appropriate handling of Authorization. Which statement is BEST?",
+      "options": {
+        "A": "Use validation, access control, and tamper-evident records",
+        "B": "Enforce privileges separately from successful login",
+        "C": "Enforce authorization and protect sensitive data in transit and at rest",
+        "D": "Apply strong identity verification rather than trusting a username"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for authorization is to enforce privileges separately from successful login; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "Consider this security situation: an assessor receives almost no internal design information. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Gray-box testing",
+        "B": "External testing",
+        "C": "Internal testing",
+        "D": "Black-box testing"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of black-box testing: an assessor receives almost no internal design information. A relevant security consideration is to define scope despite limited technical context."
+    },
+    {
+      "id": 32,
+      "question": "For Black-box testing, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Evaluate the Internet-facing attack surface and exposure",
+        "B": "Define scope despite limited technical context",
+        "C": "Record assumptions about the partial knowledge supplied",
+        "D": "Correlate internal evidence with independently validated exposure"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for black-box testing is to define scope despite limited technical context; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "An incident note reads: a reviewer receives source code, diagrams, and detailed system design. Select the MOST appropriate classification.",
+      "options": {
+        "A": "White-box testing",
+        "B": "Gray-box testing",
+        "C": "Black-box testing",
+        "D": "External testing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of white-box testing: a reviewer receives source code, diagrams, and detailed system design. A relevant security consideration is to correlate internal evidence with independently validated exposure."
+    },
+    {
+      "id": 34,
+      "question": "Which guidance BEST addresses the key issue associated with White-box testing?",
+      "options": {
+        "A": "Correlate internal evidence with independently validated exposure",
+        "B": "Evaluate protections against threats originating inside the perimeter",
+        "C": "Record assumptions about the partial knowledge supplied",
+        "D": "Evaluate the Internet-facing attack surface and exposure"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for white-box testing is to correlate internal evidence with independently validated exposure; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "A team documents the following condition: an assessor receives partial credentials and limited architecture context. Which CEH term is the closest match?",
+      "options": {
+        "A": "External testing",
+        "B": "Internal testing",
+        "C": "White-box testing",
+        "D": "Gray-box testing"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of gray-box testing: an assessor receives partial credentials and limited architecture context. A relevant security consideration is to record assumptions about the partial knowledge supplied."
+    },
+    {
+      "id": 36,
+      "question": "A security team is reviewing the topic of Gray-box testing. Which statement BEST applies?",
+      "options": {
+        "A": "Define scope despite limited technical context",
+        "B": "Record assumptions about the partial knowledge supplied",
+        "C": "Evaluate the Internet-facing attack surface and exposure",
+        "D": "Evaluate protections against threats originating inside the perimeter"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for gray-box testing is to record assumptions about the partial knowledge supplied; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "Which concept is BEST illustrated by this scenario: a permitted assessment starts from inside an organizational network?",
+      "options": {
+        "A": "Gray-box testing",
+        "B": "Internal testing",
+        "C": "Black-box testing",
+        "D": "External testing"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of internal testing: a permitted assessment starts from inside an organizational network. A relevant security consideration is to evaluate protections against threats originating inside the perimeter."
+    },
+    {
+      "id": 38,
+      "question": "When studying Internal testing, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Correlate internal evidence with independently validated exposure",
+        "B": "Define scope despite limited technical context",
+        "C": "Evaluate the Internet-facing attack surface and exposure",
+        "D": "Evaluate protections against threats originating inside the perimeter"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for internal testing is to evaluate protections against threats originating inside the perimeter; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "During an authorized security review, an assessor observes: a permitted assessment starts from a position outside the corporate network. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Black-box testing",
+        "B": "White-box testing",
+        "C": "External testing",
+        "D": "Gray-box testing"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of external testing: a permitted assessment starts from a position outside the corporate network. A relevant security consideration is to evaluate the Internet-facing attack surface and exposure."
+    },
+    {
+      "id": 40,
+      "question": "An exam asks about the appropriate handling of External testing. Which statement is BEST?",
+      "options": {
+        "A": "Record assumptions about the partial knowledge supplied",
+        "B": "Define scope despite limited technical context",
+        "C": "Evaluate protections against threats originating inside the perimeter",
+        "D": "Evaluate the Internet-facing attack surface and exposure"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for external testing is to evaluate the Internet-facing attack surface and exposure; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "Consider this security situation: a project disputes permitted hours, targets, and methods. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Rules of engagement",
+        "B": "Risk assessment",
+        "C": "Penetration-test report",
+        "D": "Legal authorization"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of rules of engagement: a project disputes permitted hours, targets, and methods. A relevant security consideration is to approve a written rules-of-engagement document in advance."
+    },
+    {
+      "id": 42,
+      "question": "For Rules of engagement, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Set explicit confidentiality obligations for assessment materials",
+        "B": "Prioritize remediation by exposure and business impact",
+        "C": "Approve a written rules-of-engagement document in advance",
+        "D": "Verify the owner's authority and any third-party approvals"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for rules of engagement is to approve a written rules-of-engagement document in advance; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "An incident note reads: the contractor will handle sensitive findings during the assignment. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Risk assessment",
+        "B": "Nondisclosure agreement",
+        "C": "Penetration-test report",
+        "D": "Rules of engagement"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of nondisclosure agreement: the contractor will handle sensitive findings during the assignment. A relevant security consideration is to set explicit confidentiality obligations for assessment materials."
+    },
+    {
+      "id": 44,
+      "question": "Which guidance BEST addresses the key issue associated with Nondisclosure agreement?",
+      "options": {
+        "A": "Verify the owner's authority and any third-party approvals",
+        "B": "Approve a written rules-of-engagement document in advance",
+        "C": "Set explicit confidentiality obligations for assessment materials",
+        "D": "Prioritize remediation by exposure and business impact"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for nondisclosure agreement is to set explicit confidentiality obligations for assessment materials; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "A team documents the following condition: a flaw is ranked using likelihood and consequences for the business. Which CEH term is the closest match?",
+      "options": {
+        "A": "Legal authorization",
+        "B": "Penetration-test report",
+        "C": "Risk assessment",
+        "D": "Rules of engagement"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of risk assessment: a flaw is ranked using likelihood and consequences for the business. A relevant security consideration is to prioritize remediation by exposure and business impact."
+    },
+    {
+      "id": 46,
+      "question": "A security team is reviewing the topic of Risk assessment. Which statement BEST applies?",
+      "options": {
+        "A": "Approve a written rules-of-engagement document in advance",
+        "B": "Verify the owner's authority and any third-party approvals",
+        "C": "Prioritize remediation by exposure and business impact",
+        "D": "Deliver reproducible evidence, risk context, and practical fixes"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for risk assessment is to prioritize remediation by exposure and business impact; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "Which concept is BEST illustrated by this scenario: a tester must communicate verified findings to the system owner?",
+      "options": {
+        "A": "Nondisclosure agreement",
+        "B": "Legal authorization",
+        "C": "Penetration-test report",
+        "D": "Risk assessment"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of penetration-test report: a tester must communicate verified findings to the system owner. A relevant security consideration is to deliver reproducible evidence, risk context, and practical fixes."
+    },
+    {
+      "id": 48,
+      "question": "When studying Penetration-test report, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Verify the owner's authority and any third-party approvals",
+        "B": "Set explicit confidentiality obligations for assessment materials",
+        "C": "Approve a written rules-of-engagement document in advance",
+        "D": "Deliver reproducible evidence, risk context, and practical fixes"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for penetration-test report is to deliver reproducible evidence, risk context, and practical fixes; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "During an authorized security review, an assessor observes: a target operator grants permission but a separate provider owns some infrastructure. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Risk assessment",
+        "B": "Rules of engagement",
+        "C": "Legal authorization",
+        "D": "Nondisclosure agreement"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of legal authorization: a target operator grants permission but a separate provider owns some infrastructure. A relevant security consideration is to verify the owner's authority and any third-party approvals."
+    },
+    {
+      "id": 50,
+      "question": "An exam asks about the appropriate handling of Legal authorization. Which statement is BEST?",
+      "options": {
+        "A": "Verify the owner's authority and any third-party approvals",
+        "B": "Set explicit confidentiality obligations for assessment materials",
+        "C": "Deliver reproducible evidence, risk context, and practical fixes",
+        "D": "Prioritize remediation by exposure and business impact"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for legal authorization is to verify the owner's authority and any third-party approvals; this directly addresses the issue described by the concept."
+    }
+  ]
+}

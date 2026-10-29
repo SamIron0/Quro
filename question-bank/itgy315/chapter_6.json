@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Consider this security situation: a monitor observes frames already visible to its network interface. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Promiscuous mode",
+        "B": "Display filter",
+        "C": "Active sniffing",
+        "D": "Passive sniffing"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of passive sniffing: a monitor observes frames already visible to its network interface. A relevant security consideration is to use appropriate privacy and capture authorization controls."
+    },
+    {
+      "id": 2,
+      "question": "For Passive sniffing, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Set precise collection filters to minimize irrelevant data",
+        "B": "Understand that switched forwarding still limits visibility",
+        "C": "Preserve the underlying evidence while narrowing analysis views",
+        "D": "Use appropriate privacy and capture authorization controls"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for passive sniffing is to use appropriate privacy and capture authorization controls; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "An incident note reads: an observer manipulates network behavior so additional traffic reaches a monitoring host. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Passive sniffing",
+        "B": "Active sniffing",
+        "C": "Capture filter",
+        "D": "Display filter"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of active sniffing: an observer manipulates network behavior so additional traffic reaches a monitoring host. A relevant security consideration is to detect suspicious forwarding changes and protect local segments."
+    },
+    {
+      "id": 4,
+      "question": "Which guidance BEST addresses the key issue associated with Active sniffing?",
+      "options": {
+        "A": "Use appropriate privacy and capture authorization controls",
+        "B": "Preserve the underlying evidence while narrowing analysis views",
+        "C": "Detect suspicious forwarding changes and protect local segments",
+        "D": "Set precise collection filters to minimize irrelevant data"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for active sniffing is to detect suspicious forwarding changes and protect local segments; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "A team documents the following condition: an interface accepts frames beyond those normally addressed directly to it. Which CEH term is the closest match?",
+      "options": {
+        "A": "Passive sniffing",
+        "B": "Promiscuous mode",
+        "C": "Capture filter",
+        "D": "Active sniffing"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of promiscuous mode: an interface accepts frames beyond those normally addressed directly to it. A relevant security consideration is to understand that switched forwarding still limits visibility."
+    },
+    {
+      "id": 6,
+      "question": "A security team is reviewing the topic of Promiscuous mode. Which statement BEST applies?",
+      "options": {
+        "A": "Understand that switched forwarding still limits visibility",
+        "B": "Preserve the underlying evidence while narrowing analysis views",
+        "C": "Use appropriate privacy and capture authorization controls",
+        "D": "Set precise collection filters to minimize irrelevant data"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for promiscuous mode is to understand that switched forwarding still limits visibility; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "Which concept is BEST illustrated by this scenario: an analyst excludes unwanted packets before capture begins?",
+      "options": {
+        "A": "Promiscuous mode",
+        "B": "Active sniffing",
+        "C": "Capture filter",
+        "D": "Passive sniffing"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of capture filter: an analyst excludes unwanted packets before capture begins. A relevant security consideration is to set precise collection filters to minimize irrelevant data."
+    },
+    {
+      "id": 8,
+      "question": "When studying Capture filter, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Detect suspicious forwarding changes and protect local segments",
+        "B": "Understand that switched forwarding still limits visibility",
+        "C": "Preserve the underlying evidence while narrowing analysis views",
+        "D": "Set precise collection filters to minimize irrelevant data"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for capture filter is to set precise collection filters to minimize irrelevant data; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "During an authorized security review, an assessor observes: an analyst hides unrelated captured frames while reviewing a trace. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Active sniffing",
+        "B": "Passive sniffing",
+        "C": "Display filter",
+        "D": "Promiscuous mode"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of display filter: an analyst hides unrelated captured frames while reviewing a trace. A relevant security consideration is to preserve the underlying evidence while narrowing analysis views."
+    },
+    {
+      "id": 10,
+      "question": "An exam asks about the appropriate handling of Display filter. Which statement is BEST?",
+      "options": {
+        "A": "Use appropriate privacy and capture authorization controls",
+        "B": "Preserve the underlying evidence while narrowing analysis views",
+        "C": "Set precise collection filters to minimize irrelevant data",
+        "D": "Understand that switched forwarding still limits visibility"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for display filter is to preserve the underlying evidence while narrowing analysis views; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "Consider this security situation: a legacy shared-medium device repeats incoming frames to its ports. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Ethernet hub",
+        "B": "MAC address table",
+        "C": "MAC flooding",
+        "D": "ARP resolution"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of ethernet hub: a legacy shared-medium device repeats incoming frames to its ports. A relevant security consideration is to prefer switched designs to reduce unnecessary traffic exposure."
+    },
+    {
+      "id": 12,
+      "question": "For Ethernet hub, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Observe ARP mappings when diagnosing local delivery issues",
+        "B": "Prefer switched designs to reduce unnecessary traffic exposure",
+        "C": "Detect unexpectedly rapid changes in learned hardware addresses",
+        "D": "Configure secure port behavior and monitor table anomalies"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for ethernet hub is to prefer switched designs to reduce unnecessary traffic exposure; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "An incident note reads: a network device forwards known unicast frames using learned address entries. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Ethernet switch",
+        "B": "ARP resolution",
+        "C": "MAC address table",
+        "D": "Ethernet hub"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of ethernet switch: a network device forwards known unicast frames using learned address entries. A relevant security consideration is to configure secure port behavior and monitor table anomalies."
+    },
+    {
+      "id": 14,
+      "question": "Which guidance BEST addresses the key issue associated with Ethernet switch?",
+      "options": {
+        "A": "Detect unexpectedly rapid changes in learned hardware addresses",
+        "B": "Use port security and switching controls to protect forwarding tables",
+        "C": "Observe ARP mappings when diagnosing local delivery issues",
+        "D": "Configure secure port behavior and monitor table anomalies"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for ethernet switch is to configure secure port behavior and monitor table anomalies; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "A team documents the following condition: a switch records source hardware addresses and associated ports. Which CEH term is the closest match?",
+      "options": {
+        "A": "MAC address table",
+        "B": "Ethernet switch",
+        "C": "ARP resolution",
+        "D": "MAC flooding"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of mac address table: a switch records source hardware addresses and associated ports. A relevant security consideration is to detect unexpectedly rapid changes in learned hardware addresses."
+    },
+    {
+      "id": 16,
+      "question": "A security team is reviewing the topic of MAC address table. Which statement BEST applies?",
+      "options": {
+        "A": "Configure secure port behavior and monitor table anomalies",
+        "B": "Use port security and switching controls to protect forwarding tables",
+        "C": "Detect unexpectedly rapid changes in learned hardware addresses",
+        "D": "Prefer switched designs to reduce unnecessary traffic exposure"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for mac address table is to detect unexpectedly rapid changes in learned hardware addresses; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "Which concept is BEST illustrated by this scenario: a switch receives an excessive volume of fabricated source hardware addresses?",
+      "options": {
+        "A": "MAC address table",
+        "B": "Ethernet hub",
+        "C": "MAC flooding",
+        "D": "ARP resolution"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of mac flooding: a switch receives an excessive volume of fabricated source hardware addresses. A relevant security consideration is to use port security and switching controls to protect forwarding tables."
+    },
+    {
+      "id": 18,
+      "question": "When studying MAC flooding, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Prefer switched designs to reduce unnecessary traffic exposure",
+        "B": "Configure secure port behavior and monitor table anomalies",
+        "C": "Observe ARP mappings when diagnosing local delivery issues",
+        "D": "Use port security and switching controls to protect forwarding tables"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for mac flooding is to use port security and switching controls to protect forwarding tables; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "During an authorized security review, an assessor observes: an IPv4 host determines the local hardware address for another address. Which concept BEST describes this finding?",
+      "options": {
+        "A": "ARP resolution",
+        "B": "Ethernet switch",
+        "C": "MAC flooding",
+        "D": "MAC address table"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of arp resolution: an IPv4 host determines the local hardware address for another address. A relevant security consideration is to observe ARP mappings when diagnosing local delivery issues."
+    },
+    {
+      "id": 20,
+      "question": "An exam asks about the appropriate handling of ARP resolution. Which statement is BEST?",
+      "options": {
+        "A": "Configure secure port behavior and monitor table anomalies",
+        "B": "Observe ARP mappings when diagnosing local delivery issues",
+        "C": "Use port security and switching controls to protect forwarding tables",
+        "D": "Prefer switched designs to reduce unnecessary traffic exposure"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for arp resolution is to observe ARP mappings when diagnosing local delivery issues; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "Consider this security situation: a machine receives deceptive IP-to-MAC association messages. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "ARP poisoning",
+        "B": "DNS cache poisoning",
+        "C": "ARP spoofing",
+        "D": "DNS spoofing"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of arp spoofing: a machine receives deceptive IP-to-MAC association messages. A relevant security consideration is to use ARP inspection where supported and secure switch configuration."
+    },
+    {
+      "id": 22,
+      "question": "For ARP spoofing, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use trustworthy DNS resolution and validate high-risk destinations",
+        "B": "Use ARP inspection where supported and secure switch configuration",
+        "C": "Collect only authorized traffic and protect stored traces",
+        "D": "Keep resolvers patched and use appropriate DNS protections"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for arp spoofing is to use ARP inspection where supported and secure switch configuration; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "An incident note reads: a host caches an incorrect local address binding supplied by another device. Select the MOST appropriate classification.",
+      "options": {
+        "A": "ARP spoofing",
+        "B": "ARP poisoning",
+        "C": "DNS spoofing",
+        "D": "Packet capture"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of arp poisoning: a host caches an incorrect local address binding supplied by another device. A relevant security consideration is to validate neighbor mappings and investigate unexpected changes."
+    },
+    {
+      "id": 24,
+      "question": "Which guidance BEST addresses the key issue associated with ARP poisoning?",
+      "options": {
+        "A": "Use ARP inspection where supported and secure switch configuration",
+        "B": "Validate neighbor mappings and investigate unexpected changes",
+        "C": "Keep resolvers patched and use appropriate DNS protections",
+        "D": "Use trustworthy DNS resolution and validate high-risk destinations"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for arp poisoning is to validate neighbor mappings and investigate unexpected changes; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "A team documents the following condition: a client receives fraudulent domain-resolution information. Which CEH term is the closest match?",
+      "options": {
+        "A": "ARP poisoning",
+        "B": "DNS cache poisoning",
+        "C": "ARP spoofing",
+        "D": "DNS spoofing"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of dns spoofing: a client receives fraudulent domain-resolution information. A relevant security consideration is to use trustworthy DNS resolution and validate high-risk destinations."
+    },
+    {
+      "id": 26,
+      "question": "A security team is reviewing the topic of DNS spoofing. Which statement BEST applies?",
+      "options": {
+        "A": "Use trustworthy DNS resolution and validate high-risk destinations",
+        "B": "Collect only authorized traffic and protect stored traces",
+        "C": "Keep resolvers patched and use appropriate DNS protections",
+        "D": "Use ARP inspection where supported and secure switch configuration"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for dns spoofing is to use trustworthy DNS resolution and validate high-risk destinations; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "Which concept is BEST illustrated by this scenario: a resolver stores falsified name-resolution records?",
+      "options": {
+        "A": "ARP poisoning",
+        "B": "DNS spoofing",
+        "C": "ARP spoofing",
+        "D": "DNS cache poisoning"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of dns cache poisoning: a resolver stores falsified name-resolution records. A relevant security consideration is to keep resolvers patched and use appropriate DNS protections."
+    },
+    {
+      "id": 28,
+      "question": "When studying DNS cache poisoning, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Keep resolvers patched and use appropriate DNS protections",
+        "B": "Collect only authorized traffic and protect stored traces",
+        "C": "Validate neighbor mappings and investigate unexpected changes",
+        "D": "Use trustworthy DNS resolution and validate high-risk destinations"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for dns cache poisoning is to keep resolvers patched and use appropriate DNS protections; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "During an authorized security review, an assessor observes: a monitoring application records packets for network troubleshooting. Which concept BEST describes this finding?",
+      "options": {
+        "A": "ARP spoofing",
+        "B": "DNS spoofing",
+        "C": "DNS cache poisoning",
+        "D": "Packet capture"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of packet capture: a monitoring application records packets for network troubleshooting. A relevant security consideration is to collect only authorized traffic and protect stored traces."
+    },
+    {
+      "id": 30,
+      "question": "An exam asks about the appropriate handling of Packet capture. Which statement is BEST?",
+      "options": {
+        "A": "Use trustworthy DNS resolution and validate high-risk destinations",
+        "B": "Collect only authorized traffic and protect stored traces",
+        "C": "Validate neighbor mappings and investigate unexpected changes",
+        "D": "Keep resolvers patched and use appropriate DNS protections"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for packet capture is to collect only authorized traffic and protect stored traces; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "Consider this security situation: a packet analyzer sees destination metadata but not protected application payload text. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "TCP stream reconstruction",
+        "B": "Network tap",
+        "C": "TLS encryption",
+        "D": "Wireshark"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of tls encryption: a packet analyzer sees destination metadata but not protected application payload text. A relevant security consideration is to use authenticated encryption for sensitive communications."
+    },
+    {
+      "id": 32,
+      "question": "For TLS encryption, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Account for packet loss and retransmission during analysis",
+        "B": "Replace it with an authenticated encrypted alternative",
+        "C": "Use authenticated encryption for sensitive communications",
+        "D": "Handle packet traces as potentially sensitive evidence"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for tls encryption is to use authenticated encryption for sensitive communications; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "An incident note reads: a legacy service transmits credentials without transport encryption. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Cleartext protocol",
+        "B": "TCP stream reconstruction",
+        "C": "Network tap",
+        "D": "Wireshark"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of cleartext protocol: a legacy service transmits credentials without transport encryption. A relevant security consideration is to replace it with an authenticated encrypted alternative."
+    },
+    {
+      "id": 34,
+      "question": "Which guidance BEST addresses the key issue associated with Cleartext protocol?",
+      "options": {
+        "A": "Account for packet loss and retransmission during analysis",
+        "B": "Replace it with an authenticated encrypted alternative",
+        "C": "Use authenticated encryption for sensitive communications",
+        "D": "Handle packet traces as potentially sensitive evidence"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for cleartext protocol is to replace it with an authenticated encrypted alternative; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "A team documents the following condition: an analyst uses a graphical program to inspect captured network frames. Which CEH term is the closest match?",
+      "options": {
+        "A": "TLS encryption",
+        "B": "Wireshark",
+        "C": "Network tap",
+        "D": "Cleartext protocol"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of wireshark: an analyst uses a graphical program to inspect captured network frames. A relevant security consideration is to handle packet traces as potentially sensitive evidence."
+    },
+    {
+      "id": 36,
+      "question": "A security team is reviewing the topic of Wireshark. Which statement BEST applies?",
+      "options": {
+        "A": "Handle packet traces as potentially sensitive evidence",
+        "B": "Use authenticated encryption for sensitive communications",
+        "C": "Place monitoring access under physical and administrative control",
+        "D": "Account for packet loss and retransmission during analysis"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for wireshark is to handle packet traces as potentially sensitive evidence; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "Which concept is BEST illustrated by this scenario: an investigator reassembles packets belonging to the same conversation?",
+      "options": {
+        "A": "Wireshark",
+        "B": "TLS encryption",
+        "C": "Cleartext protocol",
+        "D": "TCP stream reconstruction"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of tcp stream reconstruction: an investigator reassembles packets belonging to the same conversation. A relevant security consideration is to account for packet loss and retransmission during analysis."
+    },
+    {
+      "id": 38,
+      "question": "When studying TCP stream reconstruction, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Use authenticated encryption for sensitive communications",
+        "B": "Account for packet loss and retransmission during analysis",
+        "C": "Handle packet traces as potentially sensitive evidence",
+        "D": "Replace it with an authenticated encrypted alternative"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for tcp stream reconstruction is to account for packet loss and retransmission during analysis; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "During an authorized security review, an assessor observes: a dedicated monitoring device observes traffic on a specific link. Which concept BEST describes this finding?",
+      "options": {
+        "A": "TCP stream reconstruction",
+        "B": "Wireshark",
+        "C": "Network tap",
+        "D": "TLS encryption"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of network tap: a dedicated monitoring device observes traffic on a specific link. A relevant security consideration is to place monitoring access under physical and administrative control."
+    },
+    {
+      "id": 40,
+      "question": "An exam asks about the appropriate handling of Network tap. Which statement is BEST?",
+      "options": {
+        "A": "Place monitoring access under physical and administrative control",
+        "B": "Handle packet traces as potentially sensitive evidence",
+        "C": "Use authenticated encryption for sensitive communications",
+        "D": "Account for packet loss and retransmission during analysis"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for network tap is to place monitoring access under physical and administrative control; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "Consider this security situation: a switch mirrors selected network traffic to a monitoring connection. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Capture loss",
+        "B": "SPAN port",
+        "C": "Packet timestamp",
+        "D": "Sniffing countermeasures"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of span port: a switch mirrors selected network traffic to a monitoring connection. A relevant security consideration is to confirm that mirrored traffic coverage matches investigation needs."
+    },
+    {
+      "id": 42,
+      "question": "For SPAN port, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Confirm that mirrored traffic coverage matches investigation needs",
+        "B": "Check dropped-packet counters before drawing conclusions",
+        "C": "Correlate DNS events with host and network telemetry",
+        "D": "Synchronize clocks across monitoring and incident systems"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for span port is to confirm that mirrored traffic coverage matches investigation needs; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "An incident note reads: a busy monitoring host misses frames while recording a high-volume link. Select the MOST appropriate classification.",
+      "options": {
+        "A": "DNS query monitoring",
+        "B": "Sniffing countermeasures",
+        "C": "Capture loss",
+        "D": "Packet timestamp"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of capture loss: a busy monitoring host misses frames while recording a high-volume link. A relevant security consideration is to check dropped-packet counters before drawing conclusions."
+    },
+    {
+      "id": 44,
+      "question": "Which guidance BEST addresses the key issue associated with Capture loss?",
+      "options": {
+        "A": "Correlate DNS events with host and network telemetry",
+        "B": "Combine segmentation, secure switching, and end-to-end encryption",
+        "C": "Check dropped-packet counters before drawing conclusions",
+        "D": "Synchronize clocks across monitoring and incident systems"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for capture loss is to check dropped-packet counters before drawing conclusions; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "A team documents the following condition: a security team examines unusual patterns of name-resolution requests. Which CEH term is the closest match?",
+      "options": {
+        "A": "SPAN port",
+        "B": "Capture loss",
+        "C": "DNS query monitoring",
+        "D": "Sniffing countermeasures"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of dns query monitoring: a security team examines unusual patterns of name-resolution requests. A relevant security consideration is to correlate DNS events with host and network telemetry."
+    },
+    {
+      "id": 46,
+      "question": "A security team is reviewing the topic of DNS query monitoring. Which statement BEST applies?",
+      "options": {
+        "A": "Check dropped-packet counters before drawing conclusions",
+        "B": "Synchronize clocks across monitoring and incident systems",
+        "C": "Confirm that mirrored traffic coverage matches investigation needs",
+        "D": "Correlate DNS events with host and network telemetry"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for dns query monitoring is to correlate DNS events with host and network telemetry; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "Which concept is BEST illustrated by this scenario: a trace includes a time value used to sequence related network events?",
+      "options": {
+        "A": "Packet timestamp",
+        "B": "Sniffing countermeasures",
+        "C": "Capture loss",
+        "D": "DNS query monitoring"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of packet timestamp: a trace includes a time value used to sequence related network events. A relevant security consideration is to synchronize clocks across monitoring and incident systems."
+    },
+    {
+      "id": 48,
+      "question": "When studying Packet timestamp, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Combine segmentation, secure switching, and end-to-end encryption",
+        "B": "Check dropped-packet counters before drawing conclusions",
+        "C": "Synchronize clocks across monitoring and incident systems",
+        "D": "Confirm that mirrored traffic coverage matches investigation needs"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for packet timestamp is to synchronize clocks across monitoring and incident systems; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "During an authorized security review, an assessor observes: an organization wants to reduce exposure of sensitive traffic to interception. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Capture loss",
+        "B": "Packet timestamp",
+        "C": "Sniffing countermeasures",
+        "D": "SPAN port"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of sniffing countermeasures: an organization wants to reduce exposure of sensitive traffic to interception. A relevant security consideration is to combine segmentation, secure switching, and end-to-end encryption."
+    },
+    {
+      "id": 50,
+      "question": "An exam asks about the appropriate handling of Sniffing countermeasures. Which statement is BEST?",
+      "options": {
+        "A": "Correlate DNS events with host and network telemetry",
+        "B": "Combine segmentation, secure switching, and end-to-end encryption",
+        "C": "Synchronize clocks across monitoring and incident systems",
+        "D": "Confirm that mirrored traffic coverage matches investigation needs"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for sniffing countermeasures is to combine segmentation, secure switching, and end-to-end encryption; this directly addresses the issue described by the concept."
+    }
+  ]
+}

@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "A team documents the following condition: an inventory process determines which IP addresses respond on a subnet. Which CEH term is the closest match?",
+      "options": {
+        "A": "Network scanning",
+        "B": "Enumeration",
+        "C": "Host discovery",
+        "D": "Vulnerability scanning"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of host discovery: an inventory process determines which IP addresses respond on a subnet. A relevant security consideration is to treat lack of response as inconclusive because filtering is possible."
+    },
+    {
+      "id": 2,
+      "question": "A security team is reviewing the topic of Host discovery. Which statement BEST applies?",
+      "options": {
+        "A": "Manually validate important findings before assigning severity",
+        "B": "Treat lack of response as inconclusive because filtering is possible",
+        "C": "Validate exposed services and business need for each port",
+        "D": "Restrict unnecessary anonymous disclosure of resource information"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for host discovery is to treat lack of response as inconclusive because filtering is possible; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "Which concept is BEST illustrated by this scenario: an authorized review finds which transport endpoints appear reachable?",
+      "options": {
+        "A": "Network scanning",
+        "B": "Port scanning",
+        "C": "Vulnerability scanning",
+        "D": "Enumeration"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of port scanning: an authorized review finds which transport endpoints appear reachable. A relevant security consideration is to validate exposed services and business need for each port."
+    },
+    {
+      "id": 4,
+      "question": "When studying Port scanning, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Restrict unnecessary anonymous disclosure of resource information",
+        "B": "Treat lack of response as inconclusive because filtering is possible",
+        "C": "Limit discovery to permitted address spaces",
+        "D": "Validate exposed services and business need for each port"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for port scanning is to validate exposed services and business need for each port; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "During an authorized security review, an assessor observes: an assessment maps accessible hosts across a defined network range. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Network scanning",
+        "B": "Vulnerability scanning",
+        "C": "Enumeration",
+        "D": "Host discovery"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of network scanning: an assessment maps accessible hosts across a defined network range. A relevant security consideration is to limit discovery to permitted address spaces."
+    },
+    {
+      "id": 6,
+      "question": "An exam asks about the appropriate handling of Network scanning. Which statement is BEST?",
+      "options": {
+        "A": "Validate exposed services and business need for each port",
+        "B": "Limit discovery to permitted address spaces",
+        "C": "Restrict unnecessary anonymous disclosure of resource information",
+        "D": "Manually validate important findings before assigning severity"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for network scanning is to limit discovery to permitted address spaces; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "Consider this security situation: a scanner compares observed services with known weakness indicators. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Host discovery",
+        "B": "Vulnerability scanning",
+        "C": "Network scanning",
+        "D": "Port scanning"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of vulnerability scanning: a scanner compares observed services with known weakness indicators. A relevant security consideration is to manually validate important findings before assigning severity."
+    },
+    {
+      "id": 8,
+      "question": "For Vulnerability scanning, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Manually validate important findings before assigning severity",
+        "B": "Restrict unnecessary anonymous disclosure of resource information",
+        "C": "Validate exposed services and business need for each port",
+        "D": "Treat lack of response as inconclusive because filtering is possible"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for vulnerability scanning is to manually validate important findings before assigning severity; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "An incident note reads: after discovering a server, an analyst retrieves available names and resource details. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Port scanning",
+        "B": "Host discovery",
+        "C": "Enumeration",
+        "D": "Vulnerability scanning"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of enumeration: after discovering a server, an analyst retrieves available names and resource details. A relevant security consideration is to restrict unnecessary anonymous disclosure of resource information."
+    },
+    {
+      "id": 10,
+      "question": "Which guidance BEST addresses the key issue associated with Enumeration?",
+      "options": {
+        "A": "Treat lack of response as inconclusive because filtering is possible",
+        "B": "Restrict unnecessary anonymous disclosure of resource information",
+        "C": "Manually validate important findings before assigning severity",
+        "D": "Limit discovery to permitted address spaces"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for enumeration is to restrict unnecessary anonymous disclosure of resource information; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "A team documents the following condition: a scanning method completes the operating system's TCP connection establishment. Which CEH term is the closest match?",
+      "options": {
+        "A": "TCP connect scan",
+        "B": "Ping sweep",
+        "C": "SYN scan",
+        "D": "UDP scan"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of tcp connect scan: a scanning method completes the operating system's TCP connection establishment. A relevant security consideration is to recognize that completed connections can create application logs."
+    },
+    {
+      "id": 12,
+      "question": "A security team is reviewing the topic of TCP connect scan. Which statement BEST applies?",
+      "options": {
+        "A": "Do not conclude that silent addresses are definitely offline",
+        "B": "Recognize that completed connections can create application logs",
+        "C": "Interpret responses in light of packet filtering and host behavior",
+        "D": "Allow for routers that suppress or rate-limit diagnostic traffic"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for tcp connect scan is to recognize that completed connections can create application logs; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "Which concept is BEST illustrated by this scenario: a probe evaluates a TCP service without normally completing the full handshake?",
+      "options": {
+        "A": "Ping sweep",
+        "B": "SYN scan",
+        "C": "Traceroute analysis",
+        "D": "UDP scan"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of syn scan: a probe evaluates a TCP service without normally completing the full handshake. A relevant security consideration is to interpret responses in light of packet filtering and host behavior."
+    },
+    {
+      "id": 14,
+      "question": "When studying SYN scan, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Interpret responses in light of packet filtering and host behavior",
+        "B": "Do not conclude that silent addresses are definitely offline",
+        "C": "Recognize an unanswered UDP probe may not prove the port state",
+        "D": "Recognize that completed connections can create application logs"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for syn scan is to interpret responses in light of packet filtering and host behavior; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "During an authorized security review, an assessor observes: a probe receives no reply from a UDP endpoint. Which concept BEST describes this finding?",
+      "options": {
+        "A": "SYN scan",
+        "B": "TCP connect scan",
+        "C": "UDP scan",
+        "D": "Traceroute analysis"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of udp scan: a probe receives no reply from a UDP endpoint. A relevant security consideration is to recognize an unanswered UDP probe may not prove the port state."
+    },
+    {
+      "id": 16,
+      "question": "An exam asks about the appropriate handling of UDP scan. Which statement is BEST?",
+      "options": {
+        "A": "Interpret responses in light of packet filtering and host behavior",
+        "B": "Recognize an unanswered UDP probe may not prove the port state",
+        "C": "Allow for routers that suppress or rate-limit diagnostic traffic",
+        "D": "Recognize that completed connections can create application logs"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for udp scan is to recognize an unanswered UDP probe may not prove the port state; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "Consider this security situation: an inventory check probes several addresses for ICMP responses. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "UDP scan",
+        "B": "Ping sweep",
+        "C": "Traceroute analysis",
+        "D": "SYN scan"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of ping sweep: an inventory check probes several addresses for ICMP responses. A relevant security consideration is to do not conclude that silent addresses are definitely offline."
+    },
+    {
+      "id": 18,
+      "question": "For Ping sweep, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Recognize that completed connections can create application logs",
+        "B": "Interpret responses in light of packet filtering and host behavior",
+        "C": "Allow for routers that suppress or rate-limit diagnostic traffic",
+        "D": "Do not conclude that silent addresses are definitely offline"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for ping sweep is to do not conclude that silent addresses are definitely offline; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "An incident note reads: intermediate hops are observed during network-path discovery. Select the MOST appropriate classification.",
+      "options": {
+        "A": "UDP scan",
+        "B": "Traceroute analysis",
+        "C": "SYN scan",
+        "D": "TCP connect scan"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of traceroute analysis: intermediate hops are observed during network-path discovery. A relevant security consideration is to allow for routers that suppress or rate-limit diagnostic traffic."
+    },
+    {
+      "id": 20,
+      "question": "Which guidance BEST addresses the key issue associated with Traceroute analysis?",
+      "options": {
+        "A": "Allow for routers that suppress or rate-limit diagnostic traffic",
+        "B": "Recognize that completed connections can create application logs",
+        "C": "Do not conclude that silent addresses are definitely offline",
+        "D": "Recognize an unanswered UDP probe may not prove the port state"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for traceroute analysis is to allow for routers that suppress or rate-limit diagnostic traffic; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "A team documents the following condition: a packet begins a normal TCP connection request. Which CEH term is the closest match?",
+      "options": {
+        "A": "TCP three-way handshake",
+        "B": "TCP ACK flag",
+        "C": "TCP FIN flag",
+        "D": "TCP SYN flag"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of tcp syn flag: a packet begins a normal TCP connection request. A relevant security consideration is to distinguish an initiation flag from an established session."
+    },
+    {
+      "id": 22,
+      "question": "A security team is reviewing the topic of TCP SYN flag. Which statement BEST applies?",
+      "options": {
+        "A": "Distinguish an initiation flag from an established session",
+        "B": "Interpret acknowledgments using connection context",
+        "C": "Assess connection state before attributing abnormal traffic",
+        "D": "Differentiate orderly closure from abrupt reset behavior"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for tcp syn flag is to distinguish an initiation flag from an established session; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "Which concept is BEST illustrated by this scenario: a packet indicates a request to finish one direction of a TCP stream?",
+      "options": {
+        "A": "TCP RST flag",
+        "B": "TCP FIN flag",
+        "C": "TCP ACK flag",
+        "D": "TCP three-way handshake"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of tcp fin flag: a packet indicates a request to finish one direction of a TCP stream. A relevant security consideration is to differentiate orderly closure from abrupt reset behavior."
+    },
+    {
+      "id": 24,
+      "question": "When studying TCP FIN flag, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Distinguish an initiation flag from an established session",
+        "B": "Assess connection state before attributing abnormal traffic",
+        "C": "Differentiate orderly closure from abrupt reset behavior",
+        "D": "Treat resets as state evidence rather than proof of compromise"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for tcp fin flag is to differentiate orderly closure from abrupt reset behavior; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "During an authorized security review, an assessor observes: a connection is immediately reset by an endpoint or intermediary. Which concept BEST describes this finding?",
+      "options": {
+        "A": "TCP ACK flag",
+        "B": "TCP SYN flag",
+        "C": "TCP RST flag",
+        "D": "TCP FIN flag"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of tcp rst flag: a connection is immediately reset by an endpoint or intermediary. A relevant security consideration is to treat resets as state evidence rather than proof of compromise."
+    },
+    {
+      "id": 26,
+      "question": "An exam asks about the appropriate handling of TCP RST flag. Which statement is BEST?",
+      "options": {
+        "A": "Differentiate orderly closure from abrupt reset behavior",
+        "B": "Interpret acknowledgments using connection context",
+        "C": "Distinguish an initiation flag from an established session",
+        "D": "Treat resets as state evidence rather than proof of compromise"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for tcp rst flag is to treat resets as state evidence rather than proof of compromise; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "Consider this security situation: a TCP segment acknowledges previously received sequence data. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "TCP ACK flag",
+        "B": "TCP SYN flag",
+        "C": "TCP RST flag",
+        "D": "TCP FIN flag"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of tcp ack flag: a TCP segment acknowledges previously received sequence data. A relevant security consideration is to interpret acknowledgments using connection context."
+    },
+    {
+      "id": 28,
+      "question": "For TCP ACK flag, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Interpret acknowledgments using connection context",
+        "B": "Assess connection state before attributing abnormal traffic",
+        "C": "Differentiate orderly closure from abrupt reset behavior",
+        "D": "Distinguish an initiation flag from an established session"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for tcp ack flag is to interpret acknowledgments using connection context; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "An incident note reads: a legitimate client and server exchange connection-establishment messages. Select the MOST appropriate classification.",
+      "options": {
+        "A": "TCP ACK flag",
+        "B": "TCP RST flag",
+        "C": "TCP three-way handshake",
+        "D": "TCP FIN flag"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of tcp three-way handshake: a legitimate client and server exchange connection-establishment messages. A relevant security consideration is to assess connection state before attributing abnormal traffic."
+    },
+    {
+      "id": 30,
+      "question": "Which guidance BEST addresses the key issue associated with TCP three-way handshake?",
+      "options": {
+        "A": "Differentiate orderly closure from abrupt reset behavior",
+        "B": "Assess connection state before attributing abnormal traffic",
+        "C": "Distinguish an initiation flag from an established session",
+        "D": "Interpret acknowledgments using connection context"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for tcp three-way handshake is to assess connection state before attributing abnormal traffic; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "A team documents the following condition: a scan indicates an application is accepting connections at a transport endpoint. Which CEH term is the closest match?",
+      "options": {
+        "A": "OS fingerprinting",
+        "B": "Filtered port",
+        "C": "Banner grabbing",
+        "D": "Open port"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of open port: a scan indicates an application is accepting connections at a transport endpoint. A relevant security consideration is to inspect the actual service instead of equating reachability with a flaw."
+    },
+    {
+      "id": 32,
+      "question": "A security team is reviewing the topic of Open port. Which statement BEST applies?",
+      "options": {
+        "A": "Allow uncertainty because middleboxes and settings affect fingerprints",
+        "B": "Distinguish rejected connections from unreachable hosts",
+        "C": "Inspect the actual service instead of equating reachability with a flaw",
+        "D": "Review access-control rules before inferring the port state"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for open port is to inspect the actual service instead of equating reachability with a flaw; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "Which concept is BEST illustrated by this scenario: a host responds but no application is listening on the tested port?",
+      "options": {
+        "A": "Filtered port",
+        "B": "Open port",
+        "C": "Banner grabbing",
+        "D": "Closed port"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of closed port: a host responds but no application is listening on the tested port. A relevant security consideration is to distinguish rejected connections from unreachable hosts."
+    },
+    {
+      "id": 34,
+      "question": "When studying Closed port, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Review access-control rules before inferring the port state",
+        "B": "Distinguish rejected connections from unreachable hosts",
+        "C": "Allow uncertainty because middleboxes and settings affect fingerprints",
+        "D": "Treat banner values as hints, not verified proof of exploitability"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for closed port is to distinguish rejected connections from unreachable hosts; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "During an authorized security review, an assessor observes: filtering obscures whether a service can accept a probe. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Filtered port",
+        "B": "Closed port",
+        "C": "Open port",
+        "D": "Banner grabbing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of filtered port: filtering obscures whether a service can accept a probe. A relevant security consideration is to review access-control rules before inferring the port state."
+    },
+    {
+      "id": 36,
+      "question": "An exam asks about the appropriate handling of Filtered port. Which statement is BEST?",
+      "options": {
+        "A": "Review access-control rules before inferring the port state",
+        "B": "Inspect the actual service instead of equating reachability with a flaw",
+        "C": "Allow uncertainty because middleboxes and settings affect fingerprints",
+        "D": "Treat banner values as hints, not verified proof of exploitability"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for filtered port is to review access-control rules before inferring the port state; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "Consider this security situation: a service advertises a product name or version to connecting clients. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "OS fingerprinting",
+        "B": "Banner grabbing",
+        "C": "Filtered port",
+        "D": "Closed port"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of banner grabbing: a service advertises a product name or version to connecting clients. A relevant security consideration is to treat banner values as hints, not verified proof of exploitability."
+    },
+    {
+      "id": 38,
+      "question": "For Banner grabbing, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Inspect the actual service instead of equating reachability with a flaw",
+        "B": "Treat banner values as hints, not verified proof of exploitability",
+        "C": "Distinguish rejected connections from unreachable hosts",
+        "D": "Allow uncertainty because middleboxes and settings affect fingerprints"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for banner grabbing is to treat banner values as hints, not verified proof of exploitability; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "An incident note reads: network response patterns are used to estimate the target operating system. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Banner grabbing",
+        "B": "Open port",
+        "C": "OS fingerprinting",
+        "D": "Closed port"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of os fingerprinting: network response patterns are used to estimate the target operating system. A relevant security consideration is to allow uncertainty because middleboxes and settings affect fingerprints."
+    },
+    {
+      "id": 40,
+      "question": "Which guidance BEST addresses the key issue associated with OS fingerprinting?",
+      "options": {
+        "A": "Distinguish rejected connections from unreachable hosts",
+        "B": "Allow uncertainty because middleboxes and settings affect fingerprints",
+        "C": "Review access-control rules before inferring the port state",
+        "D": "Inspect the actual service instead of equating reachability with a flaw"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for os fingerprinting is to allow uncertainty because middleboxes and settings affect fingerprints; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "A team documents the following condition: a management service unnecessarily exposes device descriptions. Which CEH term is the closest match?",
+      "options": {
+        "A": "NetBIOS enumeration",
+        "B": "SNMP enumeration",
+        "C": "Null session",
+        "D": "DNS enumeration"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of snmp enumeration: a management service unnecessarily exposes device descriptions. A relevant security consideration is to restrict management queries and use secure SNMP settings."
+    },
+    {
+      "id": 42,
+      "question": "A security team is reviewing the topic of SNMP enumeration. Which statement BEST applies?",
+      "options": {
+        "A": "Restrict management queries and use secure SNMP settings",
+        "B": "Limit unnecessary legacy service exposure",
+        "C": "Review DNS records for unintended disclosure without assuming intrusion",
+        "D": "Confirm technology clues through multiple permitted observations"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for snmp enumeration is to restrict management queries and use secure SNMP settings; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "Which concept is BEST illustrated by this scenario: a legacy Windows network exposes naming and shared-resource details?",
+      "options": {
+        "A": "Null session",
+        "B": "NetBIOS enumeration",
+        "C": "SNMP enumeration",
+        "D": "Web service fingerprinting"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of netbios enumeration: a legacy Windows network exposes naming and shared-resource details. A relevant security consideration is to limit unnecessary legacy service exposure."
+    },
+    {
+      "id": 44,
+      "question": "When studying NetBIOS enumeration, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Review DNS records for unintended disclosure without assuming intrusion",
+        "B": "Limit unnecessary legacy service exposure",
+        "C": "Restrict management queries and use secure SNMP settings",
+        "D": "Disable unauthenticated resource enumeration where supported"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for netbios enumeration is to limit unnecessary legacy service exposure; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "During an authorized security review, an assessor observes: a historical SMB configuration answers some anonymous resource queries. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Null session",
+        "B": "DNS enumeration",
+        "C": "NetBIOS enumeration",
+        "D": "Web service fingerprinting"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of null session: a historical SMB configuration answers some anonymous resource queries. A relevant security consideration is to disable unauthenticated resource enumeration where supported."
+    },
+    {
+      "id": 46,
+      "question": "An exam asks about the appropriate handling of Null session. Which statement is BEST?",
+      "options": {
+        "A": "Confirm technology clues through multiple permitted observations",
+        "B": "Limit unnecessary legacy service exposure",
+        "C": "Disable unauthenticated resource enumeration where supported",
+        "D": "Review DNS records for unintended disclosure without assuming intrusion"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for null session is to disable unauthenticated resource enumeration where supported; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "Consider this security situation: an assessment gathers published subdomain and host records. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "NetBIOS enumeration",
+        "B": "SNMP enumeration",
+        "C": "Web service fingerprinting",
+        "D": "DNS enumeration"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of dns enumeration: an assessment gathers published subdomain and host records. A relevant security consideration is to review DNS records for unintended disclosure without assuming intrusion."
+    },
+    {
+      "id": 48,
+      "question": "For DNS enumeration, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Disable unauthenticated resource enumeration where supported",
+        "B": "Review DNS records for unintended disclosure without assuming intrusion",
+        "C": "Restrict management queries and use secure SNMP settings",
+        "D": "Confirm technology clues through multiple permitted observations"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for dns enumeration is to review DNS records for unintended disclosure without assuming intrusion; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "An incident note reads: hTTP headers and responses suggest a server platform. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Null session",
+        "B": "Web service fingerprinting",
+        "C": "NetBIOS enumeration",
+        "D": "SNMP enumeration"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of web service fingerprinting: hTTP headers and responses suggest a server platform. A relevant security consideration is to confirm technology clues through multiple permitted observations."
+    },
+    {
+      "id": 50,
+      "question": "Which guidance BEST addresses the key issue associated with Web service fingerprinting?",
+      "options": {
+        "A": "Restrict management queries and use secure SNMP settings",
+        "B": "Confirm technology clues through multiple permitted observations",
+        "C": "Review DNS records for unintended disclosure without assuming intrusion",
+        "D": "Disable unauthenticated resource enumeration where supported"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for web service fingerprinting is to confirm technology clues through multiple permitted observations; this directly addresses the issue described by the concept."
+    }
+  ]
+}

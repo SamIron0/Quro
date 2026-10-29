@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "During an authorized security review, an assessor observes: a client and assessor agree on which business systems are in the evaluation. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Rules of engagement",
+        "B": "Scoping meeting",
+        "C": "Authorization letter",
+        "D": "Threat modeling"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of scoping meeting: a client and assessor agree on which business systems are in the evaluation. A relevant security consideration is to identify assets, stakeholders, objectives, and exclusions."
+    },
+    {
+      "id": 2,
+      "question": "An exam asks about the appropriate handling of Scoping meeting. Which statement is BEST?",
+      "options": {
+        "A": "Identify assets, stakeholders, objectives, and exclusions",
+        "B": "Obtain signed authorization before starting technical work",
+        "C": "Document and approve operational test boundaries",
+        "D": "Follow a documented sequence and evidence standard"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for scoping meeting is to identify assets, stakeholders, objectives, and exclusions; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "Consider this security situation: a testing team needs proof that it may interact with designated assets. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Threat modeling",
+        "B": "Authorization letter",
+        "C": "Rules of engagement",
+        "D": "Scoping meeting"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of authorization letter: a testing team needs proof that it may interact with designated assets. A relevant security consideration is to obtain signed authorization before starting technical work."
+    },
+    {
+      "id": 4,
+      "question": "For Authorization letter, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Follow a documented sequence and evidence standard",
+        "B": "Use business context to prioritize realistic assessment scenarios",
+        "C": "Document and approve operational test boundaries",
+        "D": "Obtain signed authorization before starting technical work"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for authorization letter is to obtain signed authorization before starting technical work; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "An incident note reads: the team must know approved techniques, timing, contacts, and stop conditions. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Rules of engagement",
+        "B": "Threat modeling",
+        "C": "Test methodology",
+        "D": "Authorization letter"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of rules of engagement: the team must know approved techniques, timing, contacts, and stop conditions. A relevant security consideration is to document and approve operational test boundaries."
+    },
+    {
+      "id": 6,
+      "question": "Which guidance BEST addresses the key issue associated with Rules of engagement?",
+      "options": {
+        "A": "Follow a documented sequence and evidence standard",
+        "B": "Identify assets, stakeholders, objectives, and exclusions",
+        "C": "Document and approve operational test boundaries",
+        "D": "Obtain signed authorization before starting technical work"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for rules of engagement is to document and approve operational test boundaries; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "A team documents the following condition: a project maps assets, likely adversaries, and misuse paths before testing. Which CEH term is the closest match?",
+      "options": {
+        "A": "Scoping meeting",
+        "B": "Threat modeling",
+        "C": "Authorization letter",
+        "D": "Rules of engagement"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of threat modeling: a project maps assets, likely adversaries, and misuse paths before testing. A relevant security consideration is to use business context to prioritize realistic assessment scenarios."
+    },
+    {
+      "id": 8,
+      "question": "A security team is reviewing the topic of Threat modeling. Which statement BEST applies?",
+      "options": {
+        "A": "Document and approve operational test boundaries",
+        "B": "Follow a documented sequence and evidence standard",
+        "C": "Obtain signed authorization before starting technical work",
+        "D": "Use business context to prioritize realistic assessment scenarios"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for threat modeling is to use business context to prioritize realistic assessment scenarios; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "Which concept is BEST illustrated by this scenario: a team wants its assessment results to be repeatable and explainable?",
+      "options": {
+        "A": "Test methodology",
+        "B": "Rules of engagement",
+        "C": "Threat modeling",
+        "D": "Authorization letter"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of test methodology: a team wants its assessment results to be repeatable and explainable. A relevant security consideration is to follow a documented sequence and evidence standard."
+    },
+    {
+      "id": 10,
+      "question": "When studying Test methodology, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Follow a documented sequence and evidence standard",
+        "B": "Identify assets, stakeholders, objectives, and exclusions",
+        "C": "Obtain signed authorization before starting technical work",
+        "D": "Use business context to prioritize realistic assessment scenarios"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for test methodology is to follow a documented sequence and evidence standard; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "During an authorized security review, an assessor observes: an assessor starts with only publicly visible information. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Gray-box engagement",
+        "B": "Reconnaissance planning",
+        "C": "Black-box engagement",
+        "D": "White-box engagement"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of black-box engagement: an assessor starts with only publicly visible information. A relevant security consideration is to plan broad discovery while staying inside scope."
+    },
+    {
+      "id": 12,
+      "question": "An exam asks about the appropriate handling of Black-box engagement. Which statement is BEST?",
+      "options": {
+        "A": "Plan broad discovery while staying inside scope",
+        "B": "Set explicit information-gathering boundaries",
+        "C": "Use supplied visibility to evaluate controls deeply",
+        "D": "Record exactly which assumptions and credentials were provided"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for black-box engagement is to plan broad discovery while staying inside scope; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "Consider this security situation: the tester receives architecture diagrams, code, and test accounts. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Gray-box engagement",
+        "B": "Discovery validation",
+        "C": "White-box engagement",
+        "D": "Reconnaissance planning"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of white-box engagement: the tester receives architecture diagrams, code, and test accounts. A relevant security consideration is to use supplied visibility to evaluate controls deeply."
+    },
+    {
+      "id": 14,
+      "question": "For White-box engagement, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use supplied visibility to evaluate controls deeply",
+        "B": "Confirm asset ownership before active testing",
+        "C": "Set explicit information-gathering boundaries",
+        "D": "Record exactly which assumptions and credentials were provided"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for white-box engagement is to use supplied visibility to evaluate controls deeply; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "An incident note reads: the assessor is supplied some internal context but not full access. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Discovery validation",
+        "B": "Black-box engagement",
+        "C": "White-box engagement",
+        "D": "Gray-box engagement"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of gray-box engagement: the assessor is supplied some internal context but not full access. A relevant security consideration is to record exactly which assumptions and credentials were provided."
+    },
+    {
+      "id": 16,
+      "question": "Which guidance BEST addresses the key issue associated with Gray-box engagement?",
+      "options": {
+        "A": "Confirm asset ownership before active testing",
+        "B": "Plan broad discovery while staying inside scope",
+        "C": "Record exactly which assumptions and credentials were provided",
+        "D": "Use supplied visibility to evaluate controls deeply"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for gray-box engagement is to record exactly which assumptions and credentials were provided; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "A team documents the following condition: an evaluator chooses permitted information sources about a target. Which CEH term is the closest match?",
+      "options": {
+        "A": "Black-box engagement",
+        "B": "Gray-box engagement",
+        "C": "Reconnaissance planning",
+        "D": "Discovery validation"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of reconnaissance planning: an evaluator chooses permitted information sources about a target. A relevant security consideration is to set explicit information-gathering boundaries."
+    },
+    {
+      "id": 18,
+      "question": "A security team is reviewing the topic of Reconnaissance planning. Which statement BEST applies?",
+      "options": {
+        "A": "Set explicit information-gathering boundaries",
+        "B": "Confirm asset ownership before active testing",
+        "C": "Use supplied visibility to evaluate controls deeply",
+        "D": "Record exactly which assumptions and credentials were provided"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for reconnaissance planning is to set explicit information-gathering boundaries; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "Which concept is BEST illustrated by this scenario: a scanner reports an asset that might belong to a different company?",
+      "options": {
+        "A": "Gray-box engagement",
+        "B": "White-box engagement",
+        "C": "Reconnaissance planning",
+        "D": "Discovery validation"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of discovery validation: a scanner reports an asset that might belong to a different company. A relevant security consideration is to confirm asset ownership before active testing."
+    },
+    {
+      "id": 20,
+      "question": "When studying Discovery validation, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Set explicit information-gathering boundaries",
+        "B": "Use supplied visibility to evaluate controls deeply",
+        "C": "Confirm asset ownership before active testing",
+        "D": "Record exactly which assumptions and credentials were provided"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for discovery validation is to confirm asset ownership before active testing; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "During an authorized security review, an assessor observes: an automated scanner returns hundreds of possible issues. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Proof of concept",
+        "B": "Data handling",
+        "C": "Exploitation boundary",
+        "D": "Vulnerability triage"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of vulnerability triage: an automated scanner returns hundreds of possible issues. A relevant security consideration is to prioritize confirmation by credibility and risk."
+    },
+    {
+      "id": 22,
+      "question": "An exam asks about the appropriate handling of Vulnerability triage. Which statement is BEST?",
+      "options": {
+        "A": "Prioritize confirmation by credibility and risk",
+        "B": "Stop and get specific approval for high-impact verification",
+        "C": "Confirm the weakness without relying solely on a version string",
+        "D": "Use minimal safe evidence within the authorized rules"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for vulnerability triage is to prioritize confirmation by credibility and risk; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "Consider this security situation: a tool flags a weakness based only on a software banner. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Vulnerability triage",
+        "B": "Data handling",
+        "C": "Manual verification",
+        "D": "Proof of concept"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of manual verification: a tool flags a weakness based only on a software banner. A relevant security consideration is to confirm the weakness without relying solely on a version string."
+    },
+    {
+      "id": 24,
+      "question": "For Manual verification, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Prioritize confirmation by credibility and risk",
+        "B": "Confirm the weakness without relying solely on a version string",
+        "C": "Stop and get specific approval for high-impact verification",
+        "D": "Use minimal safe evidence within the authorized rules"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for manual verification is to confirm the weakness without relying solely on a version string; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "An incident note reads: a tester wants to demonstrate the existence of a vulnerability without harming production. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Exploitation boundary",
+        "B": "Manual verification",
+        "C": "Data handling",
+        "D": "Proof of concept"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of proof of concept: a tester wants to demonstrate the existence of a vulnerability without harming production. A relevant security consideration is to use minimal safe evidence within the authorized rules."
+    },
+    {
+      "id": 26,
+      "question": "Which guidance BEST addresses the key issue associated with Proof of concept?",
+      "options": {
+        "A": "Prioritize confirmation by credibility and risk",
+        "B": "Use minimal safe evidence within the authorized rules",
+        "C": "Stop and get specific approval for high-impact verification",
+        "D": "Confirm the weakness without relying solely on a version string"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for proof of concept is to use minimal safe evidence within the authorized rules; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "A team documents the following condition: a vulnerability test could disrupt a sensitive clinical database. Which CEH term is the closest match?",
+      "options": {
+        "A": "Manual verification",
+        "B": "Exploitation boundary",
+        "C": "Data handling",
+        "D": "Proof of concept"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of exploitation boundary: a vulnerability test could disrupt a sensitive clinical database. A relevant security consideration is to stop and get specific approval for high-impact verification."
+    },
+    {
+      "id": 28,
+      "question": "A security team is reviewing the topic of Exploitation boundary. Which statement BEST applies?",
+      "options": {
+        "A": "Stop and get specific approval for high-impact verification",
+        "B": "Confirm the weakness without relying solely on a version string",
+        "C": "Limit access, secure evidence, and follow agreed retention policies",
+        "D": "Use minimal safe evidence within the authorized rules"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for exploitation boundary is to stop and get specific approval for high-impact verification; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "Which concept is BEST illustrated by this scenario: the engagement may expose customer information during a security review?",
+      "options": {
+        "A": "Manual verification",
+        "B": "Data handling",
+        "C": "Exploitation boundary",
+        "D": "Vulnerability triage"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of data handling: the engagement may expose customer information during a security review. A relevant security consideration is to limit access, secure evidence, and follow agreed retention policies."
+    },
+    {
+      "id": 30,
+      "question": "When studying Data handling, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Limit access, secure evidence, and follow agreed retention policies",
+        "B": "Use minimal safe evidence within the authorized rules",
+        "C": "Prioritize confirmation by credibility and risk",
+        "D": "Stop and get specific approval for high-impact verification"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for data handling is to limit access, secure evidence, and follow agreed retention policies; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "During an authorized security review, an assessor observes: two findings differ in exposure, exploitability, and business consequences. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Finding severity",
+        "B": "Executive summary",
+        "C": "Evidence chain of custody",
+        "D": "Compensating control"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of finding severity: two findings differ in exposure, exploitability, and business consequences. A relevant security consideration is to evaluate severity using both technical and organizational context."
+    },
+    {
+      "id": 32,
+      "question": "An exam asks about the appropriate handling of Finding severity. Which statement is BEST?",
+      "options": {
+        "A": "Record acquisition time, handlers, and integrity checks",
+        "B": "Check vendor evidence and deployed fixes before reporting",
+        "C": "Evaluate severity using both technical and organizational context",
+        "D": "Translate technical findings into business-relevant implications"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for finding severity is to evaluate severity using both technical and organizational context; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "Consider this security situation: a vulnerable legacy system cannot immediately be patched. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Executive summary",
+        "B": "Evidence chain of custody",
+        "C": "Compensating control",
+        "D": "False-positive validation"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of compensating control: a vulnerable legacy system cannot immediately be patched. A relevant security consideration is to apply temporary controls and track a permanent remedy."
+    },
+    {
+      "id": 34,
+      "question": "For Compensating control, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Apply temporary controls and track a permanent remedy",
+        "B": "Translate technical findings into business-relevant implications",
+        "C": "Evaluate severity using both technical and organizational context",
+        "D": "Check vendor evidence and deployed fixes before reporting"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for compensating control is to apply temporary controls and track a permanent remedy; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "An incident note reads: a scanning tool reports a missing patch that is actually backported. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Finding severity",
+        "B": "Executive summary",
+        "C": "Compensating control",
+        "D": "False-positive validation"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of false-positive validation: a scanning tool reports a missing patch that is actually backported. A relevant security consideration is to check vendor evidence and deployed fixes before reporting."
+    },
+    {
+      "id": 36,
+      "question": "Which guidance BEST addresses the key issue associated with False-positive validation?",
+      "options": {
+        "A": "Apply temporary controls and track a permanent remedy",
+        "B": "Check vendor evidence and deployed fixes before reporting",
+        "C": "Record acquisition time, handlers, and integrity checks",
+        "D": "Translate technical findings into business-relevant implications"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for false-positive validation is to check vendor evidence and deployed fixes before reporting; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "A team documents the following condition: collected evidence may be used during a formal investigation. Which CEH term is the closest match?",
+      "options": {
+        "A": "Evidence chain of custody",
+        "B": "Executive summary",
+        "C": "Finding severity",
+        "D": "Compensating control"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of evidence chain of custody: collected evidence may be used during a formal investigation. A relevant security consideration is to record acquisition time, handlers, and integrity checks."
+    },
+    {
+      "id": 38,
+      "question": "A security team is reviewing the topic of Evidence chain of custody. Which statement BEST applies?",
+      "options": {
+        "A": "Apply temporary controls and track a permanent remedy",
+        "B": "Record acquisition time, handlers, and integrity checks",
+        "C": "Translate technical findings into business-relevant implications",
+        "D": "Check vendor evidence and deployed fixes before reporting"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for evidence chain of custody is to record acquisition time, handlers, and integrity checks; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "Which concept is BEST illustrated by this scenario: senior leaders need the overall exposure and remediation priorities?",
+      "options": {
+        "A": "Compensating control",
+        "B": "Evidence chain of custody",
+        "C": "False-positive validation",
+        "D": "Executive summary"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of executive summary: senior leaders need the overall exposure and remediation priorities. A relevant security consideration is to translate technical findings into business-relevant implications."
+    },
+    {
+      "id": 40,
+      "question": "When studying Executive summary, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Evaluate severity using both technical and organizational context",
+        "B": "Translate technical findings into business-relevant implications",
+        "C": "Apply temporary controls and track a permanent remedy",
+        "D": "Record acquisition time, handlers, and integrity checks"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for executive summary is to translate technical findings into business-relevant implications; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "During an authorized security review, an assessor observes: engineers need enough detail to reproduce and fix an identified weakness. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Closeout meeting",
+        "B": "Technical finding",
+        "C": "Retesting",
+        "D": "Residual risk"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of technical finding: engineers need enough detail to reproduce and fix an identified weakness. A relevant security consideration is to provide evidence, affected components, and clear corrective guidance."
+    },
+    {
+      "id": 42,
+      "question": "An exam asks about the appropriate handling of Technical finding. Which statement is BEST?",
+      "options": {
+        "A": "Document accepted remaining exposure and its owner",
+        "B": "Repeat authorized checks to verify the remediation",
+        "C": "Provide evidence, affected components, and clear corrective guidance",
+        "D": "Produce approved reports, evidence records, and remediation tracking"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for technical finding is to provide evidence, affected components, and clear corrective guidance; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "Consider this security situation: a customer says a reported vulnerability has been fixed. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Residual risk",
+        "B": "Technical finding",
+        "C": "Retesting",
+        "D": "Closeout meeting"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of retesting: a customer says a reported vulnerability has been fixed. A relevant security consideration is to repeat authorized checks to verify the remediation."
+    },
+    {
+      "id": 44,
+      "question": "For Retesting, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Provide evidence, affected components, and clear corrective guidance",
+        "B": "Repeat authorized checks to verify the remediation",
+        "C": "Review findings, responsibilities, and next steps with stakeholders",
+        "D": "Produce approved reports, evidence records, and remediation tracking"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for retesting is to repeat authorized checks to verify the remediation; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "An incident note reads: some weakness remains after feasible controls have been installed. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Penetration-test deliverables",
+        "B": "Residual risk",
+        "C": "Closeout meeting",
+        "D": "Retesting"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of residual risk: some weakness remains after feasible controls have been installed. A relevant security consideration is to document accepted remaining exposure and its owner."
+    },
+    {
+      "id": 46,
+      "question": "Which guidance BEST addresses the key issue associated with Residual risk?",
+      "options": {
+        "A": "Provide evidence, affected components, and clear corrective guidance",
+        "B": "Review findings, responsibilities, and next steps with stakeholders",
+        "C": "Repeat authorized checks to verify the remediation",
+        "D": "Document accepted remaining exposure and its owner"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for residual risk is to document accepted remaining exposure and its owner; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "A team documents the following condition: a security team presents conclusions and outstanding risks to a client. Which CEH term is the closest match?",
+      "options": {
+        "A": "Penetration-test deliverables",
+        "B": "Closeout meeting",
+        "C": "Technical finding",
+        "D": "Retesting"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of closeout meeting: a security team presents conclusions and outstanding risks to a client. A relevant security consideration is to review findings, responsibilities, and next steps with stakeholders."
+    },
+    {
+      "id": 48,
+      "question": "A security team is reviewing the topic of Closeout meeting. Which statement BEST applies?",
+      "options": {
+        "A": "Provide evidence, affected components, and clear corrective guidance",
+        "B": "Document accepted remaining exposure and its owner",
+        "C": "Review findings, responsibilities, and next steps with stakeholders",
+        "D": "Repeat authorized checks to verify the remediation"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for closeout meeting is to review findings, responsibilities, and next steps with stakeholders; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "Which concept is BEST illustrated by this scenario: a project concludes but no written documentation is available?",
+      "options": {
+        "A": "Technical finding",
+        "B": "Retesting",
+        "C": "Residual risk",
+        "D": "Penetration-test deliverables"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of penetration-test deliverables: a project concludes but no written documentation is available. A relevant security consideration is to produce approved reports, evidence records, and remediation tracking."
+    },
+    {
+      "id": 50,
+      "question": "When studying Penetration-test deliverables, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Provide evidence, affected components, and clear corrective guidance",
+        "B": "Produce approved reports, evidence records, and remediation tracking",
+        "C": "Repeat authorized checks to verify the remediation",
+        "D": "Document accepted remaining exposure and its owner"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for penetration-test deliverables is to produce approved reports, evidence records, and remediation tracking; this directly addresses the issue described by the concept."
+    }
+  ]
+}

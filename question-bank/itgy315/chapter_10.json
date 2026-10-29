@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "During an authorized security review, an assessor observes: a wireless service is identified to users by its network name. Which concept BEST describes this finding?",
+      "options": {
+        "A": "802.11 access point",
+        "B": "Infrastructure mode",
+        "C": "Ad hoc mode",
+        "D": "Wireless SSID"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of wireless ssid: a wireless service is identified to users by its network name. A relevant security consideration is to do not mistake hiding a name for strong authentication."
+    },
+    {
+      "id": 2,
+      "question": "An exam asks about the appropriate handling of Wireless SSID. Which statement is BEST?",
+      "options": {
+        "A": "Harden access-point configuration and management access",
+        "B": "Do not mistake hiding a name for strong authentication",
+        "C": "Secure both access-point management and client authentication",
+        "D": "Restrict unapproved peer-to-peer wireless connectivity"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for wireless ssid is to do not mistake hiding a name for strong authentication; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "Consider this security situation: a wireless access point identifies a particular radio interface with a hardware address. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Wireless BSSID",
+        "B": "Infrastructure mode",
+        "C": "Wireless SSID",
+        "D": "802.11 access point"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of wireless bssid: a wireless access point identifies a particular radio interface with a hardware address. A relevant security consideration is to use BSSID observations carefully because addresses may be spoofed."
+    },
+    {
+      "id": 4,
+      "question": "For Wireless BSSID, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Do not mistake hiding a name for strong authentication",
+        "B": "Restrict unapproved peer-to-peer wireless connectivity",
+        "C": "Harden access-point configuration and management access",
+        "D": "Use BSSID observations carefully because addresses may be spoofed"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for wireless bssid is to use BSSID observations carefully because addresses may be spoofed; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "An incident note reads: wireless clients connect to a device bridging them onto an organization network. Select the MOST appropriate classification.",
+      "options": {
+        "A": "802.11 access point",
+        "B": "Ad hoc mode",
+        "C": "Infrastructure mode",
+        "D": "Wireless SSID"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of 802.11 access point: wireless clients connect to a device bridging them onto an organization network. A relevant security consideration is to harden access-point configuration and management access."
+    },
+    {
+      "id": 6,
+      "question": "Which guidance BEST addresses the key issue associated with 802.11 access point?",
+      "options": {
+        "A": "Harden access-point configuration and management access",
+        "B": "Use BSSID observations carefully because addresses may be spoofed",
+        "C": "Do not mistake hiding a name for strong authentication",
+        "D": "Restrict unapproved peer-to-peer wireless connectivity"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for 802.11 access point is to harden access-point configuration and management access; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "A team documents the following condition: wi-Fi clients exchange traffic through an access point. Which CEH term is the closest match?",
+      "options": {
+        "A": "Wireless SSID",
+        "B": "Infrastructure mode",
+        "C": "Ad hoc mode",
+        "D": "802.11 access point"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of infrastructure mode: wi-Fi clients exchange traffic through an access point. A relevant security consideration is to secure both access-point management and client authentication."
+    },
+    {
+      "id": 8,
+      "question": "A security team is reviewing the topic of Infrastructure mode. Which statement BEST applies?",
+      "options": {
+        "A": "Secure both access-point management and client authentication",
+        "B": "Harden access-point configuration and management access",
+        "C": "Use BSSID observations carefully because addresses may be spoofed",
+        "D": "Do not mistake hiding a name for strong authentication"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for infrastructure mode is to secure both access-point management and client authentication; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "Which concept is BEST illustrated by this scenario: wireless devices communicate in a peer-to-peer arrangement without a central access point?",
+      "options": {
+        "A": "Wireless SSID",
+        "B": "Wireless BSSID",
+        "C": "Ad hoc mode",
+        "D": "Infrastructure mode"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of ad hoc mode: wireless devices communicate in a peer-to-peer arrangement without a central access point. A relevant security consideration is to restrict unapproved peer-to-peer wireless connectivity."
+    },
+    {
+      "id": 10,
+      "question": "When studying Ad hoc mode, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Restrict unapproved peer-to-peer wireless connectivity",
+        "B": "Harden access-point configuration and management access",
+        "C": "Use BSSID observations carefully because addresses may be spoofed",
+        "D": "Do not mistake hiding a name for strong authentication"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for ad hoc mode is to restrict unapproved peer-to-peer wireless connectivity; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "During an authorized security review, an assessor observes: a legacy Wi-Fi network protects frames using an obsolete insecure security design. Which concept BEST describes this finding?",
+      "options": {
+        "A": "WEP",
+        "B": "WPA3",
+        "C": "WPA2-Enterprise",
+        "D": "WPA2-Personal"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of wep: a legacy Wi-Fi network protects frames using an obsolete insecure security design. A relevant security consideration is to replace WEP with currently supported secure Wi-Fi protections."
+    },
+    {
+      "id": 12,
+      "question": "An exam asks about the appropriate handling of WEP. Which statement is BEST?",
+      "options": {
+        "A": "Validate the authentication server and manage credentials centrally",
+        "B": "Select compatible modern Wi-Fi security and monitor rollout",
+        "C": "Replace WEP with currently supported secure Wi-Fi protections",
+        "D": "Use a strong unique passphrase and current device firmware"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for wep is to replace WEP with currently supported secure Wi-Fi protections; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "Consider this security situation: a legacy wireless deployment relies on TKIP as its security mechanism. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "WPA2-Enterprise",
+        "B": "WPA3",
+        "C": "WPA2-Personal",
+        "D": "WPA with TKIP"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of wpa with tkip: a legacy wireless deployment relies on TKIP as its security mechanism. A relevant security consideration is to migrate from obsolete TKIP protection to modern approved modes."
+    },
+    {
+      "id": 14,
+      "question": "For WPA with TKIP, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Migrate from obsolete TKIP protection to modern approved modes",
+        "B": "Validate the authentication server and manage credentials centrally",
+        "C": "Replace WEP with currently supported secure Wi-Fi protections",
+        "D": "Use a strong unique passphrase and current device firmware"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for wpa with tkip is to migrate from obsolete TKIP protection to modern approved modes; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "An incident note reads: a home-style WLAN authenticates using a shared passphrase with WPA2. Select the MOST appropriate classification.",
+      "options": {
+        "A": "WPA2-Enterprise",
+        "B": "WPA2-Personal",
+        "C": "WEP",
+        "D": "WPA with TKIP"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of wpa2-personal: a home-style WLAN authenticates using a shared passphrase with WPA2. A relevant security consideration is to use a strong unique passphrase and current device firmware."
+    },
+    {
+      "id": 16,
+      "question": "Which guidance BEST addresses the key issue associated with WPA2-Personal?",
+      "options": {
+        "A": "Select compatible modern Wi-Fi security and monitor rollout",
+        "B": "Validate the authentication server and manage credentials centrally",
+        "C": "Use a strong unique passphrase and current device firmware",
+        "D": "Replace WEP with currently supported secure Wi-Fi protections"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for wpa2-personal is to use a strong unique passphrase and current device firmware; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "A team documents the following condition: a campus WLAN authenticates individual users through an enterprise access framework. Which CEH term is the closest match?",
+      "options": {
+        "A": "WPA2-Enterprise",
+        "B": "WPA with TKIP",
+        "C": "WEP",
+        "D": "WPA2-Personal"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of wpa2-enterprise: a campus WLAN authenticates individual users through an enterprise access framework. A relevant security consideration is to validate the authentication server and manage credentials centrally."
+    },
+    {
+      "id": 18,
+      "question": "A security team is reviewing the topic of WPA2-Enterprise. Which statement BEST applies?",
+      "options": {
+        "A": "Migrate from obsolete TKIP protection to modern approved modes",
+        "B": "Replace WEP with currently supported secure Wi-Fi protections",
+        "C": "Use a strong unique passphrase and current device firmware",
+        "D": "Validate the authentication server and manage credentials centrally"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for wpa2-enterprise is to validate the authentication server and manage credentials centrally; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "Which concept is BEST illustrated by this scenario: an organization is refreshing wireless security to a newer supported standard?",
+      "options": {
+        "A": "WPA2-Enterprise",
+        "B": "WPA3",
+        "C": "WPA with TKIP",
+        "D": "WEP"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of wpa3: an organization is refreshing wireless security to a newer supported standard. A relevant security consideration is to select compatible modern Wi-Fi security and monitor rollout."
+    },
+    {
+      "id": 20,
+      "question": "When studying WPA3, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Migrate from obsolete TKIP protection to modern approved modes",
+        "B": "Use a strong unique passphrase and current device firmware",
+        "C": "Select compatible modern Wi-Fi security and monitor rollout",
+        "D": "Validate the authentication server and manage credentials centrally"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for wpa3 is to select compatible modern Wi-Fi security and monitor rollout; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "During an authorized security review, an assessor observes: enterprise network access is conditioned on port-based authentication exchanges. Which concept BEST describes this finding?",
+      "options": {
+        "A": "RADIUS server",
+        "B": "802.1X authentication",
+        "C": "Wireless deauthentication",
+        "D": "Rogue access point"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of 802.1x authentication: enterprise network access is conditioned on port-based authentication exchanges. A relevant security consideration is to use securely configured EAP and validate server identities."
+    },
+    {
+      "id": 22,
+      "question": "An exam asks about the appropriate handling of 802.1X authentication. Which statement is BEST?",
+      "options": {
+        "A": "Require trusted server validation and warn against lookalike networks",
+        "B": "Enable supported management-frame protections and monitor disruptions",
+        "C": "Use securely configured EAP and validate server identities",
+        "D": "Secure RADIUS integration and protect shared configuration secrets"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for 802.1x authentication is to use securely configured EAP and validate server identities; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "Consider this security situation: an enterprise WLAN delegates authentication decisions to a centralized AAA service. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "RADIUS server",
+        "B": "Rogue access point",
+        "C": "Wireless deauthentication",
+        "D": "802.1X authentication"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of radius server: an enterprise WLAN delegates authentication decisions to a centralized AAA service. A relevant security consideration is to secure RADIUS integration and protect shared configuration secrets."
+    },
+    {
+      "id": 24,
+      "question": "For RADIUS server, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use securely configured EAP and validate server identities",
+        "B": "Require trusted server validation and warn against lookalike networks",
+        "C": "Secure RADIUS integration and protect shared configuration secrets",
+        "D": "Enable supported management-frame protections and monitor disruptions"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for radius server is to secure RADIUS integration and protect shared configuration secrets; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "An incident note reads: an unauthorized wireless bridge appears on corporate premises. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Wireless deauthentication",
+        "B": "Rogue access point",
+        "C": "RADIUS server",
+        "D": "802.1X authentication"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of rogue access point: an unauthorized wireless bridge appears on corporate premises. A relevant security consideration is to detect and remove unapproved radio devices."
+    },
+    {
+      "id": 26,
+      "question": "Which guidance BEST addresses the key issue associated with Rogue access point?",
+      "options": {
+        "A": "Use securely configured EAP and validate server identities",
+        "B": "Enable supported management-frame protections and monitor disruptions",
+        "C": "Secure RADIUS integration and protect shared configuration secrets",
+        "D": "Detect and remove unapproved radio devices"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for rogue access point is to detect and remove unapproved radio devices; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "A team documents the following condition: a misleading wireless access point impersonates a trusted network name. Which CEH term is the closest match?",
+      "options": {
+        "A": "802.1X authentication",
+        "B": "Wireless deauthentication",
+        "C": "RADIUS server",
+        "D": "Evil twin"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of evil twin: a misleading wireless access point impersonates a trusted network name. A relevant security consideration is to require trusted server validation and warn against lookalike networks."
+    },
+    {
+      "id": 28,
+      "question": "A security team is reviewing the topic of Evil twin. Which statement BEST applies?",
+      "options": {
+        "A": "Use securely configured EAP and validate server identities",
+        "B": "Enable supported management-frame protections and monitor disruptions",
+        "C": "Secure RADIUS integration and protect shared configuration secrets",
+        "D": "Require trusted server validation and warn against lookalike networks"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for evil twin is to require trusted server validation and warn against lookalike networks; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "Which concept is BEST illustrated by this scenario: clients unexpectedly receive frames that cause loss of their wireless connection?",
+      "options": {
+        "A": "RADIUS server",
+        "B": "802.1X authentication",
+        "C": "Wireless deauthentication",
+        "D": "Rogue access point"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of wireless deauthentication: clients unexpectedly receive frames that cause loss of their wireless connection. A relevant security consideration is to enable supported management-frame protections and monitor disruptions."
+    },
+    {
+      "id": 30,
+      "question": "When studying Wireless deauthentication, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Require trusted server validation and warn against lookalike networks",
+        "B": "Detect and remove unapproved radio devices",
+        "C": "Use securely configured EAP and validate server identities",
+        "D": "Enable supported management-frame protections and monitor disruptions"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for wireless deauthentication is to enable supported management-frame protections and monitor disruptions; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "During an authorized security review, an assessor observes: a device presents a forged hardware address to appear like an approved client. Which concept BEST describes this finding?",
+      "options": {
+        "A": "SSID broadcast suppression",
+        "B": "MAC filtering",
+        "C": "MAC spoofing",
+        "D": "Wireless site survey"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of mac spoofing: a device presents a forged hardware address to appear like an approved client. A relevant security consideration is to avoid treating MAC allowlists as primary authentication."
+    },
+    {
+      "id": 32,
+      "question": "An exam asks about the appropriate handling of MAC spoofing. Which statement is BEST?",
+      "options": {
+        "A": "Combine address lists with real cryptographic authentication",
+        "B": "Avoid treating MAC allowlists as primary authentication",
+        "C": "Do not rely on suppressed broadcasts to secure the network",
+        "D": "Perform periodic authorized wireless surveys"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for mac spoofing is to avoid treating MAC allowlists as primary authentication; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "Consider this security situation: a router permits clients based on their listed hardware addresses. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Wireless site survey",
+        "B": "MAC filtering",
+        "C": "SSID broadcast suppression",
+        "D": "Channel interference"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of mac filtering: a router permits clients based on their listed hardware addresses. A relevant security consideration is to combine address lists with real cryptographic authentication."
+    },
+    {
+      "id": 34,
+      "question": "For MAC filtering, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Do not rely on suppressed broadcasts to secure the network",
+        "B": "Plan channels and inspect RF congestion",
+        "C": "Perform periodic authorized wireless surveys",
+        "D": "Combine address lists with real cryptographic authentication"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for mac filtering is to combine address lists with real cryptographic authentication; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "An incident note reads: a WLAN administrator hides routine network-name announcements. Select the MOST appropriate classification.",
+      "options": {
+        "A": "MAC spoofing",
+        "B": "Wireless site survey",
+        "C": "MAC filtering",
+        "D": "SSID broadcast suppression"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of ssid broadcast suppression: a WLAN administrator hides routine network-name announcements. A relevant security consideration is to do not rely on suppressed broadcasts to secure the network."
+    },
+    {
+      "id": 36,
+      "question": "Which guidance BEST addresses the key issue associated with SSID broadcast suppression?",
+      "options": {
+        "A": "Combine address lists with real cryptographic authentication",
+        "B": "Do not rely on suppressed broadcasts to secure the network",
+        "C": "Avoid treating MAC allowlists as primary authentication",
+        "D": "Perform periodic authorized wireless surveys"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for ssid broadcast suppression is to do not rely on suppressed broadcasts to secure the network; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "A team documents the following condition: nearby radios degrade Wi-Fi availability through overlapping transmissions. Which CEH term is the closest match?",
+      "options": {
+        "A": "MAC filtering",
+        "B": "MAC spoofing",
+        "C": "Channel interference",
+        "D": "SSID broadcast suppression"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of channel interference: nearby radios degrade Wi-Fi availability through overlapping transmissions. A relevant security consideration is to plan channels and inspect RF congestion."
+    },
+    {
+      "id": 38,
+      "question": "A security team is reviewing the topic of Channel interference. Which statement BEST applies?",
+      "options": {
+        "A": "Combine address lists with real cryptographic authentication",
+        "B": "Plan channels and inspect RF congestion",
+        "C": "Do not rely on suppressed broadcasts to secure the network",
+        "D": "Avoid treating MAC allowlists as primary authentication"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for channel interference is to plan channels and inspect RF congestion; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "Which concept is BEST illustrated by this scenario: an administrator maps signal coverage and unexpected access points across a building?",
+      "options": {
+        "A": "MAC filtering",
+        "B": "MAC spoofing",
+        "C": "Wireless site survey",
+        "D": "Channel interference"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of wireless site survey: an administrator maps signal coverage and unexpected access points across a building. A relevant security consideration is to perform periodic authorized wireless surveys."
+    },
+    {
+      "id": 40,
+      "question": "When studying Wireless site survey, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Combine address lists with real cryptographic authentication",
+        "B": "Avoid treating MAC allowlists as primary authentication",
+        "C": "Perform periodic authorized wireless surveys",
+        "D": "Plan channels and inspect RF congestion"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for wireless site survey is to perform periodic authorized wireless surveys; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "During an authorized security review, an assessor observes: employees need privacy and integrity over local radio communications. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Guest wireless separation",
+        "B": "Wireless firmware updates",
+        "C": "Weak wireless passphrase",
+        "D": "Wireless encryption"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of wireless encryption: employees need privacy and integrity over local radio communications. A relevant security consideration is to use approved modern Wi-Fi protection and end-to-end encryption."
+    },
+    {
+      "id": 42,
+      "question": "An exam asks about the appropriate handling of Wireless encryption. Which statement is BEST?",
+      "options": {
+        "A": "Apply supported firmware updates after controlled testing",
+        "B": "Isolate guest traffic from internal sensitive networks",
+        "C": "Use approved modern Wi-Fi protection and end-to-end encryption",
+        "D": "Review alerts alongside a baseline of permitted wireless devices"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for wireless encryption is to use approved modern Wi-Fi protection and end-to-end encryption; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "Consider this security situation: a shared WLAN key is widely known and simple to guess. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Wireless encryption",
+        "B": "Guest wireless separation",
+        "C": "Weak wireless passphrase",
+        "D": "Wireless intrusion detection"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of weak wireless passphrase: a shared WLAN key is widely known and simple to guess. A relevant security consideration is to replace it with a strong unique credential and rotate when compromised."
+    },
+    {
+      "id": 44,
+      "question": "For Weak wireless passphrase, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Replace it with a strong unique credential and rotate when compromised",
+        "B": "Use approved modern Wi-Fi protection and end-to-end encryption",
+        "C": "Review alerts alongside a baseline of permitted wireless devices",
+        "D": "Apply supported firmware updates after controlled testing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for weak wireless passphrase is to replace it with a strong unique credential and rotate when compromised; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "An incident note reads: visitors can reach internal enterprise devices from the guest SSID. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Wireless intrusion detection",
+        "B": "Guest wireless separation",
+        "C": "Wireless encryption",
+        "D": "Wireless firmware updates"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of guest wireless separation: visitors can reach internal enterprise devices from the guest SSID. A relevant security consideration is to isolate guest traffic from internal sensitive networks."
+    },
+    {
+      "id": 46,
+      "question": "Which guidance BEST addresses the key issue associated with Guest wireless separation?",
+      "options": {
+        "A": "Apply supported firmware updates after controlled testing",
+        "B": "Replace it with a strong unique credential and rotate when compromised",
+        "C": "Isolate guest traffic from internal sensitive networks",
+        "D": "Review alerts alongside a baseline of permitted wireless devices"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for guest wireless separation is to isolate guest traffic from internal sensitive networks; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "A team documents the following condition: access points retain a version with known security defects. Which CEH term is the closest match?",
+      "options": {
+        "A": "Wireless intrusion detection",
+        "B": "Wireless encryption",
+        "C": "Wireless firmware updates",
+        "D": "Guest wireless separation"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of wireless firmware updates: access points retain a version with known security defects. A relevant security consideration is to apply supported firmware updates after controlled testing."
+    },
+    {
+      "id": 48,
+      "question": "A security team is reviewing the topic of Wireless firmware updates. Which statement BEST applies?",
+      "options": {
+        "A": "Review alerts alongside a baseline of permitted wireless devices",
+        "B": "Use approved modern Wi-Fi protection and end-to-end encryption",
+        "C": "Apply supported firmware updates after controlled testing",
+        "D": "Replace it with a strong unique credential and rotate when compromised"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for wireless firmware updates is to apply supported firmware updates after controlled testing; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "Which concept is BEST illustrated by this scenario: a monitoring service identifies suspicious radio behavior or unapproved devices?",
+      "options": {
+        "A": "Wireless firmware updates",
+        "B": "Guest wireless separation",
+        "C": "Wireless intrusion detection",
+        "D": "Wireless encryption"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of wireless intrusion detection: a monitoring service identifies suspicious radio behavior or unapproved devices. A relevant security consideration is to review alerts alongside a baseline of permitted wireless devices."
+    },
+    {
+      "id": 50,
+      "question": "When studying Wireless intrusion detection, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Review alerts alongside a baseline of permitted wireless devices",
+        "B": "Use approved modern Wi-Fi protection and end-to-end encryption",
+        "C": "Isolate guest traffic from internal sensitive networks",
+        "D": "Replace it with a strong unique credential and rotate when compromised"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for wireless intrusion detection is to review alerts alongside a baseline of permitted wireless devices; this directly addresses the issue described by the concept."
+    }
+  ]
+}

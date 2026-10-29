@@ -1,0 +1,704 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which concept is BEST illustrated by this scenario: a system uses the same secret key for encryption and decryption?",
+      "options": {
+        "A": "Digital signature",
+        "B": "Symmetric encryption",
+        "C": "Hash function",
+        "D": "Asymmetric cryptography"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of symmetric encryption: a system uses the same secret key for encryption and decryption. A relevant security consideration is to protect shared keys and choose authenticated modern encryption."
+    },
+    {
+      "id": 2,
+      "question": "When studying Symmetric encryption, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Select collision-resistant hashes for integrity-sensitive uses",
+        "B": "Verify signatures using trusted public keys",
+        "C": "Protect shared keys and choose authenticated modern encryption",
+        "D": "Safeguard private keys and validate associated public identities"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for symmetric encryption is to protect shared keys and choose authenticated modern encryption; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 3,
+      "question": "During an authorized security review, an assessor observes: a protocol uses mathematically linked public and private keys. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Digital signature",
+        "B": "Message authentication code",
+        "C": "Symmetric encryption",
+        "D": "Asymmetric cryptography"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of asymmetric cryptography: a protocol uses mathematically linked public and private keys. A relevant security consideration is to safeguard private keys and validate associated public identities."
+    },
+    {
+      "id": 4,
+      "question": "An exam asks about the appropriate handling of Asymmetric cryptography. Which statement is BEST?",
+      "options": {
+        "A": "Safeguard private keys and validate associated public identities",
+        "B": "Protect the shared authentication key",
+        "C": "Protect shared keys and choose authenticated modern encryption",
+        "D": "Select collision-resistant hashes for integrity-sensitive uses"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for asymmetric cryptography is to safeguard private keys and validate associated public identities; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 5,
+      "question": "Consider this security situation: a system computes a fixed-length digest to detect changes in data. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Hash function",
+        "B": "Asymmetric cryptography",
+        "C": "Symmetric encryption",
+        "D": "Digital signature"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of hash function: a system computes a fixed-length digest to detect changes in data. A relevant security consideration is to select collision-resistant hashes for integrity-sensitive uses."
+    },
+    {
+      "id": 6,
+      "question": "For Hash function, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Select collision-resistant hashes for integrity-sensitive uses",
+        "B": "Safeguard private keys and validate associated public identities",
+        "C": "Protect the shared authentication key",
+        "D": "Protect shared keys and choose authenticated modern encryption"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for hash function is to select collision-resistant hashes for integrity-sensitive uses; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 7,
+      "question": "An incident note reads: a publisher signs a software release so recipients can verify its origin. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Message authentication code",
+        "B": "Digital signature",
+        "C": "Asymmetric cryptography",
+        "D": "Symmetric encryption"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of digital signature: a publisher signs a software release so recipients can verify its origin. A relevant security consideration is to verify signatures using trusted public keys."
+    },
+    {
+      "id": 8,
+      "question": "Which guidance BEST addresses the key issue associated with Digital signature?",
+      "options": {
+        "A": "Protect shared keys and choose authenticated modern encryption",
+        "B": "Verify signatures using trusted public keys",
+        "C": "Safeguard private keys and validate associated public identities",
+        "D": "Protect the shared authentication key"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for digital signature is to verify signatures using trusted public keys; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 9,
+      "question": "A team documents the following condition: two systems share a key to authenticate message integrity. Which CEH term is the closest match?",
+      "options": {
+        "A": "Symmetric encryption",
+        "B": "Hash function",
+        "C": "Asymmetric cryptography",
+        "D": "Message authentication code"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of message authentication code: two systems share a key to authenticate message integrity. A relevant security consideration is to protect the shared authentication key."
+    },
+    {
+      "id": 10,
+      "question": "A security team is reviewing the topic of Message authentication code. Which statement BEST applies?",
+      "options": {
+        "A": "Protect shared keys and choose authenticated modern encryption",
+        "B": "Verify signatures using trusted public keys",
+        "C": "Protect the shared authentication key",
+        "D": "Safeguard private keys and validate associated public identities"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for message authentication code is to protect the shared authentication key; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 11,
+      "question": "Which concept is BEST illustrated by this scenario: a sensitive document is transformed so unauthorized readers cannot understand it?",
+      "options": {
+        "A": "Public key infrastructure",
+        "B": "Key exchange",
+        "C": "Confidentiality with encryption",
+        "D": "Nonrepudiation"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of confidentiality with encryption: a sensitive document is transformed so unauthorized readers cannot understand it. A relevant security consideration is to use authenticated encryption and sound key management."
+    },
+    {
+      "id": 12,
+      "question": "When studying Confidentiality with encryption, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Use authenticated key establishment to prevent impersonation",
+        "B": "Use authenticated encryption and sound key management",
+        "C": "Use authenticated hashes or digital signatures as appropriate",
+        "D": "Govern issuance, renewal, and revocation of certificates"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for confidentiality with encryption is to use authenticated encryption and sound key management; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 13,
+      "question": "During an authorized security review, an assessor observes: a receiver needs to detect whether transmitted content changed. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Key exchange",
+        "B": "Confidentiality with encryption",
+        "C": "Integrity verification",
+        "D": "Public key infrastructure"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of integrity verification: a receiver needs to detect whether transmitted content changed. A relevant security consideration is to use authenticated hashes or digital signatures as appropriate."
+    },
+    {
+      "id": 14,
+      "question": "An exam asks about the appropriate handling of Integrity verification. Which statement is BEST?",
+      "options": {
+        "A": "Use authenticated encryption and sound key management",
+        "B": "Use authenticated hashes or digital signatures as appropriate",
+        "C": "Manage signature keys and verification records carefully",
+        "D": "Govern issuance, renewal, and revocation of certificates"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for integrity verification is to use authenticated hashes or digital signatures as appropriate; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 15,
+      "question": "Consider this security situation: an organization needs evidence associating a signer's private key with a signed record. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Nonrepudiation",
+        "B": "Integrity verification",
+        "C": "Key exchange",
+        "D": "Public key infrastructure"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of nonrepudiation: an organization needs evidence associating a signer's private key with a signed record. A relevant security consideration is to manage signature keys and verification records carefully."
+    },
+    {
+      "id": 16,
+      "question": "For Nonrepudiation, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use authenticated encryption and sound key management",
+        "B": "Govern issuance, renewal, and revocation of certificates",
+        "C": "Use authenticated hashes or digital signatures as appropriate",
+        "D": "Manage signature keys and verification records carefully"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for nonrepudiation is to manage signature keys and verification records carefully; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 17,
+      "question": "An incident note reads: two endpoints establish shared cryptographic material over an insecure link. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Integrity verification",
+        "B": "Confidentiality with encryption",
+        "C": "Public key infrastructure",
+        "D": "Key exchange"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of key exchange: two endpoints establish shared cryptographic material over an insecure link. A relevant security consideration is to use authenticated key establishment to prevent impersonation."
+    },
+    {
+      "id": 18,
+      "question": "Which guidance BEST addresses the key issue associated with Key exchange?",
+      "options": {
+        "A": "Use authenticated encryption and sound key management",
+        "B": "Manage signature keys and verification records carefully",
+        "C": "Use authenticated hashes or digital signatures as appropriate",
+        "D": "Use authenticated key establishment to prevent impersonation"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for key exchange is to use authenticated key establishment to prevent impersonation; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 19,
+      "question": "A team documents the following condition: an organization manages certificates and trust relationships at scale. Which CEH term is the closest match?",
+      "options": {
+        "A": "Nonrepudiation",
+        "B": "Key exchange",
+        "C": "Public key infrastructure",
+        "D": "Confidentiality with encryption"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of public key infrastructure: an organization manages certificates and trust relationships at scale. A relevant security consideration is to govern issuance, renewal, and revocation of certificates."
+    },
+    {
+      "id": 20,
+      "question": "A security team is reviewing the topic of Public key infrastructure. Which statement BEST applies?",
+      "options": {
+        "A": "Govern issuance, renewal, and revocation of certificates",
+        "B": "Manage signature keys and verification records carefully",
+        "C": "Use authenticated key establishment to prevent impersonation",
+        "D": "Use authenticated hashes or digital signatures as appropriate"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for public key infrastructure is to govern issuance, renewal, and revocation of certificates; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 21,
+      "question": "Which concept is BEST illustrated by this scenario: a web endpoint presents a signed association between an identity and public key?",
+      "options": {
+        "A": "Digital certificate",
+        "B": "DES",
+        "C": "AES",
+        "D": "Certificate authority"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of digital certificate: a web endpoint presents a signed association between an identity and public key. A relevant security consideration is to validate the certificate chain and expected identity."
+    },
+    {
+      "id": 22,
+      "question": "When studying Digital certificate, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Revoke affected certificates and replace credentials",
+        "B": "Use an approved mode and protect key material",
+        "C": "Replace legacy DES with currently supported cryptography",
+        "D": "Validate the certificate chain and expected identity"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for digital certificate is to validate the certificate chain and expected identity; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 23,
+      "question": "During an authorized security review, an assessor observes: a trusted service signs statements binding identities to cryptographic public keys. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Certificate authority",
+        "B": "DES",
+        "C": "Digital certificate",
+        "D": "Certificate revocation"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of certificate authority: a trusted service signs statements binding identities to cryptographic public keys. A relevant security consideration is to protect issuer keys and audit certificate issuance."
+    },
+    {
+      "id": 24,
+      "question": "An exam asks about the appropriate handling of Certificate authority. Which statement is BEST?",
+      "options": {
+        "A": "Validate the certificate chain and expected identity",
+        "B": "Protect issuer keys and audit certificate issuance",
+        "C": "Revoke affected certificates and replace credentials",
+        "D": "Replace legacy DES with currently supported cryptography"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for certificate authority is to protect issuer keys and audit certificate issuance; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 25,
+      "question": "Consider this security situation: a private signing key may have been compromised before its certificate expires. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Digital certificate",
+        "B": "DES",
+        "C": "Certificate revocation",
+        "D": "Certificate authority"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of certificate revocation: a private signing key may have been compromised before its certificate expires. A relevant security consideration is to revoke affected certificates and replace credentials."
+    },
+    {
+      "id": 26,
+      "question": "For Certificate revocation, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use an approved mode and protect key material",
+        "B": "Replace legacy DES with currently supported cryptography",
+        "C": "Revoke affected certificates and replace credentials",
+        "D": "Protect issuer keys and audit certificate issuance"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for certificate revocation is to revoke affected certificates and replace credentials; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 27,
+      "question": "An incident note reads: a modern block cipher is selected for encrypting organizational data. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Certificate revocation",
+        "B": "DES",
+        "C": "AES",
+        "D": "Certificate authority"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of aes: a modern block cipher is selected for encrypting organizational data. A relevant security consideration is to use an approved mode and protect key material."
+    },
+    {
+      "id": 28,
+      "question": "Which guidance BEST addresses the key issue associated with AES?",
+      "options": {
+        "A": "Revoke affected certificates and replace credentials",
+        "B": "Replace legacy DES with currently supported cryptography",
+        "C": "Validate the certificate chain and expected identity",
+        "D": "Use an approved mode and protect key material"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for aes is to use an approved mode and protect key material; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 29,
+      "question": "A team documents the following condition: an inherited application still depends on an obsolete short-key block cipher. Which CEH term is the closest match?",
+      "options": {
+        "A": "Certificate authority",
+        "B": "Digital certificate",
+        "C": "DES",
+        "D": "Certificate revocation"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of des: an inherited application still depends on an obsolete short-key block cipher. A relevant security consideration is to replace legacy DES with currently supported cryptography."
+    },
+    {
+      "id": 30,
+      "question": "A security team is reviewing the topic of DES. Which statement BEST applies?",
+      "options": {
+        "A": "Revoke affected certificates and replace credentials",
+        "B": "Protect issuer keys and audit certificate issuance",
+        "C": "Replace legacy DES with currently supported cryptography",
+        "D": "Validate the certificate chain and expected identity"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for des is to replace legacy DES with currently supported cryptography; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 31,
+      "question": "Which concept is BEST illustrated by this scenario: an older service relies on a multiple-DES design now being retired?",
+      "options": {
+        "A": "Elliptic-curve cryptography",
+        "B": "Triple DES",
+        "C": "SHA-1",
+        "D": "RSA"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of triple des: an older service relies on a multiple-DES design now being retired. A relevant security consideration is to plan migration to modern authenticated encryption."
+    },
+    {
+      "id": 32,
+      "question": "When studying Triple DES, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Avoid MD5 for security-critical collision resistance",
+        "B": "Choose recommended padding and key sizes",
+        "C": "Plan migration to modern authenticated encryption",
+        "D": "Replace SHA-1 with a stronger approved hash"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for triple des is to plan migration to modern authenticated encryption; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 33,
+      "question": "During an authorized security review, an assessor observes: a system uses a public-key algorithm based on integer factorization problems. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Elliptic-curve cryptography",
+        "B": "MD5",
+        "C": "RSA",
+        "D": "Triple DES"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "This is an example of rsa: a system uses a public-key algorithm based on integer factorization problems. A relevant security consideration is to choose recommended padding and key sizes."
+    },
+    {
+      "id": 34,
+      "question": "An exam asks about the appropriate handling of RSA. Which statement is BEST?",
+      "options": {
+        "A": "Avoid MD5 for security-critical collision resistance",
+        "B": "Replace SHA-1 with a stronger approved hash",
+        "C": "Select vetted curves and cryptographic implementations",
+        "D": "Choose recommended padding and key sizes"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for rsa is to choose recommended padding and key sizes; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 35,
+      "question": "Consider this security situation: a protocol uses operations on elliptic curves for public-key security. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "SHA-1",
+        "B": "RSA",
+        "C": "Triple DES",
+        "D": "Elliptic-curve cryptography"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of elliptic-curve cryptography: a protocol uses operations on elliptic curves for public-key security. A relevant security consideration is to select vetted curves and cryptographic implementations."
+    },
+    {
+      "id": 36,
+      "question": "For Elliptic-curve cryptography, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Replace SHA-1 with a stronger approved hash",
+        "B": "Choose recommended padding and key sizes",
+        "C": "Select vetted curves and cryptographic implementations",
+        "D": "Avoid MD5 for security-critical collision resistance"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for elliptic-curve cryptography is to select vetted curves and cryptographic implementations; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 37,
+      "question": "An incident note reads: a system relies on an older hash with known collision weaknesses. Select the MOST appropriate classification.",
+      "options": {
+        "A": "SHA-1",
+        "B": "MD5",
+        "C": "Triple DES",
+        "D": "Elliptic-curve cryptography"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of md5: a system relies on an older hash with known collision weaknesses. A relevant security consideration is to avoid MD5 for security-critical collision resistance."
+    },
+    {
+      "id": 38,
+      "question": "Which guidance BEST addresses the key issue associated with MD5?",
+      "options": {
+        "A": "Choose recommended padding and key sizes",
+        "B": "Avoid MD5 for security-critical collision resistance",
+        "C": "Replace SHA-1 with a stronger approved hash",
+        "D": "Select vetted curves and cryptographic implementations"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for md5 is to avoid MD5 for security-critical collision resistance; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 39,
+      "question": "A team documents the following condition: a certificate workflow depends on an obsolete collision-vulnerable hash. Which CEH term is the closest match?",
+      "options": {
+        "A": "MD5",
+        "B": "SHA-1",
+        "C": "Elliptic-curve cryptography",
+        "D": "Triple DES"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of sha-1: a certificate workflow depends on an obsolete collision-vulnerable hash. A relevant security consideration is to replace SHA-1 with a stronger approved hash."
+    },
+    {
+      "id": 40,
+      "question": "A security team is reviewing the topic of SHA-1. Which statement BEST applies?",
+      "options": {
+        "A": "Choose recommended padding and key sizes",
+        "B": "Select vetted curves and cryptographic implementations",
+        "C": "Replace SHA-1 with a stronger approved hash",
+        "D": "Plan migration to modern authenticated encryption"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for sha-1 is to replace SHA-1 with a stronger approved hash; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 41,
+      "question": "Which concept is BEST illustrated by this scenario: a file-integrity workflow uses a member of the SHA-2 family?",
+      "options": {
+        "A": "SHA-256",
+        "B": "Cryptographic randomness",
+        "C": "Salted password hashing",
+        "D": "Initialization vector"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "This is an example of sha-256: a file-integrity workflow uses a member of the SHA-2 family. A relevant security consideration is to verify digests using authenticated trusted reference values."
+    },
+    {
+      "id": 42,
+      "question": "When studying SHA-256, which recommendation MOST appropriately addresses its associated concern?",
+      "options": {
+        "A": "Rely on publicly reviewed algorithms rather than secrecy of the design",
+        "B": "Generate nonces or IVs according to the chosen mode's requirements",
+        "C": "Verify digests using authenticated trusted reference values",
+        "D": "Use slow password-specific hashing and unique salts"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for sha-256 is to verify digests using authenticated trusted reference values; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 43,
+      "question": "During an authorized security review, an assessor observes: a service adds a unique per-account value before password verification hashing. Which concept BEST describes this finding?",
+      "options": {
+        "A": "Cryptanalysis",
+        "B": "SHA-256",
+        "C": "Cryptographic randomness",
+        "D": "Salted password hashing"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of salted password hashing: a service adds a unique per-account value before password verification hashing. A relevant security consideration is to use slow password-specific hashing and unique salts."
+    },
+    {
+      "id": 44,
+      "question": "An exam asks about the appropriate handling of Salted password hashing. Which statement is BEST?",
+      "options": {
+        "A": "Verify digests using authenticated trusted reference values",
+        "B": "Generate nonces or IVs according to the chosen mode's requirements",
+        "C": "Rely on publicly reviewed algorithms rather than secrecy of the design",
+        "D": "Use slow password-specific hashing and unique salts"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "The best recommendation for salted password hashing is to use slow password-specific hashing and unique salts; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 45,
+      "question": "Consider this security situation: a cipher mode requires a separate starting value for an encryption operation. Which technical label MOST accurately applies?",
+      "options": {
+        "A": "Salted password hashing",
+        "B": "Initialization vector",
+        "C": "Cryptographic randomness",
+        "D": "SHA-256"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of initialization vector: a cipher mode requires a separate starting value for an encryption operation. A relevant security consideration is to generate nonces or IVs according to the chosen mode's requirements."
+    },
+    {
+      "id": 46,
+      "question": "For Initialization vector, which recommendation or interpretation is MOST defensible?",
+      "options": {
+        "A": "Use a cryptographically secure random generator",
+        "B": "Verify digests using authenticated trusted reference values",
+        "C": "Generate nonces or IVs according to the chosen mode's requirements",
+        "D": "Use slow password-specific hashing and unique salts"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "The best recommendation for initialization vector is to generate nonces or IVs according to the chosen mode's requirements; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 47,
+      "question": "An incident note reads: an application generates session keys using predictable pseudo-random seeds. Select the MOST appropriate classification.",
+      "options": {
+        "A": "Cryptanalysis",
+        "B": "Cryptographic randomness",
+        "C": "SHA-256",
+        "D": "Initialization vector"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "This is an example of cryptographic randomness: an application generates session keys using predictable pseudo-random seeds. A relevant security consideration is to use a cryptographically secure random generator."
+    },
+    {
+      "id": 48,
+      "question": "Which guidance BEST addresses the key issue associated with Cryptographic randomness?",
+      "options": {
+        "A": "Use a cryptographically secure random generator",
+        "B": "Verify digests using authenticated trusted reference values",
+        "C": "Use slow password-specific hashing and unique salts",
+        "D": "Generate nonces or IVs according to the chosen mode's requirements"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "The best recommendation for cryptographic randomness is to use a cryptographically secure random generator; this directly addresses the issue described by the concept."
+    },
+    {
+      "id": 49,
+      "question": "A team documents the following condition: an expert evaluates whether a cryptographic scheme has exploitable structural weaknesses. Which CEH term is the closest match?",
+      "options": {
+        "A": "Initialization vector",
+        "B": "Cryptographic randomness",
+        "C": "SHA-256",
+        "D": "Cryptanalysis"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "This is an example of cryptanalysis: an expert evaluates whether a cryptographic scheme has exploitable structural weaknesses. A relevant security consideration is to rely on publicly reviewed algorithms rather than secrecy of the design."
+    },
+    {
+      "id": 50,
+      "question": "A security team is reviewing the topic of Cryptanalysis. Which statement BEST applies?",
+      "options": {
+        "A": "Generate nonces or IVs according to the chosen mode's requirements",
+        "B": "Rely on publicly reviewed algorithms rather than secrecy of the design",
+        "C": "Use slow password-specific hashing and unique salts",
+        "D": "Use a cryptographically secure random generator"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "The best recommendation for cryptanalysis is to rely on publicly reviewed algorithms rather than secrecy of the design; this directly addresses the issue described by the concept."
+    }
+  ]
+}

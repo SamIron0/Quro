@@ -1,0 +1,1404 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "An exam case presents two observations: (I) a scanner compares observed services with known weakness indicators; (II) an analyst investigates registrar and domain-registration information. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "WHOIS registration data ; Vulnerability scanning",
+        "B": "Vulnerability scanning ; DNS A record",
+        "C": "Vulnerability scanning ; WHOIS registration data",
+        "D": "Enumeration ; WHOIS registration data"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes vulnerability scanning; II describes whois registration data. The pair must be correct in both positions."
+    },
+    {
+      "id": 2,
+      "question": "An exam case presents two observations: (I) customer records are exposed to readers who are not authorized; (II) an older Windows credential format stores a fast unsalted password-derived hash. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Integrity ; NT hash",
+        "B": "Confidentiality ; NT hash",
+        "C": "Confidentiality ; Passphrase",
+        "D": "NT hash ; Confidentiality"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes confidentiality; II describes nt hash. The pair must be correct in both positions."
+    },
+    {
+      "id": 3,
+      "question": "An exam case presents two observations: (I) unknown software secretly records keyboard input; (II) an interface accepts frames beyond those normally addressed directly to it. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Keylogger ; Promiscuous mode",
+        "B": "Promiscuous mode ; Keylogger",
+        "C": "Keylogger ; Capture filter",
+        "D": "Spyware ; Promiscuous mode"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes keylogger; II describes promiscuous mode. The pair must be correct in both positions."
+    },
+    {
+      "id": 4,
+      "question": "An exam case presents two observations: (I) an analyst hides unrelated captured frames while reviewing a trace; (II) an interface accepts frames beyond those normally addressed directly to it. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Passive sniffing ; Promiscuous mode",
+        "B": "Promiscuous mode ; Display filter",
+        "C": "Display filter ; Promiscuous mode",
+        "D": "Display filter ; Capture filter"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes display filter; II describes promiscuous mode. The pair must be correct in both positions."
+    },
+    {
+      "id": 5,
+      "question": "An exam case presents two observations: (I) a tester must communicate verified findings to the system owner; (II) an approved audit tests previously obtained password verification data. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Penetration-test report ; Dictionary attack",
+        "B": "Penetration-test report ; Offline password analysis",
+        "C": "Offline password analysis ; Penetration-test report",
+        "D": "Legal authorization ; Offline password analysis"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes penetration-test report; II describes offline password analysis. The pair must be correct in both positions."
+    },
+    {
+      "id": 6,
+      "question": "An exam case presents two observations: (I) a published office document discloses creator names and software details; (II) a hostname is configured as an alias of another name. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Metadata exposure ; DNS zone transfer",
+        "B": "Metadata exposure ; DNS CNAME record",
+        "C": "DNS CNAME record ; Metadata exposure",
+        "D": "Footprinting ; DNS CNAME record"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes metadata exposure; II describes dns cname record. The pair must be correct in both positions."
+    },
+    {
+      "id": 7,
+      "question": "An exam case presents two observations: (I) a domain name resolves to an IPv4 host address; (II) infected endpoints communicate with an external system to receive instructions. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Command-and-control traffic ; DNS A record",
+        "B": "DNS A record ; Command-and-control traffic",
+        "C": "DNS A record ; Reverse-connecting Trojan",
+        "D": "DNS AAAA record ; Command-and-control traffic"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes dns a record; II describes command-and-control traffic. The pair must be correct in both positions."
+    },
+    {
+      "id": 8,
+      "question": "An exam case presents two observations: (I) a flaw is ranked using likelihood and consequences for the business; (II) a trace includes a time value used to sequence related network events. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Risk assessment ; Sniffing countermeasures",
+        "B": "Penetration-test report ; Packet timestamp",
+        "C": "Risk assessment ; Packet timestamp",
+        "D": "Packet timestamp ; Risk assessment"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes risk assessment; II describes packet timestamp. The pair must be correct in both positions."
+    },
+    {
+      "id": 9,
+      "question": "An exam case presents two observations: (I) an endpoint monitor alerts on suspicious execution patterns; (II) a scanning method completes the operating system's TCP connection establishment. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Behavior-based detection ; TCP connect scan",
+        "B": "False positive ; TCP connect scan",
+        "C": "TCP connect scan ; Behavior-based detection",
+        "D": "Behavior-based detection ; SYN scan"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes behavior-based detection; II describes tcp connect scan. The pair must be correct in both positions."
+    },
+    {
+      "id": 10,
+      "question": "An exam case presents two observations: (I) an analyst investigates registrar and domain-registration information; (II) an assessor receives almost no internal design information. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Black-box testing ; WHOIS registration data",
+        "B": "DNS A record ; Black-box testing",
+        "C": "WHOIS registration data ; White-box testing",
+        "D": "WHOIS registration data ; Black-box testing"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes whois registration data; II describes black-box testing. The pair must be correct in both positions."
+    },
+    {
+      "id": 11,
+      "question": "An exam case presents two observations: (I) a scanning method completes the operating system's TCP connection establishment; (II) repeated login attempts are observed against an authentication server. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "TCP connect scan ; Offline password analysis",
+        "B": "SYN scan ; Online password guessing",
+        "C": "Online password guessing ; TCP connect scan",
+        "D": "TCP connect scan ; Online password guessing"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes tcp connect scan; II describes online password guessing. The pair must be correct in both positions."
+    },
+    {
+      "id": 12,
+      "question": "An exam case presents two observations: (I) an assessment maps accessible hosts across a defined network range; (II) an authorized review finds which transport endpoints appear reachable. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Vulnerability scanning ; Port scanning",
+        "B": "Port scanning ; Network scanning",
+        "C": "Network scanning ; Network scanning",
+        "D": "Network scanning ; Port scanning"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes network scanning; II describes port scanning. The pair must be correct in both positions."
+    },
+    {
+      "id": 13,
+      "question": "An exam case presents two observations: (I) malicious code spreads by infecting a host file or other attached content; (II) a malicious program rewrites its own code structure while retaining behavior. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Metamorphic malware ; Computer virus",
+        "B": "Computer virus ; File-infector virus",
+        "C": "Computer worm ; Metamorphic malware",
+        "D": "Computer virus ; Metamorphic malware"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes computer virus; II describes metamorphic malware. The pair must be correct in both positions."
+    },
+    {
+      "id": 14,
+      "question": "An exam case presents two observations: (I) a workstation automatically handles software on an unknown USB device; (II) an IPv4 host determines the local hardware address for another address. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "ARP resolution ; Removable-media control",
+        "B": "Malware recovery ; ARP resolution",
+        "C": "Removable-media control ; ARP resolution",
+        "D": "Removable-media control ; Ethernet hub"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes removable-media control; II describes arp resolution. The pair must be correct in both positions."
+    },
+    {
+      "id": 15,
+      "question": "An exam case presents two observations: (I) a security team examines unusual patterns of name-resolution requests; (II) an analyst investigates registrar and domain-registration information. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Packet timestamp ; WHOIS registration data",
+        "B": "DNS query monitoring ; WHOIS registration data",
+        "C": "DNS query monitoring ; DNS A record",
+        "D": "WHOIS registration data ; DNS query monitoring"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes dns query monitoring; II describes whois registration data. The pair must be correct in both positions."
+    },
+    {
+      "id": 16,
+      "question": "An exam case presents two observations: (I) a suspicious component conceals processes or system modifications; (II) a published office document discloses creator names and software details. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Backdoor persistence ; Metadata exposure",
+        "B": "Rootkit ; Footprinting",
+        "C": "Metadata exposure ; Rootkit",
+        "D": "Rootkit ; Metadata exposure"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes rootkit; II describes metadata exposure. The pair must be correct in both positions."
+    },
+    {
+      "id": 17,
+      "question": "An exam case presents two observations: (I) an organization wants to reduce exposure of sensitive traffic to interception; (II) a security team examines unusual patterns of name-resolution requests. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "DNS query monitoring ; Sniffing countermeasures",
+        "B": "Sniffing countermeasures ; DNS query monitoring",
+        "C": "SPAN port ; DNS query monitoring",
+        "D": "Sniffing countermeasures ; Packet timestamp"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes sniffing countermeasures; II describes dns query monitoring. The pair must be correct in both positions."
+    },
+    {
+      "id": 18,
+      "question": "An exam case presents two observations: (I) a client receives fraudulent domain-resolution information; (II) a packet analyzer sees destination metadata but not protected application payload text. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "DNS cache poisoning ; TLS encryption",
+        "B": "TLS encryption ; DNS spoofing",
+        "C": "DNS spoofing ; TLS encryption",
+        "D": "DNS spoofing ; Cleartext protocol"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes dns spoofing; II describes tls encryption. The pair must be correct in both positions."
+    },
+    {
+      "id": 19,
+      "question": "An exam case presents two observations: (I) a carefully personalized message impersonates a colleague to a selected employee; (II) someone leaves an enticing storage device where employees may connect it. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Spear phishing ; Baiting",
+        "B": "Vishing ; Baiting",
+        "C": "Baiting ; Spear phishing",
+        "D": "Spear phishing ; Dumpster diving"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes spear phishing; II describes baiting. The pair must be correct in both positions."
+    },
+    {
+      "id": 20,
+      "question": "An exam case presents two observations: (I) an investigator reassembles packets belonging to the same conversation; (II) customer records are exposed to readers who are not authorized. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "TCP stream reconstruction ; Integrity",
+        "B": "TCP stream reconstruction ; Confidentiality",
+        "C": "Confidentiality ; TCP stream reconstruction",
+        "D": "Network tap ; Confidentiality"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes tcp stream reconstruction; II describes confidentiality. The pair must be correct in both positions."
+    },
+    {
+      "id": 21,
+      "question": "An exam case presents two observations: (I) malware propagates from system to system without attaching to a host file; (II) a scan indicates an application is accepting connections at a transport endpoint. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Computer worm ; Closed port",
+        "B": "Backdoor ; Open port",
+        "C": "Open port ; Computer worm",
+        "D": "Computer worm ; Open port"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes computer worm; II describes open port. The pair must be correct in both positions."
+    },
+    {
+      "id": 22,
+      "question": "An exam case presents two observations: (I) a tester must communicate verified findings to the system owner; (II) a payment amount is modified without approval. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Penetration-test report ; Availability",
+        "B": "Legal authorization ; Integrity",
+        "C": "Integrity ; Penetration-test report",
+        "D": "Penetration-test report ; Integrity"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes penetration-test report; II describes integrity. The pair must be correct in both positions."
+    },
+    {
+      "id": 23,
+      "question": "An exam case presents two observations: (I) an older Windows credential format stores a fast unsalted password-derived hash; (II) a service must establish whether a claimed identity is genuine. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Authentication ; NT hash",
+        "B": "NT hash ; Authentication",
+        "C": "Passphrase ; Authentication",
+        "D": "NT hash ; Authorization"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes nt hash; II describes authentication. The pair must be correct in both positions."
+    },
+    {
+      "id": 24,
+      "question": "An exam case presents two observations: (I) an approved audit tests previously obtained password verification data; (II) a malicious program rewrites its own code structure while retaining behavior. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Dictionary attack ; Metamorphic malware",
+        "B": "Offline password analysis ; Metamorphic malware",
+        "C": "Metamorphic malware ; Offline password analysis",
+        "D": "Offline password analysis ; File-infector virus"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes offline password analysis; II describes metamorphic malware. The pair must be correct in both positions."
+    },
+    {
+      "id": 25,
+      "question": "An exam case presents two observations: (I) a service becomes unreachable when users need it; (II) network response patterns are used to estimate the target operating system. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Availability ; Open port",
+        "B": "Availability ; OS fingerprinting",
+        "C": "Authentication ; OS fingerprinting",
+        "D": "OS fingerprinting ; Availability"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes availability; II describes os fingerprinting. The pair must be correct in both positions."
+    },
+    {
+      "id": 26,
+      "question": "An exam case presents two observations: (I) a malicious component attempts to blend into innocuous or hidden system locations; (II) automated indexing follows links into mistakenly exposed web resources. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "File hiding ; Web spider",
+        "B": "Web spider ; File hiding",
+        "C": "Audit-log tampering ; Web spider",
+        "D": "File hiding ; DNS PTR record"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes file hiding; II describes web spider. The pair must be correct in both positions."
+    },
+    {
+      "id": 27,
+      "question": "An exam case presents two observations: (I) a zone publishes which servers are authoritative for its names; (II) a switch receives an excessive volume of fabricated source hardware addresses. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "WHOIS registration data ; MAC flooding",
+        "B": "DNS NS record ; ARP resolution",
+        "C": "MAC flooding ; DNS NS record",
+        "D": "DNS NS record ; MAC flooding"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes dns ns record; II describes mac flooding. The pair must be correct in both positions."
+    },
+    {
+      "id": 28,
+      "question": "An exam case presents two observations: (I) automated indexing follows links into mistakenly exposed web resources; (II) a security engine matches software against known malicious patterns. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "DNS PTR record ; Signature-based detection",
+        "B": "Web spider ; Signature-based detection",
+        "C": "Web spider ; Heuristic detection",
+        "D": "Signature-based detection ; Web spider"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes web spider; II describes signature-based detection. The pair must be correct in both positions."
+    },
+    {
+      "id": 29,
+      "question": "An exam case presents two observations: (I) a service becomes unreachable when users need it; (II) two equal passwords produce different stored values because random salts differ. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Password salting ; Availability",
+        "B": "Authentication ; Password salting",
+        "C": "Availability ; Rainbow table",
+        "D": "Availability ; Password salting"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes availability; II describes password salting. The pair must be correct in both positions."
+    },
+    {
+      "id": 30,
+      "question": "An exam case presents two observations: (I) network response patterns are used to estimate the target operating system; (II) a caller impersonates a support officer and asks for verification codes. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Vishing ; OS fingerprinting",
+        "B": "OS fingerprinting ; Vishing",
+        "C": "Open port ; Vishing",
+        "D": "OS fingerprinting ; Smishing"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes os fingerprinting; II describes vishing. The pair must be correct in both positions."
+    },
+    {
+      "id": 31,
+      "question": "An exam case presents two observations: (I) a nearby observer watches an employee enter sensitive information; (II) a scanner isolates a suspicious file so it cannot run normally. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Reverse social engineering ; Malware quarantine",
+        "B": "Shoulder surfing ; Endpoint isolation",
+        "C": "Malware quarantine ; Shoulder surfing",
+        "D": "Shoulder surfing ; Malware quarantine"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes shoulder surfing; II describes malware quarantine. The pair must be correct in both positions."
+    },
+    {
+      "id": 32,
+      "question": "An exam case presents two observations: (I) a background process has excessive file and system permissions; (II) an endpoint monitor alerts on suspicious execution patterns. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Service-account abuse ; Behavior-based detection",
+        "B": "Privilege escalation ; Behavior-based detection",
+        "C": "Behavior-based detection ; Service-account abuse",
+        "D": "Service-account abuse ; False positive"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes service-account abuse; II describes behavior-based detection. The pair must be correct in both positions."
+    },
+    {
+      "id": 33,
+      "question": "An exam case presents two observations: (I) an IPv4 host determines the local hardware address for another address; (II) a switch records source hardware addresses and associated ports. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "ARP resolution ; MAC address table",
+        "B": "MAC address table ; ARP resolution",
+        "C": "Ethernet hub ; MAC address table",
+        "D": "ARP resolution ; MAC flooding"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes arp resolution; II describes mac address table. The pair must be correct in both positions."
+    },
+    {
+      "id": 34,
+      "question": "An exam case presents two observations: (I) filtering obscures whether a service can accept a probe; (II) malicious macro code travels with a document and executes when enabled. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Filtered port ; Polymorphic malware",
+        "B": "Macro virus ; Filtered port",
+        "C": "Filtered port ; Macro virus",
+        "D": "Banner grabbing ; Macro virus"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes filtered port; II describes macro virus. The pair must be correct in both positions."
+    },
+    {
+      "id": 35,
+      "question": "An exam case presents two observations: (I) a packet begins a normal TCP connection request; (II) an older Windows credential format stores a fast unsalted password-derived hash. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "NT hash ; TCP SYN flag",
+        "B": "TCP SYN flag ; Passphrase",
+        "C": "TCP FIN flag ; NT hash",
+        "D": "TCP SYN flag ; NT hash"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes tcp syn flag; II describes nt hash. The pair must be correct in both positions."
+    },
+    {
+      "id": 36,
+      "question": "An exam case presents two observations: (I) an application has a concealed access route bypassing normal approval; (II) a reviewer receives source code, diagrams, and detailed system design. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "White-box testing ; Backdoor",
+        "B": "Backdoor ; Gray-box testing",
+        "C": "Remote-access Trojan ; White-box testing",
+        "D": "Backdoor ; White-box testing"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes backdoor; II describes white-box testing. The pair must be correct in both positions."
+    },
+    {
+      "id": 37,
+      "question": "An exam case presents two observations: (I) a permitted assessment starts from inside an organizational network; (II) an endpoint monitor alerts on suspicious execution patterns. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "External testing ; Behavior-based detection",
+        "B": "Internal testing ; Behavior-based detection",
+        "C": "Internal testing ; False positive",
+        "D": "Behavior-based detection ; Internal testing"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes internal testing; II describes behavior-based detection. The pair must be correct in both positions."
+    },
+    {
+      "id": 38,
+      "question": "An exam case presents two observations: (I) an investigator needs reliable proof of what happened on a compromised machine; (II) a user chooses several independent words to create a long login secret. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Evidence preservation ; Password salting",
+        "B": "Evidence preservation ; Passphrase",
+        "C": "NTFS alternate data stream ; Passphrase",
+        "D": "Passphrase ; Evidence preservation"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes evidence preservation; II describes passphrase. The pair must be correct in both positions."
+    },
+    {
+      "id": 39,
+      "question": "An exam case presents two observations: (I) a useful-looking program package conceals an unwanted executable component; (II) an organization wants to reduce exposure of sensitive traffic to interception. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Trojan wrapper ; SPAN port",
+        "B": "Trojan wrapper ; Sniffing countermeasures",
+        "C": "Overt channel ; Sniffing countermeasures",
+        "D": "Sniffing countermeasures ; Trojan wrapper"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes trojan wrapper; II describes sniffing countermeasures. The pair must be correct in both positions."
+    },
+    {
+      "id": 40,
+      "question": "An exam case presents two observations: (I) local security records seem to have been deleted after an intrusion; (II) a carefully personalized message impersonates a colleague to a selected employee. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Audit-log tampering ; Spear phishing",
+        "B": "Spear phishing ; Audit-log tampering",
+        "C": "Audit-log tampering ; Vishing",
+        "D": "Evidence preservation ; Spear phishing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes audit-log tampering; II describes spear phishing. The pair must be correct in both positions."
+    },
+    {
+      "id": 41,
+      "question": "An exam case presents two observations: (I) a tester studies public company materials without direct target contact; (II) local security records seem to have been deleted after an intrusion. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Passive reconnaissance ; Evidence preservation",
+        "B": "Active reconnaissance ; Audit-log tampering",
+        "C": "Passive reconnaissance ; Audit-log tampering",
+        "D": "Audit-log tampering ; Passive reconnaissance"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes passive reconnaissance; II describes audit-log tampering. The pair must be correct in both positions."
+    },
+    {
+      "id": 42,
+      "question": "An exam case presents two observations: (I) an organization needs assurance that deeply altered hosts are trustworthy again; (II) a probe receives no reply from a UDP endpoint. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "UDP scan ; Malware recovery",
+        "B": "Malware quarantine ; UDP scan",
+        "C": "Malware recovery ; Ping sweep",
+        "D": "Malware recovery ; UDP scan"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes malware recovery; II describes udp scan. The pair must be correct in both positions."
+    },
+    {
+      "id": 43,
+      "question": "An exam case presents two observations: (I) a caller impersonates a support officer and asks for verification codes; (II) an older Windows credential format stores a fast unsalted password-derived hash. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Vishing ; NT hash",
+        "B": "Smishing ; NT hash",
+        "C": "Vishing ; Passphrase",
+        "D": "NT hash ; Vishing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes vishing; II describes nt hash. The pair must be correct in both positions."
+    },
+    {
+      "id": 44,
+      "question": "An exam case presents two observations: (I) a workstation automatically handles software on an unknown USB device; (II) a legacy Windows network exposes naming and shared-resource details. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Removable-media control ; Null session",
+        "B": "NetBIOS enumeration ; Removable-media control",
+        "C": "Removable-media control ; NetBIOS enumeration",
+        "D": "Malware recovery ; NetBIOS enumeration"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes removable-media control; II describes netbios enumeration. The pair must be correct in both positions."
+    },
+    {
+      "id": 45,
+      "question": "An exam case presents two observations: (I) an analyst excludes unwanted packets before capture begins; (II) a packet indicates a request to finish one direction of a TCP stream. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "TCP FIN flag ; Capture filter",
+        "B": "Capture filter ; TCP FIN flag",
+        "C": "Capture filter ; TCP RST flag",
+        "D": "Display filter ; TCP FIN flag"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes capture filter; II describes tcp fin flag. The pair must be correct in both positions."
+    },
+    {
+      "id": 46,
+      "question": "An exam case presents two observations: (I) a firm reviews its competitor's legitimately published product descriptions; (II) an inventory process determines which IP addresses respond on a subnet. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Host discovery ; Competitive intelligence",
+        "B": "Competitive intelligence ; Port scanning",
+        "C": "Competitive intelligence ; Host discovery",
+        "D": "Search-engine reconnaissance ; Host discovery"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes competitive intelligence; II describes host discovery. The pair must be correct in both positions."
+    },
+    {
+      "id": 47,
+      "question": "An exam case presents two observations: (I) a zone publishes which servers are authoritative for its names; (II) the tester identifies responding hosts and exposed network services. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "DNS NS record ; Scanning phase",
+        "B": "WHOIS registration data ; Scanning phase",
+        "C": "Scanning phase ; DNS NS record",
+        "D": "DNS NS record ; Gaining-access phase"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes dns ns record; II describes scanning phase. The pair must be correct in both positions."
+    },
+    {
+      "id": 48,
+      "question": "An exam case presents two observations: (I) a payment amount is modified without approval; (II) an assessor sends permitted probes to learn about live target systems. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Integrity ; Active reconnaissance",
+        "B": "Availability ; Active reconnaissance",
+        "C": "Active reconnaissance ; Integrity",
+        "D": "Integrity ; Scanning phase"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes integrity; II describes active reconnaissance. The pair must be correct in both positions."
+    },
+    {
+      "id": 49,
+      "question": "An exam case presents two observations: (I) an analyst excludes unwanted packets before capture begins; (II) a switch mirrors selected network traffic to a monitoring connection. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "SPAN port ; Capture filter",
+        "B": "Capture filter ; SPAN port",
+        "C": "Capture filter ; Capture loss",
+        "D": "Display filter ; SPAN port"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes capture filter; II describes span port. The pair must be correct in both positions."
+    },
+    {
+      "id": 50,
+      "question": "An exam case presents two observations: (I) a malicious component attempts to blend into innocuous or hidden system locations; (II) a file has secondary content not shown by ordinary filename listings. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "File hiding ; Steganography",
+        "B": "File hiding ; NTFS alternate data stream",
+        "C": "NTFS alternate data stream ; File hiding",
+        "D": "Audit-log tampering ; NTFS alternate data stream"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes file hiding; II describes ntfs alternate data stream. The pair must be correct in both positions."
+    },
+    {
+      "id": 51,
+      "question": "An exam case presents two observations: (I) a precomputed lookup structure is used to relate hashes to candidate passwords; (II) a firm reviews its competitor's legitimately published product descriptions. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "LM hash ; Competitive intelligence",
+        "B": "Competitive intelligence ; Rainbow table",
+        "C": "Rainbow table ; Search-engine reconnaissance",
+        "D": "Rainbow table ; Competitive intelligence"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes rainbow table; II describes competitive intelligence. The pair must be correct in both positions."
+    },
+    {
+      "id": 52,
+      "question": "An exam case presents two observations: (I) two equal passwords produce different stored values because random salts differ; (II) an approved audit tests previously obtained password verification data. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Password salting ; Offline password analysis",
+        "B": "Offline password analysis ; Password salting",
+        "C": "Rainbow table ; Offline password analysis",
+        "D": "Password salting ; Dictionary attack"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes password salting; II describes offline password analysis. The pair must be correct in both positions."
+    },
+    {
+      "id": 53,
+      "question": "An exam case presents two observations: (I) a guessing strategy modifies likely base words with predictable variations; (II) only approved executables are permitted to run in a sensitive environment. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Hybrid password guessing ; Removable-media control",
+        "B": "Hybrid password guessing ; Application allowlisting",
+        "C": "Online password guessing ; Application allowlisting",
+        "D": "Application allowlisting ; Hybrid password guessing"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes hybrid password guessing; II describes application allowlisting. The pair must be correct in both positions."
+    },
+    {
+      "id": 54,
+      "question": "An exam case presents two observations: (I) a project disputes permitted hours, targets, and methods; (II) an IPv4 host determines the local hardware address for another address. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Rules of engagement ; Ethernet hub",
+        "B": "Rules of engagement ; ARP resolution",
+        "C": "Nondisclosure agreement ; ARP resolution",
+        "D": "ARP resolution ; Rules of engagement"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes rules of engagement; II describes arp resolution. The pair must be correct in both positions."
+    },
+    {
+      "id": 55,
+      "question": "An exam case presents two observations: (I) an application collects user activities without informed permission; (II) network response patterns are used to estimate the target operating system. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "OS fingerprinting ; Spyware",
+        "B": "Spyware ; Open port",
+        "C": "Spyware ; OS fingerprinting",
+        "D": "Rootkit ; OS fingerprinting"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes spyware; II describes os fingerprinting. The pair must be correct in both positions."
+    },
+    {
+      "id": 56,
+      "question": "An exam case presents two observations: (I) infected endpoints communicate with an external system to receive instructions; (II) a poorly configured name server might disclose an extensive collection of zone records. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Reverse-connecting Trojan ; DNS zone transfer",
+        "B": "DNS zone transfer ; Command-and-control traffic",
+        "C": "Command-and-control traffic ; DNS zone transfer",
+        "D": "Command-and-control traffic ; Traceroute"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes command-and-control traffic; II describes dns zone transfer. The pair must be correct in both positions."
+    },
+    {
+      "id": 57,
+      "question": "An exam case presents two observations: (I) discarded office materials reveal infrastructure diagrams; (II) a logged-in staff member attempts to view records outside their role. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Authorization ; Dumpster diving",
+        "B": "Dumpster diving ; Confidentiality",
+        "C": "Shoulder surfing ; Authorization",
+        "D": "Dumpster diving ; Authorization"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes dumpster diving; II describes authorization. The pair must be correct in both positions."
+    },
+    {
+      "id": 58,
+      "question": "An exam case presents two observations: (I) a firm reviews its competitor's legitimately published product descriptions; (II) a scan indicates an application is accepting connections at a transport endpoint. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Open port ; Competitive intelligence",
+        "B": "Search-engine reconnaissance ; Open port",
+        "C": "Competitive intelligence ; Open port",
+        "D": "Competitive intelligence ; Closed port"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes competitive intelligence; II describes open port. The pair must be correct in both positions."
+    },
+    {
+      "id": 59,
+      "question": "An exam case presents two observations: (I) a malicious program rewrites its own code structure while retaining behavior; (II) unknown software secretly records keyboard input. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Metamorphic malware ; Keylogger",
+        "B": "Keylogger ; Metamorphic malware",
+        "C": "Metamorphic malware ; Spyware",
+        "D": "File-infector virus ; Keylogger"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes metamorphic malware; II describes keylogger. The pair must be correct in both positions."
+    },
+    {
+      "id": 60,
+      "question": "An exam case presents two observations: (I) an assessment maps accessible hosts across a defined network range; (II) a file has secondary content not shown by ordinary filename listings. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "NTFS alternate data stream ; Network scanning",
+        "B": "Network scanning ; NTFS alternate data stream",
+        "C": "Network scanning ; Steganography",
+        "D": "Vulnerability scanning ; NTFS alternate data stream"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes network scanning; II describes ntfs alternate data stream. The pair must be correct in both positions."
+    },
+    {
+      "id": 61,
+      "question": "An exam case presents two observations: (I) a legitimate application is classified as malicious by a detector; (II) a poorly configured name server might disclose an extensive collection of zone records. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "False positive ; Traceroute",
+        "B": "False positive ; DNS zone transfer",
+        "C": "DNS zone transfer ; False positive",
+        "D": "False negative ; DNS zone transfer"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes false positive; II describes dns zone transfer. The pair must be correct in both positions."
+    },
+    {
+      "id": 62,
+      "question": "An exam case presents two observations: (I) a project disputes permitted hours, targets, and methods; (II) a TCP segment acknowledges previously received sequence data. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Rules of engagement ; TCP ACK flag",
+        "B": "TCP ACK flag ; Rules of engagement",
+        "C": "Rules of engagement ; TCP three-way handshake",
+        "D": "Nondisclosure agreement ; TCP ACK flag"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes rules of engagement; II describes tcp ack flag. The pair must be correct in both positions."
+    },
+    {
+      "id": 63,
+      "question": "An exam case presents two observations: (I) an assessor receives partial credentials and limited architecture context; (II) a researcher correlates public filings, press releases, and online profiles. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Open-source intelligence ; Gray-box testing",
+        "B": "Gray-box testing ; Open-source intelligence",
+        "C": "Internal testing ; Open-source intelligence",
+        "D": "Gray-box testing ; Competitive intelligence"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes gray-box testing; II describes open-source intelligence. The pair must be correct in both positions."
+    },
+    {
+      "id": 64,
+      "question": "An exam case presents two observations: (I) malicious macro code travels with a document and executes when enabled; (II) an approved audit tests previously obtained password verification data. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Macro virus ; Dictionary attack",
+        "B": "Polymorphic malware ; Offline password analysis",
+        "C": "Offline password analysis ; Macro virus",
+        "D": "Macro virus ; Offline password analysis"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes macro virus; II describes offline password analysis. The pair must be correct in both positions."
+    },
+    {
+      "id": 65,
+      "question": "An exam case presents two observations: (I) an assessor sends permitted probes to learn about live target systems; (II) an assessment maps accessible hosts across a defined network range. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Active reconnaissance ; Network scanning",
+        "B": "Scanning phase ; Network scanning",
+        "C": "Network scanning ; Active reconnaissance",
+        "D": "Active reconnaissance ; Vulnerability scanning"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes active reconnaissance; II describes network scanning. The pair must be correct in both positions."
+    },
+    {
+      "id": 66,
+      "question": "An exam case presents two observations: (I) a legitimate client and server exchange connection-establishment messages; (II) one ordinary user accesses another ordinary user's private records. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "TCP SYN flag ; Horizontal privilege escalation",
+        "B": "Horizontal privilege escalation ; TCP three-way handshake",
+        "C": "TCP three-way handshake ; Service-account abuse",
+        "D": "TCP three-way handshake ; Horizontal privilege escalation"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes tcp three-way handshake; II describes horizontal privilege escalation. The pair must be correct in both positions."
+    },
+    {
+      "id": 67,
+      "question": "An exam case presents two observations: (I) an organization needs assurance that deeply altered hosts are trustworthy again; (II) a published office document discloses creator names and software details. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Malware quarantine ; Metadata exposure",
+        "B": "Malware recovery ; Metadata exposure",
+        "C": "Metadata exposure ; Malware recovery",
+        "D": "Malware recovery ; Footprinting"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes malware recovery; II describes metadata exposure. The pair must be correct in both positions."
+    },
+    {
+      "id": 68,
+      "question": "An exam case presents two observations: (I) discarded office materials reveal infrastructure diagrams; (II) a guessing strategy modifies likely base words with predictable variations. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Dumpster diving ; Online password guessing",
+        "B": "Hybrid password guessing ; Dumpster diving",
+        "C": "Dumpster diving ; Hybrid password guessing",
+        "D": "Shoulder surfing ; Hybrid password guessing"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes dumpster diving; II describes hybrid password guessing. The pair must be correct in both positions."
+    },
+    {
+      "id": 69,
+      "question": "An exam case presents two observations: (I) the tester identifies responding hosts and exposed network services; (II) intermediate hops are observed during network-path discovery. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Gaining-access phase ; Traceroute analysis",
+        "B": "Traceroute analysis ; Scanning phase",
+        "C": "Scanning phase ; TCP connect scan",
+        "D": "Scanning phase ; Traceroute analysis"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes scanning phase; II describes traceroute analysis. The pair must be correct in both positions."
+    },
+    {
+      "id": 70,
+      "question": "An exam case presents two observations: (I) the contractor will handle sensitive findings during the assignment; (II) a legacy service transmits credentials without transport encryption. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Risk assessment ; Cleartext protocol",
+        "B": "Cleartext protocol ; Nondisclosure agreement",
+        "C": "Nondisclosure agreement ; Wireshark",
+        "D": "Nondisclosure agreement ; Cleartext protocol"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes nondisclosure agreement; II describes cleartext protocol. The pair must be correct in both positions."
+    },
+    {
+      "id": 71,
+      "question": "An exam case presents two observations: (I) an organization needs assurance that deeply altered hosts are trustworthy again; (II) an endpoint monitor alerts on suspicious execution patterns. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Malware quarantine ; Behavior-based detection",
+        "B": "Malware recovery ; Behavior-based detection",
+        "C": "Malware recovery ; False positive",
+        "D": "Behavior-based detection ; Malware recovery"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes malware recovery; II describes behavior-based detection. The pair must be correct in both positions."
+    },
+    {
+      "id": 72,
+      "question": "An exam case presents two observations: (I) a deceptive message pressures an employee to disclose work credentials; (II) only approved executables are permitted to run in a sensitive environment. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Phishing ; Application allowlisting",
+        "B": "Spear phishing ; Application allowlisting",
+        "C": "Phishing ; Removable-media control",
+        "D": "Application allowlisting ; Phishing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes phishing; II describes application allowlisting. The pair must be correct in both positions."
+    },
+    {
+      "id": 73,
+      "question": "An exam case presents two observations: (I) a deceptive message pressures an employee to disclose work credentials; (II) one ordinary user accesses another ordinary user's private records. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Phishing ; Horizontal privilege escalation",
+        "B": "Spear phishing ; Horizontal privilege escalation",
+        "C": "Phishing ; Service-account abuse",
+        "D": "Horizontal privilege escalation ; Phishing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes phishing; II describes horizontal privilege escalation. The pair must be correct in both positions."
+    },
+    {
+      "id": 74,
+      "question": "An exam case presents two observations: (I) unknown software secretly records keyboard input; (II) an organization needs assurance that deeply altered hosts are trustworthy again. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Keylogger ; Malware quarantine",
+        "B": "Malware recovery ; Keylogger",
+        "C": "Keylogger ; Malware recovery",
+        "D": "Spyware ; Malware recovery"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes keylogger; II describes malware recovery. The pair must be correct in both positions."
+    },
+    {
+      "id": 75,
+      "question": "An exam case presents two observations: (I) an interface accepts frames beyond those normally addressed directly to it; (II) malware alters executable host files to reproduce when they run. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Promiscuous mode ; Boot-sector malware",
+        "B": "Promiscuous mode ; File-infector virus",
+        "C": "Capture filter ; File-infector virus",
+        "D": "File-infector virus ; Promiscuous mode"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes promiscuous mode; II describes file-infector virus. The pair must be correct in both positions."
+    },
+    {
+      "id": 76,
+      "question": "An exam case presents two observations: (I) a legitimate application is classified as malicious by a detector; (II) the security model describes how an intruder preserves access after entry. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "False positive ; Passive reconnaissance",
+        "B": "False positive ; Maintaining-access phase",
+        "C": "Maintaining-access phase ; False positive",
+        "D": "False negative ; Maintaining-access phase"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes false positive; II describes maintaining-access phase. The pair must be correct in both positions."
+    },
+    {
+      "id": 77,
+      "question": "An exam case presents two observations: (I) a text message imitates an organizational alert and links to a login page; (II) a network device forwards known unicast frames using learned address entries. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Ethernet switch ; Smishing",
+        "B": "Smishing ; Ethernet switch",
+        "C": "Smishing ; MAC address table",
+        "D": "Pretexting ; Ethernet switch"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes smishing; II describes ethernet switch. The pair must be correct in both positions."
+    },
+    {
+      "id": 78,
+      "question": "An exam case presents two observations: (I) malware propagates from system to system without attaching to a host file; (II) a tester studies public company materials without direct target contact. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Backdoor ; Passive reconnaissance",
+        "B": "Passive reconnaissance ; Computer worm",
+        "C": "Computer worm ; Active reconnaissance",
+        "D": "Computer worm ; Passive reconnaissance"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes computer worm; II describes passive reconnaissance. The pair must be correct in both positions."
+    },
+    {
+      "id": 79,
+      "question": "An exam case presents two observations: (I) an assessor sends permitted probes to learn about live target systems; (II) two equal passwords produce different stored values because random salts differ. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Active reconnaissance ; Rainbow table",
+        "B": "Scanning phase ; Password salting",
+        "C": "Password salting ; Active reconnaissance",
+        "D": "Active reconnaissance ; Password salting"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes active reconnaissance; II describes password salting. The pair must be correct in both positions."
+    },
+    {
+      "id": 80,
+      "question": "An exam case presents two observations: (I) an endpoint monitor alerts on suspicious execution patterns; (II) an analyst uses a graphical program to inspect captured network frames. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "False positive ; Wireshark",
+        "B": "Behavior-based detection ; TCP stream reconstruction",
+        "C": "Wireshark ; Behavior-based detection",
+        "D": "Behavior-based detection ; Wireshark"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes behavior-based detection; II describes wireshark. The pair must be correct in both positions."
+    },
+    {
+      "id": 81,
+      "question": "An exam case presents two observations: (I) malicious code resides in areas involved in a machine's startup sequence; (II) an organization needs assurance that deeply altered hosts are trustworthy again. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Malware recovery ; Boot-sector malware",
+        "B": "Boot-sector malware ; Malware quarantine",
+        "C": "Macro virus ; Malware recovery",
+        "D": "Boot-sector malware ; Malware recovery"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes boot-sector malware; II describes malware recovery. The pair must be correct in both positions."
+    },
+    {
+      "id": 82,
+      "question": "An exam case presents two observations: (I) a workstation automatically handles software on an unknown USB device; (II) a permitted assessment starts from a position outside the corporate network. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Removable-media control ; External testing",
+        "B": "External testing ; Removable-media control",
+        "C": "Removable-media control ; Black-box testing",
+        "D": "Malware recovery ; External testing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes removable-media control; II describes external testing. The pair must be correct in both positions."
+    },
+    {
+      "id": 83,
+      "question": "An exam case presents two observations: (I) a permitted assessment starts from inside an organizational network; (II) a network device forwards known unicast frames using learned address entries. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Internal testing ; MAC address table",
+        "B": "Internal testing ; Ethernet switch",
+        "C": "External testing ; Ethernet switch",
+        "D": "Ethernet switch ; Internal testing"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes internal testing; II describes ethernet switch. The pair must be correct in both positions."
+    },
+    {
+      "id": 84,
+      "question": "An exam case presents two observations: (I) a flaw is ranked using likelihood and consequences for the business; (II) a hostname is configured as an alias of another name. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Risk assessment ; DNS zone transfer",
+        "B": "DNS CNAME record ; Risk assessment",
+        "C": "Penetration-test report ; DNS CNAME record",
+        "D": "Risk assessment ; DNS CNAME record"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes risk assessment; II describes dns cname record. The pair must be correct in both positions."
+    },
+    {
+      "id": 85,
+      "question": "An exam case presents two observations: (I) a researcher finds a weakness outside any approved testing scope; (II) a permitted assessment starts from inside an organizational network. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Internal testing ; Gray-hat researcher",
+        "B": "Gray-hat researcher ; External testing",
+        "C": "Hacktivism ; Internal testing",
+        "D": "Gray-hat researcher ; Internal testing"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes gray-hat researcher; II describes internal testing. The pair must be correct in both positions."
+    },
+    {
+      "id": 86,
+      "question": "An exam case presents two observations: (I) a purported utility secretly installs an additional harmful program; (II) an assessor receives almost no internal design information. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Trojanized installer ; Black-box testing",
+        "B": "Trojanized installer ; White-box testing",
+        "C": "Black-box testing ; Trojanized installer",
+        "D": "Keylogger ; Black-box testing"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes trojanized installer; II describes black-box testing. The pair must be correct in both positions."
+    },
+    {
+      "id": 87,
+      "question": "An exam case presents two observations: (I) a malicious application is missed by a detector; (II) an assessment maps accessible hosts across a defined network range. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "False negative ; Network scanning",
+        "B": "False negative ; Vulnerability scanning",
+        "C": "Signature-based detection ; Network scanning",
+        "D": "Network scanning ; False negative"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes false negative; II describes network scanning. The pair must be correct in both positions."
+    },
+    {
+      "id": 88,
+      "question": "An exam case presents two observations: (I) after discovering a server, an analyst retrieves available names and resource details; (II) an infected workstation is temporarily separated from ordinary network traffic. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Enumeration ; Application allowlisting",
+        "B": "Enumeration ; Endpoint isolation",
+        "C": "Host discovery ; Endpoint isolation",
+        "D": "Endpoint isolation ; Enumeration"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes enumeration; II describes endpoint isolation. The pair must be correct in both positions."
+    },
+    {
+      "id": 89,
+      "question": "An exam case presents two observations: (I) a monitoring application records packets for network troubleshooting; (II) a service becomes unreachable when users need it. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Availability ; Packet capture",
+        "B": "Packet capture ; Availability",
+        "C": "ARP spoofing ; Availability",
+        "D": "Packet capture ; Authentication"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes packet capture; II describes availability. The pair must be correct in both positions."
+    },
+    {
+      "id": 90,
+      "question": "An exam case presents two observations: (I) an approved audit tests previously obtained password verification data; (II) malicious code spreads by infecting a host file or other attached content. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Computer virus ; Offline password analysis",
+        "B": "Offline password analysis ; Computer worm",
+        "C": "Offline password analysis ; Computer virus",
+        "D": "Dictionary attack ; Computer virus"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes offline password analysis; II describes computer virus. The pair must be correct in both positions."
+    },
+    {
+      "id": 91,
+      "question": "An exam case presents two observations: (I) a malicious application is missed by a detector; (II) a nearby observer watches an employee enter sensitive information. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "False negative ; Reverse social engineering",
+        "B": "False negative ; Shoulder surfing",
+        "C": "Signature-based detection ; Shoulder surfing",
+        "D": "Shoulder surfing ; False negative"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes false negative; II describes shoulder surfing. The pair must be correct in both positions."
+    },
+    {
+      "id": 92,
+      "question": "An exam case presents two observations: (I) a security product flags unusual code characteristics suggesting maliciousness; (II) a project disputes permitted hours, targets, and methods. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Heuristic detection ; Nondisclosure agreement",
+        "B": "Heuristic detection ; Rules of engagement",
+        "C": "Rules of engagement ; Heuristic detection",
+        "D": "Behavior-based detection ; Rules of engagement"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes heuristic detection; II describes rules of engagement. The pair must be correct in both positions."
+    },
+    {
+      "id": 93,
+      "question": "An exam case presents two observations: (I) a scanner compares observed services with known weakness indicators; (II) discarded office materials reveal infrastructure diagrams. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Enumeration ; Dumpster diving",
+        "B": "Vulnerability scanning ; Dumpster diving",
+        "C": "Vulnerability scanning ; Shoulder surfing",
+        "D": "Dumpster diving ; Vulnerability scanning"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes vulnerability scanning; II describes dumpster diving. The pair must be correct in both positions."
+    },
+    {
+      "id": 94,
+      "question": "An exam case presents two observations: (I) information moves by exploiting a communication mechanism not intended for that purpose; (II) malicious code spreads by infecting a host file or other attached content. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Command-and-control traffic ; Computer virus",
+        "B": "Covert channel ; Computer virus",
+        "C": "Covert channel ; Computer worm",
+        "D": "Computer virus ; Covert channel"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes covert channel; II describes computer virus. The pair must be correct in both positions."
+    },
+    {
+      "id": 95,
+      "question": "An exam case presents two observations: (I) a TCP segment acknowledges previously received sequence data; (II) a client receives fraudulent domain-resolution information. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "TCP three-way handshake ; DNS spoofing",
+        "B": "TCP ACK flag ; DNS spoofing",
+        "C": "DNS spoofing ; TCP ACK flag",
+        "D": "TCP ACK flag ; DNS cache poisoning"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes tcp ack flag; II describes dns spoofing. The pair must be correct in both positions."
+    },
+    {
+      "id": 96,
+      "question": "An exam case presents two observations: (I) malicious code resides in areas involved in a machine's startup sequence; (II) a host responds but no application is listening on the tested port. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Boot-sector malware ; Closed port",
+        "B": "Macro virus ; Closed port",
+        "C": "Boot-sector malware ; Filtered port",
+        "D": "Closed port ; Boot-sector malware"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes boot-sector malware; II describes closed port. The pair must be correct in both positions."
+    },
+    {
+      "id": 97,
+      "question": "An exam case presents two observations: (I) an assessor sends permitted probes to learn about live target systems; (II) information moves by exploiting a communication mechanism not intended for that purpose. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Active reconnaissance ; Command-and-control traffic",
+        "B": "Scanning phase ; Covert channel",
+        "C": "Active reconnaissance ; Covert channel",
+        "D": "Covert channel ; Active reconnaissance"
+      },
+      "answerKey": [
+        "C"
+      ],
+      "explanation": "I describes active reconnaissance; II describes covert channel. The pair must be correct in both positions."
+    },
+    {
+      "id": 98,
+      "question": "An exam case presents two observations: (I) a legacy Windows network exposes naming and shared-resource details; (II) a normal account assumes an administrative role without approval. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "NetBIOS enumeration ; Horizontal privilege escalation",
+        "B": "Vertical privilege escalation ; NetBIOS enumeration",
+        "C": "Null session ; Vertical privilege escalation",
+        "D": "NetBIOS enumeration ; Vertical privilege escalation"
+      },
+      "answerKey": [
+        "D"
+      ],
+      "explanation": "I describes netbios enumeration; II describes vertical privilege escalation. The pair must be correct in both positions."
+    },
+    {
+      "id": 99,
+      "question": "An exam case presents two observations: (I) an endpoint monitor alerts on suspicious execution patterns; (II) a malicious program rewrites its own code structure while retaining behavior. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Behavior-based detection ; Metamorphic malware",
+        "B": "Behavior-based detection ; File-infector virus",
+        "C": "False positive ; Metamorphic malware",
+        "D": "Metamorphic malware ; Behavior-based detection"
+      },
+      "answerKey": [
+        "A"
+      ],
+      "explanation": "I describes behavior-based detection; II describes metamorphic malware. The pair must be correct in both positions."
+    },
+    {
+      "id": 100,
+      "question": "An exam case presents two observations: (I) an inventory process determines which IP addresses respond on a subnet; (II) an application has a concealed access route bypassing normal approval. Which pairing MOST accurately identifies I and II, in that order?",
+      "options": {
+        "A": "Port scanning ; Backdoor",
+        "B": "Host discovery ; Backdoor",
+        "C": "Host discovery ; Remote-access Trojan",
+        "D": "Backdoor ; Host discovery"
+      },
+      "answerKey": [
+        "B"
+      ],
+      "explanation": "I describes host discovery; II describes backdoor. The pair must be correct in both positions."
+    }
+  ]
+}
