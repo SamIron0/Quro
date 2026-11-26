@@ -45,9 +45,12 @@ export async function updateSession(request: NextRequest) {
     },
   });
 
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  // getClaims() verifies the JWT locally (via cached JWKS) when the project
+  // uses asymmetric signing keys, avoiding a network round trip to the Auth
+  // server on every request. Falls back to a getUser()-equivalent network
+  // call only for symmetric-key projects.
+  const { data } = await supabase.auth.getClaims();
+  const user = data?.claims ?? null;
 
   const pathname = request.nextUrl.pathname;
   const search = request.nextUrl.search;
