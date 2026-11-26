@@ -4,52 +4,52 @@
             "id": 1,
             "question": "Sin ruled for how many years?",
             "options": {
-                "A": "1000 years",
-                "B": "2000 years",
-                "C": "4000 years",
-                "D": "6000 years"
+                "A": "2000 years",
+                "B": "1000 years",
+                "C": "6000 years",
+                "D": "4000 years"
             },
             "answerKey": [
-                "C"
+                "D"
             ]
         },
         {
             "id": 2,
             "question": "God called who through whom all nations would hear the good news of salvation?",
             "options": {
-                "A": "Moses",
-                "B": "Abraham",
-                "C": "David",
+                "A": "David",
+                "B": "Moses",
+                "C": "Abraham",
                 "D": "Isaiah"
-            },
-            "answerKey": [
-                "B"
-            ]
-        },
-        {
-            "id": 3,
-            "question": "God inaugurated the descendants of Abraham into a nation called?",
-            "options": {
-                "A": "Egypt",
-                "B": "Canaan",
-                "C": "Israel",
-                "D": "Judah"
             },
             "answerKey": [
                 "C"
             ]
         },
         {
-            "id": 4,
-            "question": "Which nation was given the entire story of redemption in types and symbols?",
+            "id": 3,
+            "question": "God inaugurated the descendants of Abraham into a nation called?",
             "options": {
-                "A": "Egypt",
+                "A": "Canaan",
                 "B": "Israel",
-                "C": "Babylon",
-                "D": "Persia"
+                "C": "Judah",
+                "D": "Egypt"
             },
             "answerKey": [
                 "B"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Which nation was given the entire story of redemption in types and symbols?",
+            "options": {
+                "A": "Israel",
+                "B": "Persia",
+                "C": "Babylon",
+                "D": "Egypt"
+            },
+            "answerKey": [
+                "A"
             ]
         },
         {
@@ -57,25 +57,25 @@
             "question": "Sanctuary means what?",
             "options": {
                 "A": "Temple",
-                "B": "Place of safety and security",
-                "C": "Holy building",
-                "D": "Place of gathering"
+                "B": "Place of gathering",
+                "C": "Place of safety and security",
+                "D": "Holy building"
             },
             "answerKey": [
-                "B"
+                "C"
             ]
         },
         {
             "id": 6,
             "question": "Sanctuary was derived from a Hebrew word \"Miqdash\" which means?",
             "options": {
-                "A": "Holy place",
-                "B": "Dwelling",
-                "C": "Sacred place",
-                "D": "Light"
+                "A": "Dwelling",
+                "B": "Light",
+                "C": "Holy place",
+                "D": "Sacred place"
             },
             "answerKey": [
-                "C"
+                "D"
             ]
         },
         {
@@ -83,73 +83,73 @@
             "question": "God's dwelling place where He sits among His people on earth before His first advent (Emmanuel) is called?",
             "options": {
                 "A": "Tabernacle",
-                "B": "Temple",
-                "C": "Sanctuary",
-                "D": "Altar"
+                "B": "Sanctuary",
+                "C": "Altar",
+                "D": "Temple"
             },
             "answerKey": [
-                "C"
+                "B"
             ]
         },
         {
             "id": 8,
             "question": "\"Gospel\" was derived from an Anglo-Saxon term \"god-spell\" meaning?",
             "options": {
-                "A": "Holy teaching",
-                "B": "Good story",
-                "C": "True message",
-                "D": "Sacred law"
+                "A": "True message",
+                "B": "Holy teaching",
+                "C": "Sacred law",
+                "D": "Good story"
             },
             "answerKey": [
-                "B"
+                "D"
             ]
         },
         {
             "id": 9,
             "question": "Gospel is a rendering of the Latin evangelium and Greek euangelion meaning?",
             "options": {
-                "A": "True word",
-                "B": "Salvation message",
-                "C": "Good news or good telling",
-                "D": "Holy truth"
+                "A": "Holy truth",
+                "B": "Good news or good telling",
+                "C": "Salvation message",
+                "D": "True word"
             },
             "answerKey": [
-                "C"
+                "B"
             ]
         },
         {
             "id": 10,
             "question": "The word Gospel is used only in which Testament?",
             "options": {
-                "A": "Old Testament",
-                "B": "New Testament",
-                "C": "Both",
+                "A": "Both",
+                "B": "Old Testament",
+                "C": "New Testament",
                 "D": "Neither"
             },
             "answerKey": [
-                "B"
+                "C"
             ]
         },
         {
             "id": 11,
             "question": "What talks about the coming of the offspring of the woman who will crush the serpent's head (Rev. 20:2)?",
             "options": {
-                "A": "Law",
-                "B": "Gospel",
+                "A": "Gospel",
+                "B": "Law",
                 "C": "Prophecy",
                 "D": "Covenant"
             },
             "answerKey": [
-                "B"
+                "A"
             ]
         },
         {
             "id": 12,
             "question": "What can be defined as a person, institution, or event in the Old Dispensation designed to prefigure a corresponding one in the New?",
             "options": {
-                "A": "Symbol",
+                "A": "Sign",
                 "B": "Type",
-                "C": "Sign",
+                "C": "Symbol",
                 "D": "Vision"
             },
             "answerKey": [
@@ -160,62 +160,62 @@
             "id": 13,
             "question": "Something in the future that fulfills a type is called?",
             "options": {
-                "A": "Symbol",
-                "B": "Antitype",
-                "C": "Shadow",
-                "D": "Parable"
-            },
-            "answerKey": [
-                "B"
-            ]
-        },
-        {
-            "id": 14,
-            "question": "What is an object or signal that stands for something else, often a visible image representing a concept?",
-            "options": {
-                "A": "Vision",
-                "B": "Symbol",
-                "C": "Dream",
-                "D": "Sign"
-            },
-            "answerKey": [
-                "B"
-            ]
-        },
-        {
-            "id": 15,
-            "question": "The three main kinds of symbols in the Bible are?",
-            "options": {
-                "A": "Poetic, Prophetic, and Ceremonial",
-                "B": "Literal, Figurative, and Abstract",
-                "C": "Religious, Natural, and Supernatural",
-                "D": "Visionary, Prophetic, and Poetic"
+                "A": "Antitype",
+                "B": "Parable",
+                "C": "Symbol",
+                "D": "Shadow"
             },
             "answerKey": [
                 "A"
             ]
         },
         {
+            "id": 14,
+            "question": "What is an object or signal that stands for something else, often a visible image representing a concept?",
+            "options": {
+                "A": "Symbol",
+                "B": "Vision",
+                "C": "Sign",
+                "D": "Dream"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 15,
+            "question": "The three main kinds of symbols in the Bible are?",
+            "options": {
+                "A": "Literal, Figurative, and Abstract",
+                "B": "Religious, Natural, and Supernatural",
+                "C": "Poetic, Prophetic, and Ceremonial",
+                "D": "Visionary, Prophetic, and Poetic"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
             "id": 16,
             "question": "The poetic symbol is found in most Bible books but more pronounced in?",
             "options": {
-                "A": "Proverbs and Ecclesiastes",
-                "B": "Psalms and Songs of Solomon",
-                "C": "Isaiah and Jeremiah",
-                "D": "Exodus and Leviticus"
+                "A": "Isaiah and Jeremiah",
+                "B": "Exodus and Leviticus",
+                "C": "Psalms and Songs of Solomon",
+                "D": "Proverbs and Ecclesiastes"
             },
             "answerKey": [
-                "B"
+                "C"
             ]
         },
         {
             "id": 17,
             "question": "The poetic symbol helps describe how the writer sees what?",
             "options": {
-                "A": "God and His law",
+                "A": "Sin and salvation",
                 "B": "Himself and his world",
                 "C": "Heaven and earth",
-                "D": "Sin and salvation"
+                "D": "God and His law"
             },
             "answerKey": [
                 "B"
@@ -225,35 +225,35 @@
             "id": 18,
             "question": "David sees God as a?",
             "options": {
-                "A": "Fortress of defense",
-                "B": "Light of the world",
+                "A": "Light of the world",
+                "B": "King",
                 "C": "Shepherd",
-                "D": "King"
+                "D": "Fortress of defense"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 19,
             "question": "Symbol of prophetic vision is always found in the?",
             "options": {
-                "A": "Historical books",
-                "B": "Prophetic books",
-                "C": "Psalms",
+                "A": "Prophetic books",
+                "B": "Psalms",
+                "C": "Historical books",
                 "D": "Pentateuch"
             },
             "answerKey": [
-                "B"
+                "A"
             ]
         },
         {
             "id": 20,
             "question": "Symbol of prophetic vision is about what?",
             "options": {
-                "A": "Explaining past events",
+                "A": "Describing laws",
                 "B": "Revealing God's plans for humankind in the future",
-                "C": "Describing laws",
+                "C": "Explaining past events",
                 "D": "Expressing poetry"
             },
             "answerKey": [
@@ -264,26 +264,26 @@
             "id": 21,
             "question": "Stars and lampstands are symbols of what?",
             "options": {
-                "A": "Angels and prophets",
-                "B": "God's ministers and churches",
+                "A": "God's ministers and churches",
+                "B": "Spirit and truth",
                 "C": "Heaven and earth",
-                "D": "Spirit and truth"
+                "D": "Angels and prophets"
             },
             "answerKey": [
-                "B"
+                "A"
             ]
         },
         {
             "id": 22,
             "question": "Symbol of religious ceremony is found mostly where?",
             "options": {
-                "A": "Psalms",
-                "B": "Pentateuch",
-                "C": "Prophets",
-                "D": "Gospels"
+                "A": "Prophets",
+                "B": "Psalms",
+                "C": "Gospels",
+                "D": "Pentateuch"
             },
             "answerKey": [
-                "B"
+                "D"
             ]
         },
         {
@@ -291,48 +291,48 @@
             "question": "The symbol of religious ceremony was given by God to His people to help in?",
             "options": {
                 "A": "Building temples",
-                "B": "Worshiping Him and remembering His presence and plan",
-                "C": "Keeping the Sabbath",
+                "B": "Keeping the Sabbath",
+                "C": "Worshiping Him and remembering His presence and plan",
                 "D": "Obeying the Law"
-            },
-            "answerKey": [
-                "B"
-            ]
-        },
-        {
-            "id": 24,
-            "question": "The ritual in which Hebrews offered the blood or flesh of an animal as substitute payment for sin is called?",
-            "options": {
-                "A": "Offering",
-                "B": "Atonement",
-                "C": "Sacrifice",
-                "D": "Repentance"
             },
             "answerKey": [
                 "C"
             ]
         },
         {
+            "id": 24,
+            "question": "The ritual in which Hebrews offered the blood or flesh of an animal as substitute payment for sin is called?",
+            "options": {
+                "A": "Sacrifice",
+                "B": "Offering",
+                "C": "Atonement",
+                "D": "Repentance"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
             "id": 25,
             "question": "The common word for sacrifice in Mosaic law was?",
             "options": {
-                "A": "Qodesh",
-                "B": "Qorban",
+                "A": "Qorban",
+                "B": "Qodesh",
                 "C": "Kaphar",
                 "D": "Shema"
             },
             "answerKey": [
-                "B"
+                "A"
             ]
         },
         {
             "id": 26,
             "question": "Qorban means?",
             "options": {
-                "A": "Holy offering",
+                "A": "Fire offering",
                 "B": "That which is brought near the altar",
-                "C": "Cleansing sacrifice",
-                "D": "Fire offering"
+                "C": "Holy offering",
+                "D": "Cleansing sacrifice"
             },
             "answerKey": [
                 "B"
@@ -342,10 +342,10 @@
             "id": 27,
             "question": "The word Qorban was also used to describe what?",
             "options": {
-                "A": "Tithes",
+                "A": "Gifts for priests",
                 "B": "Anything presented or dedicated to God",
-                "C": "Burnt offerings",
-                "D": "Gifts for priests"
+                "C": "Tithes",
+                "D": "Burnt offerings"
             },
             "answerKey": [
                 "B"
@@ -355,10 +355,10 @@
             "id": 28,
             "question": "Which type of sacrifice did the Hebrews carry out in their sanctuary?",
             "options": {
-                "A": "Food sacrifice",
+                "A": "Oil offering",
                 "B": "Blood sacrifice",
                 "C": "Wine sacrifice",
-                "D": "Oil offering"
+                "D": "Food sacrifice"
             },
             "answerKey": [
                 "B"
@@ -368,21 +368,21 @@
             "id": 29,
             "question": "The sanctuary built by Moses was also called the?",
             "options": {
-                "A": "Temple",
-                "B": "Tent of Meeting",
-                "C": "Holy Mountain",
-                "D": "Tabernacle"
+                "A": "Holy Mountain",
+                "B": "Tabernacle",
+                "C": "Tent of Meeting",
+                "D": "Temple"
             },
             "answerKey": [
-                "D"
+                "B"
             ]
         },
         {
             "id": 30,
             "question": "The Tabernacle was divided into how many parts?",
             "options": {
-                "A": "One",
-                "B": "Two",
+                "A": "Two",
+                "B": "One",
                 "C": "Three",
                 "D": "Four"
             },
@@ -394,39 +394,39 @@
             "id": 31,
             "question": "The three main divisions of the Tabernacle are?",
             "options": {
-                "A": "Outer Court, Holy Place, Most Holy Place",
-                "B": "Temple, Altar, Courtyard",
+                "A": "Gate, Door, Inner Room",
+                "B": "Outer Court, Holy Place, Most Holy Place",
                 "C": "Veil, Table, Lampstand",
-                "D": "Gate, Door, Inner Room"
+                "D": "Temple, Altar, Courtyard"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 32,
             "question": "The Laver in the court symbolized?",
             "options": {
-                "A": "Cleansing from sin",
-                "B": "Light",
+                "A": "Light",
+                "B": "Judgment",
                 "C": "Bread of life",
-                "D": "Judgment"
+                "D": "Cleansing from sin"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 33,
             "question": "The Altar of Burnt Offering represented what?",
             "options": {
-                "A": "Worship",
-                "B": "Prayer",
-                "C": "Christ's sacrifice",
-                "D": "The Holy Spirit"
+                "A": "The Holy Spirit",
+                "B": "Christ's sacrifice",
+                "C": "Prayer",
+                "D": "Worship"
             },
             "answerKey": [
-                "C"
+                "B"
             ]
         },
         {
@@ -435,8 +435,8 @@
             "options": {
                 "A": "2",
                 "B": "3",
-                "C": "4",
-                "D": "5"
+                "C": "5",
+                "D": "4"
             },
             "answerKey": [
                 "B"
@@ -446,13 +446,13 @@
             "id": 35,
             "question": "The Candlestick (Lampstand) symbolized?",
             "options": {
-                "A": "Christ as the Light of the world",
-                "B": "Angels",
-                "C": "The Word of God",
+                "A": "The Word of God",
+                "B": "Christ as the Light of the world",
+                "C": "Angels",
                 "D": "The Law"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
@@ -460,48 +460,48 @@
             "question": "The Table of Shewbread represented?",
             "options": {
                 "A": "The Church",
-                "B": "Fellowship and Christ as the Bread of Life",
-                "C": "The Law",
+                "B": "The Law",
+                "C": "Fellowship and Christ as the Bread of Life",
                 "D": "The Holy Spirit"
             },
             "answerKey": [
-                "B"
+                "C"
             ]
         },
         {
             "id": 37,
             "question": "The Altar of Incense symbolized what?",
             "options": {
-                "A": "Prayer and intercession",
+                "A": "Worship music",
                 "B": "Sacrifice",
-                "C": "Worship music",
+                "C": "Prayer and intercession",
                 "D": "Fellowship"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 38,
             "question": "The Veil that separated the Holy and Most Holy Place represented?",
             "options": {
-                "A": "The barrier between God and man",
-                "B": "The sky",
-                "C": "The temple walls",
+                "A": "The temple walls",
+                "B": "The barrier between God and man",
+                "C": "The sky",
                 "D": "The Ten Commandments"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 39,
             "question": "When the Veil was torn at Christ's death, it symbolized?",
             "options": {
-                "A": "The end of the world",
+                "A": "The beginning of prophecy",
                 "B": "Access to God was now open",
                 "C": "The destruction of the temple",
-                "D": "The beginning of prophecy"
+                "D": "The end of the world"
             },
             "answerKey": [
                 "B"
@@ -511,10 +511,10 @@
             "id": 40,
             "question": "The Most Holy Place contained what sacred object?",
             "options": {
-                "A": "Table of Shewbread",
+                "A": "Bronze Altar",
                 "B": "Ark of the Covenant",
                 "C": "Lampstand",
-                "D": "Bronze Altar"
+                "D": "Table of Shewbread"
             },
             "answerKey": [
                 "B"
@@ -524,65 +524,65 @@
             "id": 41,
             "question": "The Ark of the Covenant contained?",
             "options": {
-                "A": "Manna, Aaron's rod, and the Ten Commandments",
-                "B": "Golden bowls",
-                "C": "Sacrificial lambs",
-                "D": "Incense"
+                "A": "Sacrificial lambs",
+                "B": "Manna, Aaron's rod, and the Ten Commandments",
+                "C": "Incense",
+                "D": "Golden bowls"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 42,
             "question": "The Mercy Seat above the Ark symbolized?",
             "options": {
-                "A": "God's throne and His mercy",
-                "B": "The priest's seat",
+                "A": "The Spirit's presence",
+                "B": "God's throne and His mercy",
                 "C": "The altar of sin",
-                "D": "The Spirit's presence"
+                "D": "The priest's seat"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 43,
             "question": "Between the cherubim above the Mercy Seat dwelt what?",
             "options": {
-                "A": "The Spirit of God",
-                "B": "The Shekinah glory",
-                "C": "The angel of death",
-                "D": "The Holy fire"
+                "A": "The Holy fire",
+                "B": "The angel of death",
+                "C": "The Spirit of God",
+                "D": "The Shekinah glory"
             },
             "answerKey": [
-                "B"
+                "D"
             ]
         },
         {
             "id": 44,
             "question": "On the Day of Atonement, how many goats were presented?",
             "options": {
-                "A": "One",
-                "B": "Two",
+                "A": "Two",
+                "B": "One",
                 "C": "Three",
                 "D": "Four"
             },
             "answerKey": [
-                "B"
+                "A"
             ]
         },
         {
             "id": 45,
             "question": "The first goat was offered for what?",
             "options": {
-                "A": "Thanksgiving",
-                "B": "Sin offering",
-                "C": "Fellowship",
-                "D": "Cleansing"
+                "A": "Sin offering",
+                "B": "Cleansing",
+                "C": "Thanksgiving",
+                "D": "Fellowship"
             },
             "answerKey": [
-                "B"
+                "A"
             ]
         },
         {
@@ -590,9 +590,9 @@
             "question": "The second goat, called the scapegoat, symbolized what?",
             "options": {
                 "A": "The removal of sin",
-                "B": "Sacrifice to idols",
+                "B": "Worship",
                 "C": "Cleansing water",
-                "D": "Worship"
+                "D": "Sacrifice to idols"
             },
             "answerKey": [
                 "A"
@@ -602,23 +602,23 @@
             "id": 47,
             "question": "The scapegoat was sent where?",
             "options": {
-                "A": "Into the wilderness",
+                "A": "To the priest",
                 "B": "To the altar",
-                "C": "To the priest",
-                "D": "To the temple"
+                "C": "To the temple",
+                "D": "Into the wilderness"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 48,
             "question": "The two goats together represented what aspect of Christ's work?",
             "options": {
-                "A": "Judgment and Mercy",
+                "A": "Faith and Works",
                 "B": "Sacrifice and Substitution",
                 "C": "Death and Resurrection",
-                "D": "Faith and Works"
+                "D": "Judgment and Mercy"
             },
             "answerKey": [
                 "B"
@@ -628,26 +628,26 @@
             "id": 49,
             "question": "The Sanctuary service overall symbolized?",
             "options": {
-                "A": "Israel's journey",
-                "B": "God's plan of salvation",
-                "C": "The law of Moses",
-                "D": "The Ten Commandments"
+                "A": "The Ten Commandments",
+                "B": "The law of Moses",
+                "C": "God's plan of salvation",
+                "D": "Israel's journey"
             },
             "answerKey": [
-                "B"
+                "C"
             ]
         },
         {
             "id": 50,
             "question": "The entire sanctuary pointed to who?",
             "options": {
-                "A": "Moses",
-                "B": "Abraham",
-                "C": "Christ",
+                "A": "Abraham",
+                "B": "Christ",
+                "C": "Moses",
                 "D": "The High Priest"
             },
             "answerKey": [
-                "C"
+                "B"
             ]
         }
     ]

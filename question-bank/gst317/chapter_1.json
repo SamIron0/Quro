@@ -4,10 +4,10 @@
             "id": 1,
             "question": "The word Bible simply means",
             "options": {
-                "A": "Scroll",
+                "A": "Word",
                 "B": "Book",
-                "C": "Word",
-                "D": "Revelation"
+                "C": "Revelation",
+                "D": "Scroll"
             },
             "answerKey": [
                 "B"
@@ -17,65 +17,65 @@
             "id": 2,
             "question": "What is the compendium of God's revelation of Himself to humanity?",
             "options": {
-                "A": "Prophecy",
-                "B": "Law",
-                "C": "Bible",
+                "A": "Law",
+                "B": "Bible",
+                "C": "Prophecy",
                 "D": "Testimony"
             },
             "answerKey": [
-                "C"
+                "B"
             ]
         },
         {
             "id": 3,
             "question": "The Bible is the name given to the revelation of God to man contained in the",
             "options": {
-                "A": "60 books",
-                "B": "70 books",
-                "C": "66 books",
+                "A": "70 books",
+                "B": "66 books",
+                "C": "60 books",
                 "D": "50 books"
             },
             "answerKey": [
-                "C"
+                "B"
             ]
         },
         {
             "id": 4,
             "question": "For almost how many years was there no written Bible?",
             "options": {
-                "A": "2000 years",
-                "B": "About 2500 years",
+                "A": "About 2500 years",
+                "B": "4000 years",
                 "C": "3000 years",
-                "D": "4000 years"
+                "D": "2000 years"
             },
             "answerKey": [
-                "B"
+                "A"
             ]
         },
         {
             "id": 5,
             "question": "God's message from Adam till Moses was",
             "options": {
-                "A": "Written",
-                "B": "Oral",
-                "C": "Symbolic",
-                "D": "Mystical"
+                "A": "Symbolic",
+                "B": "Written",
+                "C": "Mystical",
+                "D": "Oral"
             },
             "answerKey": [
-                "B"
+                "D"
             ]
         },
         {
             "id": 6,
             "question": "Beginning with Moses, God used what to prepare a volume of inspired writings?",
             "options": {
-                "A": "Angels",
-                "B": "Prophets",
-                "C": "Apostles",
-                "D": "Priests"
+                "A": "Priests",
+                "B": "Apostles",
+                "C": "Angels",
+                "D": "Prophets"
             },
             "answerKey": [
-                "B"
+                "D"
             ]
         },
         {
@@ -83,9 +83,9 @@
             "question": "The name Bible was derived from the Latin word",
             "options": {
                 "A": "Biblia",
-                "B": "Biblicus",
-                "C": "Biblorum",
-                "D": "Biblion"
+                "B": "Biblorum",
+                "C": "Biblion",
+                "D": "Biblicus"
             },
             "answerKey": [
                 "A"
@@ -96,12 +96,12 @@
             "question": "From the Koine Greek ta biblia means",
             "options": {
                 "A": "The Word",
-                "B": "Scriptures",
-                "C": "Books",
-                "D": "Scrolls"
+                "B": "Books",
+                "C": "Scrolls",
+                "D": "Scriptures"
             },
             "answerKey": [
-                "C"
+                "B"
             ]
         },
         {
@@ -110,8 +110,8 @@
             "options": {
                 "A": "It is old",
                 "B": "It is superior to all books",
-                "C": "It is rare",
-                "D": "It was written by kings"
+                "C": "It was written by kings",
+                "D": "It is rare"
             },
             "answerKey": [
                 "B"
@@ -121,39 +121,39 @@
             "id": 10,
             "question": "Other names for the Bible include",
             "options": {
-                "A": "Chronicle",
-                "B": "Scripture, The Word, The Testament or Covenant, The Law",
-                "C": "Law of Moses only",
+                "A": "Scripture, The Word, The Testament or Covenant, The Law",
+                "B": "Law of Moses only",
+                "C": "Chronicle",
                 "D": "Book of Prophets"
             },
             "answerKey": [
-                "B"
+                "A"
             ]
         },
         {
             "id": 11,
             "question": "Writings is often used in the",
             "options": {
-                "A": "Old Testament",
-                "B": "New Testament",
-                "C": "Apocrypha",
-                "D": "Torah"
+                "A": "Torah",
+                "B": "Apocrypha",
+                "C": "Old Testament",
+                "D": "New Testament"
             },
             "answerKey": [
-                "B"
+                "D"
             ]
         },
         {
             "id": 12,
             "question": "About how many writers were used to compose the Bible?",
             "options": {
-                "A": "30",
-                "B": "50",
-                "C": "40",
-                "D": "25"
+                "A": "50",
+                "B": "40",
+                "C": "25",
+                "D": "30"
             },
             "answerKey": [
-                "C"
+                "B"
             ]
         },
         {
@@ -161,25 +161,25 @@
             "question": "The Bible writers included",
             "options": {
                 "A": "Only priests",
-                "B": "Only kings",
-                "C": "Statesmen, peasants, kings, herdsmen, fishermen, priests, tax collectors, tentmakers, Jews, and Gentiles",
-                "D": "Only Israelites"
+                "B": "Statesmen, peasants, kings, herdsmen, fishermen, priests, tax collectors, tentmakers, Jews, and Gentiles",
+                "C": "Only Israelites",
+                "D": "Only kings"
             },
             "answerKey": [
-                "C"
+                "B"
             ]
         },
         {
             "id": 14,
             "question": "The Bible was written over a period of",
             "options": {
-                "A": "1000 years",
-                "B": "1600 years",
-                "C": "2000 years",
-                "D": "1200 years"
+                "A": "1200 years",
+                "B": "2000 years",
+                "C": "1600 years",
+                "D": "1000 years"
             },
             "answerKey": [
-                "B"
+                "C"
             ]
         },
         {
@@ -187,9 +187,9 @@
             "question": "The Bible was written in how many continents and languages?",
             "options": {
                 "A": "3 continents and 3 languages",
-                "B": "2 continents and 2 languages",
+                "B": "1 continent and 4 languages",
                 "C": "5 continents and 1 language",
-                "D": "1 continent and 4 languages"
+                "D": "2 continents and 2 languages"
             },
             "answerKey": [
                 "A"
@@ -200,8 +200,8 @@
             "question": "The Old Testament was written in",
             "options": {
                 "A": "Hebrew",
-                "B": "Greek",
-                "C": "Latin",
+                "B": "Latin",
+                "C": "Greek",
                 "D": "Aramaic"
             },
             "answerKey": [
@@ -212,49 +212,49 @@
             "id": 17,
             "question": "Parts of Ezra, Daniel, and Jeremiah were written in",
             "options": {
-                "A": "Chaldee (Aramaic)",
-                "B": "Greek",
+                "A": "Greek",
+                "B": "Chaldee (Aramaic)",
                 "C": "Hebrew",
                 "D": "Latin"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 18,
             "question": "The New Testament was written in",
             "options": {
-                "A": "Greek",
+                "A": "Latin",
                 "B": "Hebrew",
-                "C": "Latin",
+                "C": "Greek",
                 "D": "Aramaic"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 19,
             "question": "The Old and New Testaments were separated by an interval of nearly",
             "options": {
-                "A": "400 years",
+                "A": "1000 years",
                 "B": "200 years",
                 "C": "500 years",
-                "D": "1000 years"
+                "D": "400 years"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 20,
             "question": "The word Testament means",
             "options": {
-                "A": "Witness",
+                "A": "Law",
                 "B": "Covenant",
-                "C": "Scripture",
-                "D": "Law"
+                "C": "Witness",
+                "D": "Scripture"
             },
             "answerKey": [
                 "B"
@@ -264,52 +264,52 @@
             "id": 21,
             "question": "The Bible is divided into how many books?",
             "options": {
-                "A": "60",
-                "B": "65",
-                "C": "66 (39 in the Old, 27 in the New)",
-                "D": "70"
+                "A": "65",
+                "B": "70",
+                "C": "60",
+                "D": "66 (39 in the Old, 27 in the New)"
             },
             "answerKey": [
-                "C"
+                "D"
             ]
         },
         {
             "id": 22,
             "question": "The Old Testament was written over approximately",
             "options": {
-                "A": "1000 years (1446-400 BC)",
+                "A": "2000 years",
                 "B": "500 years",
-                "C": "2000 years",
+                "C": "1000 years (1446-400 BC)",
                 "D": "700 years"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 23,
             "question": "The Old Testament was compiled and canonized during the period of",
             "options": {
-                "A": "Ezra",
-                "B": "Moses",
-                "C": "David",
+                "A": "David",
+                "B": "Ezra",
+                "C": "Moses",
                 "D": "Solomon"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 24,
             "question": "The Old Testament is classified into",
             "options": {
-                "A": "Pentateuch, The Writings, and The Prophets",
+                "A": "Torah, Psalms, and Chronicles",
                 "B": "Psalms, Proverbs, and Prophets",
-                "C": "Law, History, and Gospel",
-                "D": "Torah, Psalms, and Chronicles"
+                "C": "Pentateuch, The Writings, and The Prophets",
+                "D": "Law, History, and Gospel"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
@@ -317,9 +317,9 @@
             "question": "The Pentateuch consists of how many books?",
             "options": {
                 "A": "5 books",
-                "B": "7 books",
-                "C": "10 books",
-                "D": "12 books"
+                "B": "10 books",
+                "C": "12 books",
+                "D": "7 books"
             },
             "answerKey": [
                 "A"
@@ -329,13 +329,13 @@
             "id": 26,
             "question": "The books of the Pentateuch are",
             "options": {
-                "A": "Genesis, Exodus, Leviticus, Numbers, and Deuteronomy",
-                "B": "Joshua, Judges, Ruth, Samuel, Kings",
-                "C": "Psalms, Proverbs, Job, Ecclesiastes, Songs",
-                "D": "Isaiah, Jeremiah, Ezekiel, Daniel, Lamentations"
+                "A": "Psalms, Proverbs, Job, Ecclesiastes, Songs",
+                "B": "Isaiah, Jeremiah, Ezekiel, Daniel, Lamentations",
+                "C": "Joshua, Judges, Ruth, Samuel, Kings",
+                "D": "Genesis, Exodus, Leviticus, Numbers, and Deuteronomy"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
@@ -344,8 +344,8 @@
             "options": {
                 "A": "17",
                 "B": "12",
-                "C": "10",
-                "D": "9"
+                "C": "9",
+                "D": "10"
             },
             "answerKey": [
                 "A"
@@ -355,91 +355,91 @@
             "id": 28,
             "question": "The Writings are subdivided into",
             "options": {
-                "A": "History and Poetry books",
-                "B": "Prophecy and Law",
-                "C": "Psalms and Proverbs",
-                "D": "Torah and Gospels"
+                "A": "Prophecy and Law",
+                "B": "Psalms and Proverbs",
+                "C": "Torah and Gospels",
+                "D": "History and Poetry books"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 29,
             "question": "The History books consist of",
             "options": {
-                "A": "12 books (Joshua to Esther)",
-                "B": "10 books",
-                "C": "8 books",
-                "D": "5 books"
+                "A": "8 books",
+                "B": "12 books (Joshua to Esther)",
+                "C": "5 books",
+                "D": "10 books"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 30,
             "question": "The Poetry books are",
             "options": {
-                "A": "Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon",
-                "B": "Genesis, Exodus, Numbers, Deuteronomy, Leviticus",
+                "A": "Genesis, Exodus, Numbers, Deuteronomy, Leviticus",
+                "B": "Matthew, Mark, Luke, John, Acts",
                 "C": "Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel",
-                "D": "Matthew, Mark, Luke, John, Acts"
+                "D": "Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 31,
             "question": "The Prophets section has",
             "options": {
-                "A": "17 books (5 Major, 12 Minor)",
-                "B": "10 books",
-                "C": "22 books",
-                "D": "14 books"
+                "A": "14 books",
+                "B": "22 books",
+                "C": "17 books (5 Major, 12 Minor)",
+                "D": "10 books"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 32,
             "question": "The Major Prophets are",
             "options": {
-                "A": "Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel",
-                "B": "Hosea, Joel, Amos, Obadiah, Jonah",
-                "C": "Moses, Elijah, Elisha, Samuel, Nathan",
-                "D": "David, Solomon, Isaiah, Jeremiah, Ezekiel"
+                "A": "David, Solomon, Isaiah, Jeremiah, Ezekiel",
+                "B": "Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel",
+                "C": "Hosea, Joel, Amos, Obadiah, Jonah",
+                "D": "Moses, Elijah, Elisha, Samuel, Nathan"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 33,
             "question": "The Minor Prophets are",
             "options": {
-                "A": "Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi",
-                "B": "Joshua to Kings",
-                "C": "Psalms to Proverbs",
-                "D": "Genesis to Deuteronomy"
+                "A": "Joshua to Kings",
+                "B": "Psalms to Proverbs",
+                "C": "Genesis to Deuteronomy",
+                "D": "Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 34,
             "question": "The Old Testament compilation did not include several books known as the",
             "options": {
-                "A": "Apocrypha",
-                "B": "Torah",
-                "C": "Gospels",
-                "D": "Epistles"
+                "A": "Gospels",
+                "B": "Epistles",
+                "C": "Torah",
+                "D": "Apocrypha"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
@@ -448,8 +448,8 @@
             "options": {
                 "A": "7",
                 "B": "10",
-                "C": "12",
-                "D": "5"
+                "C": "5",
+                "D": "12"
             },
             "answerKey": [
                 "A"
@@ -460,9 +460,9 @@
             "question": "The Apocrypha books were written in",
             "options": {
                 "A": "Greek",
-                "B": "Hebrew",
+                "B": "Aramaic",
                 "C": "Latin",
-                "D": "Aramaic"
+                "D": "Hebrew"
             },
             "answerKey": [
                 "A"
@@ -472,26 +472,26 @@
             "id": 37,
             "question": "Who rejected the Apocrypha books and translated the Bible into Latin Vulgate?",
             "options": {
-                "A": "St. Jerome",
-                "B": "John Wycliffe",
-                "C": "Martin Luther",
+                "A": "Martin Luther",
+                "B": "St. Jerome",
+                "C": "John Wycliffe",
                 "D": "William Tyndale"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 38,
             "question": "Why did St. Jerome reject the Apocrypha books?",
             "options": {
-                "A": "They were not written in Hebrew",
-                "B": "They were too long",
-                "C": "They had no meaning",
-                "D": "They were incomplete"
+                "A": "They were too long",
+                "B": "They were incomplete",
+                "C": "They were not written in Hebrew",
+                "D": "They had no meaning"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
@@ -499,9 +499,9 @@
             "question": "The word Apocrypha means",
             "options": {
                 "A": "Obscure or hidden",
-                "B": "Lost or forbidden",
+                "B": "Old or sacred",
                 "C": "Secret or divine",
-                "D": "Old or sacred"
+                "D": "Lost or forbidden"
             },
             "answerKey": [
                 "A"
@@ -511,13 +511,13 @@
             "id": 40,
             "question": "The Septuagint is",
             "options": {
-                "A": "A Greek translation of the Old Testament used during Jesus' time",
-                "B": "A Latin translation",
+                "A": "A Latin translation",
+                "B": "A Greek translation of the Old Testament used during Jesus' time",
                 "C": "A Hebrew commentary",
                 "D": "A Roman version"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
@@ -525,9 +525,9 @@
             "question": "Who wrote the first section of the New Testament?",
             "options": {
                 "A": "Paul",
-                "B": "John",
+                "B": "Matthew",
                 "C": "Peter",
-                "D": "Matthew"
+                "D": "John"
             },
             "answerKey": [
                 "A"
@@ -538,8 +538,8 @@
             "question": "When were 1 and 2 Thessalonians written?",
             "options": {
                 "A": "51 and 52 AD",
-                "B": "60 and 61 AD",
-                "C": "45 and 46 AD",
+                "B": "45 and 46 AD",
+                "C": "60 and 61 AD",
                 "D": "70 and 71 AD"
             },
             "answerKey": [
@@ -551,9 +551,9 @@
             "question": "Who wrote the final chapters of Revelation and when?",
             "options": {
                 "A": "John, 44 years after Paul",
-                "B": "Peter, 40 years after Jesus",
-                "C": "Matthew, 50 years after Paul",
-                "D": "Luke, 30 years later"
+                "B": "Luke, 30 years later",
+                "C": "Peter, 40 years after Jesus",
+                "D": "Matthew, 50 years after Paul"
             },
             "answerKey": [
                 "A"
@@ -565,8 +565,8 @@
             "options": {
                 "A": "About 397 AD",
                 "B": "200 AD",
-                "C": "100 AD",
-                "D": "500 AD"
+                "C": "500 AD",
+                "D": "100 AD"
             },
             "answerKey": [
                 "A"
@@ -576,104 +576,104 @@
             "id": 45,
             "question": "The New Testament consists of how many books?",
             "options": {
-                "A": "27",
+                "A": "40",
                 "B": "30",
-                "C": "24",
-                "D": "40"
+                "C": "27",
+                "D": "24"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 46,
             "question": "The 27 books are subdivided into",
             "options": {
-                "A": "4 Gospels, 1 Historical Book, 21 Epistles, 1 Apocalyptic Book",
-                "B": "5 Gospels, 3 Laws, 10 Letters",
-                "C": "12 Prophets and 15 Letters",
-                "D": "3 Laws and 24 Psalms"
+                "A": "5 Gospels, 3 Laws, 10 Letters",
+                "B": "4 Gospels, 1 Historical Book, 21 Epistles, 1 Apocalyptic Book",
+                "C": "3 Laws and 24 Psalms",
+                "D": "12 Prophets and 15 Letters"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 47,
             "question": "Who was the first to divide the Bible into chapters?",
             "options": {
-                "A": "Cardinal Hugo (1200-1263)",
-                "B": "St. Jerome",
-                "C": "John Wycliffe",
-                "D": "Tyndale"
+                "A": "St. Jerome",
+                "B": "Cardinal Hugo (1200-1263)",
+                "C": "Tyndale",
+                "D": "John Wycliffe"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 48,
             "question": "Who added punctuation marks to the Bible?",
             "options": {
-                "A": "Aldus Manutius (1455-1515)",
-                "B": "Sir Robert Stephanus",
+                "A": "Luther",
+                "B": "Aldus Manutius (1455-1515)",
                 "C": "Jerome",
-                "D": "Luther"
+                "D": "Sir Robert Stephanus"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 49,
             "question": "Who divided the chapters of the New Testament into verses?",
             "options": {
-                "A": "Sir Robert Stephanus (1551)",
-                "B": "William Tyndale",
-                "C": "Jerome",
-                "D": "Hugo"
+                "A": "Hugo",
+                "B": "Jerome",
+                "C": "Sir Robert Stephanus (1551)",
+                "D": "William Tyndale"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 50,
             "question": "The first Bible to have verses was",
             "options": {
-                "A": "The Geneva Bible (1560)",
+                "A": "The Latin Vulgate",
                 "B": "The King James Bible",
-                "C": "The Latin Vulgate",
-                "D": "The Septuagint"
+                "C": "The Septuagint",
+                "D": "The Geneva Bible (1560)"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 51,
             "question": "The most translated and retranslated book in the world is",
             "options": {
-                "A": "The Bible",
-                "B": "The Quran",
+                "A": "Homer's Iliad",
+                "B": "The Bible",
                 "C": "Shakespeare",
-                "D": "Homer's Iliad"
+                "D": "The Quran"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 52,
             "question": "The Bible was first translated into",
             "options": {
-                "A": "Latin Vulgate",
-                "B": "Greek",
-                "C": "English",
-                "D": "Hebrew"
+                "A": "Greek",
+                "B": "Hebrew",
+                "C": "Latin Vulgate",
+                "D": "English"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
@@ -681,9 +681,9 @@
             "question": "The first whole English Bible appeared in",
             "options": {
                 "A": "1282",
-                "B": "1450",
+                "B": "1500",
                 "C": "1300",
-                "D": "1500"
+                "D": "1450"
             },
             "answerKey": [
                 "A"
@@ -693,91 +693,91 @@
             "id": 54,
             "question": "It took John Wycliffe how many years to translate the Bible from Latin Vulgate to English?",
             "options": {
-                "A": "22 years",
+                "A": "30 years",
                 "B": "10 years",
-                "C": "15 years",
-                "D": "30 years"
+                "C": "22 years",
+                "D": "15 years"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 55,
             "question": "The first English printed Bible was by",
             "options": {
-                "A": "William Tyndale (1525)",
-                "B": "John Wycliffe",
-                "C": "St. Jerome",
-                "D": "Martin Luther"
+                "A": "John Wycliffe",
+                "B": "Martin Luther",
+                "C": "William Tyndale (1525)",
+                "D": "St. Jerome"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 56,
             "question": "The Authorized King James Version was published in",
             "options": {
-                "A": "1611",
-                "B": "1500",
+                "A": "1500",
+                "B": "1611",
                 "C": "1551",
                 "D": "1560"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 57,
             "question": "The Bible has been translated into how many full languages?",
             "options": {
-                "A": "704",
+                "A": "500",
                 "B": "800",
-                "C": "600",
-                "D": "500"
+                "C": "704",
+                "D": "600"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 58,
             "question": "The Bible in whole or part has been translated into over",
             "options": {
-                "A": "3,342 languages",
-                "B": "2,000 languages",
-                "C": "1,500 languages",
-                "D": "1,000 languages"
+                "A": "2,000 languages",
+                "B": "1,000 languages",
+                "C": "3,342 languages",
+                "D": "1,500 languages"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 59,
             "question": "Who is the author of the Bible?",
             "options": {
-                "A": "God",
+                "A": "David",
                 "B": "Moses",
                 "C": "Paul",
-                "D": "David"
+                "D": "God"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 60,
             "question": "What is Hermeneutics?",
             "options": {
-                "A": "The study of the correct methods of interpreting text",
-                "B": "The art of writing scripture",
+                "A": "The art of writing scripture",
+                "B": "The study of prophecy",
                 "C": "The study of Hebrew",
-                "D": "The study of prophecy"
+                "D": "The study of the correct methods of interpreting text"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
@@ -785,9 +785,9 @@
             "question": "What is Exegesis?",
             "options": {
                 "A": "The process of interpreting a text of Scripture",
-                "B": "Writing the law",
-                "C": "Reading prophecy aloud",
-                "D": "Translating Greek to Hebrew"
+                "B": "Reading prophecy aloud",
+                "C": "Translating Greek to Hebrew",
+                "D": "Writing the law"
             },
             "answerKey": [
                 "A"
@@ -797,39 +797,39 @@
             "id": 62,
             "question": "Where does the Bible say \"The Bible is our life\"?",
             "options": {
-                "A": "Deuteronomy 32:46-47",
-                "B": "Genesis 1:1",
-                "C": "Psalm 23",
-                "D": "Matthew 5"
+                "A": "Psalm 23",
+                "B": "Deuteronomy 32:46-47",
+                "C": "Matthew 5",
+                "D": "Genesis 1:1"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 63,
             "question": "The main subject of the Bible is",
             "options": {
-                "A": "Redemption of man",
-                "B": "The history of Israel",
-                "C": "The laws of Moses",
-                "D": "Prophecies of nations"
+                "A": "The laws of Moses",
+                "B": "Redemption of man",
+                "C": "Prophecies of nations",
+                "D": "The history of Israel"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 64,
             "question": "The divine authorship of the Bible shows that",
             "options": {
-                "A": "It was written by men only",
-                "B": "It is a mythological book",
-                "C": "God is the true author of the Bible",
-                "D": "It is based on stories"
+                "A": "It is a mythological book",
+                "B": "It is based on stories",
+                "C": "It was written by men only",
+                "D": "God is the true author of the Bible"
             },
             "answerKey": [
-                "C"
+                "D"
             ]
         },
         {
@@ -837,21 +837,21 @@
             "question": "Just as God is eternal, so is His Word - this reflects the Bible's",
             "options": {
                 "A": "Necessity",
-                "B": "Divine preservation",
-                "C": "Interpretation",
+                "B": "Interpretation",
+                "C": "Divine preservation",
                 "D": "Revelation"
             },
             "answerKey": [
-                "B"
+                "C"
             ]
         },
         {
             "id": 66,
             "question": "When the Bible is essential for maintaining our spiritual life, it shows its",
             "options": {
-                "A": "Authority",
+                "A": "Fulfillment",
                 "B": "Necessity",
-                "C": "Fulfillment",
+                "C": "Authority",
                 "D": "Prophecy"
             },
             "answerKey": [
@@ -862,13 +862,13 @@
             "id": 67,
             "question": "The sufficiency of the Bible indicates that",
             "options": {
-                "A": "It contains only partial truth",
-                "B": "It contains all that God has in store for His people",
-                "C": "It needs to be updated",
-                "D": "It excludes God's will"
+                "A": "It needs to be updated",
+                "B": "It excludes God's will",
+                "C": "It contains only partial truth",
+                "D": "It contains all that God has in store for His people"
             },
             "answerKey": [
-                "B"
+                "D"
             ]
         },
         {
@@ -877,37 +877,37 @@
             "options": {
                 "A": "The fall of Rome",
                 "B": "The writings of the Apostles",
-                "C": "Fulfilled prophecies about Babylon, Tyre, Sidon, Cyrus, Medo-Persia, Greece, and the birthplace of Christ",
-                "D": "The flood of Noah"
+                "C": "The flood of Noah",
+                "D": "Fulfilled prophecies about Babylon, Tyre, Sidon, Cyrus, Medo-Persia, Greece, and the birthplace of Christ"
             },
             "answerKey": [
-                "C"
+                "D"
             ]
         },
         {
             "id": 69,
             "question": "Which Bible character provides strong evidence of the Bible's power to change lives?",
             "options": {
-                "A": "Saul of Tarsus",
-                "B": "David",
-                "C": "Peter",
-                "D": "Moses"
+                "A": "Moses",
+                "B": "Peter",
+                "C": "Saul of Tarsus",
+                "D": "David"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 70,
             "question": "The Bible was written in how many main languages?",
             "options": {
-                "A": "Two",
-                "B": "Three",
-                "C": "Four",
-                "D": "One"
+                "A": "One",
+                "B": "Four",
+                "C": "Two",
+                "D": "Three"
             },
             "answerKey": [
-                "B"
+                "D"
             ]
         },
         {
@@ -915,9 +915,9 @@
             "question": "The three main languages of the Bible are",
             "options": {
                 "A": "Hebrew, Aramaic, and Greek",
-                "B": "Latin, Greek, and English",
+                "B": "Greek, Latin, and Coptic",
                 "C": "Hebrew, Latin, and Greek",
-                "D": "Greek, Latin, and Coptic"
+                "D": "Latin, Greek, and English"
             },
             "answerKey": [
                 "A"
@@ -927,117 +927,117 @@
             "id": 72,
             "question": "The Apocrypha books were added to which translation?",
             "options": {
-                "A": "The Septuagint",
-                "B": "The Vulgate",
-                "C": "The King James Bible",
-                "D": "The Talmud"
+                "A": "The Talmud",
+                "B": "The King James Bible",
+                "C": "The Vulgate",
+                "D": "The Septuagint"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 73,
             "question": "The Septuagint was mainly used during",
             "options": {
-                "A": "The Babylonian captivity",
-                "B": "The time of Jesus",
+                "A": "The time of Jesus",
+                "B": "The Babylonian captivity",
                 "C": "The time of Ezra",
                 "D": "The Middle Ages"
             },
             "answerKey": [
-                "B"
+                "A"
             ]
         },
         {
             "id": 74,
             "question": "How many authors wrote the Bible?",
             "options": {
-                "A": "30",
-                "B": "40",
+                "A": "27",
+                "B": "30",
                 "C": "50",
-                "D": "27"
+                "D": "40"
             },
             "answerKey": [
-                "B"
+                "D"
             ]
         },
         {
             "id": 75,
             "question": "Who created the Latin Concordance and divided the Bible into chapters?",
             "options": {
-                "A": "Cardinal Hugo",
-                "B": "Aldus Manutius",
+                "A": "William Tyndale",
+                "B": "Cardinal Hugo",
                 "C": "Sir Robert Stephanus",
-                "D": "William Tyndale"
+                "D": "Aldus Manutius"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 76,
             "question": "Who added punctuation marks to the Bible to aid reading?",
             "options": {
-                "A": "Aldus Manutius",
-                "B": "Jerome",
-                "C": "Luther",
-                "D": "Stephanus"
+                "A": "Luther",
+                "B": "Aldus Manutius",
+                "C": "Stephanus",
+                "D": "Jerome"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 77,
             "question": "Who divided the chapters of the New Testament into verses in 1551?",
             "options": {
-                "A": "Sir Robert Stephanus",
-                "B": "William Tyndale",
-                "C": "Cardinal Hugo",
-                "D": "St. Jerome"
+                "A": "William Tyndale",
+                "B": "St. Jerome",
+                "C": "Sir Robert Stephanus",
+                "D": "Cardinal Hugo"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 78,
             "question": "The first Bible to contain verses was",
             "options": {
-                "A": "The Geneva Bible (1560)",
-                "B": "The King James Bible",
-                "C": "The Septuagint",
-                "D": "The Douay-Rheims Bible"
+                "A": "The King James Bible",
+                "B": "The Septuagint",
+                "C": "The Douay-Rheims Bible",
+                "D": "The Geneva Bible (1560)"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 79,
             "question": "The first English printed Bible was produced by",
             "options": {
-                "A": "William Tyndale (1525)",
-                "B": "John Wycliffe",
+                "A": "St. Jerome",
+                "B": "William Tyndale (1525)",
                 "C": "Martin Luther",
-                "D": "St. Jerome"
+                "D": "John Wycliffe"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 80,
             "question": "The first complete English Bible translation was finished in",
             "options": {
-                "A": "1282",
-                "B": "1500",
-                "C": "1400",
-                "D": "1600"
+                "A": "1500",
+                "B": "1400",
+                "C": "1600",
+                "D": "1282"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
@@ -1045,8 +1045,8 @@
             "question": "The Authorized King James Version was published in",
             "options": {
                 "A": "1611",
-                "B": "1551",
-                "C": "1560",
+                "B": "1560",
+                "C": "1551",
                 "D": "1625"
             },
             "answerKey": [
@@ -1057,26 +1057,26 @@
             "id": 82,
             "question": "The Bible has been fully translated into approximately",
             "options": {
-                "A": "704 languages",
-                "B": "500 languages",
+                "A": "500 languages",
+                "B": "704 languages",
                 "C": "900 languages",
                 "D": "1000 languages"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 83,
             "question": "The Bible in part or whole has been translated into over",
             "options": {
-                "A": "3,342 languages",
+                "A": "3,000 languages",
                 "B": "2,000 languages",
-                "C": "1,500 languages",
-                "D": "3,000 languages"
+                "C": "3,342 languages",
+                "D": "1,500 languages"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
@@ -1085,8 +1085,8 @@
             "options": {
                 "A": "St. Jerome",
                 "B": "John Wycliffe",
-                "C": "Martin Luther",
-                "D": "Cardinal Hugo"
+                "C": "Cardinal Hugo",
+                "D": "Martin Luther"
             },
             "answerKey": [
                 "A"
@@ -1096,52 +1096,52 @@
             "id": 85,
             "question": "How many Apocrypha books did St. Jerome translate?",
             "options": {
-                "A": "Two (Tobias and Judith)",
-                "B": "Five",
-                "C": "Seven",
-                "D": "Three"
+                "A": "Seven",
+                "B": "Three",
+                "C": "Two (Tobias and Judith)",
+                "D": "Five"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 86,
             "question": "What is the study of proper interpretation of the Bible called?",
             "options": {
-                "A": "Hermeneutics",
-                "B": "Theology",
-                "C": "Exegesis",
-                "D": "Revelation"
+                "A": "Exegesis",
+                "B": "Revelation",
+                "C": "Theology",
+                "D": "Hermeneutics"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 87,
             "question": "The process of explaining or interpreting a passage of Scripture is called",
             "options": {
-                "A": "Hermeneutics",
-                "B": "Exegesis",
-                "C": "Prophecy",
-                "D": "Analysis"
+                "A": "Exegesis",
+                "B": "Analysis",
+                "C": "Hermeneutics",
+                "D": "Prophecy"
             },
             "answerKey": [
-                "B"
+                "A"
             ]
         },
         {
             "id": 88,
             "question": "The verse where Moses declares that the Bible is our life is found in",
             "options": {
-                "A": "Deuteronomy 32:46-47",
-                "B": "Exodus 20:2",
-                "C": "Genesis 1:1",
-                "D": "Matthew 4:4"
+                "A": "Exodus 20:2",
+                "B": "Deuteronomy 32:46-47",
+                "C": "Matthew 4:4",
+                "D": "Genesis 1:1"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
@@ -1149,9 +1149,9 @@
             "question": "The main theme of the entire Bible is",
             "options": {
                 "A": "Redemption of man",
-                "B": "The Law of Moses",
+                "B": "The Prophecies of Daniel",
                 "C": "The History of Israel",
-                "D": "The Prophecies of Daniel"
+                "D": "The Law of Moses"
             },
             "answerKey": [
                 "A"
@@ -1161,13 +1161,13 @@
             "id": 90,
             "question": "The divine preservation of the Bible means that",
             "options": {
-                "A": "God has kept His Word pure and unchanged through time",
+                "A": "It was hidden from people",
                 "B": "It has been rewritten many times",
-                "C": "It was hidden from people",
-                "D": "It was forgotten for centuries"
+                "C": "It was forgotten for centuries",
+                "D": "God has kept His Word pure and unchanged through time"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         }
     ]

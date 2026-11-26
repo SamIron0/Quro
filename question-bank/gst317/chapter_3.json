@@ -5,35 +5,35 @@
             "question": "Who first used the term Trinity?",
             "options": {
                 "A": "Augustine",
-                "B": "Athanasius",
-                "C": "Tertullian",
-                "D": "Origen"
+                "B": "Origen",
+                "C": "Athanasius",
+                "D": "Tertullian"
             },
             "answerKey": [
-                "C"
+                "D"
             ]
         },
         {
             "id": 2,
             "question": "Trinity means __________.",
             "options": {
-                "A": "The Christian belief in one God with three purposes",
-                "B": "The Christian doctrine of God as Father, Son, and the Holy Spirit",
+                "A": "The separation of divine powers",
+                "B": "The Christian belief in one God with three purposes",
                 "C": "The unity of angels and saints",
-                "D": "The separation of divine powers"
+                "D": "The Christian doctrine of God as Father, Son, and the Holy Spirit"
             },
             "answerKey": [
-                "B"
+                "D"
             ]
         },
         {
             "id": 3,
             "question": "The word Trinity literally means __________.",
             "options": {
-                "A": "Three powers in one heaven",
+                "A": "Triple manifestation",
                 "B": "Tri-unity or three-in-oneness",
-                "C": "Triple manifestation",
-                "D": "Triple spirits"
+                "C": "Triple spirits",
+                "D": "Three powers in one heaven"
             },
             "answerKey": [
                 "B"
@@ -43,36 +43,36 @@
             "id": 4,
             "question": "The phrase \"the external works of the Trinity are undivided\" is expressed in Latin as __________.",
             "options": {
-                "A": "Credo in unum Deum",
-                "B": "Sola scriptura",
-                "C": "Opera Trinitatis ad extra sunt indivisa",
-                "D": "Fiat lux"
+                "A": "Fiat lux",
+                "B": "Opera Trinitatis ad extra sunt indivisa",
+                "C": "Credo in unum Deum",
+                "D": "Sola scriptura"
             },
             "answerKey": [
-                "C"
+                "B"
             ]
         },
         {
             "id": 5,
             "question": "The adjective Triune refers to God as __________.",
             "options": {
-                "A": "Both three (tri) and one (une)",
-                "B": "Three different gods",
-                "C": "One being with no distinction",
+                "A": "One being with no distinction",
+                "B": "Both three (tri) and one (une)",
+                "C": "Three different gods",
                 "D": "A created being"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 6,
             "question": "Which of the divine Trinity was not explicitly revealed as a divine person in the Old Testament?",
             "options": {
-                "A": "God the Father",
-                "B": "God the Son",
+                "A": "God the Son",
+                "B": "None of the above",
                 "C": "God the Holy Spirit",
-                "D": "None of the above"
+                "D": "God the Father"
             },
             "answerKey": [
                 "C"
@@ -82,13 +82,13 @@
             "id": 7,
             "question": "The Holy Spirit in the Old Testament is mostly associated with __________.",
             "options": {
-                "A": "Performing miracles",
-                "B": "Giving spiritual gifts to special individuals",
-                "C": "Destroying the wicked",
-                "D": "Speaking through angels"
+                "A": "Speaking through angels",
+                "B": "Performing miracles",
+                "C": "Giving spiritual gifts to special individuals",
+                "D": "Destroying the wicked"
             },
             "answerKey": [
-                "B"
+                "C"
             ]
         },
         {
@@ -96,12 +96,12 @@
             "question": "The function of the Holy Spirit in the creation of the world was __________.",
             "options": {
                 "A": "Creating light",
-                "B": "Cooperating with the divine Word in the ordering of the cosmos",
-                "C": "Separating the land from the sea",
-                "D": "Naming all creatures"
+                "B": "Separating the land from the sea",
+                "C": "Naming all creatures",
+                "D": "Cooperating with the divine Word in the ordering of the cosmos"
             },
             "answerKey": [
-                "B"
+                "D"
             ]
         },
         {
@@ -110,8 +110,8 @@
             "options": {
                 "A": "Sitting upon the throne",
                 "B": "Speaking to the universal church",
-                "C": "Guiding the prophets",
-                "D": "Judging the nations"
+                "C": "Judging the nations",
+                "D": "Guiding the prophets"
             },
             "answerKey": [
                 "B"
@@ -123,8 +123,8 @@
             "options": {
                 "A": "Pneuma",
                 "B": "Ruach",
-                "C": "Logos",
-                "D": "Agape"
+                "C": "Agape",
+                "D": "Logos"
             },
             "answerKey": [
                 "A"
@@ -134,60 +134,60 @@
             "id": 11,
             "question": "The term Spirit can always be used, whereas Ghost always requires the word Holy prefixed.",
             "options": {
-                "A": "True",
-                "B": "False"
-            },
-            "answerKey": [
-                "A"
-            ]
-        },
-        {
-            "id": 12,
-            "question": "The Hebrew word Ruach also means __________.",
-            "options": {
-                "A": "Spirit",
-                "B": "Breath only",
-                "C": "Power",
-                "D": "Fire"
-            },
-            "answerKey": [
-                "A"
-            ]
-        },
-        {
-            "id": 13,
-            "question": "According to Genesis 6:3 and John 14:17, the Spirit __________.",
-            "options": {
-                "A": "Lives in the hearts of angels",
-                "B": "Strives with men and dwells within believers",
-                "C": "Descends only upon prophets",
-                "D": "Is limited to the Old Testament"
+                "A": "False",
+                "B": "True"
             },
             "answerKey": [
                 "B"
             ]
         },
         {
+            "id": 12,
+            "question": "The Hebrew word Ruach also means __________.",
+            "options": {
+                "A": "Fire",
+                "B": "Breath only",
+                "C": "Power",
+                "D": "Spirit"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 13,
+            "question": "According to Genesis 6:3 and John 14:17, the Spirit __________.",
+            "options": {
+                "A": "Is limited to the Old Testament",
+                "B": "Descends only upon prophets",
+                "C": "Lives in the hearts of angels",
+                "D": "Strives with men and dwells within believers"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
             "id": 14,
             "question": "Who lied to the Holy Spirit in the New Testament?",
             "options": {
-                "A": "Ananias",
-                "B": "Saul",
-                "C": "Judas",
-                "D": "Peter"
+                "A": "Judas",
+                "B": "Peter",
+                "C": "Saul",
+                "D": "Ananias"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 15,
             "question": "Jesus introduced the Spirit to the disciples as __________.",
             "options": {
-                "A": "The divine fire",
+                "A": "The Comforter of prophets only",
                 "B": "Another Counselor",
                 "C": "The heavenly wind",
-                "D": "The Comforter of prophets only"
+                "D": "The divine fire"
             },
             "answerKey": [
                 "B"
@@ -197,65 +197,65 @@
             "id": 16,
             "question": "The Greek word Allos means __________.",
             "options": {
-                "A": "Another of the same kind",
-                "B": "Another of a different kind",
-                "C": "A helper",
+                "A": "A helper",
+                "B": "Another of the same kind",
+                "C": "Another of a different kind",
                 "D": "Spirit"
-            },
-            "answerKey": [
-                "A"
-            ]
-        },
-        {
-            "id": 17,
-            "question": "The writers of the Old Testament frequently refer to the Spirit's work in __________.",
-            "options": {
-                "A": "Destroying cities",
-                "B": "Teaching laws",
-                "C": "Sustaining and renewing physical life",
-                "D": "Leading armies"
-            },
-            "answerKey": [
-                "C"
-            ]
-        },
-        {
-            "id": 18,
-            "question": "The doctrine of the Trinity teaches that God exists as __________.",
-            "options": {
-                "A": "Three persons in one essence",
-                "B": "Three gods with separate powers",
-                "C": "One person in three roles",
-                "D": "Two persons and one force"
-            },
-            "answerKey": [
-                "A"
-            ]
-        },
-        {
-            "id": 19,
-            "question": "Which of the following best describes the unity of the Trinity?",
-            "options": {
-                "A": "Three separate wills",
-                "B": "One essence shared equally among three persons",
-                "C": "Three unequal powers",
-                "D": "One God with two assistants"
             },
             "answerKey": [
                 "B"
             ]
         },
         {
-            "id": 20,
-            "question": "The person of the Trinity associated with redemption is __________.",
+            "id": 17,
+            "question": "The writers of the Old Testament frequently refer to the Spirit's work in __________.",
             "options": {
-                "A": "God the Son",
-                "B": "God the Father",
-                "C": "God the Holy Spirit",
-                "D": "All of the above"
+                "A": "Sustaining and renewing physical life",
+                "B": "Teaching laws",
+                "C": "Leading armies",
+                "D": "Destroying cities"
             },
             "answerKey": [
                 "A"
+            ]
+        },
+        {
+            "id": 18,
+            "question": "The doctrine of the Trinity teaches that God exists as __________.",
+            "options": {
+                "A": "Two persons and one force",
+                "B": "Three gods with separate powers",
+                "C": "Three persons in one essence",
+                "D": "One person in three roles"
+            },
+            "answerKey": [
+                "C"
+            ]
+        },
+        {
+            "id": 19,
+            "question": "Which of the following best describes the unity of the Trinity?",
+            "options": {
+                "A": "One essence shared equally among three persons",
+                "B": "Three separate wills",
+                "C": "One God with two assistants",
+                "D": "Three unequal powers"
+            },
+            "answerKey": [
+                "A"
+            ]
+        },
+        {
+            "id": 20,
+            "question": "The person of the Trinity associated with redemption is __________.",
+            "options": {
+                "A": "God the Holy Spirit",
+                "B": "God the Son",
+                "C": "All of the above",
+                "D": "God the Father"
+            },
+            "answerKey": [
+                "B"
             ]
         },
         {
@@ -263,9 +263,9 @@
             "question": "The person of the Trinity associated with sanctification is __________.",
             "options": {
                 "A": "God the Father",
-                "B": "God the Son",
+                "B": "All three equally",
                 "C": "God the Holy Spirit",
-                "D": "All three equally"
+                "D": "God the Son"
             },
             "answerKey": [
                 "C"
@@ -275,78 +275,78 @@
             "id": 22,
             "question": "The person of the Trinity associated with creation is primarily __________.",
             "options": {
-                "A": "God the Father",
+                "A": "Angels",
                 "B": "God the Son",
                 "C": "God the Holy Spirit",
-                "D": "Angels"
+                "D": "God the Father"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 23,
             "question": "The Nicene Creed affirms that the Son is __________.",
             "options": {
-                "A": "Begotten, not made; of one substance with the Father",
-                "B": "Created by the Father",
-                "C": "Less divine than the Father",
+                "A": "Created by the Father",
+                "B": "Less divine than the Father",
+                "C": "Begotten, not made; of one substance with the Father",
                 "D": "A spiritual helper"
-            },
-            "answerKey": [
-                "A"
-            ]
-        },
-        {
-            "id": 24,
-            "question": "The term \"co-equal and co-eternal\" means __________.",
-            "options": {
-                "A": "All three persons of the Trinity share the same divinity and have no beginning or end",
-                "B": "The Son and Spirit were created later",
-                "C": "The Father rules over the Son and Spirit",
-                "D": "The three have different levels of power"
-            },
-            "answerKey": [
-                "A"
-            ]
-        },
-        {
-            "id": 25,
-            "question": "Which early church council formally defined the doctrine of the Trinity?",
-            "options": {
-                "A": "Council of Ephesus",
-                "B": "Council of Chalcedon",
-                "C": "Council of Nicaea",
-                "D": "Council of Jerusalem"
             },
             "answerKey": [
                 "C"
             ]
         },
         {
+            "id": 24,
+            "question": "The term \"co-equal and co-eternal\" means __________.",
+            "options": {
+                "A": "The Son and Spirit were created later",
+                "B": "The three have different levels of power",
+                "C": "The Father rules over the Son and Spirit",
+                "D": "All three persons of the Trinity share the same divinity and have no beginning or end"
+            },
+            "answerKey": [
+                "D"
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Which early church council formally defined the doctrine of the Trinity?",
+            "options": {
+                "A": "Council of Jerusalem",
+                "B": "Council of Nicaea",
+                "C": "Council of Chalcedon",
+                "D": "Council of Ephesus"
+            },
+            "answerKey": [
+                "B"
+            ]
+        },
+        {
             "id": 26,
             "question": "The Father is not the Son, the Son is not the Spirit, yet all three are __________.",
             "options": {
-                "A": "One God",
-                "B": "Three beings",
-                "C": "Separate powers",
-                "D": "Equal in rank only"
+                "A": "Separate powers",
+                "B": "Equal in rank only",
+                "C": "One God",
+                "D": "Three beings"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 27,
             "question": "The doctrine of the Trinity helps Christians understand God's __________.",
             "options": {
-                "A": "Distance from the world",
-                "B": "Unity in diversity and relationship within Himself",
-                "C": "Changeability",
-                "D": "Limited nature"
+                "A": "Unity in diversity and relationship within Himself",
+                "B": "Limited nature",
+                "C": "Distance from the world",
+                "D": "Changeability"
             },
             "answerKey": [
-                "B"
+                "A"
             ]
         },
         {
@@ -359,33 +359,33 @@
                 "D": "A sword"
             },
             "answerKey": [
-                "B"
+                "A"
             ]
         },
         {
             "id": 29,
             "question": "The Trinity reveals that God is __________.",
             "options": {
-                "A": "Relational and self-giving in nature",
+                "A": "Merely symbolic",
                 "B": "A distant judge",
-                "C": "A changing deity",
-                "D": "Merely symbolic"
+                "C": "Relational and self-giving in nature",
+                "D": "A changing deity"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 30,
             "question": "The mystery of the Trinity is ultimately understood by __________.",
             "options": {
-                "A": "Logic alone",
-                "B": "Human experience",
-                "C": "Faith through revelation",
-                "D": "Philosophy"
+                "A": "Human experience",
+                "B": "Philosophy",
+                "C": "Logic alone",
+                "D": "Faith through revelation"
             },
             "answerKey": [
-                "C"
+                "D"
             ]
         }
     ]

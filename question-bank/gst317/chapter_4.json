@@ -4,91 +4,91 @@
             "id": 1,
             "question": "According to Psalms 33:6, the heavens were made by __________.",
             "options": {
-                "A": "The angels of heaven",
-                "B": "The command of men",
-                "C": "The word of the Lord and the breath of His mouth",
-                "D": "The works of creation"
+                "A": "The word of the Lord and the breath of His mouth",
+                "B": "The angels of heaven",
+                "C": "The works of creation",
+                "D": "The command of men"
             },
             "answerKey": [
-                "C"
+                "A"
             ]
         },
         {
             "id": 2,
             "question": "Psalms 104:5 says God laid the foundation of the earth that it should not be __________.",
             "options": {
-                "A": "Flooded again",
-                "B": "Removed forever",
-                "C": "Destroyed by man",
-                "D": "Covered in darkness"
+                "A": "Removed forever",
+                "B": "Flooded again",
+                "C": "Covered in darkness",
+                "D": "Destroyed by man"
             },
             "answerKey": [
-                "B"
+                "A"
             ]
         },
         {
             "id": 3,
             "question": "The first people were cast out from the Garden of Eden because they ate from __________.",
             "options": {
-                "A": "The tree of knowledge of good and evil",
-                "B": "The tree of life",
-                "C": "The tree of wisdom",
-                "D": "The vine of knowledge"
+                "A": "The tree of life",
+                "B": "The tree of wisdom",
+                "C": "The vine of knowledge",
+                "D": "The tree of knowledge of good and evil"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 4,
             "question": "God became our Redeemer and Saviour through __________.",
             "options": {
-                "A": "Jesus Christ",
-                "B": "The prophets",
+                "A": "The prophets",
+                "B": "Jesus Christ",
                 "C": "The angels",
                 "D": "The law"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 5,
             "question": "Fiat creation means __________.",
             "options": {
-                "A": "God created the world simply by speaking it into existence",
-                "B": "God molded the earth from clay",
-                "C": "The world evolved by chance",
+                "A": "The world evolved by chance",
+                "B": "God created the world simply by speaking it into existence",
+                "C": "God molded the earth from clay",
                 "D": "Creation was formed by angels"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 6,
             "question": "The Lord formed man from the dust and breathed into his nostrils __________.",
             "options": {
-                "A": "The breath of life",
-                "B": "The wind of heaven",
+                "A": "The wind of heaven",
+                "B": "The sound of truth",
                 "C": "The spirit of wisdom",
-                "D": "The sound of truth"
+                "D": "The breath of life"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 7,
             "question": "Ex nihilo means __________.",
             "options": {
-                "A": "God created the earth out of nothing",
-                "B": "God formed the earth from water",
-                "C": "The world came from chaos",
-                "D": "Creation from fire"
+                "A": "Creation from fire",
+                "B": "The world came from chaos",
+                "C": "God formed the earth from water",
+                "D": "God created the earth out of nothing"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
@@ -96,9 +96,9 @@
             "question": "Each creation day lasted for how many hours?",
             "options": {
                 "A": "24",
-                "B": "12",
+                "B": "6",
                 "C": "48",
-                "D": "6"
+                "D": "12"
             },
             "answerKey": [
                 "A"
@@ -108,13 +108,13 @@
             "id": 9,
             "question": "The account of creation is recorded in __________.",
             "options": {
-                "A": "Genesis chapters 1 and 2",
-                "B": "Genesis chapter 3",
+                "A": "Deuteronomy chapter 5",
+                "B": "Genesis chapters 1 and 2",
                 "C": "Exodus chapter 20",
-                "D": "Deuteronomy chapter 5"
+                "D": "Genesis chapter 3"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
@@ -122,9 +122,9 @@
             "question": "On Day One, God created __________.",
             "options": {
                 "A": "Light",
-                "B": "Sky and water",
+                "B": "Sun and moon",
                 "C": "Land and plants",
-                "D": "Sun and moon"
+                "D": "Sky and water"
             },
             "answerKey": [
                 "A"
@@ -135,9 +135,9 @@
             "question": "On Day Two, God created __________.",
             "options": {
                 "A": "Sky and water",
-                "B": "Dry land",
-                "C": "Stars",
-                "D": "Fish and birds"
+                "B": "Stars",
+                "C": "Fish and birds",
+                "D": "Dry land"
             },
             "answerKey": [
                 "A"
@@ -147,325 +147,325 @@
             "id": 12,
             "question": "On Day Three, God created __________.",
             "options": {
-                "A": "Dry lands, seas, and vegetation",
-                "B": "Moon and stars",
-                "C": "Birds",
+                "A": "Moon and stars",
+                "B": "Birds",
+                "C": "Dry lands, seas, and vegetation",
                 "D": "Man and animals"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 13,
             "question": "On Day Four, God created __________.",
             "options": {
-                "A": "Sun, moon, and stars",
-                "B": "Animals",
-                "C": "Heaven and earth",
-                "D": "Plants"
+                "A": "Plants",
+                "B": "Sun, moon, and stars",
+                "C": "Animals",
+                "D": "Heaven and earth"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 14,
             "question": "On Day Five, God created __________.",
             "options": {
-                "A": "Fish and birds",
+                "A": "Land",
                 "B": "Animals and man",
                 "C": "Sky and light",
-                "D": "Land"
+                "D": "Fish and birds"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 15,
             "question": "On Day Six, God created __________.",
             "options": {
-                "A": "Man and animals",
-                "B": "Light and water",
-                "C": "Fish and birds",
-                "D": "Vegetation"
+                "A": "Vegetation",
+                "B": "Fish and birds",
+                "C": "Light and water",
+                "D": "Man and animals"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 16,
             "question": "On Day Seven, God __________.",
             "options": {
-                "A": "Rested",
+                "A": "Spoke again",
                 "B": "Created angels",
-                "C": "Made stars",
-                "D": "Spoke again"
+                "C": "Rested",
+                "D": "Made stars"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 17,
             "question": "The day of preparation for the Sabbath was which day?",
             "options": {
-                "A": "Day 6",
-                "B": "Day 7",
-                "C": "Day 1",
-                "D": "Day 5"
+                "A": "Day 1",
+                "B": "Day 5",
+                "C": "Day 7",
+                "D": "Day 6"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 18,
             "question": "God did what to the Sabbath day?",
             "options": {
-                "A": "Blessed, set apart, and sanctified it",
-                "B": "Ignored it",
-                "C": "Replaced it",
-                "D": "Ended it"
+                "A": "Ignored it",
+                "B": "Ended it",
+                "C": "Blessed, set apart, and sanctified it",
+                "D": "Replaced it"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 19,
             "question": "The two institutions that humans brought from Eden were __________.",
             "options": {
-                "A": "Marriage and Sabbath",
+                "A": "Love and law",
                 "B": "Worship and prayer",
-                "C": "Dominion and work",
-                "D": "Love and law"
+                "C": "Marriage and Sabbath",
+                "D": "Dominion and work"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 20,
             "question": "Science is based on __________.",
             "options": {
-                "A": "Facts",
+                "A": "Assumptions",
                 "B": "Faith",
-                "C": "Assumptions",
-                "D": "Stories"
+                "C": "Stories",
+                "D": "Facts"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 21,
             "question": "Evolution is based on __________.",
             "options": {
-                "A": "Human imagination and speculation",
+                "A": "Divine command",
                 "B": "Scientific evidence",
-                "C": "Divine command",
-                "D": "Proven observation"
+                "C": "Proven observation",
+                "D": "Human imagination and speculation"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 22,
             "question": "Evolutionists believe that everything in the world came by __________.",
             "options": {
-                "A": "Chance",
-                "B": "Design",
-                "C": "Spirit",
-                "D": "Light"
+                "A": "Light",
+                "B": "Chance",
+                "C": "Design",
+                "D": "Spirit"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 23,
             "question": "Man evolved from __________ according to evolutionists.",
             "options": {
-                "A": "Lower forms of animal or vegetative life",
-                "B": "Stars",
-                "C": "Angels",
-                "D": "Water"
+                "A": "Water",
+                "B": "Lower forms of animal or vegetative life",
+                "C": "Stars",
+                "D": "Angels"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 24,
             "question": "Those who believe God created the universe but no longer intervenes are called __________.",
             "options": {
-                "A": "Deists",
+                "A": "Agnostics",
                 "B": "Theists",
-                "C": "Atheists",
-                "D": "Agnostics"
+                "C": "Deists",
+                "D": "Atheists"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 25,
             "question": "Belief in a God who creates and remains active is called __________.",
             "options": {
-                "A": "Theism",
-                "B": "Deism",
+                "A": "Deism",
+                "B": "Theism",
                 "C": "Atheism",
                 "D": "Dualism"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 26,
             "question": "Belief that there is no God is called __________.",
             "options": {
-                "A": "Atheism",
-                "B": "Theism",
-                "C": "Deism",
-                "D": "Agnosticism"
+                "A": "Deism",
+                "B": "Agnosticism",
+                "C": "Atheism",
+                "D": "Theism"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 27,
             "question": "Some believe the world came as a result of an explosion known as the __________.",
             "options": {
-                "A": "Big Bang model",
-                "B": "Creation event",
+                "A": "Divine spark",
+                "B": "Big Bang model",
                 "C": "Cosmic wind",
-                "D": "Divine spark"
+                "D": "Creation event"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 28,
             "question": "What has become an unproven theory for almost 200 years?",
             "options": {
-                "A": "Evolution",
-                "B": "Creationism",
-                "C": "Theism",
-                "D": "Big Bang"
+                "A": "Big Bang",
+                "B": "Theism",
+                "C": "Creationism",
+                "D": "Evolution"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 29,
             "question": "Who is the crowning work of the Creator?",
             "options": {
-                "A": "Man",
-                "B": "Angels",
-                "C": "Animals",
-                "D": "Sun"
+                "A": "Animals",
+                "B": "Man",
+                "C": "Sun",
+                "D": "Angels"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 30,
             "question": "Who was placed as ruler over the lower orders of being?",
             "options": {
-                "A": "Adam",
-                "B": "Noah",
+                "A": "Noah",
+                "B": "Abel",
                 "C": "Moses",
-                "D": "Abel"
+                "D": "Adam"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 31,
             "question": "Christ alone was the express image of __________.",
             "options": {
-                "A": "God",
-                "B": "Man",
+                "A": "Man",
+                "B": "Adam",
                 "C": "Angels",
-                "D": "Adam"
+                "D": "God"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 32,
             "question": "As man came out of the hand of the Creator, he was __________.",
             "options": {
-                "A": "Of lofty stature and perfect symmetry",
-                "B": "Weak and sinful",
-                "C": "A child",
-                "D": "Dust only"
+                "A": "A child",
+                "B": "Of lofty stature and perfect symmetry",
+                "C": "Dust only",
+                "D": "Weak and sinful"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 33,
             "question": "Adam and Eve were clothed with __________.",
             "options": {
-                "A": "Light and glory",
-                "B": "Wool and linen",
-                "C": "Animal skin",
+                "A": "Animal skin",
+                "B": "Light and glory",
+                "C": "Wool and linen",
                 "D": "Gold"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 34,
             "question": "Who was created from the rib taken from Adam?",
             "options": {
-                "A": "Eve",
-                "B": "Lilith",
-                "C": "Mary",
-                "D": "Ruth"
+                "A": "Lilith",
+                "B": "Mary",
+                "C": "Ruth",
+                "D": "Eve"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 35,
             "question": "\"For no man ever yet hated his own flesh… \" is found in __________.",
             "options": {
-                "A": "Ephesians 5:29",
-                "B": "Genesis 2:15",
-                "C": "John 3:16",
-                "D": "Romans 6:23"
+                "A": "Romans 6:23",
+                "B": "John 3:16",
+                "C": "Genesis 2:15",
+                "D": "Ephesians 5:29"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 36,
             "question": "What is honorable according to the Bible?",
             "options": {
-                "A": "Marriage",
+                "A": "Food",
                 "B": "Labor",
-                "C": "War",
-                "D": "Food"
+                "C": "Marriage",
+                "D": "War"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
@@ -473,8 +473,8 @@
             "question": "The Lord planted a garden where?",
             "options": {
                 "A": "Eastward in Eden",
-                "B": "Westward in Eden",
-                "C": "South of Canaan",
+                "B": "South of Canaan",
+                "C": "Westward in Eden",
                 "D": "In Egypt"
             },
             "answerKey": [
@@ -485,65 +485,65 @@
             "id": 38,
             "question": "Adam and Eve lived in a part of Eden called __________.",
             "options": {
-                "A": "Bower",
-                "B": "Temple",
+                "A": "Temple",
+                "B": "Bower",
                 "C": "Hill",
                 "D": "Stream"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 39,
             "question": "The fruit of the tree of life appeared like __________.",
             "options": {
-                "A": "Gold and silver and had power to perpetuate life",
+                "A": "Stone and sand",
                 "B": "Bronze and iron",
                 "C": "Light and shadow",
-                "D": "Stone and sand"
+                "D": "Gold and silver and had power to perpetuate life"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 40,
             "question": "Our first parents were created innocent and holy but were not __________.",
             "options": {
-                "A": "Infallible",
-                "B": "Mortal",
-                "C": "Eternal",
-                "D": "Sinful"
+                "A": "Sinful",
+                "B": "Eternal",
+                "C": "Mortal",
+                "D": "Infallible"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 41,
             "question": "Who was believed to be merely a mythical figure?",
             "options": {
-                "A": "Satan",
-                "B": "Adam",
-                "C": "Enoch",
-                "D": "Abraham"
+                "A": "Abraham",
+                "B": "Enoch",
+                "C": "Adam",
+                "D": "Satan"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         },
         {
             "id": 42,
             "question": "Who is the originator of sin?",
             "options": {
-                "A": "Satan",
-                "B": "Eve",
+                "A": "Eve",
+                "B": "Satan",
                 "C": "Cain",
                 "D": "Lucifer's followers"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
@@ -551,9 +551,9 @@
             "question": "Satan's name before his fall was __________.",
             "options": {
                 "A": "Lucifer",
-                "B": "Leviathan",
+                "B": "Serpent",
                 "C": "Beelzebub",
-                "D": "Serpent"
+                "D": "Leviathan"
             },
             "answerKey": [
                 "A"
@@ -564,9 +564,9 @@
             "question": "In Isaiah 14, Lucifer is referred to as the __________.",
             "options": {
                 "A": "King of Babylon",
-                "B": "Prince of Tyre",
-                "C": "Angel of Death",
-                "D": "Morning Star"
+                "B": "Angel of Death",
+                "C": "Morning Star",
+                "D": "Prince of Tyre"
             },
             "answerKey": [
                 "A"
@@ -576,13 +576,13 @@
             "id": 45,
             "question": "In Ezekiel 28, Lucifer is referred to as the __________.",
             "options": {
-                "A": "Prince of Tyre",
-                "B": "King of Babylon",
+                "A": "Morning light",
+                "B": "Prince of Tyre",
                 "C": "Fallen angel",
-                "D": "Morning light"
+                "D": "King of Babylon"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
@@ -590,9 +590,9 @@
             "question": "Lucifer was a covering __________.",
             "options": {
                 "A": "Cherub",
-                "B": "Seraph",
-                "C": "Prophet",
-                "D": "King"
+                "B": "Prophet",
+                "C": "King",
+                "D": "Seraph"
             },
             "answerKey": [
                 "A"
@@ -602,52 +602,52 @@
             "id": 47,
             "question": "Lucifer was an outstanding __________.",
             "options": {
-                "A": "Musician",
-                "B": "Soldier",
-                "C": "Prophet",
-                "D": "Builder"
+                "A": "Prophet",
+                "B": "Musician",
+                "C": "Builder",
+                "D": "Soldier"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 48,
             "question": "The word Lucifer means __________.",
             "options": {
-                "A": "Light bearer",
-                "B": "Fallen angel",
-                "C": "Accuser",
-                "D": "Liar"
+                "A": "Liar",
+                "B": "Light bearer",
+                "C": "Fallen angel",
+                "D": "Accuser"
             },
             "answerKey": [
-                "A"
+                "B"
             ]
         },
         {
             "id": 49,
             "question": "The first sin in the Bible was __________.",
             "options": {
-                "A": "Disobedience",
+                "A": "Murder",
                 "B": "Pride",
-                "C": "Murder",
+                "C": "Disobedience",
                 "D": "Lying"
             },
             "answerKey": [
-                "A"
+                "C"
             ]
         },
         {
             "id": 50,
             "question": "The first death recorded in the Bible was __________.",
             "options": {
-                "A": "An animal's death",
-                "B": "Abel's death",
-                "C": "Adam's death",
-                "D": "Eve's death"
+                "A": "Abel's death",
+                "B": "Adam's death",
+                "C": "Eve's death",
+                "D": "An animal's death"
             },
             "answerKey": [
-                "A"
+                "D"
             ]
         }
     ]
